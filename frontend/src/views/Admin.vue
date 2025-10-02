@@ -646,25 +646,25 @@ export default {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   backdrop-filter: blur(10px);
-  max-height: calc(100vh - 120px);
+  min-height: 0;
 }
 
+/* Scrollbar personalizzata solo per il main editor */
 .main-editor::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 .main-editor::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  background: transparent;
 }
 
 .main-editor::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
 }
 
 .main-editor::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .no-selection {
@@ -1113,7 +1113,7 @@ export default {
   border-radius: 15px;
   padding: 20px;
   backdrop-filter: blur(10px);
-  height: 100%;
+  height: auto;
   overflow: visible;
 }
 
@@ -1162,6 +1162,25 @@ export default {
 .editor-content {
   max-height: none;
   overflow: visible;
+  height: auto;
+}
+
+/* Nasconde eventuali scrollbar residue nei form */
+.form-section {
+  overflow: visible;
+}
+
+.choices-editor {
+  overflow: visible;
+}
+
+/* Rimuove scrollbar da tutti gli elementi interni dell'editor */
+.scene-editor * {
+  overflow-x: visible !important;
+}
+
+.scene-editor *:not(.scenes-list):not(.main-editor) {
+  overflow-y: visible !important;
 }
 
 .editor-actions {
