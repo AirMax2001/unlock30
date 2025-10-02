@@ -4,6 +4,10 @@
     <div class="admin-header">
       <h1><i class="fas fa-cog"></i> Pannello Admin</h1>
       <div class="header-actions">
+        <button class="btn-preview" @click="refreshData" :disabled="loading">
+          <i :class="['fas', loading ? 'fa-spinner fa-spin' : 'fa-sync-alt']"></i> 
+          {{ loading ? 'Aggiornamento...' : 'Aggiorna' }}
+        </button>
         <button class="btn-preview" @click="previewGame">
           <i class="fas fa-eye"></i> Anteprima Gioco
         </button>
@@ -273,6 +277,7 @@ export default {
       scenes: [],
       selectedScene: null,
       saving: false,
+      refreshInterval: null,
       toast: {
         show: false,
         type: '',
@@ -284,6 +289,10 @@ export default {
   mounted() {
     this.checkAuth()
     this.loadScenes()
+    this.startAutoRefresh()
+  },
+  beforeUnmount() {
+    this.stopAutoRefresh()
   },
   methods: {
     checkAuth() {
@@ -292,14 +301,49 @@ export default {
       }
     },
 
-    async loadScenes() {
+    startAutoRefresh() {
+      // Controlla aggiornamenti ogni 10 secondi
+      this.refreshInterval = setInterval(() => {
+        this.checkForUpdates()
+      }, 10000)
+    },
+
+    stopAutoRefresh() {
+      if (this.refreshInterval) {
+        clearInterval(this.refreshInterval)
+      }
+    },
+
+    async checkForUpdates() {
+      try {
+        // Forza il refresh dei dati per controllare aggiornamenti
+        const freshData = await localGameService.forceRefresh()
+        const currentSceneCount = this.scenes.length
+        const newSceneCount = freshData.scenes.length
+        
+        // Se il numero di scene è cambiato, ricarica automaticamente
+        if (newSceneCount !== currentSceneCount) {
+          console.log('[AUTO-REFRESH] Rilevate modifiche, aggiornamento automatico...')
+          await this.loadScenes()
+          this.showToast('success', 'Dati aggiornati automaticamente', 'fas fa-sync-alt')
+        }
+      } catch (error) {
+        console.error('[AUTO-REFRESH] Errore nel controllo aggiornamenti:', error)
+      }
+    },
+
+    async loadScenes(forceRefresh = false) {
       this.loading = true
       console.log('[FRONTEND] Inizio caricamento scene')
       try {
-        const gameData = await localGameService.getGameData()
+        const gameData = await localGameService.getGameData(forceRefresh)
         console.log('[FRONTEND] Dati ricevuti:', gameData)
         this.scenes = gameData.scenes || []
         console.log('[FRONTEND] Scene caricate:', this.scenes.length)
+        
+        // Mostra informazioni versione in console
+        const versionInfo = localGameService.getVersion()
+        console.log('[VERSION] Versione attuale:', versionInfo.version, 'Ultimo aggiornamento:', versionInfo.lastUpdateFormatted)
       } catch (error) {
         console.error('[FRONTEND] Errore nel caricamento delle scene:', error)
         this.showToast('error', 'Errore nel caricamento delle scene', 'fas fa-exclamation-triangle')
@@ -449,6 +493,12 @@ export default {
 
     previewGame() {
       this.$router.push('/game')
+    },
+
+    async refreshData() {
+      console.log('[MANUAL-REFRESH] Aggiornamento manuale richiesto')
+      await this.loadScenes(true) // Forza refresh
+      this.showToast('success', 'Dati aggiornati con successo', 'fas fa-sync-alt')
     },
 
     goHome() {

@@ -89,21 +89,61 @@ export default {
       currentSceneId: 1,
       loading: true,
       error: null,
-      processingChoice: false
+      processingChoice: false,
+      refreshInterval: null
     }
   },
   mounted() {
     this.loadGameData()
+    this.startAutoRefresh()
+  },
+  beforeUnmount() {
+    this.stopAutoRefresh()
   },
   methods: {
-    async loadGameData() {
+    startAutoRefresh() {
+      // Controlla aggiornamenti ogni 15 secondi per il gioco (meno frequente dell'admin)
+      this.refreshInterval = setInterval(() => {
+        this.checkForUpdates()
+      }, 15000)
+    },
+
+    stopAutoRefresh() {
+      if (this.refreshInterval) {
+        clearInterval(this.refreshInterval)
+      }
+    },
+
+    async checkForUpdates() {
+      try {
+        // Controlla se ci sono nuove versioni dei dati
+        const versionInfo = localGameService.getVersion()
+        const freshData = await localGameService.forceRefresh()
+        
+        // Se la scena corrente è stata modificata, aggiorna
+        const currentSceneInFreshData = freshData.scenes.find(s => s.id === this.currentSceneId)
+        if (currentSceneInFreshData && JSON.stringify(this.currentScene) !== JSON.stringify(currentSceneInFreshData)) {
+          console.log('[GAME-AUTO-REFRESH] Scena corrente aggiornata, ricaricamento...')
+          this.gameData = freshData
+          this.currentScene = currentSceneInFreshData
+        }
+      } catch (error) {
+        console.error('[GAME-AUTO-REFRESH] Errore nel controllo aggiornamenti:', error)
+      }
+    },
+
+    async loadGameData(forceRefresh = false) {
       this.loading = true
       this.error = null
       
       try {
-        const gameData = await localGameService.getGameData()
+        const gameData = await localGameService.getGameData(forceRefresh)
         this.gameData = gameData
         this.loadScene(1) // Carica la prima scena
+        
+        // Log versione
+        const versionInfo = localGameService.getVersion()
+        console.log('[GAME] Versione dati:', versionInfo.version, 'Ultimo aggiornamento:', versionInfo.lastUpdateFormatted)
       } catch (error) {
         this.error = 'Impossibile caricare i dati del gioco.'
         console.error('Errore nel caricamento:', error)

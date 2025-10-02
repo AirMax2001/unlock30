@@ -6,9 +6,49 @@ class LocalGameService {
     this.GAME_DATA_KEY = 'ilGiocoDeiTrenta_gameData'
     this.ADMIN_AUTH_KEY = 'ilGiocoDeiTrenta_adminAuth'
     this.UPLOADED_FILES_KEY = 'ilGiocoDeiTrenta_uploadedFiles'
+    this.VERSION_KEY = 'ilGiocoDeiTrenta_version'
+    this.LAST_UPDATE_KEY = 'ilGiocoDeiTrenta_lastUpdate'
+    
+    // Cache locale per evitare continui accessi al localStorage
+    this.dataCache = null
+    this.cacheTimestamp = 0
+    this.CACHE_DURATION = 5000 // 5 secondi di cache
     
     // Inizializza i dati se non esistono
     this.initializeGameData()
+    this.initializeVersion()
+  }
+
+  // Inizializza il sistema di versioning
+  initializeVersion() {
+    if (!localStorage.getItem(this.VERSION_KEY)) {
+      localStorage.setItem(this.VERSION_KEY, '1.0.0')
+      localStorage.setItem(this.LAST_UPDATE_KEY, Date.now().toString())
+    }
+  }
+
+  // Aggiorna la versione e timestamp
+  updateVersion() {
+    const currentVersion = localStorage.getItem(this.VERSION_KEY) || '1.0.0'
+    const versionParts = currentVersion.split('.').map(Number)
+    versionParts[2]++ // Incrementa patch version
+    const newVersion = versionParts.join('.')
+    
+    localStorage.setItem(this.VERSION_KEY, newVersion)
+    localStorage.setItem(this.LAST_UPDATE_KEY, Date.now().toString())
+    
+    // Invalida cache
+    this.dataCache = null
+    this.cacheTimestamp = 0
+  }
+
+  // Controlla se i dati sono aggiornati
+  isDataFresh() {
+    const now = Date.now()
+    const lastUpdate = parseInt(localStorage.getItem(this.LAST_UPDATE_KEY) || '0')
+    const cacheAge = now - this.cacheTimestamp
+    
+    return this.dataCache && cacheAge < this.CACHE_DURATION && this.cacheTimestamp > lastUpdate
   }
 
   // Inizializza i dati di default
@@ -73,15 +113,28 @@ class LocalGameService {
       }
       
       localStorage.setItem(this.GAME_DATA_KEY, JSON.stringify(defaultData))
+      this.updateVersion() // Aggiorna versione quando inizializzi dati di default
     }
   }
 
   // Simula chiamata API per ottenere i dati del gioco
-  async getGameData() {
+  async getGameData(forceRefresh = false) {
     return new Promise((resolve) => {
       setTimeout(() => {
+        // Controlla se usare cache o ricaricare
+        if (!forceRefresh && this.isDataFresh()) {
+          resolve(this.dataCache)
+          return
+        }
+
         const data = localStorage.getItem(this.GAME_DATA_KEY)
-        resolve(JSON.parse(data))
+        const parsedData = JSON.parse(data)
+        
+        // Aggiorna cache
+        this.dataCache = parsedData
+        this.cacheTimestamp = Date.now()
+        
+        resolve(parsedData)
       }, 100) // Simula latenza di rete
     })
   }
@@ -115,6 +168,7 @@ class LocalGameService {
     return new Promise((resolve) => {
       setTimeout(() => {
         localStorage.setItem(this.GAME_DATA_KEY, JSON.stringify(gameData))
+        this.updateVersion() // Aggiorna versione quando salvi
         resolve({ success: true, message: 'Dati salvati con successo' })
       }, 200)
     })
@@ -122,7 +176,7 @@ class LocalGameService {
 
   // Ottieni una scena specifica
   async getScene(sceneId) {
-    const gameData = await this.getGameData()
+    const gameData = await this.getGameData(true) // Forza refresh per singola scena
     const scene = gameData.scenes.find(s => s.id === parseInt(sceneId))
     
     return new Promise((resolve, reject) => {
@@ -138,7 +192,7 @@ class LocalGameService {
 
   // Crea o aggiorna una scena
   async saveScene(sceneData) {
-    const gameData = await this.getGameData()
+    const gameData = await this.getGameData(true) // Forza refresh prima di salvare
     const sceneIndex = gameData.scenes.findIndex(s => s.id === sceneData.id)
     
     return new Promise((resolve) => {
@@ -156,6 +210,7 @@ class LocalGameService {
         }
         
         localStorage.setItem(this.GAME_DATA_KEY, JSON.stringify(gameData))
+        this.updateVersion() // Aggiorna versione dopo modifica scena
         resolve({ success: true, scene: sceneData })
       }, 200)
     })
@@ -163,12 +218,13 @@ class LocalGameService {
 
   // Elimina una scena
   async deleteScene(sceneId) {
-    const gameData = await this.getGameData()
+    const gameData = await this.getGameData(true) // Forza refresh prima di eliminare
     
     return new Promise((resolve) => {
       setTimeout(() => {
         gameData.scenes = gameData.scenes.filter(s => s.id !== parseInt(sceneId))
         localStorage.setItem(this.GAME_DATA_KEY, JSON.stringify(gameData))
+        this.updateVersion() // Aggiorna versione dopo eliminazione
         resolve({ success: true, message: 'Scena eliminata con successo' })
       }, 200)
     })
@@ -222,7 +278,28 @@ class LocalGameService {
     localStorage.removeItem(this.GAME_DATA_KEY)
     localStorage.removeItem(this.ADMIN_AUTH_KEY)
     localStorage.removeItem(this.UPLOADED_FILES_KEY)
+    localStorage.removeItem(this.VERSION_KEY)
+    localStorage.removeItem(this.LAST_UPDATE_KEY)
+    this.dataCache = null
+    this.cacheTimestamp = 0
     this.initializeGameData()
+    this.initializeVersion()
+  }
+
+  // Forza aggiornamento dei dati (per refresh manuale)
+  async forceRefresh() {
+    this.dataCache = null
+    this.cacheTimestamp = 0
+    return await this.getGameData(true)
+  }
+
+  // Ottieni informazioni sulla versione
+  getVersion() {
+    return {
+      version: localStorage.getItem(this.VERSION_KEY) || '1.0.0',
+      lastUpdate: parseInt(localStorage.getItem(this.LAST_UPDATE_KEY) || '0'),
+      lastUpdateFormatted: new Date(parseInt(localStorage.getItem(this.LAST_UPDATE_KEY) || '0')).toLocaleString()
+    }
   }
 
   // Esporta dati per backup
