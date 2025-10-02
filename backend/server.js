@@ -269,7 +269,26 @@ app.post('/api/admin/upload', upload.single('file'), (req, res) => {
 
 // Handle SPA routing - must be after API routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  const indexPath = path.join(__dirname, 'public', 'index.html');
+  
+  // Check if index.html exists
+  fs.access(indexPath, fs.constants.F_OK, (err) => {
+    if (err) {
+      // If index.html doesn't exist, send a fallback response
+      res.status(503).send(`
+        <html>
+          <head><title>Service Starting</title></head>
+          <body>
+            <h1>Service is starting...</h1>
+            <p>The application is being deployed. Please wait a moment and refresh the page.</p>
+            <script>setTimeout(() => location.reload(), 5000);</script>
+          </body>
+        </html>
+      `);
+    } else {
+      res.sendFile(indexPath);
+    }
+  });
 });
 
 app.listen(PORT, () => {
