@@ -636,6 +636,7 @@ export default {
   overflow-y: auto;
   border-radius: 15px;
   backdrop-filter: blur(10px);
+  max-height: calc(100vh - 120px);
 }
 
 .main-editor {
@@ -645,6 +646,25 @@ export default {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   backdrop-filter: blur(10px);
+  max-height: calc(100vh - 120px);
+}
+
+.main-editor::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-editor::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.main-editor::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.main-editor::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .no-selection {
@@ -704,8 +724,27 @@ export default {
 }
 
 .scenes-list {
-  max-height: calc(100vh - 200px);
+  max-height: calc(100vh - 280px);
   overflow-y: auto;
+  padding-right: 5px;
+}
+
+.scenes-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scenes-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.scenes-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.scenes-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .scene-item {
@@ -1074,6 +1113,8 @@ export default {
   border-radius: 15px;
   padding: 20px;
   backdrop-filter: blur(10px);
+  height: 100%;
+  overflow: visible;
 }
 
 .editor-header {
@@ -1116,6 +1157,11 @@ export default {
 .editor-header h2 {
   margin: 0;
   font-size: 1.5rem;
+}
+
+.editor-content {
+  max-height: none;
+  overflow: visible;
 }
 
 .editor-actions {
