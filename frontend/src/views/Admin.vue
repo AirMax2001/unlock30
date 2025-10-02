@@ -262,6 +262,8 @@
 
 <script>
 import localGameService from '../services/localGameService'
+import axios from 'axios'
+import config from '../config'
 
 export default {
   name: 'Admin',
@@ -399,13 +401,15 @@ export default {
       formData.append('file', file)
 
       try {
-        const response = await axios.post('/api/admin/upload', formData, {
+        const uploadUrl = config.API_BASE_URL ? `${config.API_BASE_URL}/api/admin/upload` : '/api/admin/upload'
+        const response = await axios.post(uploadUrl, formData, {
           headers: { 'Content-Type': 'multipart/form-data' }
         })
         this.selectedScene.image = response.data.fileUrl
         this.showToast('success', 'Immagine caricata con successo', 'fas fa-check')
       } catch (error) {
-        this.showToast('error', 'Errore nel caricamento dell\'immagine', 'fas fa-exclamation-triangle')
+        console.error('Errore upload immagine:', error)
+        this.showToast('error', 'Errore nel caricamento dell\'immagine: ' + (error.response?.data?.error || error.message), 'fas fa-exclamation-triangle')
       }
     },
 
@@ -417,13 +421,15 @@ export default {
       formData.append('file', file)
 
       try {
-        const response = await axios.post('/api/admin/upload', formData, {
+        const uploadUrl = config.API_BASE_URL ? `${config.API_BASE_URL}/api/admin/upload` : '/api/admin/upload'
+        const response = await axios.post(uploadUrl, formData, {
           headers: { 'Content-Type': 'multipart/form-data' }
         })
         this.selectedScene.video = response.data.fileUrl
         this.showToast('success', 'Video caricato con successo', 'fas fa-check')
       } catch (error) {
-        this.showToast('error', 'Errore nel caricamento del video', 'fas fa-exclamation-triangle')
+        console.error('Errore upload video:', error)
+        this.showToast('error', 'Errore nel caricamento del video: ' + (error.response?.data?.error || error.message), 'fas fa-exclamation-triangle')
       }
     },
 
