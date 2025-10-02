@@ -630,7 +630,7 @@ export default {
 }
 
 .sidebar {
-  width: 300px;
+  width: 450px;
   background: rgba(0, 0, 0, 0.2);
   padding: 20px;
   overflow-y: auto;
@@ -688,12 +688,14 @@ export default {
   background: linear-gradient(45deg, #27ae60, #2ecc71);
   border: none;
   color: white;
-  padding: 12px;
-  border-radius: 8px;
+  padding: 15px;
+  border-radius: 10px;
   cursor: pointer;
-  font-weight: 600;
-  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
   transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(39, 174, 96, 0.3);
 }
 
 .btn-add-scene:hover {
@@ -708,14 +710,15 @@ export default {
 
 .scene-item {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid transparent;
 }
 
 .scene-item:hover {
@@ -1005,27 +1008,30 @@ export default {
 }
 
 .scene-info h4 {
-  margin: 0 0 5px 0;
-  font-size: 1rem;
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .scene-info p {
-  margin: 0;
-  font-size: 0.9rem;
-  opacity: 0.8;
+  margin: 0 0 5px 0;
+  font-size: 1rem;
+  opacity: 0.9;
+  font-weight: 500;
 }
 
 .final-badge {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   background: linear-gradient(45deg, #f1c40f, #f39c12);
   color: #2c3e50;
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  margin-top: 4px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 6px;
+  box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
 }
 
 .btn-delete {
@@ -1342,7 +1348,7 @@ export default {
   
   .sidebar {
     width: 100%;
-    max-height: 300px;
+    max-height: 400px;
     order: 2;
   }
   
