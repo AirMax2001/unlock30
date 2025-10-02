@@ -503,6 +503,7 @@ export default {
   color: white;
   position: relative;
   overflow-x: hidden;
+  overscroll-behavior: none;
 }
 
 /* Animazione dello sfondo */
@@ -642,16 +643,20 @@ export default {
 .main-editor {
   flex: 1;
   padding: 20px;
-  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   backdrop-filter: blur(10px);
   min-height: 0;
+  scroll-behavior: auto;
+  overscroll-behavior: none;
 }
 
 /* Scrollbar personalizzata solo per il main editor */
 .main-editor::-webkit-scrollbar {
-  width: 6px;
+  width: 0px;
+  background: transparent;
 }
 
 .main-editor::-webkit-scrollbar-track {
@@ -659,12 +664,31 @@ export default {
 }
 
 .main-editor::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
+  background: transparent;
 }
 
 .main-editor::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: transparent;
+}
+
+/* Elimina completamente il comportamento di scroll elastico */
+.main-editor {
+  -webkit-overflow-scrolling: auto;
+  overscroll-behavior-y: none;
+  scroll-snap-type: none;
+}
+
+/* Rimuove qualsiasi scroll momentum da tutti gli elementi */
+.scene-editor, .editor-content, .form-section {
+  -webkit-overflow-scrolling: auto !important;
+  overscroll-behavior: none !important;
+  scroll-behavior: auto !important;
+}
+
+/* Nasconde scrollbar anche sui browser Firefox */
+.main-editor {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .no-selection {
