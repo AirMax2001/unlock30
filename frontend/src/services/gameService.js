@@ -93,6 +93,23 @@ class GameService {
     
     const data = await response.json()
     console.log('✅ Dati caricati dal backend:', data.scenes?.length || 0, 'scene')
+    
+    // Correggi i percorsi delle immagini/video per includere il dominio completo
+    if (data.scenes) {
+      data.scenes.forEach(scene => {
+        if (scene.image && !scene.image.startsWith('http') && !scene.image.startsWith(this.apiBaseUrl)) {
+          scene.image = scene.image.startsWith('/') ? 
+            `${this.apiBaseUrl}${scene.image}` : 
+            `${this.apiBaseUrl}/${scene.image}`
+        }
+        if (scene.video && !scene.video.startsWith('http') && !scene.video.startsWith(this.apiBaseUrl)) {
+          scene.video = scene.video.startsWith('/') ? 
+            `${this.apiBaseUrl}${scene.video}` : 
+            `${this.apiBaseUrl}/${scene.video}`
+        }
+      })
+    }
+    
     return data
   }
 
@@ -368,6 +385,100 @@ class GameService {
       console.warn('Errore nel recupero file data:', error)
     }
     return null
+  }
+
+  // METODI PER BACKUP E CLOUD
+
+  async createBackup() {
+    if (this.isApiMode) {
+      try {
+        const response = await fetch(`${this.apiBaseUrl}/api/backup`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        
+        if (response.ok) {
+          console.log('✅ Backup automatico creato')
+          return true
+        }
+      } catch (error) {
+        console.error('❌ Errore nel backup:', error)
+      }
+    }
+    return false
+  }
+
+  async restoreFromBackup() {
+    if (this.isApiMode) {
+      try {
+        const response = await fetch(`${this.apiBaseUrl}/api/restore`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        
+        if (response.ok) {
+          console.log('✅ Dati ripristinati dal backup')
+          this.clearCache() // Forza ricaricamento
+          return await this.loadGameData()
+        }
+      } catch (error) {
+        console.error('❌ Errore nel ripristino:', error)
+      }
+    }
+    return null
+  }
+
+  async uploadFile(file) {
+    if (!this.isApiMode) {
+      console.warn('⚠️ Upload file disponibile solo in modalità API')
+      return null
+    }
+
+    try {
+      const formData = new FormData()
+      formData.append('file', file)
+
+      const response = await fetch(`${this.apiBaseUrl}/api/upload`, {
+        method: 'POST',
+        body: formData
+      })
+
+      if (!response.ok) {
+        throw new Error(`Upload fallito: ${response.status}`)
+      }
+
+      const result = await response.json()
+      console.log('✅ File caricato:', result.filePath)
+      
+      // Crea backup automatico dopo upload
+      await this.createBackup()
+      
+      return result.filePath
+    } catch (error) {
+      console.error('❌ Errore upload file:', error)
+      throw error
+    }
+  }
+
+  async getUploadedFiles() {
+    if (!this.isApiMode) {
+      return []
+    }
+
+    try {
+      const response = await fetch(`${this.apiBaseUrl}/api/uploads`)
+      if (response.ok) {
+        const data = await response.json()
+        return data.files || []
+      }
+    } catch (error) {
+      console.error('❌ Errore nel recupero file:', error)
+    }
+    return []
   }
 }
 

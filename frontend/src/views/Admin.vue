@@ -4,6 +4,12 @@
     <div class="admin-header">
       <h1><i class="fas fa-cog"></i> Pannello Admin</h1>
       <div class="header-actions">
+        <button class="btn-backup" @click="createBackup" :disabled="loading">
+          <i class="fas fa-cloud-upload-alt"></i> Backup
+        </button>
+        <button class="btn-restore" @click="restoreBackup" :disabled="loading">
+          <i class="fas fa-cloud-download-alt"></i> Ripristina
+        </button>
         <button class="btn-preview" @click="refreshData" :disabled="loading">
           <i :class="['fas', loading ? 'fa-spinner fa-spin' : 'fa-sync-alt']"></i> 
           {{ loading ? 'Aggiornamento...' : 'Aggiorna' }}
@@ -698,6 +704,82 @@ export default {
           document.body.removeChild(indicator)
         }, 300)
       }, 2000)
+    },
+
+    // METODI PER BACKUP CLOUD
+    async createBackup() {
+      try {
+        this.loading = true
+        console.log('☁️ Creazione backup...')
+        
+        const success = await gameService.createBackup()
+        
+        if (success) {
+          this.showNotification('✅ Backup creato con successo su Git!', 'success')
+        } else {
+          this.showNotification('⚠️ Backup non disponibile (solo in produzione)', 'warning')
+        }
+      } catch (error) {
+        console.error('❌ Errore backup:', error)
+        this.showNotification('❌ Errore nella creazione del backup', 'error')
+      } finally {
+        this.loading = false
+      }
+    },
+
+    async restoreBackup() {
+      if (!confirm('⚠️ Sicuro di voler ripristinare i dati dal backup? Le modifiche non salvate andranno perse.')) {
+        return
+      }
+
+      try {
+        this.loading = true
+        console.log('☁️ Ripristino dal backup...')
+        
+        const data = await gameService.restoreFromBackup()
+        
+        if (data) {
+          this.scenes = data.scenes || []
+          this.selectedScene = null
+          this.showNotification('✅ Dati ripristinati dal backup Git!', 'success')
+        } else {
+          this.showNotification('⚠️ Ripristino non disponibile', 'warning')
+        }
+      } catch (error) {
+        console.error('❌ Errore ripristino:', error)
+        this.showNotification('❌ Errore nel ripristino dal backup', 'error')
+      } finally {
+        this.loading = false
+      }
+    },
+
+    showNotification(message, type = 'info') {
+      const notification = document.createElement('div')
+      notification.innerHTML = message
+      notification.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: ${type === 'success' ? '#27ae60' : type === 'error' ? '#e74c3c' : '#3498db'};
+        color: white;
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-size: 1rem;
+        z-index: 10000;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        max-width: 400px;
+        text-align: center;
+      `
+      document.body.appendChild(notification)
+      
+      setTimeout(() => {
+        notification.style.opacity = '0'
+        notification.style.transform = 'translate(-50%, -50%) scale(0.9)'
+        setTimeout(() => {
+          document.body.removeChild(notification)
+        }, 300)
+      }, 3000)
     },
   }
 }

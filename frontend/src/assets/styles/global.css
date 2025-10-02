@@ -465,7 +465,7 @@ body, #app {
   gap: 10px;
 }
 
-.btn-preview, .btn-home {
+.btn-preview, .btn-home, .btn-backup, .btn-restore {
   background: linear-gradient(45deg, #3498db, #2980b9);
   border: none;
   color: white;
@@ -479,7 +479,15 @@ body, #app {
   gap: 8px;
 }
 
-.btn-preview:hover, .btn-home:hover {
+.btn-backup {
+  background: linear-gradient(45deg, #27ae60, #229954);
+}
+
+.btn-restore {
+  background: linear-gradient(45deg, #f39c12, #e67e22);
+}
+
+.btn-preview:hover, .btn-home:hover, .btn-backup:hover, .btn-restore:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
