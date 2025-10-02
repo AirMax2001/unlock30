@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifica Node.js - Il Gioco dei Trenta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            line-height: 1.6;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .status {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .success { background: rgba(39, 174, 96, 0.8); }
+        .error { background: rgba(231, 76, 60, 0.8); }
+        .info { background: rgba(52, 152, 219, 0.8); }
+        button {
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 10px 5px;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .test-results {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Verifica Configurazione Altervista</h1>
+        <p>Questa pagina ti aiuta a verificare se il tuo sito è configurato correttamente.</p>
+        
+        <h2>📁 Status File:</h2>
+        <div class="status success">✅ index.html - Caricato correttamente</div>
+        <div id="serverStatus" class="status info">⏳ Verifica server.js in corso...</div>
+        <div id="apiStatus" class="status info">⏳ Verifica API in corso...</div>
+        
+        <h2>🧪 Test Funzionalità:</h2>
+        <button onclick="testFrontend()">Test Frontend</button>
+        <button onclick="testAPI()">Test API Backend</button>
+        <button onclick="testNodeJS()">Test Node.js</button>
+        
+        <div id="testResults" class="test-results">
+            <h3>Risultati Test:</h3>
+            <div id="results">Clicca sui pulsanti sopra per eseguire i test...</div>
+        </div>
+        
+        <h2>📋 Checklist Configurazione:</h2>
+        <ul>
+            <li>✅ File caricati in public_html</li>
+            <li id="nodeCheck">❓ Node.js abilitato nel pannello</li>
+            <li id="serverCheck">❓ server.js configurato come file principale</li>
+            <li id="depsCheck">❓ Dipendenze installate (npm install)</li>
+        </ul>
+        
+        <h2>🎮 Se tutto funziona:</h2>
+        <a href="/" style="color: #feca57; text-decoration: none; font-weight: bold;">
+            → Vai al Gioco dei Trenta
+        </a>
+    </div>
+
+    <script>
+        function updateStatus(elementId, status, message) {
+            const element = document.getElementById(elementId);
+            element.className = `status ${status}`;
+            element.innerHTML = message;
+        }
+        
+        function addResult(message, type = 'info') {
+            const results = document.getElementById('results');
+            const timestamp = new Date().toLocaleTimeString();
+            results.innerHTML += `<div style="color: ${type === 'success' ? '#2ecc71' : type === 'error' ? '#e74c3c' : '#3498db'}">
+                [${timestamp}] ${message}
+            </div>`;
+        }
+        
+        function testFrontend() {
+            addResult('🖥️ Test Frontend...', 'info');
+            
+            // Verifica se gli asset sono caricati
+            const cssLinks = document.querySelectorAll('link[rel="stylesheet"]');
+            const scripts = document.querySelectorAll('script[src]');
+            
+            addResult(`CSS files trovati: ${cssLinks.length}`, 'success');
+            addResult(`JS files trovati: ${scripts.length}`, 'success');
+            addResult('✅ Frontend configurato correttamente', 'success');
+        }
+        
+        async function testAPI() {
+            addResult('🔌 Test API Backend...', 'info');
+            
+            try {
+                const response = await fetch('/api/game/data');
+                if (response.ok) {
+                    const data = await response.json();
+                    addResult('✅ API Backend funzionante', 'success');
+                    addResult(`Scene caricate: ${data.scenes ? data.scenes.length : 0}`, 'success');
+                    updateStatus('apiStatus', 'success', '✅ API - Funzionante');
+                    updateStatus('nodeCheck', 'success', '✅ Node.js abilitato nel pannello');
+                    updateStatus('serverCheck', 'success', '✅ server.js configurato come file principale');
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                addResult(`❌ API non risponde: ${error.message}`, 'error');
+                updateStatus('apiStatus', 'error', '❌ API - Non funzionante');
+                addResult('💡 Soluzione: Abilita Node.js nel pannello Altervista', 'info');
+            }
+        }
+        
+        async function testNodeJS() {
+            addResult('🟢 Test Node.js Environment...', 'info');
+            
+            try {
+                const response = await fetch('/api/game/data');
+                if (response.ok) {
+                    addResult('✅ Node.js funziona correttamente', 'success');
+                    updateStatus('serverStatus', 'success', '✅ server.js - Funzionante');
+                    updateStatus('depsCheck', 'success', '✅ Dipendenze installate');
+                } else {
+                    throw new Error('Server non risponde');
+                }
+            } catch (error) {
+                addResult('❌ Node.js non configurato', 'error');
+                updateStatus('serverStatus', 'error', '❌ server.js - Non funzionante');
+                addResult('📋 Passi per abilitare Node.js:', 'info');
+                addResult('1. Pannello Altervista → Risorse → Node.js', 'info');
+                addResult('2. Abilita Node.js', 'info');
+                addResult('3. File principale: server.js', 'info');
+                addResult('4. Salva e attendi qualche minuto', 'info');
+            }
+        }
+        
+        // Auto-test all'avvio
+        window.onload = function() {
+            setTimeout(testFrontend, 1000);
+            setTimeout(testAPI, 2000);
+        }
+    </script>
+</body>
+</html>

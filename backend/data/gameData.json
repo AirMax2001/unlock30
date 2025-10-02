@@ -1,0 +1,53 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Scena Iniziale",
+      "description": "Benvenuto nel Gioco dei Trenta! Inizia la tua avventura...",
+      "image": "/uploads/1759327774702-locandina.jpg",
+      "video": "",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Inizia l'avventura",
+          "nextSceneId": 2
+        },
+        {
+          "id": 2,
+          "text": "Esplora i dintorni",
+          "nextSceneId": 3
+        }
+      ],
+      "isFinal": false
+    },
+    {
+      "id": 2,
+      "title": "ppppp",
+      "description": "jjjjjjjjjjjjjjjjj",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759327426893,
+          "text": "hhhh",
+          "nextSceneId": 3
+        },
+        {
+          "id": 1759327437958,
+          "text": "bbbbb",
+          "nextSceneId": 3
+        }
+      ],
+      "isFinal": false
+    },
+    {
+      "id": 3,
+      "title": "finalw",
+      "description": "dddddddddddddd",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": true
+    }
+  ]
+}

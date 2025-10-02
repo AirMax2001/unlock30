@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Gestione API - redirige le chiamate API al backend Node.js
+RewriteRule ^api/(.*)$ server.js?path=api/$1 [QSA,L]
+
+# Gestione uploads - serve i file media staticamente
+RewriteRule ^uploads/(.*)$ uploads/$1 [L]
+
+# Gestione Vue Router - tutte le altre richieste vanno all'index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.html [QSA,L]
+
+# Headers per CORS
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET,POST,PUT,DELETE,OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type,Authorization"
+
+# Gestione preflight OPTIONS
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
