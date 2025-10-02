@@ -2,6 +2,7 @@
   "name": "il-gioco-dei-trenta-frontend",
   "version": "1.0.0",
   "description": "Frontend per Il Gioco dei Trenta",
+  "license": "MIT",
   "scripts": {
     "serve": "npx vue-cli-service serve",
     "build": "npx vue-cli-service build",
