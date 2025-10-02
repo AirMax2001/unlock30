@@ -163,6 +163,103 @@
               </div>
             </div>
 
+            <!-- Personalizzazione Stili -->
+            <div class="form-section">
+              <h3><i class="fas fa-palette"></i> Personalizzazione Stili</h3>
+              <div class="style-editor">
+                <div class="style-group">
+                  <label>Stile Titolo:</label>
+                  <div class="style-options">
+                    <select v-model="selectedScene.titleStyle" @change="debouncedAutoSave">
+                      <option value="">Predefinito</option>
+                      <option value="dramatic">Drammatico</option>
+                      <option value="elegant">Elegante</option>
+                      <option value="horror">Horror</option>
+                      <option value="sci-fi">Sci-Fi</option>
+                      <option value="fantasy">Fantasy</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="style-group">
+                  <label>Colore Titolo:</label>
+                  <div class="color-options">
+                    <input 
+                      type="color" 
+                      v-model="selectedScene.titleColor" 
+                      @change="debouncedAutoSave"
+                      class="color-picker"
+                    >
+                    <span class="color-preview" :style="{ color: selectedScene.titleColor || '#ffffff' }">
+                      {{ selectedScene.title || 'Anteprima Titolo' }}
+                    </span>
+                  </div>
+                </div>
+
+                <div class="style-group">
+                  <label>Tema Sfondo:</label>
+                  <div class="theme-options">
+                    <div 
+                      v-for="theme in backgroundThemes" 
+                      :key="theme.value"
+                      @click="selectedScene.backgroundTheme = theme.value; debouncedAutoSave()"
+                      :class="['theme-option', { active: selectedScene.backgroundTheme === theme.value }]"
+                      :style="{ background: theme.preview }"
+                    >
+                      <span>{{ theme.name }}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="style-group">
+                  <label>Effetti Speciali:</label>
+                  <div class="effects-options">
+                    <label class="checkbox-option">
+                      <input 
+                        type="checkbox" 
+                        v-model="selectedScene.effects.particles" 
+                        @change="debouncedAutoSave"
+                      >
+                      <span>Particelle animate</span>
+                    </label>
+                    <label class="checkbox-option">
+                      <input 
+                        type="checkbox" 
+                        v-model="selectedScene.effects.glow" 
+                        @change="debouncedAutoSave"
+                      >
+                      <span>Effetto luminoso</span>
+                    </label>
+                    <label class="checkbox-option">
+                      <input 
+                        type="checkbox" 
+                        v-model="selectedScene.effects.typewriter" 
+                        @change="debouncedAutoSave"
+                      >
+                      <span>Testo macchina da scrivere</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="style-preview">
+                  <h4>Anteprima Stile:</h4>
+                  <div 
+                    class="preview-box"
+                    :class="['style-' + (selectedScene.titleStyle || 'default')]"
+                    :style="{ 
+                      background: getThemeBackground(selectedScene.backgroundTheme),
+                      color: selectedScene.titleColor || '#ffffff'
+                    }"
+                  >
+                    <h2 :class="{ 'glow-effect': selectedScene.effects?.glow }">
+                      {{ selectedScene.title || 'Titolo della Scena' }}
+                    </h2>
+                    <p>{{ selectedScene.description || 'Descrizione della scena...' }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Scelte -->
             <div v-if="!selectedScene.isFinal" class="form-section">
               <h3>Scelte e Collegamenti</h3>
@@ -309,7 +406,17 @@ export default {
         type: '',
         message: '',
         icon: ''
-      }
+      },
+      // Opzioni per la personalizzazione degli stili
+      backgroundThemes: [
+        { name: 'Predefinito', value: '', preview: 'linear-gradient(45deg, #2c3e50, #34495e)' },
+        { name: 'Fuoco', value: 'fire', preview: 'linear-gradient(45deg, #ff6b35, #ff4757)' },
+        { name: 'Acqua', value: 'water', preview: 'linear-gradient(45deg, #3742fa, #2f3542)' },
+        { name: 'Natura', value: 'nature', preview: 'linear-gradient(45deg, #2ed573, #1e90ff)' },
+        { name: 'Spazio', value: 'space', preview: 'linear-gradient(45deg, #5f27cd, #341f97)' },
+        { name: 'Horror', value: 'horror', preview: 'linear-gradient(45deg, #8b0000, #2c0000)' },
+        { name: 'Oro', value: 'gold', preview: 'linear-gradient(45deg, #f1c40f, #f39c12)' }
+      ]
     }
   },
   mounted() {
@@ -426,6 +533,8 @@ export default {
       if (this.selectedScene.isFinal === undefined) {
         this.selectedScene.isFinal = false
       }
+      // Inizializza gli stili della scena
+      this.selectedScene = this.initializeSceneStyles(this.selectedScene)
     },
 
     async addNewScene() {
@@ -787,6 +896,27 @@ export default {
           document.body.removeChild(notification)
         }, 300)
       }, 3000)
+    },
+
+    // METODI PER LA GESTIONE DEGLI STILI
+    getThemeBackground(theme) {
+      const themeData = this.backgroundThemes.find(t => t.value === theme)
+      return themeData ? themeData.preview : this.backgroundThemes[0].preview
+    },
+
+    initializeSceneStyles(scene) {
+      // Inizializza le proprietà di stile se non esistono
+      if (!scene.titleStyle) scene.titleStyle = ''
+      if (!scene.titleColor) scene.titleColor = '#ffffff'
+      if (!scene.backgroundTheme) scene.backgroundTheme = ''
+      if (!scene.effects) {
+        scene.effects = {
+          particles: false,
+          glow: false,
+          typewriter: false
+        }
+      }
+      return scene
     },
   }
 }

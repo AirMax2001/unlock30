@@ -1,5 +1,13 @@
 <template>
   <div class="home-container animated-red-background">
+    <!-- Header con pulsante Admin -->
+    <div class="home-header">
+      <button class="btn-admin-header" @click="showLoginModal = true" title="Accesso Amministratore">
+        <i class="fas fa-cog"></i>
+        Admin
+      </button>
+    </div>
+
     <!-- Elementi fluttuanti a tema unlock -->
     <div class="unlock-elements">
       <div class="unlock-element">🔓</div>
@@ -16,10 +24,6 @@
         <button class="btn-play" @click="startGame">
           <i class="fas fa-play"></i>
           Gioca Ora
-        </button>
-        <button class="btn-admin" @click="showLoginModal = true">
-          <i class="fas fa-cog"></i>
-          Admin
         </button>
       </div>
     </div>
