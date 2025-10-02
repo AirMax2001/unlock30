@@ -265,7 +265,7 @@
 </template>
 
 <script>
-import localGameService from '../services/localGameService'
+import gameService from '../services/gameService'
 import axios from 'axios'
 import config from '../config'
 
@@ -317,7 +317,7 @@ export default {
     async checkForUpdates() {
       try {
         // Forza il refresh dei dati per controllare aggiornamenti
-        const freshData = await localGameService.forceRefresh()
+        const freshData = await gameService.forceRefresh()
         const currentSceneCount = this.scenes.length
         const newSceneCount = freshData.scenes.length
         
@@ -381,7 +381,7 @@ export default {
       if (!confirm('Sei sicuro di voler eliminare questa scena?')) return
 
       try {
-        await localGameService.deleteScene(sceneId)
+        await gameService.deleteScene(sceneId)
         this.scenes = this.scenes.filter(s => s.id !== sceneId)
         if (this.selectedScene?.id === sceneId) {
           this.selectedScene = null

@@ -1,6 +1,6 @@
 <template>
   <div class="game-container animated-red-background">
-    <!-- Header con torna indietro -->
+    <!-- Heaimport gameService from '../services/gameService.js'er con torna indietro -->
     <div class="game-header">
       <button class="back-button" @click="goHome">
         <i class="fas fa-arrow-left"></i> Torna alla Home
@@ -118,7 +118,7 @@ export default {
       try {
         // Controlla se ci sono nuove versioni dei dati
         const versionInfo = localGameService.getVersion()
-        const freshData = await localGameService.forceRefresh()
+        const freshData = await gameService.forceRefresh()
         
         // Se la scena corrente è stata modificata, aggiorna
         const currentSceneInFreshData = freshData.scenes.find(s => s.id === this.currentSceneId)
@@ -137,7 +137,7 @@ export default {
       this.error = null
       
       try {
-        const gameData = await localGameService.getGameData(forceRefresh)
+        const data = await gameService.loadGameData()
         this.gameData = gameData
         this.loadScene(1) // Carica la prima scena
         
