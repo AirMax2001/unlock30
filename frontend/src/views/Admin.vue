@@ -519,19 +519,21 @@ export default {
       const file = event.target.files[0]
       if (!file) return
 
-      const formData = new FormData()
-      formData.append('file', file)
-
       try {
-        const uploadUrl = config.API_BASE_URL ? `${config.API_BASE_URL}/api/admin/upload` : '/api/admin/upload'
-        const response = await axios.post(uploadUrl, formData, {
-          headers: { 'Content-Type': 'multipart/form-data' }
-        })
-        this.selectedScene.image = response.data.fileUrl
-        this.showToast('success', 'Immagine caricata con successo', 'fas fa-check')
+        console.log('📤 Upload immagine in corso...')
+        const filePath = await gameService.uploadFile(file)
+        
+        if (filePath) {
+          this.selectedScene.image = filePath
+          console.log('✅ Immagine salvata:', filePath)
+          this.showToast('success', 'Immagine caricata con successo', 'fas fa-check')
+          
+          // Auto-save dopo upload
+          this.debouncedAutoSave()
+        }
       } catch (error) {
-        console.error('Errore upload immagine:', error)
-        this.showToast('error', 'Errore nel caricamento dell\'immagine: ' + (error.response?.data?.error || error.message), 'fas fa-exclamation-triangle')
+        console.error('❌ Errore upload immagine:', error)
+        this.showToast('error', 'Errore nel caricamento dell\'immagine: ' + error.message, 'fas fa-exclamation-triangle')
       }
     },
 
@@ -539,19 +541,21 @@ export default {
       const file = event.target.files[0]
       if (!file) return
 
-      const formData = new FormData()
-      formData.append('file', file)
-
       try {
-        const uploadUrl = config.API_BASE_URL ? `${config.API_BASE_URL}/api/admin/upload` : '/api/admin/upload'
-        const response = await axios.post(uploadUrl, formData, {
-          headers: { 'Content-Type': 'multipart/form-data' }
-        })
-        this.selectedScene.video = response.data.fileUrl
-        this.showToast('success', 'Video caricato con successo', 'fas fa-check')
+        console.log('📤 Upload video in corso...')
+        const filePath = await gameService.uploadFile(file)
+        
+        if (filePath) {
+          this.selectedScene.video = filePath
+          console.log('✅ Video salvato:', filePath)
+          this.showToast('success', 'Video caricato con successo', 'fas fa-check')
+          
+          // Auto-save dopo upload
+          this.debouncedAutoSave()
+        }
       } catch (error) {
-        console.error('Errore upload video:', error)
-        this.showToast('error', 'Errore nel caricamento del video: ' + (error.response?.data?.error || error.message), 'fas fa-exclamation-triangle')
+        console.error('❌ Errore upload video:', error)
+        this.showToast('error', 'Errore nel caricamento del video: ' + error.message, 'fas fa-exclamation-triangle')
       }
     },
 
@@ -566,7 +570,10 @@ export default {
     getMediaUrl(path) {
       if (!path) return ''
       if (path.startsWith('http')) return path
-      return `${config.API_BASE_URL}${path}`
+      
+      // Se è un percorso relativo, aggiunge il dominio del backend
+      const baseUrl = config.API_BASE_URL || window.location.origin
+      return path.startsWith('/') ? `${baseUrl}${path}` : `${baseUrl}/${path}`
     },
 
     previewGame() {

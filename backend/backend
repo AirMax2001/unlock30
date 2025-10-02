@@ -45,11 +45,12 @@ if (!fs.existsSync(dataDir)) {
 
 // FUNZIONE BACKUP AUTOMATICO SU GIT
 const backupToGit = (message = 'Auto-backup dati gioco') => {
-  if (process.env.NODE_ENV === 'production' || process.env.FORCE_BACKUP === 'true') {
+  if (process.env.NODE_ENV === 'production') {
     console.log('[BACKUP] Backup automatico su Git...');
     
     const commands = [
-      'git add backend/data/ backend/uploads/',
+      'git add backend/data/',
+      'git add backend/uploads/',
       `git commit -m "${message} - ${new Date().toISOString()}"`,
       'git push origin main'
     ];
@@ -65,8 +66,6 @@ const backupToGit = (message = 'Auto-backup dati gioco') => {
         });
       }, index * 2000); // Aspetta 2 secondi tra ogni comando
     });
-  } else {
-    console.log('[BACKUP] Modalità sviluppo - backup Git disabilitato');
   }
 };
 
@@ -218,13 +217,11 @@ app.get('/api/uploads', (req, res) => {
   
   try {
     const files = fs.readdirSync(uploadsDir);
-    const fileList = files
-      .filter(filename => !filename.endsWith('.md')) // Escludi README.md
-      .map(filename => ({
-        filename,
-        path: `/uploads/${filename}`,
-        url: `${req.protocol}://${req.get('host')}/uploads/${filename}`
-      }));
+    const fileList = files.map(filename => ({
+      filename,
+      path: `/uploads/${filename}`,
+      url: `${req.protocol}://${req.get('host')}/uploads/${filename}`
+    }));
     
     res.json({ files: fileList });
   } catch (error) {
@@ -305,10 +302,9 @@ app.use((error, req, res, next) => {
 
 // Avvio server
 app.listen(PORT, () => {
-  console.log(`🚀 Server con backup automatico in esecuzione su porta ${PORT}`);
+  console.log(`🚀 Server in esecuzione su porta ${PORT}`);
   console.log(`📁 Directory dati: ${dataDir}`);
   console.log(`🌍 Ambiente: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`💾 Backup automatico: ${process.env.NODE_ENV === 'production' ? 'ATTIVO' : 'DISABILITATO (dev)'}`);
   
   // Backup iniziale all'avvio
   setTimeout(() => {

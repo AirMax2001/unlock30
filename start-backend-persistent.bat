@@ -13,7 +13,7 @@ call npm install
 echo.
 
 echo Avvio server in background...
-start /B node server.js
+start /B node server-with-backup.js
 
 echo.
 echo ====================================
