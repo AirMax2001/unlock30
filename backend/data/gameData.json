@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Scena Iniziale",
       "description": "Benvenuto nel Gioco dei Trenta! Inizia la tua avventura...",
-      "image": "/uploads/1759327774702-locandina.jpg",
+      "image": "/uploads/1759421107882-IMG-20251002-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -18,7 +18,8 @@
           "nextSceneId": 3
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "updatedAt": "2025-10-02T16:05:08.915Z"
     },
     {
       "id": 2,
@@ -49,5 +50,15 @@
       "choices": [],
       "isFinal": true
     }
-  ]
+  ],
+  "settings": {
+    "gameName": "Il Gioco dei Trenta",
+    "welcomeMessage": "Benvenuto nel gioco!",
+    "maxScenes": 30,
+    "theme": "unlock30"
+  },
+  "stats": {
+    "totalScenes": 3,
+    "lastModified": "2025-10-02T16:05:08.915Z"
+  }
 }

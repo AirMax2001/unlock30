@@ -441,9 +441,13 @@ class GameService {
     try {
       const uploadUrl = `${this.apiBaseUrl}/api/upload`
       console.log(`📤 Upload URL: ${uploadUrl}`)
+      console.log(`📤 API Base URL: ${this.apiBaseUrl}`)
+      console.log(`📤 Is API Mode: ${this.isApiMode}`)
       
       const formData = new FormData()
       formData.append('file', file)
+
+      console.log(`📤 Making request to: ${uploadUrl}`)
 
       const response = await fetch(uploadUrl, {
         method: 'POST',
@@ -451,6 +455,7 @@ class GameService {
       })
 
       console.log(`📡 Response status: ${response.status}`)
+      console.log(`📡 Response URL: ${response.url}`)
 
       if (!response.ok) {
         throw new Error(`Upload fallito: ${response.status}`)
