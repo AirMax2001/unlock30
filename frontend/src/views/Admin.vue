@@ -77,11 +77,11 @@
                 <i class="fas fa-flag-checkered"></i>
                 {{ selectedScene.isFinal ? 'Scena Finale' : 'Rendi Finale' }}
               </button>
-              <button @click="saveScene" class="btn-save" :disabled="saving">
-                <i v-if="saving" class="fas fa-spinner fa-spin"></i>
-                <i v-else class="fas fa-save"></i>
-                {{ saving ? 'Salvataggio...' : 'Salva' }}
-              </button>
+              <!-- Auto-save attivo - salvataggio automatico -->
+              <div class="auto-save-info">
+                <i class="fas fa-magic"></i>
+                Auto-save attivo
+              </div>
             </div>
           </div>
 
@@ -297,6 +297,7 @@ export default {
       selectedScene: null,
       saving: false,
       refreshInterval: null,
+      autoSaveTimer: null,
       toast: {
         show: false,
         type: '',
@@ -313,6 +314,46 @@ export default {
   beforeUnmount() {
     this.stopAutoRefresh()
   },
+  watch: {
+    // Auto-save per il titolo della scena
+    'selectedScene.title': {
+      handler() {
+        if (this.selectedScene && this.selectedScene.id) {
+          this.debouncedAutoSave()
+        }
+      },
+      deep: true
+    },
+    
+    // Auto-save per la descrizione della scena
+    'selectedScene.description': {
+      handler() {
+        if (this.selectedScene && this.selectedScene.id) {
+          this.debouncedAutoSave()
+        }
+      },
+      deep: true
+    },
+    
+    // Auto-save per le scelte
+    'selectedScene.choices': {
+      handler() {
+        if (this.selectedScene && this.selectedScene.id) {
+          this.debouncedAutoSave()
+        }
+      },
+      deep: true
+    },
+    
+    // Auto-save per lo stato finale
+    'selectedScene.isFinal': {
+      handler() {
+        if (this.selectedScene && this.selectedScene.id) {
+          this.debouncedAutoSave()
+        }
+      }
+    }
+  },
   methods: {
     checkAuth() {
       if (!gameService.isAdminAuthenticated()) {
@@ -321,10 +362,9 @@ export default {
     },
 
     startAutoRefresh() {
-      // Controlla aggiornamenti ogni 10 secondi
-      this.refreshInterval = setInterval(() => {
-        this.checkForUpdates()
-      }, 10000)
+      // Disattivato auto-refresh aggressivo per evitare perdita di dati
+      // Solo refresh manuale ora disponibile
+      console.log('Auto-refresh disattivato per preservare le modifiche in corso')
     },
 
     stopAutoRefresh() {
@@ -382,7 +422,7 @@ export default {
       }
     },
 
-    addNewScene() {
+    async addNewScene() {
       const newScene = {
         id: Math.max(...this.scenes.map(s => s.id), 0) + 1,
         title: 'Nuova Scena',
@@ -392,8 +432,17 @@ export default {
         choices: [],
         isFinal: false
       }
-      this.scenes.push(newScene)
-      this.selectScene(newScene)
+      
+      try {
+        // Salva immediatamente la nuova scena
+        const savedScene = await gameService.addScene(newScene)
+        this.scenes.push(savedScene)
+        this.selectScene(savedScene)
+        this.showAutoSaveIndicator()
+      } catch (error) {
+        console.error('Errore creazione scena:', error)
+        this.showToast('error', 'Errore nella creazione della scena', 'fas fa-exclamation-triangle')
+      }
     },
 
     async deleteScene(sceneId) {
@@ -450,10 +499,14 @@ export default {
         text: '',
         nextSceneId: null
       })
+      // Auto-save dopo aggiunta scelta
+      this.debouncedAutoSave()
     },
 
     removeChoice(index) {
       this.selectedScene.choices.splice(index, 1)
+      // Auto-save dopo rimozione scelta
+      this.debouncedAutoSave()
     },
 
     async uploadImage(event) {
@@ -560,25 +613,92 @@ export default {
       return scene ? (scene.title || 'Senza titolo') : 'Scena non trovata'
     },
 
-    addNewSceneAndConnect(choice) {
-      // Crea una nuova scena
-      const newScene = {
-        id: Math.max(...this.scenes.map(s => s.id), 0) + 1,
-        title: 'Nuova Scena',
-        description: '',
-        image: '',
-        video: '',
-        choices: [],
-        isFinal: false
+    async addNewSceneAndConnect(choice) {
+      try {
+        // Crea una nuova scena
+        const newScene = {
+          id: Math.max(...this.scenes.map(s => s.id), 0) + 1,
+          title: 'Nuova Scena',
+          description: '',
+          image: '',
+          video: '',
+          choices: [],
+          isFinal: false
+        }
+        
+        // Salva la nuova scena
+        const savedScene = await gameService.addScene(newScene)
+        this.scenes.push(savedScene)
+        
+        // Collega la scelta alla nuova scena
+        choice.nextSceneId = savedScene.id
+        
+        // Auto-save della scena corrente per salvare il collegamento
+        await this.autoSave()
+        
+        // Mostra messaggio di conferma
+        this.showSuccess(`Nuova scena ${savedScene.id} creata e collegata!`)
+      } catch (error) {
+        console.error('Errore creazione e collegamento scena:', error)
+        this.showToast('error', 'Errore nella creazione della scena', 'fas fa-exclamation-triangle')
       }
-      this.scenes.push(newScene)
+    },
+
+    // Auto-save con debounce per evitare troppe chiamate
+    debouncedAutoSave() {
+      clearTimeout(this.autoSaveTimer)
+      this.autoSaveTimer = setTimeout(() => {
+        this.autoSave()
+      }, 1000) // Aspetta 1 secondo dopo l'ultima modifica
+    },
+
+    async autoSave() {
+      if (!this.selectedScene || !this.selectedScene.id) return
       
-      // Collega la scelta alla nuova scena
-      choice.nextSceneId = newScene.id
+      try {
+        console.log('🔄 Auto-save in corso...')
+        const sceneData = { ...this.selectedScene }
+        await gameService.saveScene(sceneData)
+        
+        // Aggiorna la scena nella lista locale
+        const index = this.scenes.findIndex(s => s.id === sceneData.id)
+        if (index !== -1) {
+          this.scenes[index] = sceneData
+        }
+        
+        // Mostra indicatore discreto di salvataggio
+        this.showAutoSaveIndicator()
+      } catch (error) {
+        console.error('❌ Errore auto-save:', error)
+      }
+    },
+
+    showAutoSaveIndicator() {
+      // Indicatore visivo discreto che scompare dopo 2 secondi
+      const indicator = document.createElement('div')
+      indicator.innerHTML = '<i class="fas fa-check"></i> Salvato'
+      indicator.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #27ae60;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        z-index: 9999;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+      `
+      document.body.appendChild(indicator)
       
-      // Mostra un messaggio di conferma
-      this.showSuccess(`Nuova scena ${newScene.id} creata e collegata!`)
-    }
+      setTimeout(() => {
+        indicator.style.opacity = '0'
+        setTimeout(() => {
+          document.body.removeChild(indicator)
+        }, 300)
+      }, 2000)
+    },
   }
 }
 </script>

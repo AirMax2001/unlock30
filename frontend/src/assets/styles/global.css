@@ -1587,3 +1587,40 @@ body, #app {
   transform: translateY(-2px) scale(1.1);
   box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4);
 }
+
+/* Indicatore Auto-save */
+.auto-save-info {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.auto-save-info i {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Previeni scroll automatico aggressivo */
+.admin-container {
+  scroll-behavior: auto !important;
+}
+
+.admin-content {
+  scroll-behavior: auto !important;
+}
+
+.sidebar, .main-editor {
+  scroll-behavior: auto !important;
+}
+
+/* Mantieni posizione scroll su focus/blur */
+input:focus, textarea:focus, select:focus {
+  scroll-margin: 0 !important;
+  scroll-padding: 0 !important;
+}
