@@ -173,6 +173,17 @@
                       <span class="chip-title">{{ scene.title || 'Senza titolo' }}</span>
                       <i v-if="scene.isFinal" class="fas fa-flag-checkered final-icon"></i>
                     </div>
+                    <!-- Pulsante per aggiungere nuova scena -->
+                    <div 
+                      class="scene-chip add-scene-chip"
+                      @click="addNewScene"
+                      title="Aggiungi nuova scena"
+                    >
+                      <span class="chip-id">
+                        <i class="fas fa-plus"></i>
+                      </span>
+                      <span class="chip-title">Nuova</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -206,6 +217,14 @@
                         >
                           {{ scene.id }}
                           <i v-if="scene.isFinal" class="fas fa-flag-checkered"></i>
+                        </span>
+                        <!-- Pulsante per aggiungere nuova scena -->
+                        <span 
+                          class="id-chip add-scene-id-chip"
+                          @click="addNewSceneAndConnect(choice)"
+                          title="Crea nuova scena e collega"
+                        >
+                          <i class="fas fa-plus"></i>
                         </span>
                       </div>
                     </div>
@@ -539,6 +558,26 @@ export default {
     getSceneTitle(sceneId) {
       const scene = this.scenes.find(s => s.id === sceneId)
       return scene ? (scene.title || 'Senza titolo') : 'Scena non trovata'
+    },
+
+    addNewSceneAndConnect(choice) {
+      // Crea una nuova scena
+      const newScene = {
+        id: Math.max(...this.scenes.map(s => s.id), 0) + 1,
+        title: 'Nuova Scena',
+        description: '',
+        image: '',
+        video: '',
+        choices: [],
+        isFinal: false
+      }
+      this.scenes.push(newScene)
+      
+      // Collega la scelta alla nuova scena
+      choice.nextSceneId = newScene.id
+      
+      // Mostra un messaggio di conferma
+      this.showSuccess(`Nuova scena ${newScene.id} creata e collegata!`)
     }
   }
 }

@@ -30,6 +30,20 @@ body {
   min-height: 100vh;
 }
 
+/* Disabilita effetti di scroll automatico */
+html {
+  scroll-behavior: auto !important;
+}
+
+body, #app {
+  scroll-behavior: auto !important;
+}
+
+/* Evita scroll automatico su elementi focus */
+* {
+  scroll-margin: 0 !important;
+}
+
 /* ===========================================
    ANIMAZIONI GLOBALI
    =========================================== */
@@ -1532,4 +1546,44 @@ body {
 .btn-login:disabled {
   opacity: 0.7;
   cursor: not-allowed;
+}
+
+/* Pulsante "+" per aggiungere scene */
+.add-scene-chip {
+  background: linear-gradient(45deg, #27ae60, #2ecc71) !important;
+  border: 2px solid #27ae60 !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-scene-chip:hover {
+  background: linear-gradient(45deg, #2ecc71, #27ae60) !important;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+}
+
+.add-scene-chip .chip-id {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  font-weight: 700;
+}
+
+.add-scene-id-chip {
+  background: linear-gradient(45deg, #f39c12, #e67e22) !important;
+  border: 2px solid #f39c12 !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35px;
+  height: 35px;
+  font-size: 1rem;
+  color: white !important;
+}
+
+.add-scene-id-chip:hover {
+  background: linear-gradient(45deg, #e67e22, #f39c12) !important;
+  transform: translateY(-2px) scale(1.1);
+  box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4);
 }
