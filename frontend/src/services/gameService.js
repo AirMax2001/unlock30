@@ -38,6 +38,9 @@ class GameService {
         data = this.loadFromLocalStorage()
       }
       
+      // Normalizza i dati per assicurare la struttura corretta
+      data = this.normalizeGameData(data)
+      
       this.updateCache(data)
       return data
     } catch (error) {
@@ -184,6 +187,29 @@ class GameService {
     }
   }
 
+  // NORMALIZZAZIONE DATI
+
+  normalizeGameData(data) {
+    // Assicura che la struttura sia sempre corretta
+    const normalized = {
+      scenes: data.scenes || [],
+      settings: {
+        gameName: "Il Gioco dei Trenta",
+        welcomeMessage: "Benvenuto nel gioco!",
+        maxScenes: 30,
+        theme: "unlock30",
+        ...(data.settings || {})
+      },
+      stats: {
+        totalScenes: data.scenes ? data.scenes.length : 0,
+        lastModified: new Date().toISOString(),
+        ...(data.stats || {})
+      }
+    }
+    
+    return normalized
+  }
+
   // GESTIONE SCENE
 
   async getScenes() {
@@ -194,6 +220,12 @@ class GameService {
   async saveScenes(scenes) {
     const data = await this.loadGameData()
     data.scenes = scenes
+    
+    // Assicurati che stats esista
+    if (!data.stats) {
+      data.stats = {}
+    }
+    
     data.stats.totalScenes = scenes.length
     data.stats.lastModified = new Date().toISOString()
     return await this.saveGameData(data)
