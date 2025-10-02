@@ -7,9 +7,9 @@
   "scripts": {
     "start": "node start-server.js",
     "start-direct": "node backend/server.js",
-    "build": "cd frontend && npm install && npm run build && cd .. && node copy-frontend.js",
+    "build": "node copy-frontend.js --force-build",
     "postinstall": "npm run install-deps && npm run build",
-    "install-deps": "cd backend && npm install && cd ../frontend && npm install",
+    "install-deps": "cd backend && yarn install && cd ../frontend && yarn install",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run serve",
