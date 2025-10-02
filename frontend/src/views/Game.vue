@@ -684,6 +684,17 @@ export default {
     flex-direction: column;
     gap: 15px;
     text-align: center;
+    padding: 15px;
+  }
+  
+  .back-btn {
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  
+  .game-title {
+    font-size: 1.5rem;
   }
   
   .scene-title {
@@ -699,6 +710,7 @@ export default {
   
   .choices-grid {
     grid-template-columns: 1fr;
+    gap: 12px;
   }
   
   .game-content {
@@ -707,6 +719,72 @@ export default {
   
   .scene-container {
     padding: 20px;
+  }
+  
+  .scene-description {
+    font-size: 1.1rem;
+  }
+  
+  .floating-game-icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-header {
+    padding: 10px;
+  }
+  
+  .back-btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+  
+  .game-title {
+    font-size: 1.3rem;
+  }
+  
+  .scene-title {
+    font-size: 1.5rem;
+  }
+  
+  .game-content {
+    padding: 10px;
+  }
+  
+  .scene-container {
+    padding: 15px;
+  }
+  
+  .scene-description {
+    font-size: 1rem;
+  }
+  
+  .choice-btn {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+  
+  .floating-game-icon {
+    font-size: 1.5rem;
+  }
+  
+  .media-container {
+    margin-bottom: 20px;
+  }
+  
+  .scene-image, .scene-video {
+    border-radius: 10px;
+  }
+  
+  .loading-container, .error-container {
+    padding: 15px;
+  }
+  
+  .spinner {
+    width: 40px;
+    height: 40px;
   }
 }
 </style>

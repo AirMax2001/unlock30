@@ -497,8 +497,60 @@ export default {
 <style scoped>
 .admin-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  background: linear-gradient(135deg, #ff6b6b, #ee5a5a, #ff8e8e, #ff4757, #c44569);
+  background-size: 300% 300%;
+  animation: gradientShift 8s ease infinite;
   color: white;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Animazione dello sfondo */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Elementi fluttuanti a tema unlock */
+.admin-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    radial-gradient(circle at 40% 70%, rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px);
+  background-size: 100px 100px, 80px 80px, 120px 120px;
+  animation: floatPattern 20s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes floatPattern {
+  0% { transform: translateY(0px) rotate(0deg); }
+  100% { transform: translateY(-50px) rotate(360deg); }
+}
+
+/* Elementi decorativi fluttuanti */
+.admin-container::after {
+  content: '🔐';
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  font-size: 2.5rem;
+  opacity: 0.1;
+  animation: floatSlow 12s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(180deg); }
 }
 
 .admin-header {
@@ -506,6 +558,10 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 1;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
 }
@@ -567,6 +623,10 @@ export default {
 .admin-content {
   display: flex;
   min-height: calc(100vh - 80px);
+  gap: 20px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .sidebar {
@@ -574,10 +634,52 @@ export default {
   background: rgba(0, 0, 0, 0.2);
   padding: 20px;
   overflow-y: auto;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.main-editor {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.no-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  text-align: center;
+  opacity: 0.7;
+  padding: 40px 20px;
+}
+
+.no-selection i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.no-selection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.no-selection p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 400px;
+  line-height: 1.5;
 }
 
 .sidebar-section h3 {
   margin-bottom: 15px;
+  color: white;
   font-size: 1.2rem;
 }
 
@@ -646,6 +748,8 @@ export default {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .scene-chip {
@@ -1170,7 +1274,9 @@ export default {
 }
 
 .choices-editor {
-  space-y: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .btn-add-choice {
@@ -1230,11 +1336,38 @@ export default {
 @media (max-width: 1024px) {
   .admin-content {
     flex-direction: column;
+    padding: 0 15px;
+    gap: 15px;
   }
   
   .sidebar {
     width: 100%;
     max-height: 300px;
+    order: 2;
+  }
+  
+  .main-editor {
+    order: 1;
+    min-height: 400px;
+  }
+  
+  .no-selection {
+    min-height: 200px;
+    padding: 30px 15px;
+  }
+  
+  .no-selection i {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .no-selection h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .no-selection p {
+    font-size: 0.9rem;
   }
   
   .media-upload {
@@ -1268,11 +1401,46 @@ export default {
   .admin-header {
     flex-direction: column;
     gap: 15px;
+    padding: 15px;
   }
   
   .header-actions {
     flex-direction: column;
     width: 100%;
+    gap: 10px;
+  }
+  
+  .admin-content {
+    padding: 0 10px;
+    gap: 10px;
+  }
+  
+  .sidebar {
+    padding: 15px;
+    max-height: 250px;
+  }
+  
+  .main-editor {
+    padding: 15px;
+  }
+  
+  .no-selection {
+    min-height: 150px;
+    padding: 20px 15px;
+  }
+  
+  .no-selection i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .no-selection h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .no-selection p {
+    font-size: 0.85rem;
   }
   
   .editor-header {
@@ -1290,18 +1458,131 @@ export default {
   .editor-actions {
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
   }
   
   .choice-controls {
     flex-direction: column;
+    gap: 10px;
   }
   
   .available-ids {
     justify-content: center;
+    gap: 8px;
   }
   
   .scenes-grid {
     justify-content: center;
+    gap: 8px;
+  }
+  
+  .scene-item {
+    padding: 12px;
+  }
+  
+  .scene-info h4 {
+    font-size: 0.9rem;
+  }
+  
+  .scene-info p {
+    font-size: 0.8rem;
+  }
+  
+  .form-section {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .scene-editor {
+    padding: 15px;
+  }
+}
+
+/* Smartphone piccoli */
+@media (max-width: 480px) {
+  .admin-container {
+    min-height: 100vh;
+  }
+  
+  .admin-header {
+    padding: 10px;
+  }
+  
+  .admin-header h1 {
+    font-size: 1.3rem;
+  }
+  
+  .admin-content {
+    padding: 0 5px;
+    gap: 8px;
+  }
+  
+  .sidebar {
+    padding: 10px;
+    max-height: 200px;
+  }
+  
+  .main-editor {
+    padding: 10px;
+  }
+  
+  .no-selection {
+    min-height: 120px;
+    padding: 15px 10px;
+  }
+  
+  .no-selection i {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .no-selection h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .no-selection p {
+    font-size: 0.8rem;
+  }
+  
+  .scene-editor {
+    padding: 10px;
+  }
+  
+  .form-section {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-add-scene {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .scene-item {
+    padding: 8px;
+  }
+  
+  .scene-info h4 {
+    font-size: 0.8rem;
+  }
+  
+  .scene-info p {
+    font-size: 0.7rem;
+  }
+  
+  .btn-upload {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+  
+  .media-preview {
+    max-height: 150px;
   }
 }
 </style>

@@ -500,6 +500,10 @@ export default {
     font-size: 2.5rem;
   }
   
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  
   .play-btn {
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -509,6 +513,59 @@ export default {
     top: 15px;
     right: 15px;
     padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .main-content {
+    padding: 15px;
+  }
+  
+  .floating-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-text {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .play-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    gap: 10px;
+  }
+  
+  .admin-btn {
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+  
+  .main-content {
+    padding: 10px;
+  }
+  
+  .game-title {
+    margin-bottom: 40px;
+  }
+  
+  .floating-icon {
+    font-size: 1.2rem;
+  }
+  
+  .modal-content {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .modal-body {
+    padding: 20px 15px;
   }
 }
 </style>
