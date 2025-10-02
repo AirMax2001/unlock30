@@ -1,19 +1,11 @@
 <template>
-  <div class="game-container">
+  <div class="game-container animated-red-background">
     <!-- Header con torna indietro -->
     <div class="game-header">
-      <button class="back-btn" @click="goHome">
+      <button class="back-button" @click="goHome">
         <i class="fas fa-arrow-left"></i> Torna alla Home
       </button>
       <h2 class="game-title">UNLOCK30</h2>
-    </div>
-
-    <!-- Floating decorative elements -->
-    <div class="floating-game-elements">
-      <div class="floating-game-icon icon-g1"><i class="fas fa-puzzle-piece"></i></div>
-      <div class="floating-game-icon icon-g2"><i class="fas fa-lightbulb"></i></div>
-      <div class="floating-game-icon icon-g3"><i class="fas fa-compass"></i></div>
-      <div class="floating-game-icon icon-g4"><i class="fas fa-map"></i></div>
     </div>
 
     <!-- Loading -->
@@ -33,20 +25,13 @@
     </div>
 
     <!-- Gioco -->
-    <div v-else-if="currentScene" class="game-content">
-      <div class="scene-container">
-        <!-- Titolo scena -->
-        <div class="scene-header">
-          <h1 class="scene-title">
-            {{ currentScene.title }}
-            <span v-if="currentScene.isFinal" class="final-indicator">
-              <i class="fas fa-flag-checkered"></i>
-            </span>
-          </h1>
-        </div>
-
-        <!-- Media (immagine o video) -->
-        <div v-if="currentScene.image || currentScene.video" class="media-container">
+    <div v-else-if="currentScene" class="current-scene">
+      <!-- Contenuto scena -->
+      <div class="scene-content">
+        <h1 class="scene-title">{{ currentScene.title }}</h1>
+        
+        <!-- Media -->
+        <div v-if="currentScene.image || currentScene.video" class="scene-media">
           <img 
             v-if="currentScene.image" 
             :src="getMediaUrl(currentScene.image)" 
@@ -64,40 +49,29 @@
         </div>
 
         <!-- Descrizione -->
-        <div class="description-container">
-          <div class="description-box">
-            <p class="scene-description">{{ currentScene.description }}</p>
-          </div>
-        </div>
+        <p class="scene-description">{{ currentScene.description }}</p>
+      </div>
 
-        <!-- Scelte -->
-        <div v-if="currentScene.choices && currentScene.choices.length > 0 && !currentScene.isFinal" class="choices-container">
-          <h3 class="choices-title">Cosa vuoi fare?</h3>
-          <div class="choices-grid">
-            <button 
-              v-for="choice in currentScene.choices" 
-              :key="choice.id"
-              @click="makeChoice(choice)"
-              class="choice-btn"
-              :disabled="processingChoice"
-            >
-              <span class="choice-text">{{ choice.text }}</span>
-              <i class="fas fa-arrow-right choice-arrow"></i>
-            </button>
-          </div>
-        </div>
+      <!-- Scelte -->
+      <div v-if="currentScene.choices && currentScene.choices.length > 0 && !currentScene.isFinal" class="choices-container">
+        <button 
+          v-for="choice in currentScene.choices" 
+          :key="choice.id"
+          @click="makeChoice(choice)"
+          class="choice-button"
+          :disabled="processingChoice"
+        >
+          {{ choice.text }}
+        </button>
+      </div>
 
-        <!-- Fine del gioco -->
-        <div v-if="(!currentScene.choices || currentScene.choices.length === 0) || currentScene.isFinal" class="game-end">
-          <div class="end-message">
-            <i class="fas fa-flag-checkered"></i>
-            <h3>Fine dell'avventura!</h3>
-            <p>Grazie per aver giocato a "Il Gioco dei Trenta"</p>
-            <button class="restart-btn" @click="restartGame">
-              <i class="fas fa-redo"></i> Ricomincia
-            </button>
-          </div>
-        </div>
+      <!-- Fine del gioco -->
+      <div v-if="(!currentScene.choices || currentScene.choices.length === 0) || currentScene.isFinal" class="game-over">
+        <h2>Fine dell'avventura!</h2>
+        <p>Grazie per aver giocato a UNLOCK30</p>
+        <button class="restart-button" @click="restartGame">
+          <i class="fas fa-redo"></i> Ricomincia
+        </button>
       </div>
     </div>
   </div>
@@ -192,9 +166,6 @@ export default {
     }
   }
 }
-</script>
-
-<style scoped>
 .game-container {
   min-height: 100vh;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);

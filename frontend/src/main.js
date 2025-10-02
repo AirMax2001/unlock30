@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import localGameService from './services/localGameService'
+import './assets/styles/global.css'
 
 const app = createApp(App)
 
