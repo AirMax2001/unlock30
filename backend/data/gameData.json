@@ -2,9 +2,9 @@
   "scenes": [
     {
       "id": 1,
-      "title": "Scena Iniziale",
+      "title": "w",
       "description": "Benvenuto nel Gioco dei Trenta! Inizia la tua avventura...",
-      "image": "/uploads/1759421107882-IMG-20251002-WA0015.jpg",
+      "image": "http://localhost:3001/uploads/1759421107882-IMG-20251002-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -19,7 +19,7 @@
         }
       ],
       "isFinal": false,
-      "updatedAt": "2025-10-02T16:05:08.915Z"
+      "updatedAt": "2025-10-02T16:09:34.186Z"
     },
     {
       "id": 2,
@@ -59,6 +59,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-02T16:05:08.915Z"
+    "lastModified": "2025-10-02T16:09:34.186Z"
   }
 }
