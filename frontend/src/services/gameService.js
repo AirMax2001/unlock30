@@ -319,6 +319,24 @@ class GameService {
       return await this.addScene(sceneData)
     }
   }
+
+  // GESTIONE FILE DATA (compatibilità)
+
+  getFileData(fileName) {
+    // Per compatibilità con il vecchio sistema
+    // Tenta di trovare il file nei localStorage o restituisce null
+    try {
+      const uploadedFiles = localStorage.getItem('ilGiocoDeiTrenta_uploadedFiles')
+      if (uploadedFiles) {
+        const files = JSON.parse(uploadedFiles)
+        const file = files.find(f => f.name === fileName)
+        return file ? file.data : null
+      }
+    } catch (error) {
+      console.warn('Errore nel recupero file data:', error)
+    }
+    return null
+  }
 }
 
 // Esporta istanza singleton
