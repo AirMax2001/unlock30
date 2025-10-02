@@ -77,7 +77,7 @@ class GameService {
 
   async loadFromApi() {
     console.log('🌐 Caricamento dal backend...')
-    const response = await fetch(`${this.apiBaseUrl}/api/game-data`, {
+    const response = await fetch(`${this.apiBaseUrl}/api/game/data`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
@@ -95,7 +95,7 @@ class GameService {
 
   async saveToApi(gameData) {
     console.log('🌐 Salvataggio sul backend...')
-    const response = await fetch(`${this.apiBaseUrl}/api/game-data`, {
+    const response = await fetch(`${this.apiBaseUrl}/api/game/data`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -279,6 +279,44 @@ class GameService {
       return { status: 'online', online: response.ok }
     } catch (error) {
       return { status: 'offline', online: false, error: error.message }
+    }
+  }
+
+  // GESTIONE AUTENTICAZIONE ADMIN (compatibilità)
+
+  isAdminAuthenticated() {
+    // Per ora accesso libero, può essere implementato localStorage o API
+    return true
+  }
+
+  authenticateAdmin(password) {
+    // Implementazione semplice per compatibilità
+    return password === 'admin123' // TODO: implementare autenticazione vera
+  }
+
+  // COMPATIBILITÀ CON LOCALGAMESERVICE LEGACY
+
+  async getGameData(forceRefresh = false) {
+    if (forceRefresh) {
+      return await this.forceRefresh()
+    }
+    return await this.loadGameData()
+  }
+
+  getVersion() {
+    // Versione mock per compatibilità
+    return {
+      version: '2.0.0',
+      lastUpdate: Date.now(),
+      lastUpdateFormatted: new Date().toLocaleString()
+    }
+  }
+
+  async saveScene(sceneData) {
+    if (sceneData.id) {
+      return await this.updateScene(sceneData.id, sceneData)
+    } else {
+      return await this.addScene(sceneData)
     }
   }
 }

@@ -267,6 +267,42 @@ app.post('/api/admin/upload', upload.single('file'), (req, res) => {
   res.json({ success: true, fileUrl: fileUrl });
 });
 
+// Salva dati del gioco
+app.post('/api/game/data', (req, res) => {
+  console.log('[POST] Richiesta salvataggio dati del gioco');
+  const gameData = req.body;
+  
+  if (!gameData) {
+    return res.status(400).json({ error: 'Dati del gioco mancanti' });
+  }
+  
+  // Aggiungi timestamp di ultimo aggiornamento
+  if (!gameData.stats) {
+    gameData.stats = {};
+  }
+  gameData.stats.lastModified = new Date().toISOString();
+  gameData.stats.totalScenes = gameData.scenes ? gameData.scenes.length : 0;
+  
+  const success = writeJsonFile(gameDataPath, gameData);
+  if (success) {
+    console.log(`[POST] Dati salvati con successo. Scene: ${gameData.scenes ? gameData.scenes.length : 0}`);
+    res.json({ success: true, message: 'Dati salvati con successo', data: gameData });
+  } else {
+    console.error('[POST] Errore nel salvataggio dati del gioco');
+    res.status(500).json({ error: 'Errore nel salvataggio dati del gioco' });
+  }
+});
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  console.log('[HEALTH] Controllo stato del server');
+  res.json({ 
+    status: 'online', 
+    timestamp: new Date().toISOString(),
+    message: 'Server backend funzionante'
+  });
+});
+
 // Handle SPA routing - must be after API routes
 app.get('*', (req, res) => {
   const indexPath = path.join(__dirname, 'public', 'index.html');

@@ -296,7 +296,7 @@ export default {
   },
   methods: {
     checkAuth() {
-      if (!localGameService.isAdminAuthenticated()) {
+      if (!gameService.isAdminAuthenticated()) {
         this.$router.push('/')
       }
     },
@@ -336,13 +336,13 @@ export default {
       this.loading = true
       console.log('[FRONTEND] Inizio caricamento scene')
       try {
-        const gameData = await localGameService.getGameData(forceRefresh)
+        const gameData = await gameService.getGameData(forceRefresh)
         console.log('[FRONTEND] Dati ricevuti:', gameData)
         this.scenes = gameData.scenes || []
         console.log('[FRONTEND] Scene caricate:', this.scenes.length)
         
         // Mostra informazioni versione in console
-        const versionInfo = localGameService.getVersion()
+        const versionInfo = gameService.getVersion()
         console.log('[VERSION] Versione attuale:', versionInfo.version, 'Ultimo aggiornamento:', versionInfo.lastUpdateFormatted)
       } catch (error) {
         console.error('[FRONTEND] Errore nel caricamento delle scene:', error)
@@ -401,7 +401,7 @@ export default {
       try {
         const sceneData = { ...this.selectedScene }
         
-        const response = await localGameService.saveScene(sceneData)
+        const response = await gameService.saveScene(sceneData)
         console.log('[FRONTEND] Risposta salvataggio:', response)
         
         // Aggiorna la lista locale

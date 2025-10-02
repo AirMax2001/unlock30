@@ -138,12 +138,10 @@ export default {
       
       try {
         const data = await gameService.loadGameData()
-        this.gameData = gameData
+        this.gameData = data
         this.loadScene(1) // Carica la prima scena
         
-        // Log versione
-        const versionInfo = localGameService.getVersion()
-        console.log('[GAME] Versione dati:', versionInfo.version, 'Ultimo aggiornamento:', versionInfo.lastUpdateFormatted)
+        console.log('✅ Dati gioco caricati:', data.scenes?.length || 0, 'scene')
       } catch (error) {
         this.error = 'Impossibile caricare i dati del gioco.'
         console.error('Errore nel caricamento:', error)
