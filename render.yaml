@@ -1,0 +1,11 @@
+# Render.com build configuration
+# This file tells Render how to build and start your application
+
+# Build Command
+build: npm run render-build
+
+# Start Command  
+start: npm start
+
+# Node.js version
+node: 18

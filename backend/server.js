@@ -13,6 +13,9 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Serve static files from frontend build
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Configurazione multer per upload file
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -262,6 +265,11 @@ app.post('/api/admin/upload', upload.single('file'), (req, res) => {
   
   const fileUrl = `/uploads/${req.file.filename}`;
   res.json({ success: true, fileUrl: fileUrl });
+});
+
+// Handle SPA routing - must be after API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(PORT, () => {
