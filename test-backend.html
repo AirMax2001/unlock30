@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Backend Connection</title>
+</head>
+<body>
+    <h1>Test Connessione Backend</h1>
+    <button onclick="testConnection()">Test Backend</button>
+    <button onclick="testUpload()">Test Upload</button>
+    <div id="result"></div>
+    
+    <script>
+        async function testConnection() {
+            const result = document.getElementById('result');
+            try {
+                const response = await fetch('http://localhost:3001/api/health');
+                const data = await response.json();
+                result.innerHTML = `<p style="color: green;">✅ Backend OK: ${JSON.stringify(data)}</p>`;
+            } catch (error) {
+                result.innerHTML = `<p style="color: red;">❌ Errore: ${error.message}</p>`;
+            }
+        }
+        
+        async function testUpload() {
+            const result = document.getElementById('result');
+            try {
+                // Crea un file di test
+                const blob = new Blob(['test'], { type: 'text/plain' });
+                const file = new File([blob], 'test.txt', { type: 'text/plain' });
+                
+                const formData = new FormData();
+                formData.append('file', file);
+                
+                const response = await fetch('http://localhost:3001/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const data = await response.json();
+                result.innerHTML = `<p style="color: green;">✅ Upload OK: ${JSON.stringify(data)}</p>`;
+            } catch (error) {
+                result.innerHTML = `<p style="color: red;">❌ Errore Upload: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
