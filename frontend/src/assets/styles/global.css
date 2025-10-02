@@ -496,21 +496,24 @@ body {
   background: rgba(0, 0, 0, 0.2);
   padding: 20px;
   overflow-y: auto;
+    overflow-x: hidden;
   border-radius: 15px;
   backdrop-filter: blur(10px);
   max-height: calc(100vh - 120px);
+    overscroll-behavior: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none
 }
 
 .main-editor {
   flex: 1;
   padding: 20px;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   backdrop-filter: blur(10px);
   min-height: 0;
-  scroll-behavior: auto;
   overscroll-behavior: none;
   scrollbar-width: none;
   -ms-overflow-style: none;
