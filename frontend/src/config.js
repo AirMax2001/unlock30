@@ -14,7 +14,7 @@ const config = {
   }
 }
 
-// Determina l'ambiente in base alla presenza del backend
-const environment = process.env.NODE_ENV === 'development' ? 'development' : 'production'
+// FORZA MODALITÀ SVILUPPO per testare upload locale
+const environment = 'development' // Forzato a development
 
 export default config[environment]

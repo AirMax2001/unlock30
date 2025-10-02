@@ -1,50 +1,55 @@
 @echo off
 echo ====================================
-echo    DEPLOY SU RENDER CON BACKUP
+echo    DEPLOY SU RENDER CON UPLOAD
 echo ====================================
 echo.
 
-echo 1. Verifico se ci sono modifiche locali...
-git status --porcelain > nul
-if %errorlevel% neq 0 (
-    echo [ATTENZIONE] Ci sono modifiche non salvate!
-    echo Salvo tutto su Git prima del deploy...
-    
-    git add .
-    git commit -m "Backup automatico prima del deploy - %date% %time%"
-    echo [OK] Backup locale completato
-) else (
-    echo [OK] Repository Git aggiornato
-)
+echo 1. Backup del server attuale...
+if exist "backend\server.js.backup" del "backend\server.js.backup"
+copy "backend\server.js" "backend\server.js.backup"
+echo [OK] Backup creato: server.js.backup
 
 echo.
-echo 2. Sincronizzazione con il repository remoto...
+echo 2. Sostituisco server.js con la versione con upload...
+copy "backend\server-with-backup.js" "backend\server.js"
+echo [OK] server.js aggiornato con funzionalità upload
+
+echo.
+echo 3. Ripristino config per produzione...
+copy "frontend\src\config.js" "frontend\src\config.js.dev.backup"
+echo // Configurazione dell'ambiente > "frontend\src\config.js.temp"
+echo const config = { >> "frontend\src\config.js.temp"
+echo   development: { >> "frontend\src\config.js.temp"
+echo     API_BASE_URL: 'http://localhost:3001', >> "frontend\src\config.js.temp"
+echo     STORAGE_TYPE: 'api' >> "frontend\src\config.js.temp"
+echo   }, >> "frontend\src\config.js.temp"
+echo   production: { >> "frontend\src\config.js.temp"
+echo     API_BASE_URL: window.location.origin, >> "frontend\src\config.js.temp"
+echo     STORAGE_TYPE: 'api' >> "frontend\src\config.js.temp"
+echo   } >> "frontend\src\config.js.temp"
+echo } >> "frontend\src\config.js.temp"
+echo const environment = process.env.NODE_ENV === 'development' ? 'development' : 'production' >> "frontend\src\config.js.temp"
+echo export default config[environment] >> "frontend\src\config.js.temp"
+move "frontend\src\config.js.temp" "frontend\src\config.js"
+echo [OK] Config ripristinato per produzione
+
+echo.
+echo 4. Salvataggio su Git...
+git add .
+git commit -m "🚀 DEPLOY RENDER: Upload e backup automatico attivati - %date% %time%"
 git push origin main
 if %errorlevel% neq 0 (
-    echo [ERRORE] Impossibile sincronizzare con Git remoto
-    echo Controlla la connessione e i permessi
+    echo [ERRORE] Push Git fallito
     pause
     exit /b 1
 )
 
 echo.
-echo 3. Backup dei dati correnti...
-if exist "backend\data\gameData.json" (
-    echo [BACKUP] Copio i dati attuali...
-    if not exist "backup" mkdir "backup"
-    copy "backend\data\gameData.json" "backup\gameData_backup_%date:~-4,4%%date:~-10,2%%date:~-7,2%_%time:~0,2%%time:~3,2%.json" > nul
-    echo [OK] Backup dati creato in cartella backup\
-) else (
-    echo [INFO] Nessun dato da salvare (primo deploy)
-)
-
-echo.
-echo 4. Preparazione build per produzione...
+echo 5. Build per produzione...
 cd frontend
-echo [BUILD] Compilazione frontend...
 call npm run build
 if %errorlevel% neq 0 (
-    echo [ERRORE] Build del frontend fallita
+    echo [ERRORE] Build frontend fallita
     cd ..
     pause
     exit /b 1
@@ -56,21 +61,20 @@ echo ====================================
 echo    DEPLOY COMPLETATO!
 echo ====================================
 echo.
-echo 🎉 Tutto pronto per Render!
+echo 🎉 Render si aggiornerà automaticamente!
 echo.
-echo 📋 CHECKLIST POST-DEPLOY:
-echo ✅ Codice sincronizzato su Git
+echo 📋 COSA È STATO FATTO:
+echo ✅ server.js sostituito con versione upload
+echo ✅ Config produzione ripristinato  
+echo ✅ Codice pushato su Git
 echo ✅ Build di produzione creata
-echo ✅ Backup dati locale salvato
 echo.
-echo 🔗 Prossimi passi:
-echo 1. Vai su render.com
-echo 2. Connetti il repository GitHub
-echo 3. Configura le variabili d'ambiente
-echo 4. Deploy automatico attivato!
+echo 🔗 Su Render ora funzioneranno:
+echo ✅ Upload immagini/video
+echo ✅ Backup automatico su Git
+echo ✅ Sincronizzazione cross-device
 echo.
-echo ⚠️  IMPORTANTE: Dopo il deploy, usa i pulsanti
-echo    'Backup' e 'Ripristina' nell'admin per
-echo    sincronizzare i dati tra locale e cloud.
+echo ⏰ Attendi 2-3 minuti per il deploy automatico
+echo 🌐 Poi testa su: https://unlock30.onrender.com
 echo.
 pause
