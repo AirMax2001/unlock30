@@ -16,6 +16,16 @@ body {
   overflow-x: hidden;
 }
 
+/* Scrollbar invisibili per tutti gli elementi */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Safari e Chrome */
+}
+
 #app {
   min-height: 100vh;
 }
@@ -109,7 +119,6 @@ body {
   padding: 20px;
   position: relative;
   color: white;
-  overscroll-behavior: none;
 }
 
 .home-container::after {
@@ -238,7 +247,6 @@ body {
   padding: 20px;
   position: relative;
   color: white;
-  overscroll-behavior: none;
 }
 
 .game-container::after {
@@ -407,7 +415,6 @@ body {
   min-height: 100vh;
   color: white;
   position: relative;
-  overscroll-behavior: none;
 }
 
 .admin-container::after {
@@ -496,32 +503,19 @@ body {
   background: rgba(0, 0, 0, 0.2);
   padding: 20px;
   overflow-y: auto;
-    overflow-x: hidden;
   border-radius: 15px;
   backdrop-filter: blur(10px);
   max-height: calc(100vh - 120px);
-    overscroll-behavior: none;
-  scrollbar-width: none;
-  -ms-overflow-style: none
 }
 
 .main-editor {
   flex: 1;
   padding: 20px;
   overflow-y: auto;
-  overflow-x: hidden;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   backdrop-filter: blur(10px);
   min-height: 0;
-  overscroll-behavior: none;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.main-editor::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
 }
 
 .no-selection {
@@ -583,25 +577,6 @@ body {
 .scenes-list {
   max-height: calc(100vh - 280px);
   overflow-y: auto;
-  padding-right: 5px;
-}
-
-.scenes-list::-webkit-scrollbar {
-  width: 6px;
-}
-
-.scenes-list::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
-}
-
-.scenes-list::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 3px;
-}
-
-.scenes-list::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.5);
 }
 
 .scene-item {
@@ -677,7 +652,7 @@ body {
   padding: 20px;
   backdrop-filter: blur(10px);
   height: auto;
-  overflow: visible;
+  overflow: auto;
 }
 
 .editor-header {
@@ -724,7 +699,7 @@ body {
 
 .editor-content {
   max-height: none;
-  overflow: visible;
+  overflow: auto;
   height: auto;
 }
 
@@ -733,7 +708,7 @@ body {
   padding: 20px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
-  overflow: visible;
+  overflow: auto;
 }
 
 .form-section h3 {
@@ -959,7 +934,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  overflow: visible;
+  overflow: auto;
 }
 
 .choice-item-enhanced {
@@ -1422,24 +1397,6 @@ body {
     padding: 12px 20px;
     font-size: 1rem;
   }
-}
-
-/* ===========================================
-   SCROLLBAR OVERRIDES
-   =========================================== */
-
-.scene-editor, .editor-content, .form-section {
-  -webkit-overflow-scrolling: auto !important;
-  overscroll-behavior: none !important;
-  scroll-behavior: auto !important;
-}
-
-.scene-editor * {
-  overflow-x: visible !important;
-}
-
-.scene-editor *:not(.scenes-list):not(.main-editor) {
-  overflow-y: visible !important;
 }
 
 /* ===========================================
