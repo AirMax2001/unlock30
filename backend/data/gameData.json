@@ -296,7 +296,7 @@
     },
     {
       "id": 110,
-      "title": "TANTI AU",
+      "title": "TANTI AUGURI",
       "description": "",
       "image": "",
       "video": "",
@@ -311,8 +311,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:40:09.496Z",
-      "updatedAt": "2025-10-03T20:40:09.498Z"
+      "lastModified": "2025-10-03T20:40:10.879Z",
+      "updatedAt": "2025-10-03T20:40:10.881Z"
     }
   ],
   "settings": {
@@ -323,6 +323,6 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-03T20:40:09.499Z"
+    "lastModified": "2025-10-03T20:40:10.881Z"
   }
 }
