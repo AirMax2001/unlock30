@@ -1,30 +1,20 @@
 {
   "scenes": [
     {
-      "id": 1,
-      "title": "La sveglia",
-      "description": "È il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
+      "id": 88,
+      "title": "Niente riesce a svegliarti",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521001133,
-          "text": "Ti giri dall altra parte e continui a russare",
-          "nextSceneId": 2
-        },
-        {
-          "id": 1759521003711,
-          "text": "Ti alzi e vai in bagno a lavarti i denti",
-          "nextSceneId": 3
-        },
-        {
-          "id": 1759521004781,
-          "text": "Apri il telefono prima ancora di scendere dal letto",
-          "nextSceneId": 4
+          "id": 1759523310797,
+          "text": "Avanti",
+          "nextSceneId": 89
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:48:30.721Z",
+      "createdAt": "2025-10-03T20:28:16.924Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -33,29 +23,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:50:27.729Z",
-      "updatedAt": "2025-10-03T19:50:27.731Z"
+      "lastModified": "2025-10-03T20:28:34.430Z",
+      "updatedAt": "2025-10-03T20:28:34.433Z"
     },
     {
-      "id": 2,
-      "title": "Il russare",
-      "description": "Hai continuato a dormire. Dopo un ora i tuoi genitori vengono a svegliarti a forza.",
+      "id": 89,
+      "title": "Nuova Scena",
+      "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759521005001,
-          "text": "Protesti violentemente",
-          "nextSceneId": 5
-        },
-        {
-          "id": 1759521005002,
-          "text": "Ti alzi di malavoglia",
-          "nextSceneId": 3
-        }
-      ],
+      "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:50:27.418Z",
+      "createdAt": "2025-10-03T20:28:34.129Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -64,29 +43,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:50:27.418Z",
-      "updatedAt": "2025-10-03T19:50:27.418Z"
+      "lastModified": "2025-10-03T20:28:36.957Z",
+      "updatedAt": "2025-10-03T20:28:36.959Z"
     },
     {
-      "id": 3,
-      "title": "In bagno",
-      "description": "Ti sei alzato e lavato. È ora di affrontare la giornata del tuo compleanno!",
+      "id": 94,
+      "title": "Alla fine che te ne fai dei milioni",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521005003,
-          "text": "Vai in cucina per la colazione",
-          "nextSceneId": 6
-        },
-        {
-          "id": 1759521005004,
-          "text": "Controlli il telefono per i messaggi",
-          "nextSceneId": 4
+          "id": 1759523504786,
+          "text": "Avanti",
+          "nextSceneId": 95
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:05:00.000Z",
+      "createdAt": "2025-10-03T20:31:26.586Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -95,29 +69,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:00.000Z",
-      "updatedAt": "2025-10-03T20:05:00.000Z"
+      "lastModified": "2025-10-03T20:31:57.852Z",
+      "updatedAt": "2025-10-03T20:31:58.140Z"
     },
     {
-      "id": 4,
-      "title": "Il telefono",
-      "description": "Hai molte notifiche di compleanno! I tuoi amici si stanno organizzando per la festa.",
+      "id": 95,
+      "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
+      "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759521005009,
-          "text": "Rispondi subito a tutti",
-          "nextSceneId": 7
-        },
-        {
-          "id": 1759521005010,
-          "text": "Vai prima a fare colazione",
-          "nextSceneId": 6
-        }
-      ],
+      "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:20:00.000Z",
+      "createdAt": "2025-10-03T20:31:50.123Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -126,18 +89,224 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:20:00.000Z",
-      "updatedAt": "2025-10-03T20:20:00.000Z"
+      "lastModified": "2025-10-03T20:32:22.631Z",
+      "updatedAt": "2025-10-03T20:32:22.634Z"
     },
     {
-      "id": 5,
-      "title": "La protesta",
-      "description": "Hai protestato troppo. I tuoi genitori si arrabbiano e ti tolgono il telefono per tutta la giornata. Game Over!",
+      "id": 100,
+      "title": "Non puoi non intervenire",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523665024,
+          "text": "Avanti",
+          "nextSceneId": 101
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:34:08.285Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:34:29.297Z",
+      "updatedAt": "2025-10-03T20:34:29.301Z"
+    },
+    {
+      "id": 101,
+      "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523684944,
+          "text": "Avanti",
+          "nextSceneId": 102
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:34:29.297Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:34:47.761Z",
+      "updatedAt": "2025-10-03T20:34:47.765Z"
+    },
+    {
+      "id": 102,
+      "title": "Rimangono sbalorditi, tutto torna normale e tu torni in tempo per la festa",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523702867,
+          "text": "Avanti",
+          "nextSceneId": 103
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:34:47.459Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:35:06.810Z",
+      "updatedAt": "2025-10-03T20:35:06.813Z"
+    },
+    {
+      "id": 103,
+      "title": "Il regalo",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:35:06.507Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:35:16.199Z",
+      "updatedAt": "2025-10-03T20:35:16.202Z"
+    },
+    {
+      "id": 106,
+      "title": "Sei alla festa ma vuoi il regalo",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523859827,
+          "text": "Avanti",
+          "nextSceneId": 107
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:37:06.580Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:37:52.710Z",
+      "updatedAt": "2025-10-03T20:37:52.981Z"
+    },
+    {
+      "id": 107,
+      "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario o se , non riesci, affronta un’altra sfida",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523919943,
+          "text": "VINTA!!",
+          "nextSceneId": 110
+        },
+        {
+          "id": 1759524382158,
+          "text": "PERSA",
+          "nextSceneId": 108
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:37:44.140Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:46:38.643Z",
+      "updatedAt": "2025-10-03T20:46:38.647Z"
+    },
+    {
+      "id": 108,
+      "title": "Sei alla festa ma vuoi il regalo",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523943869,
+          "text": "Avanti",
+          "nextSceneId": 109
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:38:44.807Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:39:06.940Z",
+      "updatedAt": "2025-10-03T20:39:06.943Z"
+    },
+    {
+      "id": 109,
+      "title": "Risolvi questo indovinello",
+      "description": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono? ",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523993706,
+          "text": "Avanti",
+          "nextSceneId": 110
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:39:06.636Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:47:03.767Z"
+    },
+    {
+      "id": 110,
+      "title": "TANTI  AUGURI",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": true,
-      "createdAt": "2025-10-03T20:00:00.000Z",
+      "createdAt": "2025-10-03T20:39:59.651Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -146,170 +315,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:00:00.000Z",
-      "updatedAt": "2025-10-03T20:00:00.000Z"
-    },
-    {
-      "id": 6,
-      "title": "La colazione",
-      "description": "In cucina c è una torta di compleanno per te! I tuoi genitori cantano Tanti auguri.",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521005007,
-          "text": "Sorridi e li ringrazi",
-          "nextSceneId": 8
-        },
-        {
-          "id": 1759521005008,
-          "text": "Sei ancora assonnato e non reagisci molto",
-          "nextSceneId": 9
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:15:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:15:00.000Z",
-      "updatedAt": "2025-10-03T20:15:00.000Z"
-    },
-    {
-      "id": 7,
-      "title": "I messaggi",
-      "description": "Hai passato mezz ora a rispondere. I tuoi genitori ti chiamano per la colazione ma ora sono un po freddi.",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521005015,
-          "text": "Vai a scusarti",
-          "nextSceneId": 10
-        },
-        {
-          "id": 1759521005016,
-          "text": "Fai finta di niente",
-          "nextSceneId": 11
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:35:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:35:00.000Z",
-      "updatedAt": "2025-10-03T20:35:00.000Z"
-    },
-    {
-      "id": 8,
-      "title": "La gioia",
-      "description": "I tuoi genitori sono felici della tua reazione. Ti danno il primo regalo: quello che volevi da tempo!",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521005011,
-          "text": "Lo apri subito entusiasta",
-          "nextSceneId": 12
-        },
-        {
-          "id": 1759521005012,
-          "text": "Lo metti da parte per aprirlo dopo",
-          "nextSceneId": 13
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:25:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:25:00.000Z",
-      "updatedAt": "2025-10-03T20:25:00.000Z"
-    },
-    {
-      "id": 9,
-      "title": "Il muso",
-      "description": "I tuoi genitori notano che non sei molto reattivo. Si preoccupano e ti chiedono cosa c è che non va.",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521005013,
-          "text": "Dici che sei solo stanco",
-          "nextSceneId": 14
-        },
-        {
-          "id": 1759521005014,
-          "text": "Ti scusi e cerchi di essere più allegro",
-          "nextSceneId": 8
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:30:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:30:00.000Z",
-      "updatedAt": "2025-10-03T20:30:00.000Z"
-    },
-    {
-      "id": 10,
-      "title": "Le scuse",
-      "description": "Ti sei scusato con i tuoi genitori. Loro apprezzano e ti perdonano. La colazione procede bene.",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521005017,
-          "text": "Proponi di aiutare a preparare la festa",
-          "nextSceneId": 15
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:40:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:40:00.000Z",
-      "updatedAt": "2025-10-03T20:40:00.000Z"
+      "lastModified": "2025-10-03T20:40:16.248Z",
+      "updatedAt": "2025-10-03T20:40:16.249Z"
     }
   ],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
-    "maxScenes": 999,
+    "maxScenes": 30,
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 10,
-    "lastModified": "2025-10-03T20:40:00.000Z",
-    "recoveredFromCommits": false,
-    "recoveryVersion": "CLEAN_START_NODE"
+    "totalScenes": 13,
+    "lastModified": "2025-10-03T20:47:04.020Z"
   }
 }
