@@ -415,7 +415,7 @@
     },
     {
       "id": 81,
-      "title": "Nuova Scena",
+      "title": "Sei incredibilmente abile e nella tua squadra un ex membro dei T1 ti nota e ti scrive in privato",
       "description": "",
       "image": "",
       "video": "",
@@ -430,8 +430,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:25:19.198Z",
-      "updatedAt": "2025-10-03T20:25:19.471Z"
+      "lastModified": "2025-10-03T20:25:25.736Z",
+      "updatedAt": "2025-10-03T20:25:25.979Z"
     }
   ],
   "settings": {
@@ -442,6 +442,6 @@
   },
   "stats": {
     "totalScenes": 18,
-    "lastModified": "2025-10-03T20:25:19.472Z"
+    "lastModified": "2025-10-03T20:25:25.979Z"
   }
 }
