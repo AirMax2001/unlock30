@@ -19,8 +19,8 @@
       "choices": [
         {
           "id": 1759522580650,
-          "text": "Avanti",
-          "nextSceneId": 60
+          "text": "",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
@@ -33,96 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:16:25.421Z",
-      "updatedAt": "2025-10-03T20:16:25.424Z"
-    },
-    {
-      "id": 60,
-      "title": "Mattarella ha il potere di congelare i pavimenti con lo sguardo serio, Gerry Scotti lancia banane esplosive che cantano canzoni degli anni ’80",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759522603202,
-          "text": "Avanti",
-          "nextSceneId": 61
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:16:25.119Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:16:45.796Z",
-      "updatedAt": "2025-10-03T20:16:45.798Z"
-    },
-    {
-      "id": 61,
-      "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759522619989,
-          "text": "Avanti",
-          "nextSceneId": 62
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:16:45.489Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:17:03.336Z",
-      "updatedAt": "2025-10-03T20:17:03.338Z"
-    },
-    {
-      "id": 62,
-      "title": "Con una super mossa finale il supermercato esplode in coriandoli fluorescenti e tutti ballano la Macarena su pattini a rotelle ma le fiamme dell’esplosione vi inghiottono",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759522644210,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:17:03.029Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:17:26.695Z",
-      "updatedAt": "2025-10-03T20:17:26.699Z"
-    },
-    {
-      "id": 63,
-      "title": "Nuova Scena",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:17:42.987Z"
+      "lastModified": "2025-10-03T20:16:20.952Z",
+      "updatedAt": "2025-10-03T20:16:21.199Z"
     }
   ],
   "settings": {
@@ -132,7 +44,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 6,
-    "lastModified": "2025-10-03T20:17:42.987Z"
+    "totalScenes": 2,
+    "lastModified": "2025-10-03T20:16:21.199Z"
   }
 }
