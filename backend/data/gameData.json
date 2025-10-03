@@ -184,7 +184,7 @@
     },
     {
       "id": 52,
-      "title": "Nuova Scena",
+      "title": "Contrari? ",
       "description": "",
       "image": "",
       "video": "",
@@ -199,8 +199,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:11:37.021Z",
-      "updatedAt": "2025-10-03T20:11:37.023Z"
+      "lastModified": "2025-10-03T20:11:42.692Z",
+      "updatedAt": "2025-10-03T20:11:42.987Z"
     }
   ],
   "settings": {
@@ -211,6 +211,6 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-03T20:11:37.023Z"
+    "lastModified": "2025-10-03T20:11:42.987Z"
   }
 }
