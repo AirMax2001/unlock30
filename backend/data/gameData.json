@@ -274,7 +274,13 @@
       "description": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono? ",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759523993706,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-03T20:39:06.636Z",
       "titleStyle": "",
@@ -285,8 +291,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:39:28.355Z",
-      "updatedAt": "2025-10-03T20:39:28.667Z"
+      "lastModified": "2025-10-03T20:39:54.007Z",
+      "updatedAt": "2025-10-03T20:39:54.263Z"
     }
   ],
   "settings": {
@@ -297,6 +303,6 @@
   },
   "stats": {
     "totalScenes": 12,
-    "lastModified": "2025-10-03T20:39:28.667Z"
+    "lastModified": "2025-10-03T20:39:54.263Z"
   }
 }
