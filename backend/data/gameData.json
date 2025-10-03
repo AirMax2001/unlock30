@@ -178,7 +178,7 @@
     },
     {
       "id": 36,
-      "title": "Nuova Scena",
+      "title": "LG ti chiama direttamente e accetti qualsiasi offerta ti propongano",
       "description": "",
       "image": "",
       "video": "",
@@ -193,8 +193,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:48.909Z",
-      "updatedAt": "2025-10-03T20:05:48.912Z"
+      "lastModified": "2025-10-03T20:05:55.385Z",
+      "updatedAt": "2025-10-03T20:05:55.682Z"
     }
   ],
   "settings": {
@@ -205,6 +205,6 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-03T20:05:48.912Z"
+    "lastModified": "2025-10-03T20:05:55.683Z"
   }
 }
