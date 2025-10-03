@@ -74,7 +74,7 @@
     },
     {
       "id": 6,
-      "title": "Nuova Scena",
+      "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
       "description": "",
       "image": "",
       "video": "",
@@ -89,8 +89,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:52:06.854Z",
-      "updatedAt": "2025-10-03T19:52:07.105Z"
+      "lastModified": "2025-10-03T19:52:13.879Z",
+      "updatedAt": "2025-10-03T19:52:14.163Z"
     }
   ],
   "settings": {
@@ -101,6 +101,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T19:52:07.105Z"
+    "lastModified": "2025-10-03T19:52:14.163Z"
   }
 }
