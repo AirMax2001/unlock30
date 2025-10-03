@@ -106,7 +106,7 @@
     },
     {
       "id": 49,
-      "title": "Nuova Scena",
+      "title": "Gli agenti si fermano per non rovinare la festa: scusa perfetta — ti offrono una fetta di torta e ti chiedono il permesso di sfilare insieme alla carrozza",
       "description": "",
       "image": "",
       "video": "",
@@ -121,8 +121,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:10:26.462Z",
-      "updatedAt": "2025-10-03T20:10:26.464Z"
+      "lastModified": "2025-10-03T20:10:34.139Z",
+      "updatedAt": "2025-10-03T20:10:34.395Z"
     }
   ],
   "settings": {
@@ -133,6 +133,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:10:26.464Z"
+    "lastModified": "2025-10-03T20:10:34.395Z"
   }
 }
