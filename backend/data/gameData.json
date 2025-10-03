@@ -210,7 +210,7 @@
     },
     {
       "id": 53,
-      "title": "Nuova Scena",
+      "title": "Lotta contro Mattarella e Gerry scotti. ",
       "description": "",
       "image": "",
       "video": "",
@@ -225,8 +225,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:11:58.352Z",
-      "updatedAt": "2025-10-03T20:11:58.668Z"
+      "lastModified": "2025-10-03T20:12:05.330Z",
+      "updatedAt": "2025-10-03T20:12:05.594Z"
     }
   ],
   "settings": {
@@ -237,6 +237,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-03T20:11:58.669Z"
+    "lastModified": "2025-10-03T20:12:05.594Z"
   }
 }
