@@ -152,8 +152,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:00:00.000Z",
-      "updatedAt": "2025-10-03T20:00:00.000Z"
+      "lastModified": "2025-10-03T21:58:38.592Z",
+      "updatedAt": "2025-10-03T21:58:38.862Z"
     },
     {
       "id": 6,
@@ -2824,7 +2824,7 @@
   },
   "stats": {
     "totalScenes": 107,
-    "lastModified": "2025-10-03T21:50:20.153Z",
+    "lastModified": "2025-10-03T21:58:38.862Z",
     "recoveredFromCommits": true,
     "recoveryVersion": "ALL_107_SCENES_COMPLETE"
   }
