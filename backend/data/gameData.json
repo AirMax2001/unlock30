@@ -212,7 +212,7 @@
         {
           "id": 1759523029601,
           "text": "Risolvi la fame nel mondo",
-          "nextSceneId": null
+          "nextSceneId": 5
         }
       ],
       "isFinal": false,
@@ -225,8 +225,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:24:13.296Z",
-      "updatedAt": "2025-10-03T20:24:13.536Z"
+      "lastModified": "2025-10-03T20:24:17.073Z",
+      "updatedAt": "2025-10-03T20:24:17.338Z"
     },
     {
       "id": 71,
@@ -393,6 +393,6 @@
   },
   "stats": {
     "totalScenes": 15,
-    "lastModified": "2025-10-03T20:24:13.537Z"
+    "lastModified": "2025-10-03T20:24:17.338Z"
   }
 }
