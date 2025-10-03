@@ -493,7 +493,7 @@
     },
     {
       "id": 84,
-      "title": "Nuova Scena",
+      "title": ". Purtroppo il mondiale si disputa nello stesso momento della festa",
       "description": "",
       "image": "",
       "video": "",
@@ -508,8 +508,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:26:08.950Z",
-      "updatedAt": "2025-10-03T20:26:08.953Z"
+      "lastModified": "2025-10-03T20:26:14.883Z",
+      "updatedAt": "2025-10-03T20:26:15.178Z"
     }
   ],
   "settings": {
@@ -520,6 +520,6 @@
   },
   "stats": {
     "totalScenes": 21,
-    "lastModified": "2025-10-03T20:26:08.953Z"
+    "lastModified": "2025-10-03T20:26:15.178Z"
   }
 }
