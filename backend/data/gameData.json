@@ -48,7 +48,7 @@
     },
     {
       "id": 97,
-      "title": "Nuova Scena",
+      "title": ". Il cielo si fa grigio",
       "description": "",
       "image": "",
       "video": "",
@@ -63,8 +63,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:33:12.753Z",
-      "updatedAt": "2025-10-03T20:33:12.756Z"
+      "lastModified": "2025-10-03T20:33:18.938Z",
+      "updatedAt": "2025-10-03T20:33:19.208Z"
     }
   ],
   "settings": {
@@ -75,6 +75,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T20:33:12.756Z"
+    "lastModified": "2025-10-03T20:33:19.208Z"
   }
 }
