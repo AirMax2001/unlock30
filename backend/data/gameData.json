@@ -318,7 +318,7 @@
     },
     {
       "id": 43,
-      "title": "Nuova Scena",
+      "title": "Vinci e ti regalano una corona e decidi che la indosserai per tutta la serata della tua festa",
       "description": "",
       "image": "",
       "video": "",
@@ -333,8 +333,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:08:18.342Z",
-      "updatedAt": "2025-10-03T20:08:18.343Z"
+      "lastModified": "2025-10-03T20:08:24.245Z",
+      "updatedAt": "2025-10-03T20:08:24.513Z"
     }
   ],
   "settings": {
@@ -345,6 +345,6 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-03T20:08:18.343Z"
+    "lastModified": "2025-10-03T20:08:24.513Z"
   }
 }
