@@ -158,7 +158,17 @@
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:05:33.406Z"
+      "createdAt": "2025-10-03T20:05:33.406Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:05:35.718Z",
+      "updatedAt": "2025-10-03T20:05:35.721Z"
     }
   ],
   "settings": {
@@ -169,6 +179,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-03T20:05:33.713Z"
+    "lastModified": "2025-10-03T20:05:35.721Z"
   }
 }
