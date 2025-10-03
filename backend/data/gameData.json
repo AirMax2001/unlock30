@@ -54,7 +54,7 @@
     },
     {
       "id": 47,
-      "title": ". Finisci in una sfilata di compleanno di un asilo che blocca la strada",
+      "title": "Finisci in una sfilata di compleanno di un asilo che blocca la strada",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:09:52.929Z",
-      "updatedAt": "2025-10-03T20:09:53.298Z"
+      "lastModified": "2025-10-03T20:09:55.026Z",
+      "updatedAt": "2025-10-03T20:09:55.028Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T20:09:53.298Z"
+    "lastModified": "2025-10-03T20:09:55.028Z"
   }
 }
