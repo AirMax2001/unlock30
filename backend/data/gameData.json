@@ -162,7 +162,7 @@
     },
     {
       "id": 30,
-      "title": "Nuova Scena",
+      "title": ". La polizia ti fa svoltare a sinistra e torni su via vestina",
       "description": "",
       "image": "",
       "video": "",
@@ -177,8 +177,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:03:57.192Z",
-      "updatedAt": "2025-10-03T20:03:57.194Z"
+      "lastModified": "2025-10-03T20:04:03.695Z",
+      "updatedAt": "2025-10-03T20:04:04.017Z"
     }
   ],
   "settings": {
@@ -189,6 +189,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-03T20:03:57.194Z"
+    "lastModified": "2025-10-03T20:04:04.017Z"
   }
 }
