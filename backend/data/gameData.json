@@ -351,18 +351,18 @@
       "choices": [
         {
           "id": 1759522125598,
-          "text": "",
-          "nextSceneId": null
+          "text": "Parti come in un videoclip",
+          "nextSceneId": 45
         },
         {
           "id": 1759522128863,
-          "text": "",
-          "nextSceneId": null
+          "text": "Evocazione degli spiriti",
+          "nextSceneId": 50
         },
         {
           "id": 1759522131772,
-          "text": "",
-          "nextSceneId": null
+          "text": "Lancio dal ponte",
+          "nextSceneId": 54
         }
       ],
       "isFinal": false,
@@ -375,8 +375,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:08:52.083Z",
-      "updatedAt": "2025-10-03T20:08:52.085Z"
+      "lastModified": "2025-10-03T20:12:55.139Z",
+      "updatedAt": "2025-10-03T20:12:55.142Z"
+    },
+    {
+      "id": 54,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:12:54.837Z"
     }
   ],
   "settings": {
@@ -386,7 +396,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 14,
-    "lastModified": "2025-10-03T20:08:52.085Z"
+    "totalScenes": 15,
+    "lastModified": "2025-10-03T20:12:55.142Z"
   }
 }
