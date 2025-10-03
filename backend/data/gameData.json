@@ -14,12 +14,12 @@
         },
         {
           "id": 2,
-          "text": "Esplora i dintorni",
-          "nextSceneId": 3
+          "text": "Avanti",
+          "nextSceneId": 4
         }
       ],
       "isFinal": false,
-      "updatedAt": "2025-10-02T16:37:25.275Z",
+      "updatedAt": "2025-10-03T16:15:32.169Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -28,7 +28,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T15:55:11.278Z"
+      "lastModified": "2025-10-03T16:15:32.166Z"
     },
     {
       "id": 2,
@@ -77,6 +77,16 @@
         "typewriter": false
       },
       "lastModified": "2025-10-03T15:55:28.562Z"
+    },
+    {
+      "id": 4,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T16:15:31.857Z"
     }
   ],
   "settings": {
@@ -86,7 +96,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 3,
-    "lastModified": "2025-10-03T15:55:28.562Z"
+    "totalScenes": 4,
+    "lastModified": "2025-10-03T16:15:32.169Z"
   }
 }

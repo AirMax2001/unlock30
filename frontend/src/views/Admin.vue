@@ -351,6 +351,33 @@
                       placeholder="Inserisci il testo della scelta..."
                       class="choice-text-input-enhanced"
                     >
+                    <!-- Pulsanti rapidi sotto la textbox -->
+                    <div class="quick-choice-buttons">
+                      <button 
+                        @click="setQuickChoiceText(choice, 'Avanti')"
+                        class="quick-btn quick-btn-avanti"
+                        title="Inserisci 'Avanti'"
+                        type="button"
+                      >
+                        <i class="fas fa-arrow-right"></i> Avanti
+                      </button>
+                      <button 
+                        @click="setQuickChoiceText(choice, 'Continua')"
+                        class="quick-btn quick-btn-continua"
+                        title="Inserisci 'Continua'"
+                        type="button"
+                      >
+                        <i class="fas fa-play"></i> Continua
+                      </button>
+                      <button 
+                        @click="setQuickChoiceText(choice, 'Procedi')"
+                        class="quick-btn quick-btn-procedi"
+                        title="Inserisci 'Procedi'"
+                        type="button"
+                      >
+                        <i class="fas fa-step-forward"></i> Procedi
+                      </button>
+                    </div>
                   </div>
                   <div class="choice-controls">
                     <div class="scene-selector">
@@ -677,6 +704,13 @@ export default {
     removeChoice(index) {
       this.selectedScene.choices.splice(index, 1)
       // Auto-save dopo rimozione scelta
+      this.debouncedAutoSave()
+    },
+
+    // PULSANTI RAPIDI PER SCELTE
+    setQuickChoiceText(choice, text) {
+      choice.text = text
+      // Auto-save immediato quando si usa un pulsante rapido
       this.debouncedAutoSave()
     },
 
@@ -1373,6 +1407,76 @@ export default {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+/* PULSANTI RAPIDI PER SCELTE */
+.quick-choice-buttons {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.quick-btn {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.quick-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.quick-btn-avanti {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+}
+
+.quick-btn-avanti:hover {
+  background: linear-gradient(45deg, #219a52, #27ae60);
+}
+
+.quick-btn-continua {
+  background: linear-gradient(45deg, #f39c12, #e67e22);
+}
+
+.quick-btn-continua:hover {
+  background: linear-gradient(45deg, #d68910, #f39c12);
+}
+
+.quick-btn-procedi {
+  background: linear-gradient(45deg, #9b59b6, #8e44ad);
+}
+
+.quick-btn-procedi:hover {
+  background: linear-gradient(45deg, #8e44ad, #732d91);
+}
+
+.quick-btn i {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .quick-choice-buttons {
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .quick-btn {
+    font-size: 0.7rem;
+    padding: 3px 6px;
   }
 }
 </style>
