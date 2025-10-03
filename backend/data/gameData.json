@@ -230,7 +230,7 @@
         },
         {
           "id": 1759524382158,
-          "text": "Persa",
+          "text": "PER",
           "nextSceneId": null
         }
       ],
@@ -244,8 +244,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:46:32.300Z",
-      "updatedAt": "2025-10-03T20:46:32.631Z"
+      "lastModified": "2025-10-03T20:46:35.185Z",
+      "updatedAt": "2025-10-03T20:46:35.189Z"
     },
     {
       "id": 108,
@@ -328,6 +328,6 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-03T20:46:32.631Z"
+    "lastModified": "2025-10-03T20:46:35.189Z"
   }
 }
