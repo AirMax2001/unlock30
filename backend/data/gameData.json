@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "title": "YOU D",
+      "title": "YOU DE",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:51:20.794Z",
-      "updatedAt": "2025-10-03T19:51:20.794Z"
+      "lastModified": "2025-10-03T19:51:23.719Z",
+      "updatedAt": "2025-10-03T19:51:23.989Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T19:51:20.794Z"
+    "lastModified": "2025-10-03T19:51:23.989Z"
   }
 }
