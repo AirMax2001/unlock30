@@ -108,12 +108,12 @@
         {
           "id": 1759521710306,
           "text": "Vai in palestra",
-          "nextSceneId": null
+          "nextSceneId": 28
         },
         {
           "id": 1759521712846,
           "text": "Fai shopping on-line compulsivo",
-          "nextSceneId": null
+          "nextSceneId": 33
         },
         {
           "id": 1759521713995,
@@ -131,8 +131,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:03:15.286Z",
-      "updatedAt": "2025-10-03T20:03:15.531Z"
+      "lastModified": "2025-10-03T20:07:06.866Z",
+      "updatedAt": "2025-10-03T20:07:07.112Z"
     },
     {
       "id": 29,
@@ -247,6 +247,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-03T20:07:00.086Z"
+    "lastModified": "2025-10-03T20:07:07.112Z"
   }
 }
