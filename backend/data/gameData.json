@@ -1,14 +1,40 @@
 {
   "scenes": [
     {
-      "id": 93,
+      "id": 88,
+      "title": "Niente riesce a svegliarti",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523310797,
+          "text": "Avanti",
+          "nextSceneId": 89
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:28:16.924Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:28:34.430Z",
+      "updatedAt": "2025-10-03T20:28:34.433Z"
+    },
+    {
+      "id": 89,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:30:56.680Z",
+      "createdAt": "2025-10-03T20:28:34.129Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -17,24 +43,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:31:01.704Z",
-      "updatedAt": "2025-10-03T20:31:01.707Z"
+      "lastModified": "2025-10-03T20:28:36.957Z",
+      "updatedAt": "2025-10-03T20:28:36.959Z"
     },
     {
-      "id": 96,
-      "title": "L’aria freme",
+      "id": 94,
+      "title": "Alla fine che te ne fai dei milioni",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759523585144,
+          "id": 1759523504786,
           "text": "Avanti",
-          "nextSceneId": 97
+          "nextSceneId": 95
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:32:50.380Z",
+      "createdAt": "2025-10-03T20:31:26.586Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -43,70 +69,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:33:10.183Z",
-      "updatedAt": "2025-10-03T20:33:10.186Z"
+      "lastModified": "2025-10-03T20:31:57.852Z",
+      "updatedAt": "2025-10-03T20:31:58.140Z"
     },
     {
-      "id": 97,
-      "title": "Il cielo si fa grigio",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523604040,
-          "text": "Avanti",
-          "nextSceneId": 98
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:33:09.879Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:33:26.899Z",
-      "updatedAt": "2025-10-03T20:33:26.902Z"
-    },
-    {
-      "id": 98,
-      "title": "Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523624821,
-          "text": "Avanti",
-          "nextSceneId": 99
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:33:26.594Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:33:47.871Z",
-      "updatedAt": "2025-10-03T20:33:47.875Z"
-    },
-    {
-      "id": 99,
-      "title": "Nuova Scena",
+      "id": 95,
+      "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:33:47.571Z",
+      "createdAt": "2025-10-03T20:31:50.123Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -115,24 +89,122 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:33:50.552Z",
-      "updatedAt": "2025-10-03T20:33:50.555Z"
+      "lastModified": "2025-10-03T20:32:22.631Z",
+      "updatedAt": "2025-10-03T20:32:22.634Z"
     },
     {
-      "id": 104,
+      "id": 100,
+      "title": "Non puoi non intervenire",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523665024,
+          "text": "Avanti",
+          "nextSceneId": 101
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:34:08.285Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:34:29.297Z",
+      "updatedAt": "2025-10-03T20:34:29.301Z"
+    },
+    {
+      "id": 101,
+      "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523684944,
+          "text": "Avanti",
+          "nextSceneId": 102
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:34:29.297Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:34:47.761Z",
+      "updatedAt": "2025-10-03T20:34:47.765Z"
+    },
+    {
+      "id": 102,
+      "title": "Rimangono sbalorditi, tutto torna normale e tu torni in tempo per la festa",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523702867,
+          "text": "Avanti",
+          "nextSceneId": 103
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:34:47.459Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:35:06.810Z",
+      "updatedAt": "2025-10-03T20:35:06.813Z"
+    },
+    {
+      "id": 103,
+      "title": "Il regalo",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:35:06.507Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:35:16.199Z",
+      "updatedAt": "2025-10-03T20:35:16.202Z"
+    },
+    {
+      "id": 106,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759523790977,
+          "id": 1759523859827,
           "text": "Avanti",
-          "nextSceneId": 105
+          "nextSceneId": 107
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:36:07.977Z",
+      "createdAt": "2025-10-03T20:37:06.580Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -141,29 +213,29 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:36:34.302Z",
-      "updatedAt": "2025-10-03T20:36:34.306Z"
+      "lastModified": "2025-10-03T20:37:52.710Z",
+      "updatedAt": "2025-10-03T20:37:52.981Z"
     },
     {
-      "id": 105,
-      "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
+      "id": 107,
+      "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario o se , non riesci, affronta un’altra sfida",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759523813041,
+          "id": 1759523919943,
           "text": "VINTA!!",
           "nextSceneId": 110
         },
         {
-          "id": 1759524272262,
+          "id": 1759524382158,
           "text": "PERSA",
-          "nextSceneId": 106
+          "nextSceneId": 108
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:36:33.992Z",
+      "createdAt": "2025-10-03T20:37:44.140Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -172,8 +244,79 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:45:55.722Z",
-      "updatedAt": "2025-10-03T20:45:55.985Z"
+      "lastModified": "2025-10-03T20:46:38.643Z",
+      "updatedAt": "2025-10-03T20:46:38.647Z"
+    },
+    {
+      "id": 108,
+      "title": "Sei alla festa ma vuoi il regalo",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523943869,
+          "text": "Avanti",
+          "nextSceneId": 109
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:38:44.807Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:39:06.940Z",
+      "updatedAt": "2025-10-03T20:39:06.943Z"
+    },
+    {
+      "id": 109,
+      "title": "Risolvi questo indovinello",
+      "description": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono? ",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523993706,
+          "text": "Avanti",
+          "nextSceneId": 110
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:39:06.636Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:47:03.767Z"
+    },
+    {
+      "id": 110,
+      "title": "TANTI  AUGURI",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": true,
+      "createdAt": "2025-10-03T20:39:59.651Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:40:16.248Z",
+      "updatedAt": "2025-10-03T20:40:16.249Z"
     }
   ],
   "settings": {
@@ -183,7 +326,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 7,
-    "lastModified": "2025-10-03T20:50:09.070Z"
+    "totalScenes": 13,
+    "lastModified": "2025-10-03T20:47:04.020Z"
   }
 }
