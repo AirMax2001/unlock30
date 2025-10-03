@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 18,
-      "title": "Nuova Scena",
+      "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:57:50.925Z",
-      "updatedAt": "2025-10-03T19:57:51.187Z"
+      "lastModified": "2025-10-03T19:57:58.701Z",
+      "updatedAt": "2025-10-03T19:57:58.966Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:57:51.187Z"
+    "lastModified": "2025-10-03T19:57:58.966Z"
   }
 }
