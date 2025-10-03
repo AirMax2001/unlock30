@@ -198,23 +198,7 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759523023148,
-          "text": "Inizi una partita di league of legends",
-          "nextSceneId": 80
-        },
-        {
-          "id": 1759523026565,
-          "text": "Dormi",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759523029601,
-          "text": "Risolvi la fame nel mondo",
-          "nextSceneId": 79
-        }
-      ],
+      "choices": [],
       "isFinal": false,
       "createdAt": "2025-10-03T20:20:14.329Z",
       "titleStyle": "",
@@ -225,8 +209,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:24:57.043Z",
-      "updatedAt": "2025-10-03T20:24:57.047Z"
+      "lastModified": "2025-10-03T20:23:03.393Z"
     },
     {
       "id": 71,
@@ -368,7 +351,7 @@
         {
           "id": 1759522934317,
           "text": "Avanti",
-          "nextSceneId": null
+          "nextSceneId": 77
         }
       ],
       "isFinal": false,
@@ -381,18 +364,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:22:15.757Z",
-      "updatedAt": "2025-10-03T20:22:15.760Z"
+      "lastModified": "2025-10-03T20:22:16.633Z",
+      "updatedAt": "2025-10-03T20:22:16.636Z"
     },
     {
-      "id": 79,
-      "title": "YOU DEFEAT",
-      "description": "( dai sì realistico )!",
+      "id": 77,
+      "title": "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
+      "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759522953444,
+          "text": "Avanti",
+          "nextSceneId": 78
+        }
+      ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:24:24.581Z",
+      "createdAt": "2025-10-03T20:22:16.319Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -401,18 +390,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:24:46.922Z",
-      "updatedAt": "2025-10-03T20:24:46.925Z"
+      "lastModified": "2025-10-03T20:22:36.078Z",
+      "updatedAt": "2025-10-03T20:22:36.080Z"
     },
     {
-      "id": 80,
-      "title": "Nuova Scena",
+      "id": 78,
+      "title": "Vinci ma non torni per tua scelta",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:24:56.738Z",
+      "createdAt": "2025-10-03T20:22:35.764Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -421,8 +410,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:25:00.592Z",
-      "updatedAt": "2025-10-03T20:25:00.842Z"
+      "lastModified": "2025-10-03T20:22:43.492Z",
+      "updatedAt": "2025-10-03T20:22:43.759Z"
     }
   ],
   "settings": {
@@ -433,6 +422,6 @@
   },
   "stats": {
     "totalScenes": 17,
-    "lastModified": "2025-10-03T20:25:00.842Z"
+    "lastModified": "2025-10-03T20:23:03.640Z"
   }
 }
