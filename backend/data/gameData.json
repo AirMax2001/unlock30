@@ -90,7 +90,7 @@
     },
     {
       "id": 66,
-      "title": "Nuova Scena",
+      "title": ". Come arma principale, lancia polpette volanti contro i due",
       "description": "",
       "image": "",
       "video": "",
@@ -105,8 +105,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:18:46.930Z",
-      "updatedAt": "2025-10-03T20:18:46.931Z"
+      "lastModified": "2025-10-03T20:18:53.307Z",
+      "updatedAt": "2025-10-03T20:18:53.553Z"
     }
   ],
   "settings": {
@@ -117,6 +117,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:18:46.932Z"
+    "lastModified": "2025-10-03T20:18:53.553Z"
   }
 }
