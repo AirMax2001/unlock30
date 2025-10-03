@@ -64,7 +64,7 @@
     },
     {
       "id": 65,
-      "title": "Nuova Scena",
+      "title": "Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per “disattivare” i boss",
       "description": "",
       "image": "",
       "video": "",
@@ -79,8 +79,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:18:29.739Z",
-      "updatedAt": "2025-10-03T20:18:29.742Z"
+      "lastModified": "2025-10-03T20:18:37.000Z",
+      "updatedAt": "2025-10-03T20:18:37.264Z"
     }
   ],
   "settings": {
@@ -91,6 +91,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T20:18:29.742Z"
+    "lastModified": "2025-10-03T20:18:37.264Z"
   }
 }
