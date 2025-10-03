@@ -559,7 +559,7 @@
         },
         {
           "id": 1759523356916,
-          "text": "",
+          "text": "Inizia una guerra territoriale con Silvi",
           "nextSceneId": null
         }
       ],
@@ -573,8 +573,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:29:35.802Z",
-      "updatedAt": "2025-10-03T20:29:36.067Z"
+      "lastModified": "2025-10-03T20:29:43.349Z",
+      "updatedAt": "2025-10-03T20:29:43.597Z"
     }
   ],
   "settings": {
@@ -585,6 +585,6 @@
   },
   "stats": {
     "totalScenes": 22,
-    "lastModified": "2025-10-03T20:29:36.067Z"
+    "lastModified": "2025-10-03T20:29:43.597Z"
   }
 }
