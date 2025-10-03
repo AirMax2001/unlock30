@@ -380,7 +380,7 @@
     },
     {
       "id": 54,
-      "title": "Nuova Scena",
+      "title": "Sgommi per le strade di Montesilvano con il filobus che ti insegue ingaggiato dalla polizia",
       "description": "",
       "image": "",
       "video": "",
@@ -395,8 +395,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:12:58.900Z",
-      "updatedAt": "2025-10-03T20:12:59.252Z"
+      "lastModified": "2025-10-03T20:13:07.883Z",
+      "updatedAt": "2025-10-03T20:13:08.131Z"
     }
   ],
   "settings": {
@@ -407,6 +407,6 @@
   },
   "stats": {
     "totalScenes": 15,
-    "lastModified": "2025-10-03T20:12:59.252Z"
+    "lastModified": "2025-10-03T20:13:08.132Z"
   }
 }
