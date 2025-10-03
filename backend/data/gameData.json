@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "title": "Nuova Scena",
+      "title": "Ti alzi incazzato",
       "description": "",
       "image": "",
       "video": "",
@@ -43,8 +43,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:51:04.215Z",
-      "updatedAt": "2025-10-03T19:51:04.216Z"
+      "lastModified": "2025-10-03T19:51:08.518Z",
+      "updatedAt": "2025-10-03T19:51:08.759Z"
     }
   ],
   "settings": {
@@ -55,6 +55,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T19:51:04.216Z"
+    "lastModified": "2025-10-03T19:51:08.759Z"
   }
 }
