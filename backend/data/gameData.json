@@ -318,7 +318,7 @@
     },
     {
       "id": 75,
-      "title": "Nuova Scena",
+      "title": "Mattarella è poco al di sotto che grida “3,2,1” continuamente",
       "description": "",
       "image": "",
       "video": "",
@@ -333,8 +333,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:21:49.255Z",
-      "updatedAt": "2025-10-03T20:21:49.257Z"
+      "lastModified": "2025-10-03T20:21:55.551Z",
+      "updatedAt": "2025-10-03T20:21:55.823Z"
     }
   ],
   "settings": {
@@ -345,6 +345,6 @@
   },
   "stats": {
     "totalScenes": 14,
-    "lastModified": "2025-10-03T20:21:49.257Z"
+    "lastModified": "2025-10-03T20:21:55.823Z"
   }
 }
