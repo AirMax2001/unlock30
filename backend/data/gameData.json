@@ -12,7 +12,7 @@
     },
     {
       "id": 59,
-      "title": ": Ti ritrovi in un supermercato gigante ma noti che tutto quello che ti circonda è vivo:   le bottiglie di ketchup ti inseguono, i carrelli fanno parkour da soli",
+      "title": "Ti ritrovi in un supermercato gigante ma noti che tutto quello che ti circonda è vivo:   le bottiglie di ketchup ti inseguono, i carrelli fanno parkour da soli",
       "description": "",
       "image": "",
       "video": "",
@@ -27,8 +27,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:16:15.760Z",
-      "updatedAt": "2025-10-03T20:16:16.039Z"
+      "lastModified": "2025-10-03T20:16:17.874Z",
+      "updatedAt": "2025-10-03T20:16:17.875Z"
     }
   ],
   "settings": {
@@ -39,6 +39,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T20:16:16.039Z"
+    "lastModified": "2025-10-03T20:16:17.875Z"
   }
 }
