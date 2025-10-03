@@ -10,7 +10,7 @@
         {
           "id": 1759521343735,
           "text": "Rimani a casa",
-          "nextSceneId": null
+          "nextSceneId": 12
         },
         {
           "id": 1759521346417,
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:55:57.839Z",
-      "updatedAt": "2025-10-03T19:55:58.087Z"
+      "lastModified": "2025-10-03T19:56:00.182Z",
+      "updatedAt": "2025-10-03T19:56:00.183Z"
     },
     {
       "id": 9,
@@ -55,6 +55,16 @@
       },
       "lastModified": "2025-10-03T19:53:58.075Z",
       "updatedAt": "2025-10-03T19:53:58.322Z"
+    },
+    {
+      "id": 12,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T19:55:59.878Z"
     }
   ],
   "settings": {
@@ -64,7 +74,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 2,
-    "lastModified": "2025-10-03T19:55:58.087Z"
+    "totalScenes": 3,
+    "lastModified": "2025-10-03T19:56:00.183Z"
   }
 }
