@@ -90,7 +90,7 @@
     },
     {
       "id": 66,
-      "title": ". Come arma principale, lancia polpette volanti contro i due",
+      "title": "Come arma principale, lancia polpette volanti contro i due",
       "description": "",
       "image": "",
       "video": "",
@@ -111,8 +111,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:19:05.501Z",
-      "updatedAt": "2025-10-03T20:19:05.504Z"
+      "lastModified": "2025-10-03T20:19:09.762Z",
+      "updatedAt": "2025-10-03T20:19:10.009Z"
     },
     {
       "id": 67,
@@ -133,6 +133,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T20:19:05.505Z"
+    "lastModified": "2025-10-03T20:19:10.009Z"
   }
 }
