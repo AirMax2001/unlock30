@@ -74,7 +74,7 @@
     },
     {
       "id": 95,
-      "title": ". I tuoi cari apprendono la notizia e ti riempiono di botte",
+      "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
       "description": "",
       "image": "",
       "video": "",
@@ -89,8 +89,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:32:20.375Z",
-      "updatedAt": "2025-10-03T20:32:20.377Z"
+      "lastModified": "2025-10-03T20:32:22.631Z",
+      "updatedAt": "2025-10-03T20:32:22.634Z"
     }
   ],
   "settings": {
@@ -101,6 +101,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T20:32:20.377Z"
+    "lastModified": "2025-10-03T20:32:22.634Z"
   }
 }
