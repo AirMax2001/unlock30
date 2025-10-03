@@ -423,7 +423,7 @@
         {
           "id": 1759523129820,
           "text": "Avanti",
-          "nextSceneId": null
+          "nextSceneId": 82
         }
       ],
       "isFinal": false,
@@ -436,8 +436,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:25:30.128Z",
-      "updatedAt": "2025-10-03T20:25:30.377Z"
+      "lastModified": "2025-10-03T20:25:32.823Z",
+      "updatedAt": "2025-10-03T20:25:32.825Z"
+    },
+    {
+      "id": 82,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:25:32.519Z"
     }
   ],
   "settings": {
@@ -447,7 +457,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 18,
-    "lastModified": "2025-10-03T20:25:30.377Z"
+    "totalScenes": 19,
+    "lastModified": "2025-10-03T20:25:32.826Z"
   }
 }
