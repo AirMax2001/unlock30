@@ -58,7 +58,7 @@
     },
     {
       "id": 12,
-      "title": "Nuova Scena",
+      "title": "Cornetto e cappuccino",
       "description": "",
       "image": "",
       "video": "",
@@ -73,8 +73,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:56:02.476Z",
-      "updatedAt": "2025-10-03T19:56:02.478Z"
+      "lastModified": "2025-10-03T19:56:07.782Z",
+      "updatedAt": "2025-10-03T19:56:08.031Z"
     }
   ],
   "settings": {
@@ -85,6 +85,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T19:56:02.478Z"
+    "lastModified": "2025-10-03T19:56:08.031Z"
   }
 }
