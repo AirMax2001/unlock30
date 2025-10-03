@@ -6,7 +6,13 @@
       "description": "È il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759521001133,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-03T19:48:30.721Z",
       "titleStyle": "",
@@ -17,8 +23,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:49:55.014Z",
-      "updatedAt": "2025-10-03T19:49:55.264Z"
+      "lastModified": "2025-10-03T19:50:01.440Z",
+      "updatedAt": "2025-10-03T19:50:01.691Z"
     }
   ],
   "settings": {
@@ -29,6 +35,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:49:55.264Z"
+    "lastModified": "2025-10-03T19:50:01.691Z"
   }
 }
