@@ -74,7 +74,7 @@
     },
     {
       "id": 26,
-      "title": "Non capisci perché te lo stai chiedendo ma non è importante",
+      "title": ". Ora va iniziata la mattinata!",
       "description": "",
       "image": "",
       "video": "",
@@ -89,8 +89,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:00:25.716Z",
-      "updatedAt": "2025-10-03T20:00:25.971Z"
+      "lastModified": "2025-10-03T20:00:34.692Z",
+      "updatedAt": "2025-10-03T20:00:34.970Z"
     }
   ],
   "settings": {
@@ -101,6 +101,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T20:00:25.971Z"
+    "lastModified": "2025-10-03T20:00:34.970Z"
   }
 }
