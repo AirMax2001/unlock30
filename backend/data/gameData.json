@@ -608,7 +608,13 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759523423931,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-03T20:30:06.686Z",
       "titleStyle": "",
@@ -619,8 +625,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:30:18.048Z",
-      "updatedAt": "2025-10-03T20:30:18.296Z"
+      "lastModified": "2025-10-03T20:30:24.233Z",
+      "updatedAt": "2025-10-03T20:30:24.485Z"
     }
   ],
   "settings": {
@@ -631,6 +637,6 @@
   },
   "stats": {
     "totalScenes": 24,
-    "lastModified": "2025-10-03T20:30:18.296Z"
+    "lastModified": "2025-10-03T20:30:24.485Z"
   }
 }
