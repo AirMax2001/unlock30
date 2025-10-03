@@ -406,7 +406,7 @@
     },
     {
       "id": 55,
-      "title": ". Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
+      "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
       "description": "",
       "image": "",
       "video": "",
@@ -421,8 +421,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:13:25.877Z",
-      "updatedAt": "2025-10-03T20:13:26.149Z"
+      "lastModified": "2025-10-03T20:13:28.215Z",
+      "updatedAt": "2025-10-03T20:13:28.216Z"
     }
   ],
   "settings": {
@@ -433,6 +433,6 @@
   },
   "stats": {
     "totalScenes": 16,
-    "lastModified": "2025-10-03T20:13:26.149Z"
+    "lastModified": "2025-10-03T20:13:28.216Z"
   }
 }
