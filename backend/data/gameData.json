@@ -194,7 +194,7 @@
     },
     {
       "id": 70,
-      "title": "Nuova Scena",
+      "title": ": Preparazione alla festa",
       "description": "",
       "image": "",
       "video": "",
@@ -209,8 +209,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:20:16.734Z",
-      "updatedAt": "2025-10-03T20:20:16.737Z"
+      "lastModified": "2025-10-03T20:20:20.869Z",
+      "updatedAt": "2025-10-03T20:20:21.155Z"
     }
   ],
   "settings": {
@@ -221,6 +221,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-03T20:20:16.737Z"
+    "lastModified": "2025-10-03T20:20:21.155Z"
   }
 }
