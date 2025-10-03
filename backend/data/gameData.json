@@ -251,7 +251,7 @@
       "choices": [
         {
           "id": 1759523943869,
-          "text": "",
+          "text": "Avanti",
           "nextSceneId": null
         }
       ],
@@ -265,8 +265,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:39:04.169Z",
-      "updatedAt": "2025-10-03T20:39:04.451Z"
+      "lastModified": "2025-10-03T20:39:05.644Z",
+      "updatedAt": "2025-10-03T20:39:05.647Z"
     }
   ],
   "settings": {
@@ -277,6 +277,6 @@
   },
   "stats": {
     "totalScenes": 11,
-    "lastModified": "2025-10-03T20:39:04.451Z"
+    "lastModified": "2025-10-03T20:39:05.647Z"
   }
 }
