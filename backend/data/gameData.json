@@ -11,6 +11,11 @@
           "id": 1759521343735,
           "text": "Rimani a casa",
           "nextSceneId": null
+        },
+        {
+          "id": 1759521346417,
+          "text": "",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
@@ -23,8 +28,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:55:44.952Z",
-      "updatedAt": "2025-10-03T19:55:44.953Z"
+      "lastModified": "2025-10-03T19:55:46.723Z",
+      "updatedAt": "2025-10-03T19:55:46.725Z"
     },
     {
       "id": 9,
@@ -55,6 +60,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T19:55:44.953Z"
+    "lastModified": "2025-10-03T19:55:46.725Z"
   }
 }
