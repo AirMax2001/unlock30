@@ -218,7 +218,7 @@
     },
     {
       "id": 107,
-      "title": "Nuova Scena",
+      "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida",
       "description": "",
       "image": "",
       "video": "",
@@ -233,8 +233,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:38:14.796Z",
-      "updatedAt": "2025-10-03T20:38:15.080Z"
+      "lastModified": "2025-10-03T20:38:16.186Z",
+      "updatedAt": "2025-10-03T20:38:16.189Z"
     }
   ],
   "settings": {
@@ -245,6 +245,6 @@
   },
   "stats": {
     "totalScenes": 10,
-    "lastModified": "2025-10-03T20:38:15.080Z"
+    "lastModified": "2025-10-03T20:38:16.189Z"
   }
 }
