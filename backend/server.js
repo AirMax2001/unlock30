@@ -58,33 +58,113 @@ const backupToGit = (message = 'Auto-backup dati gioco') => {
       return;
     }
     
-    const repoUrl = `https://${githubToken}@github.com/${githubOwner}/${githubRepo}.git`;
-    
-    const commands = [
-      'git config user.name "Render Auto-Backup"',
-      'git config user.email "backup@render.com"',
-      'git add backend/data/ backend/uploads/',
-      `git commit -m "${message} - ${new Date().toISOString()}" || echo "Nothing to commit"`,
-      `git remote set-url origin ${repoUrl}`,
-      'git push origin main'
-    ];
-    
-    commands.forEach((cmd, index) => {
-      setTimeout(() => {
-        exec(cmd, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
-          if (error) {
-            console.log(`[BACKUP] ❌ Comando ${index + 1}/${commands.length}: ${error.message}`);
-            if (stderr) console.log(`[BACKUP] stderr: ${stderr}`);
-          } else {
-            console.log(`[BACKUP] ✅ Comando ${index + 1}/${commands.length}: OK`);
-            if (stdout) console.log(`[BACKUP] stdout: ${stdout}`);
-          }
-        });
-      }, index * 3000); // Aspetta 3 secondi tra ogni comando
-    });
+    // Prima prova con API GitHub (più affidabile)
+    backupViaGitHubAPI(githubToken, githubOwner, githubRepo, message)
+      .catch(error => {
+        console.log('[BACKUP] ❌ API GitHub fallita, provo con Git locale:', error.message);
+        // Fallback a Git locale
+        backupViaGitLocal(githubToken, githubOwner, githubRepo, message);
+      });
   } else {
     console.log('[BACKUP] Modalità sviluppo - backup Git disabilitato');
   }
+};
+
+// Backup tramite API GitHub
+const backupViaGitHubAPI = async (token, owner, repo, message) => {
+  console.log('[BACKUP-API] Usando API GitHub...');
+  
+  try {
+    // Leggi il file gameData.json
+    const gameDataContent = fs.readFileSync(gameDataPath, 'utf8');
+    const base64Content = Buffer.from(gameDataContent).toString('base64');
+    
+    // API GitHub per aggiornare il file
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/backend/data/gameData.json`;
+    
+    // Prima ottieni l'SHA del file esistente
+    const getResponse = await fetch(url, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Render-Backup-Bot'
+      }
+    });
+    
+    let sha = null;
+    if (getResponse.ok) {
+      const fileData = await getResponse.json();
+      sha = fileData.sha;
+      console.log('[BACKUP-API] File esistente trovato, SHA:', sha);
+    } else {
+      console.log('[BACKUP-API] File non trovato, verrà creato nuovo');
+    }
+    
+    // Aggiorna il file
+    const updateData = {
+      message: `${message} - ${new Date().toISOString()}`,
+      content: base64Content,
+      branch: 'main'
+    };
+    
+    if (sha) {
+      updateData.sha = sha;
+    }
+    
+    const updateResponse = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Render-Backup-Bot',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(updateData)
+    });
+    
+    if (updateResponse.ok) {
+      const result = await updateResponse.json();
+      console.log('[BACKUP-API] ✅ File aggiornato su GitHub:', result.commit.sha);
+      return result;
+    } else {
+      const error = await updateResponse.text();
+      throw new Error(`HTTP ${updateResponse.status}: ${error}`);
+    }
+    
+  } catch (error) {
+    console.error('[BACKUP-API] ❌ Errore:', error.message);
+    throw error;
+  }
+};
+
+// Backup tramite Git locale (fallback)
+const backupViaGitLocal = (githubToken, githubOwner, githubRepo, message) => {
+  console.log('[BACKUP-GIT] Usando Git locale come fallback...');
+  
+  const repoUrl = `https://${githubToken}@github.com/${githubOwner}/${githubRepo}.git`;
+  
+  const commands = [
+    'git config user.name "Render Auto-Backup"',
+    'git config user.email "backup@render.com"',
+    'git add backend/data/ backend/uploads/',
+    `git commit -m "${message} - ${new Date().toISOString()}" || echo "Nothing to commit"`,
+    `git remote set-url origin ${repoUrl}`,
+    'git push origin main'
+  ];
+  
+  commands.forEach((cmd, index) => {
+    setTimeout(() => {
+      exec(cmd, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
+        if (error) {
+          console.log(`[BACKUP-GIT] ❌ Comando ${index + 1}/${commands.length}: ${error.message}`);
+          if (stderr) console.log(`[BACKUP-GIT] stderr: ${stderr}`);
+        } else {
+          console.log(`[BACKUP-GIT] ✅ Comando ${index + 1}/${commands.length}: OK`);
+          if (stdout) console.log(`[BACKUP-GIT] stdout: ${stdout}`);
+        }
+      });
+    }, index * 3000); // Aspetta 3 secondi tra ogni comando
+  });
 };
 
 // Inizializza file JSON se non esistono
@@ -245,7 +325,7 @@ app.post('/api/game/force-save', (req, res) => {
 });
 
 // Endpoint per testare il backup Git
-app.post('/api/test-backup', (req, res) => {
+app.post('/api/test-backup', async (req, res) => {
   console.log('[API] 🔧 Test backup Git richiesto');
   
   try {
@@ -260,23 +340,47 @@ app.post('/api/test-backup', (req, res) => {
     console.log(`[TEST-BACKUP] NODE_ENV: ${process.env.NODE_ENV}`);
     console.log(`[TEST-BACKUP] FORCE_BACKUP: ${process.env.FORCE_BACKUP}`);
     
-    // Forza il backup
-    backupToGit('Test backup manuale');
-    
-    res.json({ 
-      success: true, 
-      message: 'Test backup avviato',
-      config: {
-        owner: githubOwner,
-        repo: githubRepo,
-        hasToken: !!githubToken,
-        nodeEnv: process.env.NODE_ENV,
-        forceBackup: process.env.FORCE_BACKUP
-      }
-    });
+    // Test diretto dell'API GitHub
+    try {
+      console.log('[TEST-BACKUP] Testando API GitHub...');
+      const result = await backupViaGitHubAPI(githubToken, githubOwner, githubRepo, 'Test backup manuale API');
+      
+      res.json({ 
+        success: true, 
+        message: 'Test backup API completato con successo',
+        method: 'GitHub API',
+        result: result ? 'File aggiornato' : 'Errore',
+        config: {
+          owner: githubOwner,
+          repo: githubRepo,
+          hasToken: !!githubToken,
+          nodeEnv: process.env.NODE_ENV,
+          forceBackup: process.env.FORCE_BACKUP
+        }
+      });
+    } catch (apiError) {
+      console.log('[TEST-BACKUP] API fallita, provo backup normale...');
+      
+      // Fallback al backup normale
+      backupToGit('Test backup manuale fallback');
+      
+      res.json({ 
+        success: true, 
+        message: 'API fallita, backup normale avviato',
+        method: 'Git Local Fallback',
+        apiError: apiError.message,
+        config: {
+          owner: githubOwner,
+          repo: githubRepo,
+          hasToken: !!githubToken,
+          nodeEnv: process.env.NODE_ENV,
+          forceBackup: process.env.FORCE_BACKUP
+        }
+      });
+    }
   } catch (error) {
     console.error('[API] ❌ Errore test backup:', error);
-    res.status(500).json({ error: 'Errore nel test backup' });
+    res.status(500).json({ error: 'Errore nel test backup', details: error.message });
   }
 });
 
