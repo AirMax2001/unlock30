@@ -1,40 +1,14 @@
 {
   "scenes": [
     {
-      "id": 88,
-      "title": "Niente riesce a svegliarti",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523310797,
-          "text": "Avanti",
-          "nextSceneId": 89
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:28:16.924Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:28:34.430Z",
-      "updatedAt": "2025-10-03T20:28:34.433Z"
-    },
-    {
-      "id": 89,
+      "id": 93,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:28:34.129Z",
+      "createdAt": "2025-10-03T20:30:56.680Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -43,54 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:28:36.957Z",
-      "updatedAt": "2025-10-03T20:28:36.959Z"
-    },
-    {
-      "id": 94,
-      "title": "Alla fine che te ne fai dei milioni",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523504786,
-          "text": "Avanti",
-          "nextSceneId": 95
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:31:26.586Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:31:57.852Z",
-      "updatedAt": "2025-10-03T20:31:58.140Z"
-    },
-    {
-      "id": 95,
-      "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:31:50.123Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:32:22.631Z",
-      "updatedAt": "2025-10-03T20:32:22.634Z"
+      "lastModified": "2025-10-03T20:31:01.704Z",
+      "updatedAt": "2025-10-03T20:31:01.707Z"
     }
   ],
   "settings": {
@@ -100,7 +28,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 4,
-    "lastModified": "2025-10-03T20:32:22.634Z"
+    "totalScenes": 1,
+    "lastModified": "2025-10-03T20:31:01.707Z"
   }
 }
