@@ -1,14 +1,20 @@
 {
   "scenes": [
     {
-      "id": 93,
-      "title": "Nuova Scena",
+      "id": 88,
+      "title": "Niente riesce a svegliarti",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759523310797,
+          "text": "Avanti",
+          "nextSceneId": 89
+        }
+      ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:30:56.680Z",
+      "createdAt": "2025-10-03T20:28:16.924Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -17,8 +23,28 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:31:01.704Z",
-      "updatedAt": "2025-10-03T20:31:01.707Z"
+      "lastModified": "2025-10-03T20:28:34.430Z",
+      "updatedAt": "2025-10-03T20:28:34.433Z"
+    },
+    {
+      "id": 89,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:28:34.129Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:28:36.957Z",
+      "updatedAt": "2025-10-03T20:28:36.959Z"
     }
   ],
   "settings": {
@@ -28,7 +54,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 1,
-    "lastModified": "2025-10-03T20:31:01.707Z"
+    "totalScenes": 2,
+    "lastModified": "2025-10-03T20:28:36.959Z"
   }
 }
