@@ -94,7 +94,7 @@
     },
     {
       "id": 100,
-      "title": "Nuova Scena",
+      "title": "Non puoi non intervenire",
       "description": "",
       "image": "",
       "video": "",
@@ -109,8 +109,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:34:13.958Z",
-      "updatedAt": "2025-10-03T20:34:13.960Z"
+      "lastModified": "2025-10-03T20:34:20.870Z",
+      "updatedAt": "2025-10-03T20:34:21.101Z"
     }
   ],
   "settings": {
@@ -121,6 +121,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:34:13.960Z"
+    "lastModified": "2025-10-03T20:34:21.101Z"
   }
 }
