@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 20,
-      "title": ". Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
+      "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:58:40.387Z",
-      "updatedAt": "2025-10-03T19:58:40.641Z"
+      "lastModified": "2025-10-03T19:58:42.505Z",
+      "updatedAt": "2025-10-03T19:58:42.506Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:58:40.641Z"
+    "lastModified": "2025-10-03T19:58:42.506Z"
   }
 }
