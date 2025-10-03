@@ -28,7 +28,7 @@
     },
     {
       "id": 46,
-      "title": "Nuova Scena",
+      "title": "La telecamera immaginaria inquadra il tuo sguardo deciso",
       "description": "",
       "image": "",
       "video": "",
@@ -43,8 +43,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:09:30.835Z",
-      "updatedAt": "2025-10-03T20:09:30.838Z"
+      "lastModified": "2025-10-03T20:09:37.232Z",
+      "updatedAt": "2025-10-03T20:09:37.521Z"
     }
   ],
   "settings": {
@@ -55,6 +55,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T20:09:30.838Z"
+    "lastModified": "2025-10-03T20:09:37.521Z"
   }
 }
