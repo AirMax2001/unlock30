@@ -198,23 +198,7 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759523023148,
-          "text": "Inizi una partita di league of legends",
-          "nextSceneId": 80
-        },
-        {
-          "id": 1759523026565,
-          "text": "Dormi",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759523029601,
-          "text": "Risolvi la fame nel mondo",
-          "nextSceneId": 79
-        }
-      ],
+      "choices": [],
       "isFinal": false,
       "createdAt": "2025-10-03T20:20:14.329Z",
       "titleStyle": "",
@@ -225,8 +209,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:27:22.023Z",
-      "updatedAt": "2025-10-03T20:27:22.309Z"
+      "lastModified": "2025-10-03T20:23:03.393Z"
     },
     {
       "id": 71,
@@ -416,13 +399,7 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759522969535,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
+      "choices": [],
       "isFinal": false,
       "createdAt": "2025-10-03T20:22:35.764Z",
       "titleStyle": "",
@@ -433,131 +410,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:26:53.961Z",
-      "updatedAt": "2025-10-03T20:26:53.965Z"
-    },
-    {
-      "id": 81,
-      "title": "Sei incredibilmente abile e nella tua squadra un ex membro dei T1 ti nota e ti scrive in privato",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523129820,
-          "text": "Avanti",
-          "nextSceneId": 82
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:25:15.683Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:25:32.823Z",
-      "updatedAt": "2025-10-03T20:25:32.825Z"
-    },
-    {
-      "id": 82,
-      "title": "Iniziate a conversare e salta fuori che la nuova squadra abbia bisogno di un jungler",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523145102,
-          "text": "Avanti",
-          "nextSceneId": 83
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:25:32.519Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:25:47.869Z",
-      "updatedAt": "2025-10-03T20:25:47.872Z"
-    },
-    {
-      "id": 83,
-      "title": "Pensi che sia un ottimo modo per allenarsi e accetti",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523164005,
-          "text": "Avanti",
-          "nextSceneId": 84
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:25:47.568Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:26:06.520Z",
-      "updatedAt": "2025-10-03T20:26:06.522Z"
-    },
-    {
-      "id": 84,
-      "title": "Purtroppo il mondiale si disputa nello stesso momento della festa",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523182639,
-          "text": "Avanti",
-          "nextSceneId": 85
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:26:06.216Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:26:25.062Z",
-      "updatedAt": "2025-10-03T20:26:25.066Z"
-    },
-    {
-      "id": 85,
-      "title": "La festa ",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:26:24.760Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:26:32.660Z"
+      "lastModified": "2025-10-03T20:22:43.492Z",
+      "updatedAt": "2025-10-03T20:22:43.759Z"
     }
   ],
   "settings": {
@@ -567,7 +421,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 22,
-    "lastModified": "2025-10-03T20:27:22.309Z"
+    "totalScenes": 17,
+    "lastModified": "2025-10-03T20:23:03.640Z"
   }
 }
