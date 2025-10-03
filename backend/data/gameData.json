@@ -198,7 +198,23 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759523023148,
+          "text": "Inizi una partita di league of legends",
+          "nextSceneId": 80
+        },
+        {
+          "id": 1759523026565,
+          "text": "Dormi",
+          "nextSceneId": null
+        },
+        {
+          "id": 1759523029601,
+          "text": "Risolvi la fame nel mondo",
+          "nextSceneId": 79
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-03T20:20:14.329Z",
       "titleStyle": "",
@@ -209,7 +225,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:23:03.393Z"
+      "lastModified": "2025-10-03T20:27:22.023Z",
+      "updatedAt": "2025-10-03T20:27:22.309Z"
     },
     {
       "id": 71,
@@ -551,6 +568,6 @@
   },
   "stats": {
     "totalScenes": 22,
-    "lastModified": "2025-10-03T20:26:53.965Z"
+    "lastModified": "2025-10-03T20:27:22.309Z"
   }
 }
