@@ -344,11 +344,17 @@
     },
     {
       "id": 76,
-      "title": "Nuova Scena",
+      "title": "Afferri dei piatti commestibili e li usi come frisbee per annientarli",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759522934317,
+          "text": "Avanti",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-03T20:22:02.794Z",
       "titleStyle": "",
@@ -359,8 +365,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:22:05.326Z",
-      "updatedAt": "2025-10-03T20:22:05.328Z"
+      "lastModified": "2025-10-03T20:22:15.757Z",
+      "updatedAt": "2025-10-03T20:22:15.760Z"
     }
   ],
   "settings": {
@@ -371,6 +377,6 @@
   },
   "stats": {
     "totalScenes": 15,
-    "lastModified": "2025-10-03T20:22:05.328Z"
+    "lastModified": "2025-10-03T20:22:15.760Z"
   }
 }
