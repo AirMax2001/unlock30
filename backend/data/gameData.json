@@ -48,7 +48,7 @@
     },
     {
       "id": 94,
-      "title": "Nuova Scena",
+      "title": ". Alla fine che te ne fai dei milioni",
       "description": "",
       "image": "",
       "video": "",
@@ -63,8 +63,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:31:33.121Z",
-      "updatedAt": "2025-10-03T20:31:33.124Z"
+      "lastModified": "2025-10-03T20:31:40.632Z",
+      "updatedAt": "2025-10-03T20:31:40.989Z"
     }
   ],
   "settings": {
@@ -75,6 +75,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T20:31:33.124Z"
+    "lastModified": "2025-10-03T20:31:40.989Z"
   }
 }
