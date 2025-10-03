@@ -90,7 +90,7 @@
     },
     {
       "id": 62,
-      "title": "Nuova Scena",
+      "title": "Con una super mossa finale il supermercato esplode in coriandoli fluorescenti e tutti ballano la Macarena su pattini a rotelle ma le fiamme dell’esplosione vi inghiottono",
       "description": "",
       "image": "",
       "video": "",
@@ -105,8 +105,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:17:14.230Z",
-      "updatedAt": "2025-10-03T20:17:14.481Z"
+      "lastModified": "2025-10-03T20:17:15.857Z",
+      "updatedAt": "2025-10-03T20:17:15.859Z"
     }
   ],
   "settings": {
@@ -117,6 +117,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:17:14.481Z"
+    "lastModified": "2025-10-03T20:17:15.859Z"
   }
 }
