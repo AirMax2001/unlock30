@@ -214,7 +214,7 @@
     },
     {
       "id": 32,
-      "title": "Nuova Scena",
+      "title": "Giri in tondo per sempre",
       "description": "",
       "image": "",
       "video": "",
@@ -229,8 +229,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:04:36.658Z",
-      "updatedAt": "2025-10-03T20:04:36.660Z"
+      "lastModified": "2025-10-03T20:04:42.763Z",
+      "updatedAt": "2025-10-03T20:04:43.022Z"
     }
   ],
   "settings": {
@@ -241,6 +241,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-03T20:04:36.660Z"
+    "lastModified": "2025-10-03T20:04:43.022Z"
   }
 }
