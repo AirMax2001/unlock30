@@ -248,6 +248,44 @@ const writeJsonFile = (filePath, data) => {
   }
 };
 
+// SISTEMA BACKUP MULTIPLO DI EMERGENZA
+const createEmergencyBackup = (data, reason = 'backup') => {
+  try {
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const backupDir = path.join(__dirname, 'data', 'backups');
+    
+    // Crea directory backup se non esiste
+    if (!fs.existsSync(backupDir)) {
+      fs.mkdirSync(backupDir, { recursive: true });
+    }
+    
+    // Salva backup con timestamp
+    const backupPath = path.join(backupDir, `gameData-${reason}-${timestamp}.json`);
+    const jsonString = JSON.stringify(data, null, 2);
+    fs.writeFileSync(backupPath, jsonString, { encoding: 'utf8' });
+    
+    console.log(`[EMERGENCY-BACKUP] ✅ Backup salvato: ${backupPath}`);
+    
+    // Mantieni solo gli ultimi 10 backup per evitare overflow
+    const backupFiles = fs.readdirSync(backupDir)
+      .filter(file => file.startsWith('gameData-') && file.endsWith('.json'))
+      .sort()
+      .reverse();
+    
+    if (backupFiles.length > 10) {
+      backupFiles.slice(10).forEach(file => {
+        fs.unlinkSync(path.join(backupDir, file));
+        console.log(`[EMERGENCY-BACKUP] 🗑️ Backup vecchio eliminato: ${file}`);
+      });
+    }
+    
+    return backupPath;
+  } catch (error) {
+    console.error('[EMERGENCY-BACKUP] ❌ Errore nel backup di emergenza:', error);
+    return null;
+  }
+};
+
 // Routes
 
 // Login admin
@@ -290,6 +328,17 @@ app.post('/api/game/data', (req, res) => {
     return res.status(400).json({ error: 'Dati del gioco non validi' });
   }
   
+  // BACKUP DI EMERGENZA PRIMA DEL SALVATAGGIO
+  const currentData = readJsonFile(gameDataPath);
+  if (currentData && currentData.scenes && currentData.scenes.length > 0) {
+    createEmergencyBackup(currentData, 'pre-save');
+    console.log(`[API] 🛡️ Backup pre-salvataggio creato (${currentData.scenes.length} scene)`);
+  }
+  
+  // BACKUP DEI NUOVI DATI
+  createEmergencyBackup(gameData, 'new-data');
+  console.log(`[API] 💾 Backup nuovi dati creato (${gameData.scenes.length} scene)`);
+  
   const success = writeJsonFile(gameDataPath, gameData);
   
   if (success) {
@@ -321,6 +370,92 @@ app.post('/api/game/force-save', (req, res) => {
   } catch (error) {
     console.error('[API] ❌ Errore force save:', error);
     res.status(500).json({ error: 'Errore interno nel force save' });
+  }
+});
+
+// ENDPOINT DI EMERGENZA PER RECUPERO BACKUP
+app.get('/api/emergency/backups', (req, res) => {
+  console.log('[API] 🚨 Richiesta lista backup di emergenza');
+  
+  try {
+    const backupDir = path.join(__dirname, 'data', 'backups');
+    
+    if (!fs.existsSync(backupDir)) {
+      return res.json({ backups: [], message: 'Nessun backup trovato' });
+    }
+    
+    const backupFiles = fs.readdirSync(backupDir)
+      .filter(file => file.startsWith('gameData-') && file.endsWith('.json'))
+      .map(file => {
+        const filePath = path.join(backupDir, file);
+        const stats = fs.statSync(filePath);
+        const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        
+        return {
+          filename: file,
+          created: stats.birthtime,
+          size: stats.size,
+          scenes: data.scenes ? data.scenes.length : 0,
+          lastModified: data.stats ? data.stats.lastModified : 'Unknown'
+        };
+      })
+      .sort((a, b) => new Date(b.created) - new Date(a.created));
+    
+    res.json({ backups: backupFiles });
+  } catch (error) {
+    console.error('[API] ❌ Errore nel recupero backup:', error);
+    res.status(500).json({ error: 'Errore nel recupero backup' });
+  }
+});
+
+app.get('/api/emergency/backup/:filename', (req, res) => {
+  console.log(`[API] 🚨 Richiesta backup specifico: ${req.params.filename}`);
+  
+  try {
+    const backupPath = path.join(__dirname, 'data', 'backups', req.params.filename);
+    
+    if (!fs.existsSync(backupPath)) {
+      return res.status(404).json({ error: 'Backup non trovato' });
+    }
+    
+    const backupData = readJsonFile(backupPath);
+    res.json(backupData);
+  } catch (error) {
+    console.error('[API] ❌ Errore nel caricamento backup:', error);
+    res.status(500).json({ error: 'Errore nel caricamento backup' });
+  }
+});
+
+app.post('/api/emergency/restore/:filename', (req, res) => {
+  console.log(`[API] 🚨 Richiesta ripristino backup: ${req.params.filename}`);
+  
+  try {
+    const backupPath = path.join(__dirname, 'data', 'backups', req.params.filename);
+    
+    if (!fs.existsSync(backupPath)) {
+      return res.status(404).json({ error: 'Backup non trovato' });
+    }
+    
+    const backupData = readJsonFile(backupPath);
+    
+    // Crea backup dei dati attuali prima del ripristino
+    const currentData = readJsonFile(gameDataPath);
+    if (currentData) {
+      createEmergencyBackup(currentData, 'before-restore');
+    }
+    
+    // Ripristina il backup
+    const success = writeJsonFile(gameDataPath, backupData);
+    
+    if (success) {
+      console.log(`[API] ✅ Backup ripristinato: ${req.params.filename}`);
+      res.json({ success: true, message: 'Backup ripristinato con successo', scenes: backupData.scenes.length });
+    } else {
+      res.status(500).json({ error: 'Errore nel ripristino del backup' });
+    }
+  } catch (error) {
+    console.error('[API] ❌ Errore nel ripristino backup:', error);
+    res.status(500).json({ error: 'Errore nel ripristino backup' });
   }
 });
 
