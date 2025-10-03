@@ -188,7 +188,7 @@
     },
     {
       "id": 31,
-      "title": "Nuova Scena",
+      "title": "La percorri cercando di svoltare a destra ma un buco multidimensionale ha reso tutte le stradine a senso unico",
       "description": "",
       "image": "",
       "video": "",
@@ -203,8 +203,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:04:19.080Z",
-      "updatedAt": "2025-10-03T20:04:19.082Z"
+      "lastModified": "2025-10-03T20:04:26.831Z",
+      "updatedAt": "2025-10-03T20:04:27.079Z"
     }
   ],
   "settings": {
@@ -215,6 +215,6 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-03T20:04:19.082Z"
+    "lastModified": "2025-10-03T20:04:27.079Z"
   }
 }
