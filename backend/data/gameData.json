@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "La sveglia",
-      "description": "",
+      "description": "È il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
       "image": "",
       "video": "",
       "choices": [],
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:49:49.598Z",
-      "updatedAt": "2025-10-03T19:49:50.319Z"
+      "lastModified": "2025-10-03T19:49:55.014Z",
+      "updatedAt": "2025-10-03T19:49:55.264Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:49:50.319Z"
+    "lastModified": "2025-10-03T19:49:55.264Z"
   }
 }
