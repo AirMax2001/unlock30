@@ -19,7 +19,7 @@
         },
         {
           "id": 1759521004781,
-          "text": "",
+          "text": "Apri il telefono prima ancora di scendere dal letto",
           "nextSceneId": null
         }
       ],
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:50:21.274Z",
-      "updatedAt": "2025-10-03T19:50:21.538Z"
+      "lastModified": "2025-10-03T19:50:26.496Z",
+      "updatedAt": "2025-10-03T19:50:26.828Z"
     }
   ],
   "settings": {
@@ -45,6 +45,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:50:21.538Z"
+    "lastModified": "2025-10-03T19:50:26.828Z"
   }
 }
