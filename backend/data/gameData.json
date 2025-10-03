@@ -158,7 +158,7 @@
         },
         {
           "id": 1759524272262,
-          "text": "",
+          "text": "PERSA",
           "nextSceneId": null
         }
       ],
@@ -172,8 +172,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:44:32.565Z",
-      "updatedAt": "2025-10-03T20:44:32.844Z"
+      "lastModified": "2025-10-03T20:44:35.648Z",
+      "updatedAt": "2025-10-03T20:44:35.894Z"
     }
   ],
   "settings": {
@@ -184,6 +184,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-03T20:44:32.844Z"
+    "lastModified": "2025-10-03T20:44:35.894Z"
   }
 }
