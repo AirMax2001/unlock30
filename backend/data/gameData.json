@@ -204,7 +204,7 @@
     },
     {
       "id": 37,
-      "title": "Nuova Scena",
+      "title": ". Rimani con il conto in negativo e decidi di trasferirti in messico",
       "description": "",
       "image": "",
       "video": "",
@@ -219,8 +219,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:06:05.584Z",
-      "updatedAt": "2025-10-03T20:06:05.586Z"
+      "lastModified": "2025-10-03T20:06:10.927Z",
+      "updatedAt": "2025-10-03T20:06:11.186Z"
     }
   ],
   "settings": {
@@ -231,6 +231,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-03T20:06:05.586Z"
+    "lastModified": "2025-10-03T20:06:11.186Z"
   }
 }
