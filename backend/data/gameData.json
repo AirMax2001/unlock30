@@ -154,7 +154,7 @@
         {
           "id": 1759523813041,
           "text": "VINTA!!",
-          "nextSceneId": 106
+          "nextSceneId": 110
         },
         {
           "id": 1759524272262,
@@ -172,8 +172,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:45:24.379Z",
-      "updatedAt": "2025-10-03T20:45:24.657Z"
+      "lastModified": "2025-10-03T20:45:36.986Z",
+      "updatedAt": "2025-10-03T20:45:37.249Z"
     }
   ],
   "settings": {
@@ -184,6 +184,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-03T20:45:24.657Z"
+    "lastModified": "2025-10-03T20:45:37.249Z"
   }
 }
