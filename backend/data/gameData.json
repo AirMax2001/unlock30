@@ -132,7 +132,7 @@
     },
     {
       "id": 50,
-      "title": "Nuova Scena",
+      "title": "Dopo tutte le ore passate a guardare anime e serie tv acquisisci il potere di evocare delle ombre, che si vedono poco perché è giorno, ma creano uno scudo invisibile che fa accartocciare le macchine della polizia su loro stesse",
       "description": "",
       "image": "",
       "video": "",
@@ -147,8 +147,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:10:59.605Z",
-      "updatedAt": "2025-10-03T20:10:59.881Z"
+      "lastModified": "2025-10-03T20:11:08.411Z",
+      "updatedAt": "2025-10-03T20:11:08.662Z"
     }
   ],
   "settings": {
@@ -159,6 +159,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T20:10:59.881Z"
+    "lastModified": "2025-10-03T20:11:08.662Z"
   }
 }
