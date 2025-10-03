@@ -296,7 +296,7 @@
     },
     {
       "id": 110,
-      "title": "TA",
+      "title": "TANTI ",
       "description": "",
       "image": "",
       "video": "",
@@ -311,8 +311,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:40:05.559Z",
-      "updatedAt": "2025-10-03T20:40:05.804Z"
+      "lastModified": "2025-10-03T20:40:06.734Z",
+      "updatedAt": "2025-10-03T20:40:06.736Z"
     }
   ],
   "settings": {
@@ -323,6 +323,6 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-03T20:40:05.804Z"
+    "lastModified": "2025-10-03T20:40:06.736Z"
   }
 }
