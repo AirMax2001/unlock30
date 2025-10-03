@@ -117,7 +117,7 @@
         },
         {
           "id": 1759521713995,
-          "text": "",
+          "text": "Partecipi ad una corsa di auto clandestina per mattinieri",
           "nextSceneId": null
         }
       ],
@@ -131,8 +131,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:03:10.513Z",
-      "updatedAt": "2025-10-03T20:03:10.761Z"
+      "lastModified": "2025-10-03T20:03:15.286Z",
+      "updatedAt": "2025-10-03T20:03:15.531Z"
     }
   ],
   "settings": {
@@ -143,6 +143,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:03:10.761Z"
+    "lastModified": "2025-10-03T20:03:15.531Z"
   }
 }
