@@ -64,7 +64,7 @@
     },
     {
       "id": 61,
-      "title": "Nuova Scena",
+      "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
       "description": "",
       "image": "",
       "video": "",
@@ -79,8 +79,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:16:48.118Z",
-      "updatedAt": "2025-10-03T20:16:48.121Z"
+      "lastModified": "2025-10-03T20:16:54.737Z",
+      "updatedAt": "2025-10-03T20:16:55.068Z"
     }
   ],
   "settings": {
@@ -91,6 +91,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T20:16:48.121Z"
+    "lastModified": "2025-10-03T20:16:55.068Z"
   }
 }
