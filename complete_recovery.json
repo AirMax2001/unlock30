@@ -1,43 +1,7 @@
 ﻿{
     "scenes":  [
                    {
-                       "id":  1,
-                       "title":  "La sveglia",
-                       "description":  "├ê il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759521001133,
-                                           "text":  "Ti giri dallÔÇÖaltra parte e continui a russare ",
-                                           "nextSceneId":  2
-                                       },
-                                       {
-                                           "id":  1759521003711,
-                                           "text":  "Ti alzi e vai in bagno a lavarti i denti",
-                                           "nextSceneId":  null
-                                       },
-                                       {
-                                           "id":  1759521004781,
-                                           "text":  "Apri il telefono prima ancora di scendere dal letto",
-                                           "nextSceneId":  null
-                                       }
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:48:30.721Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T19:50:27.729Z",
-                       "updatedAt":  "2025-10-03T19:50:27.731Z"
-                   },
-                   {
-                       "id":  2,
+                       "id":  56,
                        "title":  "Nuova Scena",
                        "description":  "",
                        "image":  "",
@@ -46,23 +10,23 @@
 
                                    ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:50:27.418Z"
+                       "createdAt":  "2025-10-03T20:13:36.400Z"
                    },
                    {
-                       "id":  3,
-                       "title":  "Dopo unÔÇÖora suona una sveglia che nessuno interrompe",
+                       "id":  59,
+                       "title":  "Ti ritrovi in un supermercato gigante ma noti che tutto quello che ti circonda ├¿ vivo:   le bottiglie di ketchup ti inseguono, i carrelli fanno parkour da soli",
                        "description":  "",
                        "image":  "",
                        "video":  "",
                        "choices":  [
                                        {
-                                           "id":  1759521059806,
-                                           "text":  "Avanti",
-                                           "nextSceneId":  4
+                                           "id":  1759522580650,
+                                           "text":  "",
+                                           "nextSceneId":  null
                                        }
                                    ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:50:47.010Z",
+                       "createdAt":  "2025-10-03T20:15:48.095Z",
                        "titleStyle":  "",
                        "titleColor":  "#ffffff",
                        "backgroundTheme":  "",
@@ -71,24 +35,398 @@
                                        "glow":  false,
                                        "typewriter":  false
                                    },
-                       "lastModified":  "2025-10-03T19:51:02.216Z",
-                       "updatedAt":  "2025-10-03T19:51:02.217Z"
+                       "lastModified":  "2025-10-03T20:16:20.952Z",
+                       "updatedAt":  "2025-10-03T20:16:21.199Z"
                    },
                    {
-                       "id":  4,
-                       "title":  "Ti alzi incazzato",
+                       "id":  64,
+                       "title":  "Mattarella cavalca un carrello gigante armato di cuscini esplosivi, Gerry Scotti guida un divano volante che lancia appendiabiti come boomerang",
                        "description":  "",
                        "image":  "",
                        "video":  "",
                        "choices":  [
                                        {
-                                           "id":  1759521070342,
+                                           "id":  1759522704719,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  65
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:18:04.318Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:18:27.369Z",
+                       "updatedAt":  "2025-10-03T20:18:27.371Z"
+                   },
+                   {
+                       "id":  65,
+                       "title":  "Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per ÔÇ£disattivareÔÇØ i boss",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522720634,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  66
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:18:27.061Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:18:44.347Z",
+                       "updatedAt":  "2025-10-03T20:18:44.351Z"
+                   },
+                   {
+                       "id":  66,
+                       "title":  "Come arma principale, lancia polpette volanti contro i due",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522739327,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  67
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:18:44.040Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:19:09.762Z",
+                       "updatedAt":  "2025-10-03T20:19:10.009Z"
+                   },
+                   {
+                       "id":  67,
+                       "title":  "Un salmone parlante sospeso nellÔÇÖaria suggerisce le strategie",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522764551,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  68
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:19:05.190Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:19:26.791Z",
+                       "updatedAt":  "2025-10-03T20:19:26.794Z"
+                   },
+                   {
+                       "id":  68,
+                       "title":  "Vinci e torni a casa sacrificando le tue ombre",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522787118,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  69
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:19:26.478Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:19:51.394Z",
+                       "updatedAt":  "2025-10-03T20:19:51.396Z"
+                   },
+                   {
+                       "id":  69,
+                       "title":  "Mangi il salmone",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522810504,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  70
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:19:51.089Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:20:14.637Z",
+                       "updatedAt":  "2025-10-03T20:20:14.641Z"
+                   },
+                   {
+                       "id":  70,
+                       "title":  "Preparazione alla festa",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523023148,
+                                           "text":  "Inizi una partita di league of legends",
+                                           "nextSceneId":  80
+                                       },
+                                       {
+                                           "id":  1759523026565,
+                                           "text":  "Dormi",
+                                           "nextSceneId":  null
+                                       },
+                                       {
+                                           "id":  1759523029601,
+                                           "text":  "Risolvi la fame nel mondo",
+                                           "nextSceneId":  79
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:20:14.329Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:27:22.023Z",
+                       "updatedAt":  "2025-10-03T20:27:22.309Z"
+                   },
+                   {
+                       "id":  71,
+                       "title":  "Ti trovi su una collina",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522854767,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  72
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:20:35.019Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:20:57.436Z",
+                       "updatedAt":  "2025-10-03T20:20:57.439Z"
+                   },
+                   {
+                       "id":  72,
+                       "title":  "Sotto di te senti tremare la terra a 250 bpm",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522869398,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  73
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:20:57.129Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:21:14.273Z",
+                       "updatedAt":  "2025-10-03T20:21:14.276Z"
+                   },
+                   {
+                       "id":  73,
+                       "title":  "Ti trovi a saltare con 200 000 persone e non sai perch├®",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522885670,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  74
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:21:13.972Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:21:29.183Z",
+                       "updatedAt":  "2025-10-03T20:21:29.187Z"
+                   },
+                   {
+                       "id":  74,
+                       "title":  "Un fiore gigantesco si apre davanti a te e rivela gerry scotti nudo che sorride minaccioso",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522904063,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  75
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:21:28.882Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:21:46.832Z",
+                       "updatedAt":  "2025-10-03T20:21:46.836Z"
+                   },
+                   {
+                       "id":  75,
+                       "title":  "Mattarella ├¿ poco al di sotto che grida ÔÇ£3,2,1ÔÇØ continuamente",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522919930,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  76
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:21:46.527Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:22:03.102Z",
+                       "updatedAt":  "2025-10-03T20:22:03.106Z"
+                   },
+                   {
+                       "id":  76,
+                       "title":  "Afferri dei piatti commestibili e li usi come frisbee per annientarli",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522934317,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  77
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:22:02.794Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:22:16.633Z",
+                       "updatedAt":  "2025-10-03T20:22:16.636Z"
+                   },
+                   {
+                       "id":  77,
+                       "title":  "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522953444,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  78
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:22:16.319Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:22:36.078Z",
+                       "updatedAt":  "2025-10-03T20:22:36.080Z"
+                   },
+                   {
+                       "id":  78,
+                       "title":  "Vinci ma non torni per tua scelta",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759522969535,
                                            "text":  "Avanti",
                                            "nextSceneId":  5
                                        }
                                    ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:51:01.907Z",
+                       "createdAt":  "2025-10-03T20:22:35.764Z",
                        "titleStyle":  "",
                        "titleColor":  "#ffffff",
                        "backgroundTheme":  "",
@@ -97,46 +435,20 @@
                                        "glow":  false,
                                        "typewriter":  false
                                    },
-                       "lastModified":  "2025-10-03T19:51:12.852Z",
-                       "updatedAt":  "2025-10-03T19:51:12.854Z"
+                       "lastModified":  "2025-10-03T20:26:53.961Z",
+                       "updatedAt":  "2025-10-03T20:26:53.965Z"
                    },
                    {
-                       "id":  5,
+                       "id":  79,
                        "title":  "YOU DEFEAT",
-                       "description":  "",
+                       "description":  "( dai s├¼ realistico )!",
                        "image":  "",
                        "video":  "",
                        "choices":  [
 
                                    ],
-                       "isFinal":  true,
-                       "createdAt":  "2025-10-03T19:51:12.543Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T19:51:27.530Z",
-                       "updatedAt":  "2025-10-03T19:51:27.532Z"
-                   },
-                   {
-                       "id":  6,
-                       "title":  "Guardi lo specchio e pensi: ÔÇ£ da oggi inizier├▓ a perdere i capelli o da domani? ÔÇ£",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759521140424,
-                                           "text":  "Avanti",
-                                           "nextSceneId":  7
-                                       }
-                                   ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:52:04.309Z",
+                       "createdAt":  "2025-10-03T20:24:24.581Z",
                        "titleStyle":  "",
                        "titleColor":  "#ffffff",
                        "backgroundTheme":  "",
@@ -145,11 +457,11 @@
                                        "glow":  false,
                                        "typewriter":  false
                                    },
-                       "lastModified":  "2025-10-03T19:52:24.025Z",
-                       "updatedAt":  "2025-10-03T19:52:24.026Z"
+                       "lastModified":  "2025-10-03T20:24:46.922Z",
+                       "updatedAt":  "2025-10-03T20:24:46.925Z"
                    },
                    {
-                       "id":  7,
+                       "id":  80,
                        "title":  "Nuova Scena",
                        "description":  "",
                        "image":  "",
@@ -158,7 +470,7 @@
 
                                    ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:52:23.715Z",
+                       "createdAt":  "2025-10-03T20:24:56.738Z",
                        "titleStyle":  "",
                        "titleColor":  "#ffffff",
                        "backgroundTheme":  "",
@@ -167,20 +479,24 @@
                                        "glow":  false,
                                        "typewriter":  false
                                    },
-                       "lastModified":  "2025-10-03T19:52:27.136Z",
-                       "updatedAt":  "2025-10-03T19:52:27.137Z"
+                       "lastModified":  "2025-10-03T20:25:00.592Z",
+                       "updatedAt":  "2025-10-03T20:25:00.842Z"
                    },
                    {
-                       "id":  8,
-                       "title":  "La colazione",
+                       "id":  81,
+                       "title":  "Sei incredibilmente abile e nella tua squadra un ex membro dei T1 ti nota e ti scrive in privato",
                        "description":  "",
                        "image":  "",
                        "video":  "",
                        "choices":  [
-
+                                       {
+                                           "id":  1759523129820,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  82
+                                       }
                                    ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:52:50.833Z",
+                       "createdAt":  "2025-10-03T20:25:15.683Z",
                        "titleStyle":  "",
                        "titleColor":  "#ffffff",
                        "backgroundTheme":  "",
@@ -189,20 +505,24 @@
                                        "glow":  false,
                                        "typewriter":  false
                                    },
-                       "lastModified":  "2025-10-03T19:53:23.458Z",
-                       "updatedAt":  "2025-10-03T19:53:23.706Z"
+                       "lastModified":  "2025-10-03T20:25:32.823Z",
+                       "updatedAt":  "2025-10-03T20:25:32.825Z"
                    },
                    {
-                       "id":  9,
-                       "title":  "Trovi 3 messaggi:",
-                       "description":  "LÔÇÖINPS ti manda un messaggio: ÔÇ£Buon compleanno! Da oggi sei ufficialmente pi├╣ vicino alla pensione (forse nel 2089)ÔÇØ.\nTuo zio che ti scrive: ÔÇ£Auguri bomber, ricordati che io a 30  anni avevo gi├á tre mutui e due mogliÔÇØ.\nUna pubblicit├á random: ÔÇ£Offerta speciale! Diventa maestro di yoga in 3 giorni con il nostro corso online ÔÇô AUGURI!!!ÔÇØ \n",
+                       "id":  82,
+                       "title":  "Iniziate a conversare e salta fuori che la nuova squadra abbia bisogno di un jungler",
+                       "description":  "",
                        "image":  "",
                        "video":  "",
                        "choices":  [
-
+                                       {
+                                           "id":  1759523145102,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  83
+                                       }
                                    ],
                        "isFinal":  false,
-                       "createdAt":  "2025-10-03T19:53:31.901Z",
+                       "createdAt":  "2025-10-03T20:25:32.519Z",
                        "titleStyle":  "",
                        "titleColor":  "#ffffff",
                        "backgroundTheme":  "",
@@ -211,8 +531,96 @@
                                        "glow":  false,
                                        "typewriter":  false
                                    },
-                       "lastModified":  "2025-10-03T19:53:49.278Z",
-                       "updatedAt":  "2025-10-03T19:53:49.614Z"
+                       "lastModified":  "2025-10-03T20:25:47.869Z",
+                       "updatedAt":  "2025-10-03T20:25:47.872Z"
+                   },
+                   {
+                       "id":  83,
+                       "title":  "Pensi che sia un ottimo modo per allenarsi e accetti",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523164005,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  84
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:25:47.568Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:26:06.520Z",
+                       "updatedAt":  "2025-10-03T20:26:06.522Z"
+                   },
+                   {
+                       "id":  84,
+                       "title":  "Purtroppo il mondiale si disputa nello stesso momento della festa",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523182639,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  85
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:26:06.216Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:26:25.062Z",
+                       "updatedAt":  "2025-10-03T20:26:25.066Z"
+                   },
+                   {
+                       "id":  85,
+                       "title":  "La festa ",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523352736,
+                                           "text":  "Disputa il mondiale",
+                                           "nextSceneId":  90
+                                       },
+                                       {
+                                           "id":  1759523354644,
+                                           "text":  "Presentati alla festa",
+                                           "nextSceneId":  null
+                                       },
+                                       {
+                                           "id":  1759523356916,
+                                           "text":  "Inizia una guerra territoriale con Silvi",
+                                           "nextSceneId":  null
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:26:24.760Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:29:53.810Z",
+                       "updatedAt":  "2025-10-03T20:29:53.814Z"
                    },
                    {
                        "id":  88,
@@ -261,6 +669,84 @@
                                    },
                        "lastModified":  "2025-10-03T20:28:36.957Z",
                        "updatedAt":  "2025-10-03T20:28:36.959Z"
+                   },
+                   {
+                       "id":  90,
+                       "title":  "Ti invitano a disputare il mondiale degli EA sports",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523403951,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  91
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:29:53.509Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:30:06.991Z",
+                       "updatedAt":  "2025-10-03T20:30:06.995Z"
+                   },
+                   {
+                       "id":  91,
+                       "title":  "Fai il video di presentazione dove elenchi tutte le sventure che hai avuto e che batterai tutti con 60 kg di panca",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523423931,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  92
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:30:06.686Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:30:26.828Z",
+                       "updatedAt":  "2025-10-03T20:30:26.832Z"
+                   },
+                   {
+                       "id":  92,
+                       "title":  "Perdete al primo girone",
+                       "description":  "",
+                       "image":  "",
+                       "video":  "",
+                       "choices":  [
+                                       {
+                                           "id":  1759523440209,
+                                           "text":  "Avanti",
+                                           "nextSceneId":  5
+                                       }
+                                   ],
+                       "isFinal":  false,
+                       "createdAt":  "2025-10-03T20:30:26.525Z",
+                       "titleStyle":  "",
+                       "titleColor":  "#ffffff",
+                       "backgroundTheme":  "",
+                       "effects":  {
+                                       "particles":  false,
+                                       "glow":  false,
+                                       "typewriter":  false
+                                   },
+                       "lastModified":  "2025-10-03T20:30:43.620Z",
+                       "updatedAt":  "2025-10-03T20:30:43.623Z"
                    },
                    {
                        "id":  93,
@@ -721,12 +1207,10 @@
                    }
                ],
     "stats":  {
-                  "missingScenes":  81,
-                  "commitsAnalyzed":  200,
-                  "lastModified":  "2025-10-03T23:14:01.658Z",
+                  "totalScenes":  47,
                   "recoveredFromCommits":  true,
-                  "totalScenes":  29,
-                  "recoveryVersion":  "SUPER_RECOVERY"
+                  "recoveryVersion":  "Extended",
+                  "lastModified":  "2025-10-03T23:11:42.938Z"
               },
     "settings":  {
                      "maxScenes":  999,

@@ -263,28 +263,6 @@
                        "updatedAt":  "2025-10-03T20:28:36.959Z"
                    },
                    {
-                       "id":  93,
-                       "title":  "Nuova Scena",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:30:56.680Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:31:01.704Z",
-                       "updatedAt":  "2025-10-03T20:31:01.707Z"
-                   },
-                   {
                        "id":  94,
                        "title":  "Alla fine che te ne fai dei milioni",
                        "description":  "",
@@ -331,106 +309,6 @@
                                    },
                        "lastModified":  "2025-10-03T20:32:22.631Z",
                        "updatedAt":  "2025-10-03T20:32:22.634Z"
-                   },
-                   {
-                       "id":  96,
-                       "title":  "LÔÇÖaria freme",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759523585144,
-                                           "text":  "Avanti",
-                                           "nextSceneId":  97
-                                       }
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:32:50.380Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:33:10.183Z",
-                       "updatedAt":  "2025-10-03T20:33:10.186Z"
-                   },
-                   {
-                       "id":  97,
-                       "title":  "Il cielo si fa grigio",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759523604040,
-                                           "text":  "Avanti",
-                                           "nextSceneId":  98
-                                       }
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:33:09.879Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:33:26.899Z",
-                       "updatedAt":  "2025-10-03T20:33:26.902Z"
-                   },
-                   {
-                       "id":  98,
-                       "title":  "Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759523624821,
-                                           "text":  "Avanti",
-                                           "nextSceneId":  99
-                                       }
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:33:26.594Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:33:47.871Z",
-                       "updatedAt":  "2025-10-03T20:33:47.875Z"
-                   },
-                   {
-                       "id":  99,
-                       "title":  "Nuova Scena",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:33:47.571Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:33:50.552Z",
-                       "updatedAt":  "2025-10-03T20:33:50.555Z"
                    },
                    {
                        "id":  100,
@@ -531,63 +409,6 @@
                                    },
                        "lastModified":  "2025-10-03T20:35:16.199Z",
                        "updatedAt":  "2025-10-03T20:35:16.202Z"
-                   },
-                   {
-                       "id":  104,
-                       "title":  "Sei alla festa ma vuoi il regalo",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759523790977,
-                                           "text":  "Avanti",
-                                           "nextSceneId":  105
-                                       }
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:36:07.977Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:36:34.302Z",
-                       "updatedAt":  "2025-10-03T20:36:34.306Z"
-                   },
-                   {
-                       "id":  105,
-                       "title":  "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
-                       "description":  "",
-                       "image":  "",
-                       "video":  "",
-                       "choices":  [
-                                       {
-                                           "id":  1759523813041,
-                                           "text":  "VINTA!!",
-                                           "nextSceneId":  110
-                                       },
-                                       {
-                                           "id":  1759524272262,
-                                           "text":  "PERSA",
-                                           "nextSceneId":  106
-                                       }
-                                   ],
-                       "isFinal":  false,
-                       "createdAt":  "2025-10-03T20:36:33.992Z",
-                       "titleStyle":  "",
-                       "titleColor":  "#ffffff",
-                       "backgroundTheme":  "",
-                       "effects":  {
-                                       "particles":  false,
-                                       "glow":  false,
-                                       "typewriter":  false
-                                   },
-                       "lastModified":  "2025-10-03T20:45:55.722Z",
-                       "updatedAt":  "2025-10-03T20:45:55.985Z"
                    },
                    {
                        "id":  106,
@@ -721,12 +542,9 @@
                    }
                ],
     "stats":  {
-                  "missingScenes":  81,
-                  "commitsAnalyzed":  200,
-                  "lastModified":  "2025-10-03T23:14:01.658Z",
+                  "totalScenes":  22,
                   "recoveredFromCommits":  true,
-                  "totalScenes":  29,
-                  "recoveryVersion":  "SUPER_RECOVERY"
+                  "lastModified":  "2025-10-03T23:10:44.325Z"
               },
     "settings":  {
                      "maxScenes":  999,
