@@ -1,40 +1,14 @@
 {
   "scenes": [
     {
-      "id": 88,
-      "title": "Niente riesce a svegliarti",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523310797,
-          "text": "Avanti",
-          "nextSceneId": 89
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:28:16.924Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:28:34.430Z",
-      "updatedAt": "2025-10-03T20:28:34.433Z"
-    },
-    {
-      "id": 89,
+      "id": 93,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:28:34.129Z",
+      "createdAt": "2025-10-03T20:30:56.680Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -43,24 +17,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:28:36.957Z",
-      "updatedAt": "2025-10-03T20:28:36.959Z"
+      "lastModified": "2025-10-03T20:31:01.704Z",
+      "updatedAt": "2025-10-03T20:31:01.707Z"
     },
     {
-      "id": 94,
-      "title": "Alla fine che te ne fai dei milioni",
+      "id": 96,
+      "title": "L’aria freme",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759523504786,
+          "id": 1759523585144,
           "text": "Avanti",
-          "nextSceneId": 95
+          "nextSceneId": 97
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:31:26.586Z",
+      "createdAt": "2025-10-03T20:32:50.380Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -69,18 +43,70 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:31:57.852Z",
-      "updatedAt": "2025-10-03T20:31:58.140Z"
+      "lastModified": "2025-10-03T20:33:10.183Z",
+      "updatedAt": "2025-10-03T20:33:10.186Z"
     },
     {
-      "id": 95,
-      "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
+      "id": 97,
+      "title": "Il cielo si fa grigio",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523604040,
+          "text": "Avanti",
+          "nextSceneId": 98
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:33:09.879Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:33:26.899Z",
+      "updatedAt": "2025-10-03T20:33:26.902Z"
+    },
+    {
+      "id": 98,
+      "title": "Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759523624821,
+          "text": "Avanti",
+          "nextSceneId": 99
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:33:26.594Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:33:47.871Z",
+      "updatedAt": "2025-10-03T20:33:47.875Z"
+    },
+    {
+      "id": 99,
+      "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:31:50.123Z",
+      "createdAt": "2025-10-03T20:33:47.571Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -89,106 +115,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:32:22.631Z",
-      "updatedAt": "2025-10-03T20:32:22.634Z"
-    },
-    {
-      "id": 100,
-      "title": "Non puoi non intervenire",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523665024,
-          "text": "Avanti",
-          "nextSceneId": 101
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:34:08.285Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:34:29.297Z",
-      "updatedAt": "2025-10-03T20:34:29.301Z"
-    },
-    {
-      "id": 101,
-      "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523684944,
-          "text": "Avanti",
-          "nextSceneId": 102
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:34:29.297Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:34:47.761Z",
-      "updatedAt": "2025-10-03T20:34:47.765Z"
-    },
-    {
-      "id": 102,
-      "title": "Rimangono sbalorditi, tutto torna normale e tu torni in tempo per la festa",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759523702867,
-          "text": "Avanti",
-          "nextSceneId": 103
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:34:47.459Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:35:06.810Z",
-      "updatedAt": "2025-10-03T20:35:06.813Z"
-    },
-    {
-      "id": 103,
-      "title": "Il regalo",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:35:06.507Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:35:16.199Z",
-      "updatedAt": "2025-10-03T20:35:16.202Z"
+      "lastModified": "2025-10-03T20:33:50.552Z",
+      "updatedAt": "2025-10-03T20:33:50.555Z"
     }
   ],
   "settings": {
@@ -198,7 +126,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 8,
-    "lastModified": "2025-10-03T20:35:16.202Z"
+    "totalScenes": 5,
+    "lastModified": "2025-10-03T20:33:50.555Z"
   }
 }
