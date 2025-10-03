@@ -172,7 +172,7 @@
     },
     {
       "id": 103,
-      "title": ": Il regalo",
+      "title": "Il regalo",
       "description": "",
       "image": "",
       "video": "",
@@ -187,8 +187,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:35:14.008Z",
-      "updatedAt": "2025-10-03T20:35:14.255Z"
+      "lastModified": "2025-10-03T20:35:16.199Z",
+      "updatedAt": "2025-10-03T20:35:16.202Z"
     }
   ],
   "settings": {
@@ -199,6 +199,6 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-03T20:35:14.255Z"
+    "lastModified": "2025-10-03T20:35:16.202Z"
   }
 }
