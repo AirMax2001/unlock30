@@ -192,7 +192,7 @@
     },
     {
       "id": 106,
-      "title": "Nuova Scena",
+      "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
       "image": "",
       "video": "",
@@ -213,8 +213,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:37:44.446Z",
-      "updatedAt": "2025-10-03T20:37:44.449Z"
+      "lastModified": "2025-10-03T20:37:52.710Z",
+      "updatedAt": "2025-10-03T20:37:52.981Z"
     },
     {
       "id": 107,
@@ -235,6 +235,6 @@
   },
   "stats": {
     "totalScenes": 10,
-    "lastModified": "2025-10-03T20:37:44.449Z"
+    "lastModified": "2025-10-03T20:37:52.981Z"
   }
 }
