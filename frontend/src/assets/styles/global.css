@@ -1844,3 +1844,36 @@ input:focus, textarea:focus, select:focus {
   from { text-shadow: 0 0 5px currentColor; }
   to { text-shadow: 0 0 20px currentColor, 0 0 30px currentColor; }
 }
+
+/* NOTIFICHE AGGIORNAMENTO GAME */
+.update-notification {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: rgba(39, 174, 96, 0.9);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: slideInRight 0.3s ease-out;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.game-header {
+  position: relative;
+}

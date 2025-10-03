@@ -9,7 +9,15 @@ class GameService {
     this.apiBaseUrl = this.isApiMode ? config.API_BASE_URL : null
     this.cache = null
     this.cacheTimestamp = 0
-    this.CACHE_DURATION = 5000 // 5 secondi
+    this.CACHE_DURATION = 2000 // Ridotto a 2 secondi per refresh più frequenti
+    
+    // Sistema di auto-save avanzato
+    this.saveQueue = []
+    this.isSaving = false
+    this.lastSaveTime = 0
+    this.saveDebounceTimer = null
+    this.SAVE_DEBOUNCE_TIME = 500 // 500ms per salvataggio immediato
+    this.FORCE_SAVE_INTERVAL = 5000 // Forza salvataggio ogni 5 secondi
     
     // Chiavi per localStorage
     this.GAME_DATA_KEY = 'ilGiocoDeiTrenta_gameData'
@@ -19,6 +27,66 @@ class GameService {
     console.log(`🎮 GameService inizializzato in modalità: ${this.isApiMode ? 'API Backend' : 'localStorage'}`)
     if (this.isApiMode) {
       console.log(`🌐 Backend URL: ${this.apiBaseUrl}`)
+    }
+    
+    // Avvia il sistema di auto-save periodico
+    this.startPeriodicSave()
+  }
+
+  // SISTEMA AUTO-SAVE AVANZATO
+
+  startPeriodicSave() {
+    // Auto-save forzato ogni 5 secondi se ci sono modifiche pending
+    setInterval(() => {
+      if (this.saveQueue.length > 0 && !this.isSaving) {
+        console.log('🔄 Auto-save periodico forzato...')
+        this.processSaveQueue()
+      }
+    }, this.FORCE_SAVE_INTERVAL)
+  }
+
+  debouncedSave(data, operation = 'update') {
+    // Aggiunge alla coda di salvataggio
+    this.saveQueue.push({ data, operation, timestamp: Date.now() })
+    
+    // Clear del timer precedente
+    clearTimeout(this.saveDebounceTimer)
+    
+    // Nuovo timer con debounce
+    this.saveDebounceTimer = setTimeout(() => {
+      this.processSaveQueue()
+    }, this.SAVE_DEBOUNCE_TIME)
+  }
+
+  async processSaveQueue() {
+    if (this.isSaving || this.saveQueue.length === 0) return
+    
+    this.isSaving = true
+    console.log(`💾 Processando ${this.saveQueue.length} operazioni di salvataggio...`)
+    
+    try {
+      // Prende l'operazione più recente per ogni tipo
+      const latestOperations = this.saveQueue.reduce((acc, op) => {
+        acc[op.operation] = op // Sovrascrive con l'operazione più recente
+        return acc
+      }, {})
+      
+      // Esegue tutte le operazioni
+      for (const operation of Object.values(latestOperations)) {
+        await this.saveGameData(operation.data)
+      }
+      
+      // Svuota la coda
+      this.saveQueue = []
+      this.lastSaveTime = Date.now()
+      
+      console.log('✅ Tutte le operazioni salvate con successo')
+      
+    } catch (error) {
+      console.error('❌ Errore nel processare la coda di salvataggio:', error)
+      // In caso di errore, mantiene i dati in coda per retry
+    } finally {
+      this.isSaving = false
     }
   }
 
@@ -245,7 +313,57 @@ class GameService {
     
     data.stats.totalScenes = scenes.length
     data.stats.lastModified = new Date().toISOString()
-    return await this.saveGameData(data)
+    
+    // Usa il sistema di auto-save migliorato
+    this.debouncedSave(data, 'saveScenes')
+    
+    // Aggiorna la cache immediatamente per feedback istantaneo
+    this.updateCache(data)
+    
+    return data
+  }
+
+  async saveScene(scene) {
+    const data = await this.loadGameData()
+    const sceneIndex = data.scenes.findIndex(s => s.id === scene.id)
+    
+    if (sceneIndex !== -1) {
+      data.scenes[sceneIndex] = scene
+    } else {
+      data.scenes.push(scene)
+    }
+    
+    data.stats.totalScenes = data.scenes.length
+    data.stats.lastModified = new Date().toISOString()
+    
+    // Usa il sistema di auto-save migliorato
+    this.debouncedSave(data, 'saveScene')
+    
+    // Aggiorna la cache immediatamente per feedback istantaneo
+    this.updateCache(data)
+    
+    console.log(`💾 Scena ${scene.id} salvata (in coda)`)
+    return scene
+  }
+
+  async addScene(scene) {
+    scene.id = Date.now()
+    scene.createdAt = new Date().toISOString()
+    scene.lastModified = new Date().toISOString()
+    
+    const data = await this.loadGameData()
+    data.scenes.push(scene)
+    data.stats.totalScenes = data.scenes.length
+    data.stats.lastModified = new Date().toISOString()
+    
+    // Usa il sistema di auto-save migliorato
+    this.debouncedSave(data, 'addScene')
+    
+    // Aggiorna la cache immediatamente
+    this.updateCache(data)
+    
+    console.log(`✅ Nuova scena ${scene.id} aggiunta (in coda)`)
+    return scene
   }
 
   async addScene(scene) {

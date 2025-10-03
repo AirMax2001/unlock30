@@ -4,6 +4,20 @@
     <div class="admin-header">
       <h1><i class="fas fa-cog"></i> Pannello Admin</h1>
       <div class="header-actions">
+        <!-- Indicatore di stato salvataggio -->
+        <div class="save-status" :class="saveStatus.class">
+          <i :class="saveStatus.icon"></i>
+          {{ saveStatus.text }}
+        </div>
+        <button 
+          v-if="selectedScene" 
+          @click="forceSave" 
+          class="btn-force-save"
+          title="Salva immediatamente"
+          :disabled="loading"
+        >
+          <i class="fas fa-save"></i> Salva Ora
+        </button>
         <button class="btn-backup" @click="createBackup" :disabled="loading">
           <i class="fas fa-cloud-upload-alt"></i> Backup
         </button>
@@ -407,6 +421,13 @@ export default {
         message: '',
         icon: ''
       },
+      // Stato del salvataggio
+      saveStatus: {
+        text: 'Pronto',
+        class: 'save-ready',
+        icon: 'fas fa-circle'
+      },
+      lastSaveTime: null,
       // Opzioni per la personalizzazione degli stili
       backgroundThemes: [
         { name: 'Predefinito', value: '', preview: 'linear-gradient(45deg, #2c3e50, #34495e)' },
@@ -766,32 +787,103 @@ export default {
       }
     },
 
-    // Auto-save con debounce per evitare troppe chiamate
+    // Auto-save con debounce migliorato
     debouncedAutoSave() {
       clearTimeout(this.autoSaveTimer)
       this.autoSaveTimer = setTimeout(() => {
         this.autoSave()
-      }, 1000) // Aspetta 1 secondo dopo l'ultima modifica
+      }, 300) // Ridotto a 300ms per essere più reattivo
     },
 
     async autoSave() {
       if (!this.selectedScene || !this.selectedScene.id) return
       
       try {
+        // Aggiorna indicatore di stato
+        this.updateSaveStatus('saving', 'Salvando...', 'fas fa-spinner fa-spin')
+        
+        // Aggiorna timestamp di modifica
+        this.selectedScene.lastModified = new Date().toISOString()
+        
         console.log('🔄 Auto-save in corso...')
         const sceneData = { ...this.selectedScene }
+        
+        // Usa il nuovo sistema di salvataggio con coda
         await gameService.saveScene(sceneData)
         
-        // Aggiorna la scena nella lista locale
+        // Aggiorna la scena nella lista locale immediatamente
         const index = this.scenes.findIndex(s => s.id === sceneData.id)
         if (index !== -1) {
-          this.scenes[index] = sceneData
+          this.scenes[index] = { ...sceneData }
         }
         
-        // Mostra indicatore discreto di salvataggio
-        this.showAutoSaveIndicator()
+        // Aggiorna indicatore di successo
+        this.updateSaveStatus('saved', 'Salvato', 'fas fa-check-circle')
+        this.lastSaveTime = new Date()
+        
+        // Torna a "pronto" dopo 3 secondi
+        setTimeout(() => {
+          this.updateSaveStatus('ready', 'Pronto', 'fas fa-circle')
+        }, 3000)
+        
+        // Forza il refresh per vedere i cambiamenti in tempo reale
+        this.$forceUpdate()
+        
       } catch (error) {
         console.error('❌ Errore auto-save:', error)
+        this.updateSaveStatus('error', 'Errore', 'fas fa-exclamation-triangle')
+        this.showToast('error', 'Errore nel salvataggio automatico', 'fas fa-exclamation-triangle')
+      }
+    },
+
+    // Auto-save immediato per operazioni critiche
+    async forceSave() {
+      if (!this.selectedScene || !this.selectedScene.id) return
+      
+      try {
+        this.updateSaveStatus('saving', 'Salvando...', 'fas fa-spinner fa-spin')
+        
+        console.log('⚡ Salvataggio forzato...')
+        this.selectedScene.lastModified = new Date().toISOString()
+        
+        // Usa il metodo di salvataggio diretto per operazioni immediate
+        const data = await gameService.loadGameData()
+        const sceneIndex = data.scenes.findIndex(s => s.id === this.selectedScene.id)
+        
+        if (sceneIndex !== -1) {
+          data.scenes[sceneIndex] = { ...this.selectedScene }
+        }
+        
+        data.stats.lastModified = new Date().toISOString()
+        await gameService.saveGameData(data)
+        
+        // Aggiorna anche la lista locale
+        const index = this.scenes.findIndex(s => s.id === this.selectedScene.id)
+        if (index !== -1) {
+          this.scenes[index] = { ...this.selectedScene }
+        }
+        
+        this.updateSaveStatus('saved', 'Salvato!', 'fas fa-check-circle')
+        this.showToast('success', 'Modifiche salvate immediatamente!', 'fas fa-save')
+        
+        // Torna a "pronto" dopo 2 secondi
+        setTimeout(() => {
+          this.updateSaveStatus('ready', 'Pronto', 'fas fa-circle')
+        }, 2000)
+        
+      } catch (error) {
+        console.error('❌ Errore salvataggio forzato:', error)
+        this.updateSaveStatus('error', 'Errore', 'fas fa-exclamation-triangle')
+        this.showToast('error', 'Errore nel salvataggio', 'fas fa-exclamation-triangle')
+      }
+    },
+
+    // Aggiorna indicatore di stato
+    updateSaveStatus(type, text, icon) {
+      this.saveStatus = {
+        text,
+        icon,
+        class: `save-${type}`
       }
     },
 
@@ -921,3 +1013,88 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+/* STILI INDICATORE DI STATO */
+.save-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.save-ready {
+  background: rgba(52, 152, 219, 0.2);
+  color: #3498db;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+.save-saving {
+  background: rgba(241, 196, 15, 0.2);
+  color: #f1c40f;
+  border: 1px solid rgba(241, 196, 15, 0.3);
+}
+
+.save-saved {
+  background: rgba(39, 174, 96, 0.2);
+  color: #27ae60;
+  border: 1px solid rgba(39, 174, 96, 0.3);
+}
+
+.save-error {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+  border: 1px solid rgba(231, 76, 60, 0.3);
+}
+
+.btn-force-save {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 10px;
+}
+
+.btn-force-save:hover:not(:disabled) {
+  background: linear-gradient(45deg, #219a52, #27ae60);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(39, 174, 96, 0.3);
+}
+
+.btn-force-save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* LAYOUT HEADER MIGLIORATO */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .header-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .save-status {
+    order: -1;
+    text-align: center;
+  }
+}
+</style>
