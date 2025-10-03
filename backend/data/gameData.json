@@ -1,92 +1,14 @@
 {
   "scenes": [
     {
-      "id": 20,
-      "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521524956,
-          "text": "Avanti",
-          "nextSceneId": 21
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:58:17.304Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:58:47.300Z",
-      "updatedAt": "2025-10-03T19:58:47.302Z"
-    },
-    {
-      "id": 21,
-      "title": "Non capisci se i vecchi stiano facendo la fila per la pensione o per il caffè",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521541089,
-          "text": "Avanti",
-          "nextSceneId": 22
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:58:46.993Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:59:04.709Z",
-      "updatedAt": "2025-10-03T19:59:04.711Z"
-    },
-    {
-      "id": 22,
-      "title": "Sbagli fila, e fai colazione in piedi alle 11 bestemmiando al suono delle tazzine sbattute",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521554097,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:59:04.407Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:59:16.528Z",
-      "updatedAt": "2025-10-03T19:59:16.529Z"
-    },
-    {
-      "id": 23,
-      "title": "Nuova Scena",
+      "id": 18,
+      "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:59:26.027Z",
+      "createdAt": "2025-10-03T19:57:47.159Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -95,8 +17,122 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:59:29.960Z",
-      "updatedAt": "2025-10-03T19:59:30.221Z"
+      "lastModified": "2025-10-03T19:57:58.701Z",
+      "updatedAt": "2025-10-03T19:57:58.966Z"
+    },
+    {
+      "id": 24,
+      "title": "Pensi “ ho appena evitato uno scontro mortale con la stampante 3d e di fare la fila alle poste”",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521599559,
+          "text": "Avanti",
+          "nextSceneId": 25
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T19:59:45.951Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:04.199Z",
+      "updatedAt": "2025-10-03T20:00:04.200Z"
+    },
+    {
+      "id": 25,
+      "title": "Non capisci perché te lo stai chiedendo ma non è importante",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521616228,
+          "text": "Avanti",
+          "nextSceneId": 26
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:04.199Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:18.044Z",
+      "updatedAt": "2025-10-03T20:00:18.045Z"
+    },
+    {
+      "id": 26,
+      "title": "Ora va iniziata la mattinata!",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521643681,
+          "text": "Avanti",
+          "nextSceneId": 27
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:17.740Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:45.855Z",
+      "updatedAt": "2025-10-03T20:00:45.856Z"
+    },
+    {
+      "id": 27,
+      "title": "La mattina",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521710306,
+          "text": "Vai in palestra",
+          "nextSceneId": null
+        },
+        {
+          "id": 1759521712846,
+          "text": "Fai shopping on-line compulsivo",
+          "nextSceneId": null
+        },
+        {
+          "id": 1759521713995,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:45.552Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:03:10.513Z",
+      "updatedAt": "2025-10-03T20:03:10.761Z"
     }
   ],
   "settings": {
@@ -106,7 +142,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 4,
-    "lastModified": "2025-10-03T19:59:30.221Z"
+    "totalScenes": 5,
+    "lastModified": "2025-10-03T20:03:10.761Z"
   }
 }
