@@ -113,6 +113,16 @@
       },
       "lastModified": "2025-10-03T20:17:26.695Z",
       "updatedAt": "2025-10-03T20:17:26.699Z"
+    },
+    {
+      "id": 63,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:17:42.987Z"
     }
   ],
   "settings": {
@@ -122,7 +132,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 5,
-    "lastModified": "2025-10-03T20:17:26.699Z"
+    "totalScenes": 6,
+    "lastModified": "2025-10-03T20:17:42.987Z"
   }
 }
