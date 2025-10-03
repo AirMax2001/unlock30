@@ -270,7 +270,7 @@
     },
     {
       "id": 109,
-      "title": ". Risolvi questo indovinello",
+      "title": "Risolvi questo indovinello",
       "description": "",
       "image": "",
       "video": "",
@@ -285,8 +285,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:39:17.345Z",
-      "updatedAt": "2025-10-03T20:39:17.589Z"
+      "lastModified": "2025-10-03T20:39:19.156Z",
+      "updatedAt": "2025-10-03T20:39:19.159Z"
     }
   ],
   "settings": {
@@ -297,6 +297,6 @@
   },
   "stats": {
     "totalScenes": 12,
-    "lastModified": "2025-10-03T20:39:17.589Z"
+    "lastModified": "2025-10-03T20:39:19.159Z"
   }
 }
