@@ -202,7 +202,7 @@
         {
           "id": 1759523023148,
           "text": "Inizi una partita di league of legends",
-          "nextSceneId": null
+          "nextSceneId": 80
         },
         {
           "id": 1759523026565,
@@ -225,8 +225,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:24:51.176Z",
-      "updatedAt": "2025-10-03T20:24:51.180Z"
+      "lastModified": "2025-10-03T20:24:57.043Z",
+      "updatedAt": "2025-10-03T20:24:57.047Z"
     },
     {
       "id": 71,
@@ -403,6 +403,16 @@
       },
       "lastModified": "2025-10-03T20:24:46.922Z",
       "updatedAt": "2025-10-03T20:24:46.925Z"
+    },
+    {
+      "id": 80,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:24:56.738Z"
     }
   ],
   "settings": {
@@ -412,7 +422,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 16,
-    "lastModified": "2025-10-03T20:24:51.180Z"
+    "totalScenes": 17,
+    "lastModified": "2025-10-03T20:24:57.047Z"
   }
 }
