@@ -101,8 +101,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:10:24.235Z",
-      "updatedAt": "2025-10-03T20:10:24.237Z"
+      "lastModified": "2025-10-03T20:10:24.537Z",
+      "updatedAt": "2025-10-03T20:10:24.538Z"
     },
     {
       "id": 49,
@@ -112,7 +112,17 @@
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:10:24.235Z"
+      "createdAt": "2025-10-03T20:10:24.235Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:10:26.462Z",
+      "updatedAt": "2025-10-03T20:10:26.464Z"
     }
   ],
   "settings": {
@@ -123,6 +133,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:10:24.237Z"
+    "lastModified": "2025-10-03T20:10:26.464Z"
   }
 }
