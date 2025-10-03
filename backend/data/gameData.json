@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 3,
-      "title": ". Dopo un’ora suona una sveglia che nessuno interrompe",
+      "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:50:54.449Z",
-      "updatedAt": "2025-10-03T19:50:54.726Z"
+      "lastModified": "2025-10-03T19:50:57.553Z",
+      "updatedAt": "2025-10-03T19:50:57.810Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:50:54.726Z"
+    "lastModified": "2025-10-03T19:50:57.810Z"
   }
 }
