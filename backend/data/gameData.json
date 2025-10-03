@@ -204,11 +204,17 @@
     },
     {
       "id": 37,
-      "title": ". Rimani con il conto in negativo e decidi di trasferirti in messico",
+      "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759521974960,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-03T20:06:03.288Z",
       "titleStyle": "",
@@ -219,8 +225,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:06:10.927Z",
-      "updatedAt": "2025-10-03T20:06:11.186Z"
+      "lastModified": "2025-10-03T20:06:12.745Z",
+      "updatedAt": "2025-10-03T20:06:12.748Z"
     }
   ],
   "settings": {
@@ -231,6 +237,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-03T20:06:11.186Z"
+    "lastModified": "2025-10-03T20:06:12.748Z"
   }
 }
