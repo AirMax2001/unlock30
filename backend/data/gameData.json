@@ -116,7 +116,7 @@
     },
     {
       "id": 67,
-      "title": "Nuova Scena",
+      "title": ". Un salmone parlante sospeso nell’aria suggerisce le strategie",
       "description": "",
       "image": "",
       "video": "",
@@ -131,8 +131,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:19:11.452Z",
-      "updatedAt": "2025-10-03T20:19:11.454Z"
+      "lastModified": "2025-10-03T20:19:17.593Z",
+      "updatedAt": "2025-10-03T20:19:17.822Z"
     }
   ],
   "settings": {
@@ -143,6 +143,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T20:19:11.454Z"
+    "lastModified": "2025-10-03T20:19:17.822Z"
   }
 }
