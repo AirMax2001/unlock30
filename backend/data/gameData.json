@@ -1,14 +1,232 @@
 {
   "scenes": [
     {
-      "id": 56,
-      "title": "Nuova Scena",
+      "id": 45,
+      "title": "tiri una marcia e la macchina si lancia, inquadratura rallenty, capelli al vento",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522165347,
+          "text": "Avanti",
+          "nextSceneId": 46
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:09:17.309Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:09:28.134Z",
+      "updatedAt": "2025-10-03T20:09:28.139Z"
+    },
+    {
+      "id": 46,
+      "title": "La telecamera immaginaria inquadra il tuo sguardo deciso",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522179617,
+          "text": "Avanti",
+          "nextSceneId": 47
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:09:27.833Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:09:44.698Z",
+      "updatedAt": "2025-10-03T20:09:44.700Z"
+    },
+    {
+      "id": 47,
+      "title": "Finisci in una sfilata di compleanno di un asilo che blocca la strada",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522203536,
+          "text": "Avanti",
+          "nextSceneId": 48
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:09:44.391Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:10:07.095Z",
+      "updatedAt": "2025-10-03T20:10:07.098Z"
+    },
+    {
+      "id": 48,
+      "title": "I bimbi pensano tu sia il clown arrivato in ritardo",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522220544,
+          "text": "Avanti",
+          "nextSceneId": 49
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:10:06.787Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:10:24.537Z",
+      "updatedAt": "2025-10-03T20:10:24.538Z"
+    },
+    {
+      "id": 49,
+      "title": "Gli agenti si fermano per non rovinare la festa: scusa perfetta — ti offrono una fetta di torta e ti chiedono il permesso di sfilare insieme alla carrozza",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522239831,
+          "text": "Avanti",
+          "nextSceneId": 5
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:10:24.235Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:10:44.060Z",
+      "updatedAt": "2025-10-03T20:10:44.062Z"
+    },
+    {
+      "id": 50,
+      "title": "Dopo tutte le ore passate a guardare anime e serie tv acquisisci il potere di evocare delle ombre, che si vedono poco perché è giorno, ma creano uno scudo invisibile che fa accartocciare le macchine della polizia su loro stesse",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522273565,
+          "text": "Avanti",
+          "nextSceneId": 51
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:10:56.145Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:11:16.192Z",
+      "updatedAt": "2025-10-03T20:11:16.194Z"
+    },
+    {
+      "id": 51,
+      "title": "Preso da improvvise manie di grandezza raggiungi il comune di Montesilvano e urli a gran voce di essere il nuovo re d’Italia",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522290633,
+          "text": "Avanti",
+          "nextSceneId": 52
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:11:15.885Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:11:34.868Z",
+      "updatedAt": "2025-10-03T20:11:34.870Z"
+    },
+    {
+      "id": 52,
+      "title": "Contrari? ",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522309326,
+          "text": "Avanti",
+          "nextSceneId": 53
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:11:34.564Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:11:53.288Z",
+      "updatedAt": "2025-10-03T20:11:53.290Z"
+    },
+    {
+      "id": 53,
+      "title": "Lotta contro Mattarella e Gerry scotti",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:13:36.400Z"
+      "createdAt": "2025-10-03T20:11:52.987Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:12:06.862Z",
+      "updatedAt": "2025-10-03T20:12:06.864Z"
     }
   ],
   "settings": {
@@ -18,7 +236,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 1,
-    "lastModified": "2025-10-03T20:13:37.106Z"
+    "totalScenes": 9,
+    "lastModified": "2025-10-03T20:12:06.865Z"
   }
 }
