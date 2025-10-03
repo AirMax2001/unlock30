@@ -2,7 +2,7 @@
 
 Un gioco interattivo a scelte multiple con pannello di amministrazione.
 
-**🌐 Sito Web**: [http://maristellacichella.altervista.org/](http://maristellacichella.altervista.org/)
+**🌐 Sito Web**:[(https://unlock30.onrender.com))
 
 ## Configurazione Automatica
 
