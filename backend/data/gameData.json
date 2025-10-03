@@ -240,7 +240,7 @@
     },
     {
       "id": 40,
-      "title": "Nuova Scena",
+      "title": "Decidi che sia arrivato il momento di iscriverti ad una gara clandestina di mattina",
       "description": "",
       "image": "",
       "video": "",
@@ -255,8 +255,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:07:22.353Z",
-      "updatedAt": "2025-10-03T20:07:22.636Z"
+      "lastModified": "2025-10-03T20:07:28.330Z",
+      "updatedAt": "2025-10-03T20:07:28.579Z"
     }
   ],
   "settings": {
@@ -267,6 +267,6 @@
   },
   "stats": {
     "totalScenes": 10,
-    "lastModified": "2025-10-03T20:07:22.636Z"
+    "lastModified": "2025-10-03T20:07:28.579Z"
   }
 }
