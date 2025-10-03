@@ -370,13 +370,39 @@
     },
     {
       "id": 77,
+      "title": "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759522953444,
+          "text": "Avanti",
+          "nextSceneId": 78
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:22:16.319Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:22:36.078Z",
+      "updatedAt": "2025-10-03T20:22:36.080Z"
+    },
+    {
+      "id": 78,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:22:16.319Z"
+      "createdAt": "2025-10-03T20:22:35.764Z"
     }
   ],
   "settings": {
@@ -386,7 +412,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 16,
-    "lastModified": "2025-10-03T20:22:16.636Z"
+    "totalScenes": 17,
+    "lastModified": "2025-10-03T20:22:36.081Z"
   }
 }
