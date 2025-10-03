@@ -256,13 +256,23 @@
     },
     {
       "id": 58,
-      "title": "Nuova Scena",
+      "title": "Tiri un sospiro di sollievo ma inali diversi agenti chimici che ti innescano diverse modificazioni genetiche",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:14:44.499Z"
+      "createdAt": "2025-10-03T20:14:44.499Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:14:54.116Z",
+      "updatedAt": "2025-10-03T20:14:54.399Z"
     }
   ],
   "settings": {
@@ -273,6 +283,6 @@
   },
   "stats": {
     "totalScenes": 11,
-    "lastModified": "2025-10-03T20:14:44.503Z"
+    "lastModified": "2025-10-03T20:14:54.399Z"
   }
 }
