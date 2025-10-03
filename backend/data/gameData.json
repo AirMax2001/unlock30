@@ -28,7 +28,7 @@
     },
     {
       "id": 21,
-      "title": "Nuova Scena",
+      "title": "Non capisci se i vecchi stiano facendo la fila per la pensione o per il caffè",
       "description": "",
       "image": "",
       "video": "",
@@ -43,8 +43,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:58:50.766Z",
-      "updatedAt": "2025-10-03T19:58:51.013Z"
+      "lastModified": "2025-10-03T19:58:56.556Z",
+      "updatedAt": "2025-10-03T19:58:56.809Z"
     }
   ],
   "settings": {
@@ -55,6 +55,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T19:58:51.013Z"
+    "lastModified": "2025-10-03T19:58:56.809Z"
   }
 }
