@@ -1,92 +1,14 @@
 {
   "scenes": [
     {
-      "id": 20,
-      "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521524956,
-          "text": "Avanti",
-          "nextSceneId": 21
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:58:17.304Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:58:47.300Z",
-      "updatedAt": "2025-10-03T19:58:47.302Z"
-    },
-    {
-      "id": 21,
-      "title": "Non capisci se i vecchi stiano facendo la fila per la pensione o per il caffè",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521541089,
-          "text": "Avanti",
-          "nextSceneId": 22
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:58:46.993Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:59:04.709Z",
-      "updatedAt": "2025-10-03T19:59:04.711Z"
-    },
-    {
-      "id": 22,
-      "title": "Sbagli fila, e fai colazione in piedi alle 11 bestemmiando al suono delle tazzine sbattute",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521554097,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:59:04.407Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:59:16.528Z",
-      "updatedAt": "2025-10-03T19:59:16.529Z"
-    },
-    {
-      "id": 23,
-      "title": "Nuova Scena",
+      "id": 18,
+      "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:59:26.027Z",
+      "createdAt": "2025-10-03T19:57:47.159Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -95,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:59:29.960Z",
-      "updatedAt": "2025-10-03T19:59:30.221Z"
+      "lastModified": "2025-10-03T19:57:58.701Z",
+      "updatedAt": "2025-10-03T19:57:58.966Z"
     }
   ],
   "settings": {
@@ -106,7 +28,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 4,
-    "lastModified": "2025-10-03T19:59:30.221Z"
+    "totalScenes": 1,
+    "lastModified": "2025-10-03T19:57:58.966Z"
   }
 }
