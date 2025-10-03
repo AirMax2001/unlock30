@@ -120,17 +120,33 @@ const readJsonFile = (filePath) => {
 
 const writeJsonFile = (filePath, data) => {
   try {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    console.log(`[WRITE] File scritto con successo: ${filePath}`);
+    // Assicura che la directory esista
+    const dir = path.dirname(filePath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    
+    // Scrittura SINCRONA e FORZATA del file
+    const jsonString = JSON.stringify(data, null, 2);
+    fs.writeFileSync(filePath, jsonString, { encoding: 'utf8', flag: 'w' });
+    
+    // Forza il flush sul disco
+    const fd = fs.openSync(filePath, 'r+');
+    fs.fsyncSync(fd);
+    fs.closeSync(fd);
+    
+    console.log(`[WRITE] ✅ File salvato e sincronizzato: ${filePath}`);
+    console.log(`[WRITE] 📄 Dimensione: ${jsonString.length} caratteri`);
+    console.log(`[WRITE] 🕐 Timestamp: ${new Date().toISOString()}`);
     
     // BACKUP AUTOMATICO OGNI VOLTA CHE SI SALVANO I DATI
     if (filePath === gameDataPath) {
-      backupToGit('Aggiornamento dati gioco');
+      backupToGit('Aggiornamento automatico dati gioco');
     }
     
     return true;
   } catch (error) {
-    console.error(`[WRITE] Errore nella scrittura del file ${filePath}:`, error);
+    console.error(`[WRITE] ❌ Errore nella scrittura del file ${filePath}:`, error);
     return false;
   }
 };
@@ -183,6 +199,31 @@ app.post('/api/game/data', (req, res) => {
     res.json({ success: true, message: 'Dati salvati con successo' });
   } else {
     res.status(500).json({ error: 'Errore nel salvataggio dei dati' });
+  }
+});
+
+// Endpoint per forzare il salvataggio immediato
+app.post('/api/game/force-save', (req, res) => {
+  console.log('[API] ⚡ FORCE SAVE richiesto');
+  
+  try {
+    const currentData = readJsonFile(gameDataPath);
+    if (!currentData) {
+      return res.status(500).json({ error: 'Impossibile leggere i dati attuali' });
+    }
+    
+    // Forza riscrittura con sync
+    const success = writeJsonFile(gameDataPath, currentData);
+    
+    if (success) {
+      console.log('[API] ✅ Force save completato');
+      res.json({ success: true, message: 'Force save completato' });
+    } else {
+      res.status(500).json({ error: 'Errore nel force save' });
+    }
+  } catch (error) {
+    console.error('[API] ❌ Errore force save:', error);
+    res.status(500).json({ error: 'Errore interno nel force save' });
   }
 });
 
