@@ -292,7 +292,7 @@
     },
     {
       "id": 74,
-      "title": "Nuova Scena",
+      "title": "v",
       "description": "",
       "image": "",
       "video": "",
@@ -307,8 +307,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:21:31.433Z",
-      "updatedAt": "2025-10-03T20:21:31.435Z"
+      "lastModified": "2025-10-03T20:21:38.648Z",
+      "updatedAt": "2025-10-03T20:21:38.878Z"
     }
   ],
   "settings": {
@@ -319,6 +319,6 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-03T20:21:31.435Z"
+    "lastModified": "2025-10-03T20:21:38.878Z"
   }
 }
