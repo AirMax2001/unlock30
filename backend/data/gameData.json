@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 45,
-      "title": "Nuova Scena",
+      "title": "tiri una marcia e la macchina si lancia, inquadratura rallenty, capelli al vento",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:09:20.251Z",
-      "updatedAt": "2025-10-03T20:09:20.253Z"
+      "lastModified": "2025-10-03T20:09:22.211Z",
+      "updatedAt": "2025-10-03T20:09:22.213Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T20:09:20.253Z"
+    "lastModified": "2025-10-03T20:09:22.213Z"
   }
 }
