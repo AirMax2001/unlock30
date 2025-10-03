@@ -630,7 +630,7 @@
     },
     {
       "id": 92,
-      "title": "Nuova Scena",
+      "title": "Perdete al primo girone",
       "description": "",
       "image": "",
       "video": "",
@@ -645,8 +645,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:30:29.510Z",
-      "updatedAt": "2025-10-03T20:30:29.512Z"
+      "lastModified": "2025-10-03T20:30:35.453Z",
+      "updatedAt": "2025-10-03T20:30:35.703Z"
     }
   ],
   "settings": {
@@ -657,6 +657,6 @@
   },
   "stats": {
     "totalScenes": 25,
-    "lastModified": "2025-10-03T20:30:29.512Z"
+    "lastModified": "2025-10-03T20:30:35.703Z"
   }
 }
