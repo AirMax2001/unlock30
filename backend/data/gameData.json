@@ -48,7 +48,7 @@
     },
     {
       "id": 94,
-      "title": ".Alla fine che te ne fai dei milioni",
+      "title": "Alla fine che te ne fai dei milioni",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:31:50.424Z",
-      "updatedAt": "2025-10-03T20:31:50.427Z"
+      "lastModified": "2025-10-03T20:31:57.852Z",
+      "updatedAt": "2025-10-03T20:31:58.140Z"
     },
     {
       "id": 95,
@@ -91,6 +91,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T20:31:50.427Z"
+    "lastModified": "2025-10-03T20:31:58.140Z"
   }
 }
