@@ -74,7 +74,7 @@
     },
     {
       "id": 98,
-      "title": "Nuova Scena",
+      "title": ". Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
       "description": "",
       "image": "",
       "video": "",
@@ -89,8 +89,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:33:29.575Z",
-      "updatedAt": "2025-10-03T20:33:29.578Z"
+      "lastModified": "2025-10-03T20:33:40.256Z",
+      "updatedAt": "2025-10-03T20:33:40.526Z"
     }
   ],
   "settings": {
@@ -101,6 +101,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T20:33:29.578Z"
+    "lastModified": "2025-10-03T20:33:40.527Z"
   }
 }
