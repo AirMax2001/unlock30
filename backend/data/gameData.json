@@ -1,92 +1,14 @@
 {
   "scenes": [
     {
-      "id": 20,
-      "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521524956,
-          "text": "Avanti",
-          "nextSceneId": 21
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:58:17.304Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:58:47.300Z",
-      "updatedAt": "2025-10-03T19:58:47.302Z"
-    },
-    {
-      "id": 21,
-      "title": "Non capisci se i vecchi stiano facendo la fila per la pensione o per il caffè",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521541089,
-          "text": "Avanti",
-          "nextSceneId": 22
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:58:46.993Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:59:04.709Z",
-      "updatedAt": "2025-10-03T19:59:04.711Z"
-    },
-    {
-      "id": 22,
-      "title": "Sbagli fila, e fai colazione in piedi alle 11 bestemmiando al suono delle tazzine sbattute",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521554097,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:59:04.407Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:59:16.528Z",
-      "updatedAt": "2025-10-03T19:59:16.529Z"
-    },
-    {
-      "id": 23,
-      "title": "Nuova Scena",
+      "id": 18,
+      "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:59:26.027Z",
+      "createdAt": "2025-10-03T19:57:47.159Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -95,24 +17,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:59:29.960Z",
-      "updatedAt": "2025-10-03T19:59:30.221Z"
+      "lastModified": "2025-10-03T19:57:58.701Z",
+      "updatedAt": "2025-10-03T19:57:58.966Z"
     },
     {
-      "id": 33,
-      "title": "Apri ali express e controlli il carrello",
+      "id": 24,
+      "title": "Pensi “ ho appena evitato uno scontro mortale con la stampante 3d e di fare la fila alle poste”",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521915247,
+          "id": 1759521599559,
           "text": "Avanti",
-          "nextSceneId": 34
+          "nextSceneId": 25
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:05:04.038Z",
+      "createdAt": "2025-10-03T19:59:45.951Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -121,24 +43,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:17.435Z",
-      "updatedAt": "2025-10-03T20:05:17.437Z"
+      "lastModified": "2025-10-03T20:00:04.199Z",
+      "updatedAt": "2025-10-03T20:00:04.200Z"
     },
     {
-      "id": 34,
-      "title": "Compri tutto",
+      "id": 25,
+      "title": "Non capisci perché te lo stai chiedendo ma non è importante",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521929667,
+          "id": 1759521616228,
           "text": "Avanti",
-          "nextSceneId": 35
+          "nextSceneId": 26
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:05:17.126Z",
+      "createdAt": "2025-10-03T20:00:04.199Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -147,24 +69,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:33.710Z",
-      "updatedAt": "2025-10-03T20:05:33.713Z"
+      "lastModified": "2025-10-03T20:00:18.044Z",
+      "updatedAt": "2025-10-03T20:00:18.045Z"
     },
     {
-      "id": 35,
-      "title": "Amazon ti manda un buono sconto e  liberi anche il suo carrello",
+      "id": 26,
+      "title": "Ora va iniziata la mattinata!",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521944155,
+          "id": 1759521643681,
           "text": "Avanti",
-          "nextSceneId": 36
+          "nextSceneId": 27
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:05:33.406Z",
+      "createdAt": "2025-10-03T20:00:17.740Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -173,24 +95,34 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:46.700Z",
-      "updatedAt": "2025-10-03T20:05:46.702Z"
+      "lastModified": "2025-10-03T20:00:45.855Z",
+      "updatedAt": "2025-10-03T20:00:45.856Z"
     },
     {
-      "id": 36,
-      "title": "LG ti chiama direttamente e accetti qualsiasi offerta ti propongano",
+      "id": 27,
+      "title": "La mattina",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521960298,
-          "text": "Avanti",
-          "nextSceneId": 37
+          "id": 1759521710306,
+          "text": "Vai in palestra",
+          "nextSceneId": null
+        },
+        {
+          "id": 1759521712846,
+          "text": "Fai shopping on-line compulsivo",
+          "nextSceneId": null
+        },
+        {
+          "id": 1759521713995,
+          "text": "Partecipi ad una corsa di auto clandestina per mattinieri",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:05:46.393Z",
+      "createdAt": "2025-10-03T20:00:45.552Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -199,24 +131,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:06:03.597Z",
-      "updatedAt": "2025-10-03T20:06:03.601Z"
+      "lastModified": "2025-10-03T20:03:15.286Z",
+      "updatedAt": "2025-10-03T20:03:15.531Z"
     },
     {
-      "id": 37,
-      "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
+      "id": 29,
+      "title": "Svolti a sinistra verso il mc donald sperando di aggirarli",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521974960,
+          "id": 1759521830579,
           "text": "Avanti",
-          "nextSceneId": 38
+          "nextSceneId": 30
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:06:03.288Z",
+      "createdAt": "2025-10-03T20:03:34.244Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -225,18 +157,86 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:06:17.269Z",
-      "updatedAt": "2025-10-03T20:06:17.273Z"
+      "lastModified": "2025-10-03T20:03:54.881Z",
+      "updatedAt": "2025-10-03T20:03:54.883Z"
     },
     {
-      "id": 38,
-      "title": "Nuova Scena",
+      "id": 30,
+      "title": "La polizia ti fa svoltare a sinistra e torni su via vestina",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759521854599,
+          "text": "Avanti",
+          "nextSceneId": 31
+        }
+      ],
       "isFinal": false,
-      "createdAt": "2025-10-03T20:06:16.965Z"
+      "createdAt": "2025-10-03T20:03:54.565Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:04:16.907Z",
+      "updatedAt": "2025-10-03T20:04:16.909Z"
+    },
+    {
+      "id": 31,
+      "title": "La percorri cercando di svoltare a destra ma un buco multidimensionale ha reso tutte le stradine a senso unico",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521870120,
+          "text": "Avanti",
+          "nextSceneId": 32
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:04:16.595Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:04:34.677Z",
+      "updatedAt": "2025-10-03T20:04:34.682Z"
+    },
+    {
+      "id": 32,
+      "title": "Giri in tondo per sempre",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521885063,
+          "text": "Avanti",
+          "nextSceneId": null
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:04:34.376Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:04:46.702Z",
+      "updatedAt": "2025-10-03T20:04:46.704Z"
     }
   ],
   "settings": {
@@ -246,7 +246,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 10,
-    "lastModified": "2025-10-03T20:06:17.273Z"
+    "totalScenes": 9,
+    "lastModified": "2025-10-03T20:04:46.704Z"
   }
 }
