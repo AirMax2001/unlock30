@@ -578,7 +578,7 @@
     },
     {
       "id": 90,
-      "title": "Nuova Scena",
+      "title": "Ti invitano a disputare il mondiale degli EA sports",
       "description": "",
       "image": "",
       "video": "",
@@ -593,8 +593,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:29:57.170Z",
-      "updatedAt": "2025-10-03T20:29:57.437Z"
+      "lastModified": "2025-10-03T20:29:59.574Z",
+      "updatedAt": "2025-10-03T20:29:59.576Z"
     }
   ],
   "settings": {
@@ -605,6 +605,6 @@
   },
   "stats": {
     "totalScenes": 23,
-    "lastModified": "2025-10-03T20:29:57.437Z"
+    "lastModified": "2025-10-03T20:29:59.576Z"
   }
 }
