@@ -549,7 +549,7 @@
       "choices": [
         {
           "id": 1759523352736,
-          "text": "",
+          "text": "Disputa il mondiale",
           "nextSceneId": null
         },
         {
@@ -573,8 +573,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:29:17.222Z",
-      "updatedAt": "2025-10-03T20:29:17.225Z"
+      "lastModified": "2025-10-03T20:29:22.344Z",
+      "updatedAt": "2025-10-03T20:29:22.612Z"
     }
   ],
   "settings": {
@@ -585,6 +585,6 @@
   },
   "stats": {
     "totalScenes": 22,
-    "lastModified": "2025-10-03T20:29:17.225Z"
+    "lastModified": "2025-10-03T20:29:22.612Z"
   }
 }
