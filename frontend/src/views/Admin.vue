@@ -20,6 +20,14 @@
         >
           <i class="fas fa-save"></i> Salva Ora
         </button>
+        <button 
+          @click="megaForceSave" 
+          class="btn-mega-save"
+          title="FORCE SAVE - Salvataggio garantito con verifica"
+          :disabled="loading"
+        >
+          <i class="fas fa-database"></i> FORCE SAVE
+        </button>
         <button class="btn-backup" @click="createBackup" :disabled="loading">
           <i class="fas fa-cloud-upload-alt"></i> Backup
         </button>
@@ -961,6 +969,62 @@ export default {
       }
     },
 
+    // MEGA FORCE SAVE - Salvataggio garantito
+    async megaForceSave() {
+      try {
+        this.updateSaveStatus('saving', 'FORCE SAVING...', 'fas fa-database fa-spin')
+        
+        console.log('⚡ MEGA FORCE SAVE iniziato...')
+        
+        // 1. Salva tutti i dati attuali
+        const allData = {
+          scenes: this.scenes,
+          settings: {
+            gameName: "Il Gioco dei Trenta",
+            welcomeMessage: "Benvenuto nel gioco!",
+            maxScenes: 30,
+            theme: "unlock30"
+          },
+          stats: {
+            totalScenes: this.scenes.length,
+            lastModified: new Date().toISOString(),
+            forceSaveBy: 'admin'
+          }
+        }
+        
+        // 2. Force save su API
+        await gameService.saveGameData(allData)
+        
+        // 3. Force save diretto
+        await gameService.forceSave()
+        
+        // 4. Verifica che sia stato salvato
+        const verification = await gameService.forceRefresh()
+        
+        if (verification && verification.scenes.length === this.scenes.length) {
+          this.updateSaveStatus('saved', 'FORCE SAVED!', 'fas fa-check-circle')
+          this.showToast('success', `✅ FORCE SAVE completato! ${verification.scenes.length} scene salvate`, 'fas fa-database')
+          
+          // 5. Forza anche localStorage
+          localStorage.setItem('ilGiocoDeiTrenta_gameData', JSON.stringify(allData))
+          
+          console.log('✅ MEGA FORCE SAVE completato con verifica')
+        } else {
+          throw new Error('Verifica post-salvataggio fallita')
+        }
+        
+        // Torna a "pronto" dopo 5 secondi
+        setTimeout(() => {
+          this.updateSaveStatus('ready', 'Pronto', 'fas fa-circle')
+        }, 5000)
+        
+      } catch (error) {
+        console.error('❌ Errore MEGA FORCE SAVE:', error)
+        this.updateSaveStatus('error', 'ERRORE FORCE SAVE', 'fas fa-exclamation-triangle')
+        this.showToast('error', '❌ Errore nel FORCE SAVE', 'fas fa-exclamation-triangle')
+      }
+    },
+
     // VISUALIZZATORE JSON
     async toggleJsonViewer() {
       this.showJsonViewer = !this.showJsonViewer
@@ -1050,26 +1114,32 @@ export default {
     },
 
     async restoreBackup() {
-      if (!confirm('⚠️ Sicuro di voler ripristinare i dati dal backup? Le modifiche non salvate andranno perse.')) {
+      if (!confirm('⚠️ Sicuro di voler ripristinare i dati dal JSON? Le modifiche non salvate andranno perse.')) {
         return
       }
 
       try {
         this.loading = true
-        console.log('☁️ Ripristino dal backup...')
+        console.log('🔄 Ripristino dal file JSON...')
         
-        const data = await gameService.restoreFromBackup()
+        // Forza il refresh completo dei dati dal backend
+        const data = await gameService.forceRefresh()
         
-        if (data) {
-          this.scenes = data.scenes || []
+        if (data && data.scenes) {
+          this.scenes = data.scenes
           this.selectedScene = null
-          this.showNotification('✅ Dati ripristinati dal backup Git!', 'success')
+          
+          // Forza anche il salvataggio in localStorage come backup
+          localStorage.setItem('ilGiocoDeiTrenta_gameData', JSON.stringify(data))
+          
+          this.showNotification(`✅ Dati ripristinati! ${data.scenes.length} scene caricate`, 'success')
+          console.log('✅ Ripristino completato:', data.scenes.length, 'scene')
         } else {
-          this.showNotification('⚠️ Ripristino non disponibile', 'warning')
+          this.showNotification('⚠️ Nessun dato da ripristinare', 'warning')
         }
       } catch (error) {
         console.error('❌ Errore ripristino:', error)
-        this.showNotification('❌ Errore nel ripristino dal backup', 'error')
+        this.showNotification('❌ Errore nel ripristino dei dati', 'error')
       } finally {
         this.loading = false
       }
@@ -1225,6 +1295,37 @@ export default {
 }
 
 .btn-force-save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-mega-save {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-mega-save:hover:not(:disabled) {
+  background: linear-gradient(45deg, #c0392b, #a93226);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(231, 76, 60, 0.4);
+  border-color: rgba(255,255,255,0.4);
+}
+
+.btn-mega-save:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }

@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 1,
-      "title": "f",
+      "title": "La sveglia",
       "description": "Benvenuto nel Gioco dei Trenta! Inizia la tua avventura...",
       "image": "http://localhost:3001/uploads/1759421107882-IMG-20251002-WA0015.jpg",
       "video": "",
@@ -19,7 +19,7 @@
         }
       ],
       "isFinal": false,
-      "updatedAt": "2025-10-03T16:15:32.169Z",
+      "updatedAt": "2025-10-03T16:21:33.070Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -28,7 +28,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T16:15:32.166Z"
+      "lastModified": "2025-10-03T18:25:21.437Z"
     },
     {
       "id": 2,
@@ -97,6 +97,7 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T16:15:32.169Z"
+    "lastModified": "2025-10-03T18:25:23.595Z",
+    "forceSaveBy": "admin"
   }
 }

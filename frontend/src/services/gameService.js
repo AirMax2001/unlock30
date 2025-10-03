@@ -125,7 +125,8 @@ class GameService {
     try {
       let result
       if (this.isApiMode) {
-        result = await this.saveToApi(gameData)
+        // Prova salvataggio API con retry
+        result = await this.saveToApiWithRetry(gameData)
       } else {
         result = this.saveToLocalStorage(gameData)
       }
@@ -140,6 +141,49 @@ class GameService {
         console.log('🔄 Fallback a localStorage')
         return this.saveToLocalStorage(gameData)
       }
+      throw error
+    }
+  }
+
+  // Salvataggio API con retry automatico
+  async saveToApiWithRetry(gameData, maxRetries = 3) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        console.log(`🌐 Tentativo salvataggio ${attempt}/${maxRetries}...`)
+        const result = await this.saveToApi(gameData)
+        console.log(`✅ Salvataggio riuscito al tentativo ${attempt}`)
+        return result
+      } catch (error) {
+        console.warn(`⚠️ Tentativo ${attempt} fallito:`, error.message)
+        if (attempt === maxRetries) {
+          throw error
+        }
+        // Aspetta prima del retry (500ms, 1s, 1.5s)
+        await new Promise(resolve => setTimeout(resolve, attempt * 500))
+      }
+    }
+  }
+
+  // Forza salvataggio immediato
+  async forceSave() {
+    try {
+      if (this.isApiMode) {
+        console.log('⚡ FORCE SAVE su API...')
+        const response = await fetch(`${this.apiBaseUrl}/api/game/force-save`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' }
+        })
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+        }
+        
+        const result = await response.json()
+        console.log('✅ Force save completato')
+        return result
+      }
+    } catch (error) {
+      console.error('❌ Errore force save:', error)
       throw error
     }
   }
