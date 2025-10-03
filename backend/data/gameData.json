@@ -1,50 +1,14 @@
 {
   "scenes": [
     {
-      "id": 18,
-      "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521483675,
-          "text": "Avanti",
-          "nextSceneId": 19
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:57:47.159Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:58:06.280Z",
-      "updatedAt": "2025-10-03T19:58:06.281Z"
-    },
-    {
-      "id": 19,
+      "id": 20,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:58:05.974Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:58:09.131Z",
-      "updatedAt": "2025-10-03T19:58:09.134Z"
+      "createdAt": "2025-10-03T19:58:17.304Z"
     }
   ],
   "settings": {
@@ -54,7 +18,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 2,
-    "lastModified": "2025-10-03T19:58:09.134Z"
+    "totalScenes": 1,
+    "lastModified": "2025-10-03T19:58:17.550Z"
   }
 }
