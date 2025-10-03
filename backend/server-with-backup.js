@@ -167,6 +167,98 @@ app.get('/api/game/data', (req, res) => {
   res.json(gameData);
 });
 
+// Visualizzatore JSON via browser
+app.get('/api/game/json-viewer', (req, res) => {
+  console.log('[API] Richiesta visualizzazione JSON');
+  const gameData = readJsonFile(gameDataPath);
+  
+  if (!gameData) {
+    return res.status(500).send('<h1>Errore nel caricamento dei dati</h1>');
+  }
+  
+  const html = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>UNLOCK30 - JSON Viewer</title>
+      <style>
+        body { 
+          font-family: monospace; 
+          background: #1e1e1e; 
+          color: #d4d4d4; 
+          padding: 20px; 
+          margin: 0;
+        }
+        .container { 
+          max-width: 1200px; 
+          margin: 0 auto; 
+        }
+        .header { 
+          background: #2d3748; 
+          padding: 20px; 
+          border-radius: 8px; 
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .stats { 
+          display: flex; 
+          gap: 20px; 
+          color: #68d391;
+        }
+        .json-content { 
+          background: #2d3748; 
+          padding: 20px; 
+          border-radius: 8px; 
+          overflow: auto;
+          white-space: pre-wrap;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+        .refresh-btn {
+          background: #4299e1;
+          color: white;
+          border: none;
+          padding: 8px 16px;
+          border-radius: 4px;
+          cursor: pointer;
+          text-decoration: none;
+          display: inline-block;
+        }
+        .refresh-btn:hover { background: #3182ce; }
+      </style>
+      <script>
+        function autoRefresh() {
+          setTimeout(() => {
+            window.location.reload();
+          }, 5000);
+        }
+        autoRefresh();
+      </script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>🎮 UNLOCK30 - JSON Data Viewer</h1>
+          <div class="stats">
+            <span>📊 Scene: ${gameData.scenes ? gameData.scenes.length : 0}</span>
+            <span>🕐 Aggiornato: ${new Date().toLocaleString('it-IT')}</span>
+            <a href="/api/game/json-viewer" class="refresh-btn">🔄 Aggiorna</a>
+          </div>
+        </div>
+        <div class="json-content">${JSON.stringify(gameData, null, 2)}</div>
+        <div style="margin-top: 20px; text-align: center; color: #68d391;">
+          ⚡ Auto-refresh attivo ogni 5 secondi
+        </div>
+      </div>
+    </body>
+    </html>
+  `;
+  
+  res.send(html);
+});
+
 // Salva dati del gioco
 app.post('/api/game/data', (req, res) => {
   console.log('[API] Richiesta di salvataggio dati ricevuta');

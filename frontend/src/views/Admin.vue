@@ -2,13 +2,15 @@
   <div class="admin-container animated-red-background">
     <!-- Header -->
     <div class="admin-header">
+      <!-- Indicatore di stato in alto a sinistra -->
+      <div class="save-status-left" :class="saveStatus.class">
+        <i :class="saveStatus.icon"></i>
+        {{ saveStatus.text }}
+      </div>
+      
       <h1><i class="fas fa-cog"></i> Pannello Admin</h1>
+      
       <div class="header-actions">
-        <!-- Indicatore di stato salvataggio -->
-        <div class="save-status" :class="saveStatus.class">
-          <i :class="saveStatus.icon"></i>
-          {{ saveStatus.text }}
-        </div>
         <button 
           v-if="selectedScene" 
           @click="forceSave" 
@@ -34,6 +36,13 @@
         <button class="btn-home" @click="goHome">
           <i class="fas fa-home"></i> Home
         </button>
+        <button 
+          @click="toggleJsonViewer" 
+          class="btn-json-viewer"
+          title="Visualizza JSON"
+        >
+          <i class="fas fa-code"></i> JSON
+        </button>
       </div>
     </div>
 
@@ -45,6 +54,28 @@
 
     <!-- Contenuto principale -->
     <div v-else class="admin-content">
+      <!-- JSON Viewer Overlay -->
+      <div v-if="showJsonViewer" class="json-viewer-overlay" @click="closeJsonViewer">
+        <div class="json-viewer-modal" @click.stop>
+          <div class="json-viewer-header">
+            <h3><i class="fas fa-code"></i> Dati JSON in Tempo Reale</h3>
+            <button @click="closeJsonViewer" class="btn-close-json">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="json-viewer-content">
+            <div class="json-stats">
+              <span><i class="fas fa-database"></i> Scene: {{ scenes.length }}</span>
+              <span><i class="fas fa-clock"></i> Ultimo aggiornamento: {{ formatTime(lastSaveTime) }}</span>
+              <button @click="refreshJsonViewer" class="btn-refresh-json">
+                <i class="fas fa-sync-alt"></i> Aggiorna
+              </button>
+            </div>
+            <pre class="json-display">{{ formatJson(jsonViewerData) }}</pre>
+          </div>
+        </div>
+      </div>
+
       <!-- Sidebar -->
       <div class="sidebar">
         <div class="sidebar-section">
@@ -428,6 +459,10 @@ export default {
         icon: 'fas fa-circle'
       },
       lastSaveTime: null,
+      // Visualizzatore JSON
+      showJsonViewer: false,
+      jsonViewerData: null,
+      // Opzioni per la personalizzazione degli stili
       // Opzioni per la personalizzazione degli stili
       backgroundThemes: [
         { name: 'Predefinito', value: '', preview: 'linear-gradient(45deg, #2c3e50, #34495e)' },
@@ -829,6 +864,11 @@ export default {
         // Forza il refresh per vedere i cambiamenti in tempo reale
         this.$forceUpdate()
         
+        // Aggiorna JSON viewer se aperto
+        if (this.showJsonViewer) {
+          await this.refreshJsonViewer()
+        }
+        
       } catch (error) {
         console.error('❌ Errore auto-save:', error)
         this.updateSaveStatus('error', 'Errore', 'fas fa-exclamation-triangle')
@@ -885,6 +925,46 @@ export default {
         icon,
         class: `save-${type}`
       }
+    },
+
+    // VISUALIZZATORE JSON
+    async toggleJsonViewer() {
+      this.showJsonViewer = !this.showJsonViewer
+      if (this.showJsonViewer) {
+        await this.refreshJsonViewer()
+      }
+    },
+
+    closeJsonViewer() {
+      this.showJsonViewer = false
+    },
+
+    async refreshJsonViewer() {
+      try {
+        // Ottieni i dati più aggiornati
+        const freshData = await gameService.loadGameData()
+        this.jsonViewerData = {
+          scenes: freshData.scenes,
+          settings: freshData.settings,
+          stats: {
+            ...freshData.stats,
+            lastViewed: new Date().toISOString()
+          }
+        }
+      } catch (error) {
+        console.error('Errore nel refresh JSON viewer:', error)
+        this.jsonViewerData = { error: 'Impossibile caricare i dati JSON' }
+      }
+    },
+
+    formatJson(data) {
+      if (!data) return 'Caricamento...'
+      return JSON.stringify(data, null, 2)
+    },
+
+    formatTime(time) {
+      if (!time) return 'Mai'
+      return new Date(time).toLocaleString('it-IT')
     },
 
     showAutoSaveIndicator() {
@@ -1016,40 +1096,77 @@ export default {
 
 <style scoped>
 /* STILI INDICATORE DI STATO */
-.save-status {
+.save-status-left {
+  position: absolute;
+  top: 15px;
+  left: 15px;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 12px;
-  border-radius: 20px;
+  padding: 10px 15px;
+  border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.3s ease;
-  margin-right: 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
 .save-ready {
-  background: rgba(52, 152, 219, 0.2);
-  color: #3498db;
-  border: 1px solid rgba(52, 152, 219, 0.3);
+  background: rgba(52, 152, 219, 0.9);
+  color: white;
+  border-color: rgba(52, 152, 219, 0.5);
 }
 
 .save-saving {
-  background: rgba(241, 196, 15, 0.2);
-  color: #f1c40f;
-  border: 1px solid rgba(241, 196, 15, 0.3);
+  background: rgba(241, 196, 15, 0.9);
+  color: white;
+  border-color: rgba(241, 196, 15, 0.5);
+  animation: pulse 1.5s infinite;
 }
 
 .save-saved {
-  background: rgba(39, 174, 96, 0.2);
-  color: #27ae60;
-  border: 1px solid rgba(39, 174, 96, 0.3);
+  background: rgba(39, 174, 96, 0.9);
+  color: white;
+  border-color: rgba(39, 174, 96, 0.5);
+  animation: successPulse 0.6s ease;
 }
 
 .save-error {
-  background: rgba(231, 76, 60, 0.2);
-  color: #e74c3c;
-  border: 1px solid rgba(231, 76, 60, 0.3);
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+  border-color: rgba(231, 76, 60, 0.5);
+  animation: shake 0.5s ease;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+
+@keyframes successPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.admin-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  border-bottom: 3px solid #e74c3c;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .btn-force-save {
@@ -1086,15 +1203,176 @@ export default {
   flex-wrap: wrap;
 }
 
+.admin-header h1 {
+  margin: 0;
+  color: white;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
 @media (max-width: 768px) {
   .header-actions {
     flex-direction: column;
     align-items: stretch;
   }
   
-  .save-status {
+  .save-status-left {
+    position: relative;
+    top: auto;
+    left: auto;
     order: -1;
     text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .admin-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* VISUALIZZATORE JSON */
+.btn-json-viewer {
+  background: linear-gradient(45deg, #9b59b6, #8e44ad);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-json-viewer:hover {
+  background: linear-gradient(45deg, #8e44ad, #732d91);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(142, 68, 173, 0.3);
+}
+
+.json-viewer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  animation: fadeIn 0.3s ease;
+}
+
+.json-viewer-modal {
+  background: #2c3e50;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 90vh;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  animation: slideInUp 0.3s ease;
+}
+
+.json-viewer-header {
+  background: linear-gradient(45deg, #34495e, #2c3e50);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.json-viewer-header h3 {
+  color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-close-json {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+  border: 1px solid rgba(231, 76, 60, 0.3);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-close-json:hover {
+  background: rgba(231, 76, 60, 0.3);
+}
+
+.json-viewer-content {
+  padding: 0;
+  max-height: calc(90vh - 100px);
+  overflow: auto;
+}
+
+.json-stats {
+  background: rgba(52, 73, 94, 0.5);
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #ecf0f1;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.json-stats span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-refresh-json {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+.btn-refresh-json:hover {
+  background: linear-gradient(45deg, #2980b9, #1f5f8a);
+}
+
+.json-display {
+  background: #1e272e;
+  color: #00d2d3;
+  padding: 20px;
+  margin: 0;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 12px;
+  line-height: 1.4;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 </style>

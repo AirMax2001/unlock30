@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 1,
-      "title": "w",
+      "title": "f",
       "description": "Benvenuto nel Gioco dei Trenta! Inizia la tua avventura...",
       "image": "http://localhost:3001/uploads/1759421107882-IMG-20251002-WA0015.jpg",
       "video": "",
@@ -27,11 +27,12 @@
         "particles": false,
         "glow": false,
         "typewriter": false
-      }
+      },
+      "lastModified": "2025-10-03T15:55:11.278Z"
     },
     {
       "id": 2,
-      "title": "ppppp",
+      "title": "polli",
       "description": "jjjjjjjjjjjjjjjjj",
       "image": "",
       "video": "",
@@ -47,16 +48,35 @@
           "nextSceneId": 3
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T15:55:22.939Z",
+      "updatedAt": "2025-10-03T15:55:22.949Z"
     },
     {
       "id": 3,
-      "title": "finalw",
+      "title": "morto",
       "description": "dddddddddddddd",
       "image": "",
       "video": "",
       "choices": [],
-      "isFinal": true
+      "isFinal": true,
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T15:55:28.562Z"
     }
   ],
   "settings": {
@@ -67,6 +87,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-02T16:37:25.275Z"
+    "lastModified": "2025-10-03T15:55:28.562Z"
   }
 }
