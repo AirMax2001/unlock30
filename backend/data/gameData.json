@@ -84,7 +84,7 @@
     },
     {
       "id": 13,
-      "title": "Nuova Scena",
+      "title": ". Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
       "description": "",
       "image": "",
       "video": "",
@@ -99,8 +99,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:56:16.796Z",
-      "updatedAt": "2025-10-03T19:56:16.797Z"
+      "lastModified": "2025-10-03T19:56:23.269Z",
+      "updatedAt": "2025-10-03T19:56:23.530Z"
     }
   ],
   "settings": {
@@ -111,6 +111,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T19:56:16.797Z"
+    "lastModified": "2025-10-03T19:56:23.530Z"
   }
 }
