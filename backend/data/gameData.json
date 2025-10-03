@@ -146,7 +146,7 @@
     },
     {
       "id": 11,
-      "title": ". Lasci il lavoro e diventi un maestro di yoga con i leggins verdi",
+      "title": "Lasci il lavoro e diventi un maestro di yoga con i leggins verdi",
       "description": "",
       "image": "",
       "video": "",
@@ -161,8 +161,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:54:45.606Z",
-      "updatedAt": "2025-10-03T19:54:45.854Z"
+      "lastModified": "2025-10-03T19:54:47.871Z",
+      "updatedAt": "2025-10-03T19:54:47.872Z"
     }
   ],
   "settings": {
@@ -173,6 +173,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-03T19:54:45.854Z"
+    "lastModified": "2025-10-03T19:54:47.872Z"
   }
 }
