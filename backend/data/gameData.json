@@ -188,7 +188,7 @@
     },
     {
       "id": 17,
-      "title": "Nuova Scena",
+      "title": ". La macchina emette uno sbuffo, si anima e si ribella a te che sei suo padre",
       "description": "",
       "image": "",
       "video": "",
@@ -203,8 +203,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:57:18.049Z",
-      "updatedAt": "2025-10-03T19:57:18.050Z"
+      "lastModified": "2025-10-03T19:57:24.707Z",
+      "updatedAt": "2025-10-03T19:57:24.959Z"
     }
   ],
   "settings": {
@@ -215,6 +215,6 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-03T19:57:18.050Z"
+    "lastModified": "2025-10-03T19:57:24.959Z"
   }
 }
