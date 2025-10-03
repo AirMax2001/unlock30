@@ -142,7 +142,7 @@
     },
     {
       "id": 68,
-      "title": ". Vinci e torni a casa sacrificando le tue ombre",
+      "title": "Vinci e torni a casa sacrificando le tue ombre",
       "description": "",
       "image": "",
       "video": "",
@@ -157,8 +157,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:19:36.636Z",
-      "updatedAt": "2025-10-03T20:19:36.639Z"
+      "lastModified": "2025-10-03T20:19:38.484Z",
+      "updatedAt": "2025-10-03T20:19:38.486Z"
     }
   ],
   "settings": {
@@ -169,6 +169,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-03T20:19:36.639Z"
+    "lastModified": "2025-10-03T20:19:38.486Z"
   }
 }
