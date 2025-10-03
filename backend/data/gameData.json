@@ -554,7 +554,7 @@
         },
         {
           "id": 1759523354644,
-          "text": "",
+          "text": "Presentati alla festa",
           "nextSceneId": null
         },
         {
@@ -573,8 +573,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:29:22.344Z",
-      "updatedAt": "2025-10-03T20:29:22.612Z"
+      "lastModified": "2025-10-03T20:29:35.802Z",
+      "updatedAt": "2025-10-03T20:29:36.067Z"
     }
   ],
   "settings": {
@@ -585,6 +585,6 @@
   },
   "stats": {
     "totalScenes": 22,
-    "lastModified": "2025-10-03T20:29:22.612Z"
+    "lastModified": "2025-10-03T20:29:36.067Z"
   }
 }
