@@ -557,7 +557,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:26:32.660Z"
+      "lastModified": "2025-10-03T20:29:05.708Z",
+      "updatedAt": "2025-10-03T20:29:05.976Z"
     }
   ],
   "settings": {
@@ -568,6 +569,6 @@
   },
   "stats": {
     "totalScenes": 22,
-    "lastModified": "2025-10-03T20:27:22.309Z"
+    "lastModified": "2025-10-03T20:29:05.976Z"
   }
 }
