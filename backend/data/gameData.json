@@ -120,7 +120,7 @@
     },
     {
       "id": 101,
-      "title": "Nuova Scena",
+      "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
       "description": "",
       "image": "",
       "video": "",
@@ -135,8 +135,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:34:32.256Z",
-      "updatedAt": "2025-10-03T20:34:32.535Z"
+      "lastModified": "2025-10-03T20:34:38.658Z",
+      "updatedAt": "2025-10-03T20:34:38.920Z"
     }
   ],
   "settings": {
@@ -147,6 +147,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T20:34:32.535Z"
+    "lastModified": "2025-10-03T20:34:38.920Z"
   }
 }
