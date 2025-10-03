@@ -23,7 +23,7 @@
     {
       "id": 9,
       "title": "Trovi 3 messaggi:",
-      "description": "L’INPS ti manda un messaggio: “Buon compleanno! Da oggi sei ufficialmente più vicino alla pensione (forse nel 2089)”.\nTuo zio che ti scrive: “Auguri bomber, ricordati che io a 30  anni avevo già tre mutui e due mogli”.\nUna pubblicità random: “Offerta speciale! Diventa maestro di yoga in 3 giorni con il nostro corso online – AUGURI!!!” \n",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [],
@@ -37,8 +37,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:53:49.278Z",
-      "updatedAt": "2025-10-03T19:53:49.614Z"
+      "lastModified": "2025-10-03T19:53:52.626Z",
+      "updatedAt": "2025-10-03T19:53:52.627Z"
     }
   ],
   "settings": {
@@ -49,6 +49,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T19:53:49.614Z"
+    "lastModified": "2025-10-03T19:53:52.627Z"
   }
 }
