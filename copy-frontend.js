@@ -56,33 +56,31 @@ try {
   if (!fs.existsSync(frontendDist) || process.argv.includes('--force-build')) {
     console.log('📦 Building frontend...');
     
-    // Change to frontend directory
-    process.chdir(path.join(__dirname, 'frontend'));
-    
     // Try different approaches to run the build
     try {
-      // First try with npx
-      runCommand('npx vue-cli-service build');
+      // First ensure we're in the frontend directory and deps are installed
+      runCommand('npm install', { cwd: path.join(__dirname, 'frontend') });
+      
+      // Then try with npx
+      runCommand('npx vue-cli-service build', { cwd: path.join(__dirname, 'frontend') });
     } catch (error1) {
       console.log('⚠️  npx failed, trying with yarn...');
       try {
-        runCommand('yarn build');
+        runCommand('yarn install', { cwd: path.join(__dirname, 'frontend') });
+        runCommand('yarn build', { cwd: path.join(__dirname, 'frontend') });
       } catch (error2) {
         console.log('⚠️  yarn failed, trying with npm...');
         try {
-          runCommand('npm run build');
+          runCommand('npm run build', { cwd: path.join(__dirname, 'frontend') });
         } catch (error3) {
           console.log('⚠️  All build methods failed, trying to fix permissions...');
           
           // Try to fix permissions and retry
-          runCommand('chmod +x node_modules/.bin/vue-cli-service || true', { stdio: 'pipe' });
-          runCommand('npx vue-cli-service build');
+          runCommand('chmod +x node_modules/.bin/vue-cli-service || true', { stdio: 'pipe', cwd: path.join(__dirname, 'frontend') });
+          runCommand('npx vue-cli-service build', { cwd: path.join(__dirname, 'frontend') });
         }
       }
     }
-    
-    // Change back to root directory
-    process.chdir(__dirname);
   } else {
     console.log('✅ Frontend dist already exists, skipping build');
   }
