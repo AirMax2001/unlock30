@@ -2788,6 +2788,32 @@
       },
       "lastModified": "2025-10-03T20:00:00.000Z",
       "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 111,
+      "title": "Nuova Scena",
+      "description": "Questa è la scena 111. Nuova Scena",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220264,
+          "text": "Continua",
+          "nextSceneId": null
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     }
   ],
   "settings": {
@@ -2797,8 +2823,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 106,
-    "lastModified": "2025-10-03T21:57:16.193Z",
+    "totalScenes": 107,
+    "lastModified": "2025-10-03T21:50:20.153Z",
     "recoveredFromCommits": true,
     "recoveryVersion": "ALL_107_SCENES_COMPLETE"
   }
