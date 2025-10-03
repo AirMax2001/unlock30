@@ -441,7 +441,7 @@
     },
     {
       "id": 82,
-      "title": "Nuova Scena",
+      "title": "Iniziate a conversare e salta fuori che la nuova squadra abbia bisogno di un jungler",
       "description": "",
       "image": "",
       "video": "",
@@ -456,8 +456,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:25:34.925Z",
-      "updatedAt": "2025-10-03T20:25:34.927Z"
+      "lastModified": "2025-10-03T20:25:41.469Z",
+      "updatedAt": "2025-10-03T20:25:41.740Z"
     }
   ],
   "settings": {
@@ -468,6 +468,6 @@
   },
   "stats": {
     "totalScenes": 19,
-    "lastModified": "2025-10-03T20:25:34.927Z"
+    "lastModified": "2025-10-03T20:25:41.740Z"
   }
 }
