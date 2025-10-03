@@ -9,7 +9,7 @@
       "choices": [
         {
           "id": 1759521001133,
-          "text": "",
+          "text": "È il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
           "nextSceneId": null
         },
         {
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:50:05.088Z",
-      "updatedAt": "2025-10-03T19:50:05.089Z"
+      "lastModified": "2025-10-03T19:50:10.481Z",
+      "updatedAt": "2025-10-03T19:50:10.729Z"
     }
   ],
   "settings": {
@@ -45,6 +45,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:50:05.089Z"
+    "lastModified": "2025-10-03T19:50:10.729Z"
   }
 }
