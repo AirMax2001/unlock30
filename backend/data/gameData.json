@@ -209,7 +209,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:23:03.393Z"
+      "lastModified": "2025-10-03T20:20:22.662Z",
+      "updatedAt": "2025-10-03T20:20:22.664Z"
     },
     {
       "id": 71,
@@ -351,7 +352,7 @@
         {
           "id": 1759522934317,
           "text": "Avanti",
-          "nextSceneId": 77
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
@@ -364,54 +365,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:22:16.633Z",
-      "updatedAt": "2025-10-03T20:22:16.636Z"
-    },
-    {
-      "id": 77,
-      "title": "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759522953444,
-          "text": "Avanti",
-          "nextSceneId": 78
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:22:16.319Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:22:36.078Z",
-      "updatedAt": "2025-10-03T20:22:36.080Z"
-    },
-    {
-      "id": 78,
-      "title": "Vinci ma non torni per tua scelta",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-03T20:22:35.764Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T20:22:43.492Z",
-      "updatedAt": "2025-10-03T20:22:43.759Z"
+      "lastModified": "2025-10-03T20:22:15.757Z",
+      "updatedAt": "2025-10-03T20:22:15.760Z"
     }
   ],
   "settings": {
@@ -421,7 +376,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 17,
-    "lastModified": "2025-10-03T20:23:03.640Z"
+    "totalScenes": 15,
+    "lastModified": "2025-10-03T20:22:15.760Z"
   }
 }
