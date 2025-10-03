@@ -230,7 +230,7 @@
     },
     {
       "id": 57,
-      "title": "Nuova Scena",
+      "title": "La polizia si ferma e, non vedendoti più, interrompe l’inseguimento e torna tutto normale",
       "description": "",
       "image": "",
       "video": "",
@@ -245,8 +245,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:14:31.366Z",
-      "updatedAt": "2025-10-03T20:14:31.617Z"
+      "lastModified": "2025-10-03T20:14:37.372Z",
+      "updatedAt": "2025-10-03T20:14:37.642Z"
     }
   ],
   "settings": {
@@ -257,6 +257,6 @@
   },
   "stats": {
     "totalScenes": 10,
-    "lastModified": "2025-10-03T20:14:31.617Z"
+    "lastModified": "2025-10-03T20:14:37.642Z"
   }
 }
