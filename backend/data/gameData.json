@@ -100,7 +100,7 @@
     },
     {
       "id": 33,
-      "title": "Nuova Scena",
+      "title": "Apri ali express e controlli il carrello",
       "description": "",
       "image": "",
       "video": "",
@@ -115,8 +115,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:07.550Z",
-      "updatedAt": "2025-10-03T20:05:07.824Z"
+      "lastModified": "2025-10-03T20:05:13.085Z",
+      "updatedAt": "2025-10-03T20:05:13.321Z"
     }
   ],
   "settings": {
@@ -127,6 +127,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-03T20:05:07.824Z"
+    "lastModified": "2025-10-03T20:05:13.321Z"
   }
 }
