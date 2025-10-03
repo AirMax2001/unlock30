@@ -1,215 +1,14 @@
 {
   "scenes": [
     {
-      "id": 8,
-      "title": "La colazione",
+      "id": 18,
+      "title": "Nuova Scena",
       "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521343735,
-          "text": "Rimani a casa",
-          "nextSceneId": 12
-        },
-        {
-          "id": 1759521346417,
-          "text": "Vai al michetti",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759521349356,
-          "text": "Salti la colazione",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:52:50.833Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:57:40.394Z",
-      "updatedAt": "2025-10-03T19:57:40.649Z"
-    },
-    {
-      "id": 9,
-      "title": "Trovi 3 messaggi:",
-      "description": "L’INPS ti manda un messaggio: “Buon compleanno! Da oggi sei ufficialmente più vicino alla pensione (forse nel 2089)”.\nTuo zio che ti scrive: “Auguri bomber, ricordati che io a 30  anni avevo già tre mutui e due mogli”.\nUna pubblicità random: “Offerta speciale! Diventa maestro di yoga in 3 giorni con il nostro corso online – AUGURI!!!” \n",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-03T19:53:31.901Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:53:58.075Z",
-      "updatedAt": "2025-10-03T19:53:58.322Z"
-    },
-    {
-      "id": 12,
-      "title": "Cornetto e cappuccino",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521371151,
-          "text": "Avanti",
-          "nextSceneId": 13
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:55:59.878Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:56:14.967Z",
-      "updatedAt": "2025-10-03T19:56:14.968Z"
-    },
-    {
-      "id": 13,
-      "title": "Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521388963,
-          "text": "Avanti",
-          "nextSceneId": 14
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:56:14.663Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:56:31.339Z",
-      "updatedAt": "2025-10-03T19:56:31.341Z"
-    },
-    {
-      "id": 14,
-      "title": "La cucina ora puzza di bruciato",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521403769,
-          "text": "Avanti",
-          "nextSceneId": 15
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:56:31.031Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:56:46.805Z",
-      "updatedAt": "2025-10-03T19:56:46.806Z"
-    },
-    {
-      "id": 15,
-      "title": "Pensi “ con una macchinetta decente sarebbe stato perfetto! E pensi a come migliorare quella che hai con la stampante”",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521419060,
-          "text": "Avanti",
-          "nextSceneId": 16
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:56:46.501Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:57:01.569Z",
-      "updatedAt": "2025-10-03T19:57:01.570Z"
-    },
-    {
-      "id": 16,
-      "title": "Metti in funzione la stampante e alle 11 finalmente inizi con la calibrazione",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521433393,
-          "text": "Avanti",
-          "nextSceneId": 17
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:57:01.268Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:57:15.974Z",
-      "updatedAt": "2025-10-03T19:57:15.976Z"
-    },
-    {
-      "id": 17,
-      "title": "La macchina emette uno sbuffo, si anima e si ribella a te che sei suo padre",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521449582,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-03T19:57:15.673Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-03T19:57:34.074Z"
+      "createdAt": "2025-10-03T19:57:47.159Z"
     }
   ],
   "settings": {
@@ -219,7 +18,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 8,
-    "lastModified": "2025-10-03T19:57:40.649Z"
+    "totalScenes": 1,
+    "lastModified": "2025-10-03T19:57:47.400Z"
   }
 }
