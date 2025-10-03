@@ -550,7 +550,7 @@
         {
           "id": 1759523352736,
           "text": "Disputa il mondiale",
-          "nextSceneId": null
+          "nextSceneId": 90
         },
         {
           "id": 1759523354644,
@@ -573,8 +573,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:29:43.349Z",
-      "updatedAt": "2025-10-03T20:29:43.597Z"
+      "lastModified": "2025-10-03T20:29:53.810Z",
+      "updatedAt": "2025-10-03T20:29:53.814Z"
+    },
+    {
+      "id": 90,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:29:53.509Z"
     }
   ],
   "settings": {
@@ -584,7 +594,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 22,
-    "lastModified": "2025-10-03T20:29:43.597Z"
+    "totalScenes": 23,
+    "lastModified": "2025-10-03T20:29:53.814Z"
   }
 }
