@@ -126,7 +126,7 @@
     },
     {
       "id": 34,
-      "title": "Nuova Scena",
+      "title": "Compri tutto",
       "description": "",
       "image": "",
       "video": "",
@@ -141,8 +141,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:05:19.526Z",
-      "updatedAt": "2025-10-03T20:05:19.528Z"
+      "lastModified": "2025-10-03T20:05:24.943Z",
+      "updatedAt": "2025-10-03T20:05:25.199Z"
     }
   ],
   "settings": {
@@ -153,6 +153,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T20:05:19.528Z"
+    "lastModified": "2025-10-03T20:05:25.199Z"
   }
 }
