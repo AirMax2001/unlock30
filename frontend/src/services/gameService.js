@@ -188,6 +188,30 @@ class GameService {
     }
   }
 
+  // Test backup Git
+  async testBackup() {
+    try {
+      if (this.isApiMode) {
+        console.log('🔧 Test backup Git...')
+        const response = await fetch(`${this.apiBaseUrl}/api/test-backup`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' }
+        })
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+        }
+        
+        const result = await response.json()
+        console.log('✅ Test backup completato:', result)
+        return result
+      }
+    } catch (error) {
+      console.error('❌ Errore test backup:', error)
+      throw error
+    }
+  }
+
   // METODI API
 
   async loadFromApi() {

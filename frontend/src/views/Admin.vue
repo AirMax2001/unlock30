@@ -28,6 +28,14 @@
         >
           <i class="fas fa-database"></i> FORCE SAVE
         </button>
+        <button 
+          @click="testGitBackup" 
+          class="btn-git-test"
+          title="Test backup Git - Verifica sincronizzazione repository"
+          :disabled="loading"
+        >
+          <i class="fab fa-github"></i> Test Git
+        </button>
         <button class="btn-backup" @click="createBackup" :disabled="loading">
           <i class="fas fa-cloud-upload-alt"></i> Backup
         </button>
@@ -1025,6 +1033,35 @@ export default {
       }
     },
 
+    // TEST BACKUP GIT
+    async testGitBackup() {
+      try {
+        this.updateSaveStatus('saving', 'Test backup Git...', 'fab fa-github fa-spin')
+        
+        console.log('🔧 Test backup Git iniziato...')
+        
+        const result = await gameService.testBackup()
+        
+        if (result && result.success) {
+          this.updateSaveStatus('saved', 'Backup testato!', 'fab fa-github')
+          this.showToast('success', `✅ Test backup completato! Config: ${JSON.stringify(result.config)}`, 'fab fa-github')
+          console.log('✅ Test backup completato:', result)
+        } else {
+          throw new Error('Test backup fallito')
+        }
+        
+        // Torna a "pronto" dopo 5 secondi
+        setTimeout(() => {
+          this.updateSaveStatus('ready', 'Pronto', 'fas fa-circle')
+        }, 5000)
+        
+      } catch (error) {
+        console.error('❌ Errore test backup:', error)
+        this.updateSaveStatus('error', 'ERRORE BACKUP', 'fas fa-exclamation-triangle')
+        this.showToast('error', `❌ Errore test backup: ${error.message}`, 'fas fa-exclamation-triangle')
+      }
+    },
+
     // VISUALIZZATORE JSON
     async toggleJsonViewer() {
       this.showJsonViewer = !this.showJsonViewer
@@ -1326,6 +1363,37 @@ export default {
 }
 
 .btn-mega-save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-git-test {
+  background: linear-gradient(45deg, #24292e, #586069);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 10px;
+  border: 2px solid rgba(255,255,255,0.2);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-git-test:hover:not(:disabled) {
+  background: linear-gradient(45deg, #586069, #6f42c1);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(36, 41, 46, 0.4);
+  border-color: rgba(255,255,255,0.4);
+}
+
+.btn-git-test:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }

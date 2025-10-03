@@ -48,9 +48,24 @@ const backupToGit = (message = 'Auto-backup dati gioco') => {
   if (process.env.NODE_ENV === 'production' || process.env.FORCE_BACKUP === 'true') {
     console.log('[BACKUP] Backup automatico su Git...');
     
+    // Configurazione Git con token (prende dalle variabili di ambiente)
+    const githubToken = process.env.GITHUB_TOKEN || process.env.VUE_APP_GITHUB_TOKEN;
+    const githubOwner = process.env.GITHUB_OWNER || process.env.VUE_APP_GITHUB_OWNER || 'AirMax2001';
+    const githubRepo = process.env.GITHUB_REPO || process.env.VUE_APP_GITHUB_REPO || 'unlock30';
+    
+    if (!githubToken) {
+      console.log('[BACKUP] ❌ Token GitHub non trovato nelle variabili di ambiente');
+      return;
+    }
+    
+    const repoUrl = `https://${githubToken}@github.com/${githubOwner}/${githubRepo}.git`;
+    
     const commands = [
+      'git config user.name "Render Auto-Backup"',
+      'git config user.email "backup@render.com"',
       'git add backend/data/ backend/uploads/',
-      `git commit -m "${message} - ${new Date().toISOString()}"`,
+      `git commit -m "${message} - ${new Date().toISOString()}" || echo "Nothing to commit"`,
+      `git remote set-url origin ${repoUrl}`,
       'git push origin main'
     ];
     
@@ -58,12 +73,14 @@ const backupToGit = (message = 'Auto-backup dati gioco') => {
       setTimeout(() => {
         exec(cmd, { cwd: path.join(__dirname, '..') }, (error, stdout, stderr) => {
           if (error) {
-            console.log(`[BACKUP] Comando ${cmd}: ${error.message}`);
+            console.log(`[BACKUP] ❌ Comando ${index + 1}/${commands.length}: ${error.message}`);
+            if (stderr) console.log(`[BACKUP] stderr: ${stderr}`);
           } else {
-            console.log(`[BACKUP] Comando ${cmd}: OK`);
+            console.log(`[BACKUP] ✅ Comando ${index + 1}/${commands.length}: OK`);
+            if (stdout) console.log(`[BACKUP] stdout: ${stdout}`);
           }
         });
-      }, index * 2000); // Aspetta 2 secondi tra ogni comando
+      }, index * 3000); // Aspetta 3 secondi tra ogni comando
     });
   } else {
     console.log('[BACKUP] Modalità sviluppo - backup Git disabilitato');
@@ -224,6 +241,42 @@ app.post('/api/game/force-save', (req, res) => {
   } catch (error) {
     console.error('[API] ❌ Errore force save:', error);
     res.status(500).json({ error: 'Errore interno nel force save' });
+  }
+});
+
+// Endpoint per testare il backup Git
+app.post('/api/test-backup', (req, res) => {
+  console.log('[API] 🔧 Test backup Git richiesto');
+  
+  try {
+    // Verifica variabili di ambiente
+    const githubToken = process.env.GITHUB_TOKEN || process.env.VUE_APP_GITHUB_TOKEN;
+    const githubOwner = process.env.GITHUB_OWNER || process.env.VUE_APP_GITHUB_OWNER || 'AirMax2001';
+    const githubRepo = process.env.GITHUB_REPO || process.env.VUE_APP_GITHUB_REPO || 'unlock30';
+    
+    console.log(`[TEST-BACKUP] Owner: ${githubOwner}`);
+    console.log(`[TEST-BACKUP] Repo: ${githubRepo}`);
+    console.log(`[TEST-BACKUP] Token presente: ${githubToken ? 'Sì' : 'No'}`);
+    console.log(`[TEST-BACKUP] NODE_ENV: ${process.env.NODE_ENV}`);
+    console.log(`[TEST-BACKUP] FORCE_BACKUP: ${process.env.FORCE_BACKUP}`);
+    
+    // Forza il backup
+    backupToGit('Test backup manuale');
+    
+    res.json({ 
+      success: true, 
+      message: 'Test backup avviato',
+      config: {
+        owner: githubOwner,
+        repo: githubRepo,
+        hasToken: !!githubToken,
+        nodeEnv: process.env.NODE_ENV,
+        forceBackup: process.env.FORCE_BACKUP
+      }
+    });
+  } catch (error) {
+    console.error('[API] ❌ Errore test backup:', error);
+    res.status(500).json({ error: 'Errore nel test backup' });
   }
 });
 
