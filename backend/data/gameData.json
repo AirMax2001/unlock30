@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "title": "YOU DEF",
+      "title": "YOU DEFEAT",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:51:24.905Z",
-      "updatedAt": "2025-10-03T19:51:24.906Z"
+      "lastModified": "2025-10-03T19:51:27.530Z",
+      "updatedAt": "2025-10-03T19:51:27.532Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T19:51:24.906Z"
+    "lastModified": "2025-10-03T19:51:27.532Z"
   }
 }
