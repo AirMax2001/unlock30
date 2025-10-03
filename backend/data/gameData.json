@@ -136,7 +136,7 @@
     },
     {
       "id": 29,
-      "title": "Nuova Scena",
+      "title": "Svolti a sinistra verso il mc donald sperando di aggirarli",
       "description": "",
       "image": "",
       "video": "",
@@ -151,8 +151,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:03:39.327Z",
-      "updatedAt": "2025-10-03T20:03:39.329Z"
+      "lastModified": "2025-10-03T20:03:45.579Z",
+      "updatedAt": "2025-10-03T20:03:45.853Z"
     }
   ],
   "settings": {
@@ -163,6 +163,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T20:03:39.330Z"
+    "lastModified": "2025-10-03T20:03:45.854Z"
   }
 }
