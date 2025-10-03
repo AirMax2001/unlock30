@@ -136,7 +136,7 @@
     },
     {
       "id": 15,
-      "title": "Nuova Scena",
+      "title": "Pensi “ con una macchinetta decente sarebbe stato perfetto! E pensi a come migliorare quella che hai con la stampante”",
       "description": "",
       "image": "",
       "video": "",
@@ -151,8 +151,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:56:48.880Z",
-      "updatedAt": "2025-10-03T19:56:48.881Z"
+      "lastModified": "2025-10-03T19:56:55.268Z",
+      "updatedAt": "2025-10-03T19:56:55.523Z"
     }
   ],
   "settings": {
@@ -163,6 +163,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-03T19:56:48.882Z"
+    "lastModified": "2025-10-03T19:56:55.523Z"
   }
 }
