@@ -54,7 +54,7 @@
     },
     {
       "id": 47,
-      "title": "Nuova Scena",
+      "title": ". Finisci in una sfilata di compleanno di un asilo che blocca la strada",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:09:46.665Z",
-      "updatedAt": "2025-10-03T20:09:46.666Z"
+      "lastModified": "2025-10-03T20:09:52.929Z",
+      "updatedAt": "2025-10-03T20:09:53.298Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T20:09:46.666Z"
+    "lastModified": "2025-10-03T20:09:53.298Z"
   }
 }
