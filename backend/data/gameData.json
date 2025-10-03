@@ -22,7 +22,7 @@
     },
     {
       "id": 24,
-      "title": "Nuova Scena",
+      "title": "Pensi “ ho appena evitato uno scontro mortale con la stampante 3d e di fare la fila alle poste”",
       "description": "",
       "image": "",
       "video": "",
@@ -37,8 +37,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:59:48.621Z",
-      "updatedAt": "2025-10-03T19:59:48.622Z"
+      "lastModified": "2025-10-03T19:59:56.559Z",
+      "updatedAt": "2025-10-03T19:59:56.806Z"
     }
   ],
   "settings": {
@@ -49,6 +49,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-03T19:59:48.623Z"
+    "lastModified": "2025-10-03T19:59:56.806Z"
   }
 }
