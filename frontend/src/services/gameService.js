@@ -330,7 +330,7 @@ class GameService {
       settings: {
         gameName: "Il Gioco dei Trenta",
         welcomeMessage: "Benvenuto nel gioco!",
-        maxScenes: 30,
+        maxScenes: 999,
         theme: "unlock30"
       },
       stats: {
@@ -349,7 +349,7 @@ class GameService {
       settings: {
         gameName: "Il Gioco dei Trenta",
         welcomeMessage: "Benvenuto nel gioco!",
-        maxScenes: 30,
+        maxScenes: 999,
         theme: "unlock30",
         ...(data.settings || {})
       },
