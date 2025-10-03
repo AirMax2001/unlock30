@@ -14,7 +14,7 @@
         },
         {
           "id": 1759521003711,
-          "text": "",
+          "text": "Ti alzi e vai in bagno a lavarti i denti",
           "nextSceneId": null
         },
         {
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:50:16.938Z",
-      "updatedAt": "2025-10-03T19:50:17.183Z"
+      "lastModified": "2025-10-03T19:50:21.274Z",
+      "updatedAt": "2025-10-03T19:50:21.538Z"
     }
   ],
   "settings": {
@@ -45,6 +45,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-03T19:50:17.183Z"
+    "lastModified": "2025-10-03T19:50:21.538Z"
   }
 }
