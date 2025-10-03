@@ -467,7 +467,7 @@
     },
     {
       "id": 83,
-      "title": "Nuova Scena",
+      "title": "Pensi che sia un ottimo modo per allenarsi e accetti",
       "description": "",
       "image": "",
       "video": "",
@@ -482,8 +482,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:25:51.686Z",
-      "updatedAt": "2025-10-03T20:25:51.933Z"
+      "lastModified": "2025-10-03T20:25:58.461Z",
+      "updatedAt": "2025-10-03T20:25:58.732Z"
     }
   ],
   "settings": {
@@ -494,6 +494,6 @@
   },
   "stats": {
     "totalScenes": 20,
-    "lastModified": "2025-10-03T20:25:51.933Z"
+    "lastModified": "2025-10-03T20:25:58.732Z"
   }
 }
