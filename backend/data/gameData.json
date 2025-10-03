@@ -54,7 +54,7 @@
     },
     {
       "id": 22,
-      "title": "Nuova Scena",
+      "title": "Sbagli fila, e fai colazione in piedi alle 11 bestemmiando al suono delle tazzine sbattute",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:59:06.554Z",
-      "updatedAt": "2025-10-03T19:59:06.556Z"
+      "lastModified": "2025-10-03T19:59:11.954Z",
+      "updatedAt": "2025-10-03T19:59:12.196Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-03T19:59:06.556Z"
+    "lastModified": "2025-10-03T19:59:12.196Z"
   }
 }
