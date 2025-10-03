@@ -84,7 +84,7 @@
     },
     {
       "id": 13,
-      "title": ". Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
+      "title": "Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
       "description": "",
       "image": "",
       "video": "",
@@ -99,8 +99,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T19:56:23.269Z",
-      "updatedAt": "2025-10-03T19:56:23.530Z"
+      "lastModified": "2025-10-03T19:56:25.603Z",
+      "updatedAt": "2025-10-03T19:56:25.604Z"
     }
   ],
   "settings": {
@@ -111,6 +111,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-03T19:56:23.530Z"
+    "lastModified": "2025-10-03T19:56:25.604Z"
   }
 }
