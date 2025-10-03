@@ -270,7 +270,7 @@
     },
     {
       "id": 109,
-      "title": "Nuova Scena",
+      "title": ". Risolvi questo indovinello",
       "description": "",
       "image": "",
       "video": "",
@@ -285,8 +285,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:39:10.132Z",
-      "updatedAt": "2025-10-03T20:39:10.377Z"
+      "lastModified": "2025-10-03T20:39:17.345Z",
+      "updatedAt": "2025-10-03T20:39:17.589Z"
     }
   ],
   "settings": {
@@ -297,6 +297,6 @@
   },
   "stats": {
     "totalScenes": 12,
-    "lastModified": "2025-10-03T20:39:10.377Z"
+    "lastModified": "2025-10-03T20:39:17.589Z"
   }
 }
