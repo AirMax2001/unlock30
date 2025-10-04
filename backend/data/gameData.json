@@ -2189,7 +2189,7 @@
       "id": 86,
       "title": "Ti siedi al pc e sotto le minacce della famiglia inizi una partita",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587080961-IMG-20251004-WA0021.jpg",
       "video": "",
       "choices": [
         {
@@ -2208,8 +2208,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:11:04.278Z",
-      "updatedAt": "2025-10-04T14:11:04.539Z"
+      "lastModified": "2025-10-04T14:11:22.543Z"
     },
     {
       "id": 87,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:11:04.539Z",
+    "lastModified": "2025-10-04T14:11:22.548Z",
     "forceSaveBy": "admin"
   }
 }
