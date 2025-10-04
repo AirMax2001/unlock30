@@ -142,7 +142,7 @@
       "id": 6,
       "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585037081-IMG-20251002-WA0024.jpg",
+      "image": "/uploads/1759603561478-IMG-20251002-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -161,8 +161,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:45:42.317Z",
-      "updatedAt": "2025-10-04T18:45:42.595Z"
+      "lastModified": "2025-10-04T18:46:03.171Z",
+      "updatedAt": "2025-10-04T18:46:03.601Z"
     },
     {
       "id": 7,
@@ -3117,7 +3117,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:45:42.595Z",
+    "lastModified": "2025-10-04T18:46:03.601Z",
     "forceSaveBy": "admin"
   }
 }
