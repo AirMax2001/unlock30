@@ -352,7 +352,7 @@
         {
           "id": 1759570757875,
           "text": "Risolvi la fame nel mondo",
-          "nextSceneId": 96
+          "nextSceneId": 97
         }
       ],
       "isFinal": false,
@@ -365,8 +365,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:44:38.006Z",
-      "updatedAt": "2025-10-04T09:44:38.305Z"
+      "lastModified": "2025-10-04T09:44:40.907Z",
+      "updatedAt": "2025-10-04T09:44:40.910Z"
     },
     {
       "id": 86,
@@ -523,6 +523,16 @@
       },
       "lastModified": "2025-10-04T09:44:24.120Z",
       "updatedAt": "2025-10-04T09:44:24.124Z"
+    },
+    {
+      "id": 97,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:44:40.604Z"
     }
   ],
   "settings": {
@@ -532,8 +542,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 20,
-    "lastModified": "2025-10-04T09:44:38.305Z",
+    "totalScenes": 21,
+    "lastModified": "2025-10-04T09:44:40.910Z",
     "forceSaveBy": "admin"
   }
 }
