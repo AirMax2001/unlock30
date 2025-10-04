@@ -9,8 +9,8 @@
       "choices": [
         {
           "id": 1759570088311,
-          "text": "Avanti",
-          "nextSceneId": 61
+          "text": "",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
@@ -23,24 +23,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:28:11.845Z",
-      "updatedAt": "2025-10-04T09:28:11.847Z"
+      "lastModified": "2025-10-04T09:28:08.612Z",
+      "updatedAt": "2025-10-04T09:28:08.867Z"
     },
     {
-      "id": 61,
-      "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
+      "id": 68,
+      "title": "Con una super mossa finale il supermercato esplode in coriandoli fluorescenti e tutti ballano la Macarena su pattini a rotelle ma le fiamme dell’esplosione vi inghiottono",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759570112980,
+          "id": 1759570303383,
           "text": "Avanti",
-          "nextSceneId": 62
+          "nextSceneId": 69
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:28:11.543Z",
+      "createdAt": "2025-10-04T09:31:25.500Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -49,24 +49,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:28:35.118Z",
-      "updatedAt": "2025-10-04T09:28:35.120Z"
+      "lastModified": "2025-10-04T09:31:46.494Z",
+      "updatedAt": "2025-10-04T09:31:46.496Z"
     },
     {
-      "id": 62,
-      "title": "Li come GTA insegna ti lanci dall’auto e finisci nel fiume",
+      "id": 69,
+      "title": "YOU DEFEAT",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759570128317,
+          "id": 1759570324586,
           "text": "Avanti",
-          "nextSceneId": 63
+          "nextSceneId": 59
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:28:35.118Z",
+      "createdAt": "2025-10-04T09:31:46.192Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -75,24 +75,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:28:52.770Z",
-      "updatedAt": "2025-10-04T09:28:52.772Z"
+      "lastModified": "2025-10-04T09:32:08.512Z",
+      "updatedAt": "2025-10-04T09:32:08.514Z"
     },
     {
-      "id": 63,
-      "title": "La polizia si ferma e, non vedendoti più, interrompe l’inseguimento e torna tutto normale",
+      "id": 70,
+      "title": "Ti trovi in un campo di battaglia che altro non è che un Ikea gigantesco e mutante, dove i corridoi si spostano da soli e i mobili camminano minacciosamente",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759570152279,
+          "id": 1759570352384,
           "text": "Avanti",
-          "nextSceneId": 64
+          "nextSceneId": 71
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:28:52.468Z",
+      "createdAt": "2025-10-04T09:32:16.274Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -101,246 +101,28 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:29:14.586Z",
-      "updatedAt": "2025-10-04T09:29:14.588Z"
+      "lastModified": "2025-10-04T09:32:35.046Z",
+      "updatedAt": "2025-10-04T09:32:35.048Z"
     },
     {
-      "id": 64,
-      "title": "Tiri un sospiro di sollievo ma inali diversi agenti chimici che ti innescano diverse modificazioni genetiche",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570173102,
-          "text": "Avanti",
-          "nextSceneId": 55
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:29:14.281Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:29:37.080Z",
-      "updatedAt": "2025-10-04T09:29:37.326Z"
-    },
-    {
-      "id": 65,
-      "title": "Ti ritrovi in un supermercato gigante ma noti che tutto quello che ti circonda è vivo:   le bottiglie di ketchup ti inseguono, i carrelli fanno parkour da soli",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570238195,
-          "text": "Avanti",
-          "nextSceneId": 66
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:30:18.974Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:30:42.255Z",
-      "updatedAt": "2025-10-04T09:30:42.258Z"
-    },
-    {
-      "id": 66,
-      "title": "Mattarella ha il potere di congelare i pavimenti con lo sguardo serio, Gerry Scotti lancia banane esplosive che cantano canzoni degli anni ’80",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570262088,
-          "text": "Avanti",
-          "nextSceneId": 67
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:30:41.954Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:31:05.362Z",
-      "updatedAt": "2025-10-04T09:31:05.364Z"
-    },
-    {
-      "id": 67,
-      "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:31:05.061Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:31:18.070Z",
-      "updatedAt": "2025-10-04T09:31:18.313Z"
-    },
-    {
-      "id": 72,
-      "title": "Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per “disattivare” i boss",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570398008,
-          "text": "Avanti",
-          "nextSceneId": 73
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:32:56.005Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:33:22.179Z",
-      "updatedAt": "2025-10-04T09:33:22.182Z"
-    },
-    {
-      "id": 73,
-      "title": "Come arma principale, lancia polpette volanti contro i due",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570422100,
-          "text": "Avanti",
-          "nextSceneId": 74
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:33:21.879Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:33:44.762Z",
-      "updatedAt": "2025-10-04T09:33:44.764Z"
-    },
-    {
-      "id": 74,
-      "title": "Un salmone parlante sospeso nell’aria suggerisce le strategie",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570444312,
-          "text": "Avanti",
-          "nextSceneId": 75
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:33:44.460Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:34:06.912Z",
-      "updatedAt": "2025-10-04T09:34:06.914Z"
-    },
-    {
-      "id": 75,
-      "title": "Vinci e torni a casa sacrificando le tue ombre",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570462863,
-          "text": "Avanti",
-          "nextSceneId": 76
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:34:06.611Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:34:25.443Z",
-      "updatedAt": "2025-10-04T09:34:25.446Z"
-    },
-    {
-      "id": 76,
-      "title": "Mangi il salmone",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570483130,
-          "text": "Avanti",
-          "nextSceneId": 77
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:34:25.142Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:34:46.002Z",
-      "updatedAt": "2025-10-04T09:34:46.005Z"
-    },
-    {
-      "id": 77,
+      "id": 71,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:34:45.702Z"
+      "createdAt": "2025-10-04T09:32:35.045Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:32:38.462Z",
+      "updatedAt": "2025-10-04T09:32:38.690Z"
     }
   ],
   "settings": {
@@ -350,8 +132,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 14,
-    "lastModified": "2025-10-04T09:34:46.005Z",
+    "totalScenes": 5,
+    "lastModified": "2025-10-04T09:32:38.690Z",
     "forceSaveBy": "admin"
   }
 }
