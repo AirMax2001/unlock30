@@ -71,7 +71,7 @@
       "choices": [
         {
           "id": 1759571588810,
-          "text": "",
+          "text": "VINTA",
           "nextSceneId": null
         },
         {
@@ -90,8 +90,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:53:11.950Z",
-      "updatedAt": "2025-10-04T09:53:11.954Z"
+      "lastModified": "2025-10-04T09:53:14.445Z",
+      "updatedAt": "2025-10-04T09:53:14.449Z"
     }
   ],
   "settings": {
@@ -102,6 +102,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:53:11.954Z"
+    "lastModified": "2025-10-04T09:53:14.450Z"
   }
 }
