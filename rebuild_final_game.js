@@ -1,0 +1,278 @@
+const fs = require('fs');
+
+// Gioco completo con struttura originale "world" format
+const finalGame = {
+  "scenes": [
+    {
+      "id": 1,
+      "title": "La sveglia",
+      "description": "Buongiorno Massimo! È il 27 settembre, ovvero il tuo compleanno! La sveglia suona alle 6:30 del mattino e tu sei nel letto che dormi beatamente.",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521001133,
+          "text": "Ti giri dall'altra parte e continui a russare",
+          "nextSceneId": 2
+        },
+        {
+          "id": 1759521003711,
+          "text": "Ti alzi e vai in bagno a lavarti i denti",
+          "nextSceneId": 3
+        },
+        {
+          "id": 1759521004781,
+          "text": "Apri il telefono prima ancora di scendere dal letto",
+          "nextSceneId": 4
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Il russare",
+      "description": "Ti giri dall'altra parte e continui a dormire, ma tua madre ti sveglia urlando \"MASSIMO ALZATI CHE È TARDI!\"",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521005001,
+          "text": "Protesti violentemente",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": true
+    },
+    {
+      "id": 3,
+      "title": "Bagno e denti",
+      "description": "Ti alzi, vai in bagno e ti lavi i denti. Mentre ti guardi allo specchio pensi: \"Oggi è il mio compleanno, chissà che regalo mi faranno!\"",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521006001,
+          "text": "Vai a fare colazione",
+          "nextSceneId": 5
+        },
+        {
+          "id": 1759521006002,
+          "text": "Torni a letto perché sei ancora stanco",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 4,
+      "title": "Telefono a letto",
+      "description": "Apri il telefono e vedi centinaia di notifiche di auguri! Tutti i tuoi amici si sono ricordati del tuo compleanno.",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521007001,
+          "text": "Rispondi a tutti gli auguri",
+          "nextSceneId": 5
+        },
+        {
+          "id": 1759521007002,
+          "text": "Continui a scrollare social fino a mezzogiorno",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 5,
+      "title": "Colazione al bar",
+      "description": "Scendi a fare colazione al bar sotto casa. Il barista ti dice: \"Buongiorno Massimo! Un cappuccino come al solito?\"",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521008001,
+          "text": "\"Sì, ma oggi è il mio compleanno, quindi fallo extra buono!\"",
+          "nextSceneId": 7
+        },
+        {
+          "id": 1759521008002,
+          "text": "\"Oggi provo qualcosa di diverso\"",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 7,
+      "title": "Cappuccino di compleanno",
+      "description": "Il barista ti prepara un cappuccino speciale con un cuoricino nella schiuma! Mentre lo bevi, senti delle macchine che sgommano fuori dal bar.",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521009001,
+          "text": "Esci a vedere cosa succede",
+          "nextSceneId": 8
+        },
+        {
+          "id": 1759521009002,
+          "text": "Ignori i rumori e continui a bere tranquillamente",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 8,
+      "title": "La gara clandestina",
+      "description": "Fuori dal bar c'è una gara di macchine clandestina! Il vincitore riceverà una corona d'oro come premio. Un pilota ti vede e ti grida: \"Ehi tu! Vuoi partecipare?\"",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521010001,
+          "text": "\"Sì! Oggi è il mio compleanno, devo vincere quella corona!\"",
+          "nextSceneId": 9
+        },
+        {
+          "id": 1759521010002,
+          "text": "\"No grazie, sono troppo pericolose\"",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 9,
+      "title": "La sfida finale",
+      "description": "Per vincere la corona d'oro, devi superare tre prove: canestro, prova di forza e indovinello. Quale scegli per prima?",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521011001,
+          "text": "Prova del canestro",
+          "nextSceneId": 91
+        },
+        {
+          "id": 1759521011002,
+          "text": "Prova di forza",
+          "nextSceneId": 92
+        },
+        {
+          "id": 1759521011003,
+          "text": "Indovinello",
+          "nextSceneId": 93
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 91,
+      "title": "Prova del canestro",
+      "description": "Devi fare 3 canestri su 5 tiri. Prendi la palla e ti concentri...",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521012001,
+          "text": "Tiri con precisione",
+          "nextSceneId": 10
+        },
+        {
+          "id": 1759521012002,
+          "text": "Tiri a caso sperando nella fortuna",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 92,
+      "title": "Prova di forza",
+      "description": "Devi sollevare un peso di 100kg. Ti avvicini al bilanciere...",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521013001,
+          "text": "Usi la tecnica corretta che hai imparato in palestra",
+          "nextSceneId": 10
+        },
+        {
+          "id": 1759521013002,
+          "text": "Provi a sollevarlo di forza bruta",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 93,
+      "title": "L'indovinello",
+      "description": "L'indovinello è: \"Cosa diventa più leggero quanto più lo riempi?\" Hai 30 secondi per rispondere.",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521014001,
+          "text": "\"Un palloncino!\"",
+          "nextSceneId": 10
+        },
+        {
+          "id": 1759521014002,
+          "text": "\"Una borsa!\"",
+          "nextSceneId": 1
+        },
+        {
+          "id": 1759521014003,
+          "text": "\"Un secchio!\"",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "youDied": false
+    },
+    {
+      "id": 10,
+      "title": "LA VITTORIA!",
+      "description": "COMPLIMENTI! Hai superato tutte le prove e vinto la corona d'oro! È il regalo di compleanno perfetto! Tutti ti applaudono e cantano \"Tanti auguri a te!\". Hai completato con successo la tua avventura di compleanno!",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": true,
+      "youDied": false
+    }
+  ]
+};
+
+// Scrivi il file
+fs.writeFileSync('./backend/data/gameData.json', JSON.stringify(finalGame, null, 2));
+
+console.log('✅ GIOCO FINALE RICREATO PERFETTAMENTE!');
+console.log(`📊 Scene totali: ${finalGame.scenes.length}`);
+console.log(`🎯 Scene IDs: ${finalGame.scenes.map(s => s.id).sort((a,b) => a-b).join(', ')}`);
+console.log(`🔄 Scelte totali: ${finalGame.scenes.reduce((total, scene) => total + scene.choices.length, 0)}`);
+console.log(`💀 Scelte "You died": ${finalGame.scenes.reduce((total, scene) => total + scene.choices.filter(choice => choice.nextSceneId === 1).length, 0)}`);
+console.log('🏆 Percorso vincente: 1→3→5→7→8→9→(91|92|93)→10');
