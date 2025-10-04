@@ -3035,7 +3035,7 @@
       "id": 119,
       "title": "Sei alla festa ma vuoi il regalo. Risolvi questo indovinello",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -3054,8 +3054,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:22:14.284Z",
-      "updatedAt": "2025-10-04T15:22:14.556Z"
+      "lastModified": "2025-10-04T15:22:34.221Z",
+      "updatedAt": "2025-10-04T15:22:34.454Z"
     },
     {
       "id": 120,
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:22:14.556Z",
+    "lastModified": "2025-10-04T15:22:34.454Z",
     "forceSaveBy": "admin"
   }
 }
