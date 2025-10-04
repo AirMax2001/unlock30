@@ -1870,7 +1870,7 @@
       "id": 71,
       "title": "Mattarella cavalca un carrello gigante armato di cuscini esplosivi, Gerry Scotti guida un divano volante che lancia appendiabiti come boomerang",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604876174-IMG-20251004-WA0007.jpg",
+      "image": "/uploads/1759604876174-IMG-20251004-WA0007.jpg",
       "video": "",
       "choices": [
         {
@@ -1889,7 +1889,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:08:05.099Z"
+      "lastModified": "2025-10-04T19:26:31.045Z",
+      "updatedAt": "2025-10-04T19:26:31.049Z"
     },
     {
       "id": 72,
@@ -3179,7 +3180,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:29.919Z",
+    "lastModified": "2025-10-04T19:26:31.050Z",
     "forceSaveBy": "admin"
   }
 }
