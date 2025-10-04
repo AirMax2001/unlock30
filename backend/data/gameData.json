@@ -2524,7 +2524,7 @@
       "id": 99,
       "title": "Fai il video di presentazione dove elenchi tutte le sventure che hai avuto e che batterai tutti con 60 kg di panca",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587682198-IMG-20251004-WA0037.jpg",
       "video": "",
       "choices": [
         {
@@ -2543,8 +2543,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:21:09.361Z",
-      "updatedAt": "2025-10-04T14:21:09.597Z"
+      "lastModified": "2025-10-04T14:21:22.999Z",
+      "updatedAt": "2025-10-04T14:21:23.861Z"
     },
     {
       "id": 100,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:21:09.597Z",
+    "lastModified": "2025-10-04T14:21:23.861Z",
     "forceSaveBy": "admin"
   }
 }
