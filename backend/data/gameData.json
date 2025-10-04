@@ -185,7 +185,7 @@
       "choices": [
         {
           "id": 1759569812546,
-          "text": "",
+          "text": "Parti come in un videoclip",
           "nextSceneId": null
         },
         {
@@ -209,8 +209,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:23:34.847Z",
-      "updatedAt": "2025-10-04T09:23:34.849Z"
+      "lastModified": "2025-10-04T09:23:41.601Z",
+      "updatedAt": "2025-10-04T09:23:41.841Z"
     }
   ],
   "settings": {
@@ -221,6 +221,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-04T09:23:34.849Z"
+    "lastModified": "2025-10-04T09:23:41.841Z"
   }
 }
