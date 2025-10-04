@@ -2961,7 +2961,7 @@
       "id": 116,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759591088203-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
+      "image": "/uploads/1759605772485-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -2980,8 +2980,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:22:42.844Z",
-      "updatedAt": "2025-10-04T19:22:43.109Z"
+      "lastModified": "2025-10-04T19:22:54.019Z",
+      "updatedAt": "2025-10-04T19:22:54.413Z"
     },
     {
       "id": 117,
@@ -3121,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:22:43.109Z",
+    "lastModified": "2025-10-04T19:22:54.413Z",
     "forceSaveBy": "admin"
   }
 }
