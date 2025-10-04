@@ -230,7 +230,7 @@
       "id": 9,
       "title": "Trovi 3 messaggi",
       "description": "",
-      "image": "/uploads/1759603694334-IMG-20251002-WA0013.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759603694334-IMG-20251002-WA0013.jpg",
       "video": "",
       "choices": [
         {
@@ -333,7 +333,7 @@
       "id": 13,
       "title": "Pensi alle tue qualità da ballerino ma tenti comunque la sorte",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585158970-Immagine WhatsApp 2025-10-02 ore 17.30.44_6fda39ac.jpg",
+      "image": "/uploads/1759603718992-Immagine WhatsApp 2025-10-02 ore 17.30.44_6fda39ac.jpg",
       "video": "",
       "choices": [
         {
@@ -352,8 +352,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:48:22.505Z",
-      "updatedAt": "2025-10-04T18:48:22.509Z"
+      "lastModified": "2025-10-04T18:48:41.028Z"
     },
     {
       "id": 14,
@@ -3123,7 +3122,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:48:22.509Z",
+    "lastModified": "2025-10-04T18:48:41.031Z",
     "forceSaveBy": "admin"
   }
 }
