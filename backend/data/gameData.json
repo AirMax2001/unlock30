@@ -2231,7 +2231,7 @@
     },
     {
       "id": 90,
-      "title": "Nuova Scena",
+      "title": "Purtroppo il mondiale si disputa nello stesso momento della festa",
       "description": "",
       "image": "",
       "video": "",
@@ -2246,8 +2246,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:40:56.442Z",
-      "updatedAt": "2025-10-04T09:40:56.444Z"
+      "lastModified": "2025-10-04T09:41:04.074Z",
+      "updatedAt": "2025-10-04T09:41:04.309Z"
     }
   ],
   "settings": {
@@ -2258,7 +2258,7 @@
   },
   "stats": {
     "totalScenes": 88,
-    "lastModified": "2025-10-04T09:40:56.444Z",
+    "lastModified": "2025-10-04T09:41:04.309Z",
     "forceSaveBy": "admin"
   }
 }
