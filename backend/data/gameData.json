@@ -2474,7 +2474,7 @@
       "id": 97,
       "title": "YOU DEFEAT",
       "description": "( dai sì realistico )!",
-      "image": "",
+      "image": "/uploads/1759587632983-IMG-20251004-WA0031.jpg",
       "video": "",
       "choices": [
         {
@@ -2493,8 +2493,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:20:25.486Z",
-      "updatedAt": "2025-10-04T14:20:25.792Z"
+      "lastModified": "2025-10-04T14:20:33.663Z",
+      "updatedAt": "2025-10-04T14:20:34.460Z"
     },
     {
       "id": 98,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:20:25.792Z",
+    "lastModified": "2025-10-04T14:20:34.460Z",
     "forceSaveBy": "admin"
   }
 }
