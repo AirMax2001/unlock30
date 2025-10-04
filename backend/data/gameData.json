@@ -142,7 +142,7 @@
       "id": 6,
       "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
       "description": "",
-      "image": "/uploads/1759603561478-IMG-20251002-WA0024.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759603561478-IMG-20251002-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -193,7 +193,7 @@
       "id": 8,
       "title": "La colazione",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585079269-IMG-20251002-WA0019.jpg",
+      "image": "/uploads/1759603578109-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
       "video": "",
       "choices": [
         {
@@ -222,7 +222,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:29:34.147Z"
+      "lastModified": "2025-10-04T18:46:19.225Z",
+      "updatedAt": "2025-10-04T18:46:19.231Z"
     },
     {
       "id": 9,
@@ -3117,7 +3118,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:46:03.601Z",
+    "lastModified": "2025-10-04T18:46:19.231Z",
     "forceSaveBy": "admin"
   }
 }
