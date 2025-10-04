@@ -808,7 +808,7 @@
     },
     {
       "id": 32,
-      "title": "Nuova Scena",
+      "title": ": Sei in strada ma da lontano vedi dei lavori in corso",
       "description": "",
       "image": "",
       "video": "",
@@ -823,8 +823,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:17:03.639Z",
-      "updatedAt": "2025-10-04T09:17:03.641Z"
+      "lastModified": "2025-10-04T09:17:10.512Z",
+      "updatedAt": "2025-10-04T09:17:10.777Z"
     }
   ],
   "settings": {
@@ -835,7 +835,7 @@
   },
   "stats": {
     "totalScenes": 32,
-    "lastModified": "2025-10-04T09:17:03.641Z",
+    "lastModified": "2025-10-04T09:17:10.777Z",
     "forceSaveBy": "admin"
   }
 }
