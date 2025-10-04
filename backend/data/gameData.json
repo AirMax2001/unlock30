@@ -562,7 +562,7 @@
     },
     {
       "id": 99,
-      "title": "Nuova Scena",
+      "title": "Fai il video di presentazione dove elenchi tutte le sventure che hai avuto e che batterai tutti con 60 kg di panca",
       "description": "",
       "image": "",
       "video": "",
@@ -577,8 +577,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:46:56.235Z",
-      "updatedAt": "2025-10-04T09:46:56.237Z"
+      "lastModified": "2025-10-04T09:47:05.598Z",
+      "updatedAt": "2025-10-04T09:47:05.888Z"
     }
   ],
   "settings": {
@@ -589,7 +589,7 @@
   },
   "stats": {
     "totalScenes": 23,
-    "lastModified": "2025-10-04T09:46:56.237Z",
+    "lastModified": "2025-10-04T09:47:05.888Z",
     "forceSaveBy": "admin"
   }
 }
