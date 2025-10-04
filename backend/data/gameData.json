@@ -1086,7 +1086,7 @@
       "id": 43,
       "title": "Non hai i soldi però quindi inizi a camminare",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585883300-Immagine WhatsApp 2025-10-02 ore 18.40.17_bf15ea60.jpg",
       "video": "",
       "choices": [
         {
@@ -1105,8 +1105,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:51:15.525Z",
-      "updatedAt": "2025-10-04T13:51:15.810Z"
+      "lastModified": "2025-10-04T13:51:23.939Z",
+      "updatedAt": "2025-10-04T13:51:24.206Z"
     },
     {
       "id": 44,
@@ -3116,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:51:15.810Z",
+    "lastModified": "2025-10-04T13:51:24.206Z",
     "forceSaveBy": "admin"
   }
 }
