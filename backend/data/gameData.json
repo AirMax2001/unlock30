@@ -2906,7 +2906,7 @@
       "id": 114,
       "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
       "description": "",
-      "image": "/uploads/1759605719348-Gemini_Generated_Image_g6jrc7g6jrc7g6jr.png",
+      "image": "https://unlock30.onrender.com/uploads/1759605719348-Gemini_Generated_Image_g6jrc7g6jrc7g6jr.png",
       "video": "",
       "choices": [
         {
@@ -2930,8 +2930,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:22:01.983Z",
-      "updatedAt": "2025-10-04T19:22:02.636Z"
+      "lastModified": "2025-10-04T19:22:03.338Z"
     },
     {
       "id": 115,
@@ -2956,7 +2955,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:44:15.449Z"
+      "lastModified": "2025-10-04T19:22:10.427Z",
+      "updatedAt": "2025-10-04T19:22:10.743Z"
     },
     {
       "id": 116,
@@ -3121,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:22:02.636Z",
+    "lastModified": "2025-10-04T19:22:10.744Z",
     "forceSaveBy": "admin"
   }
 }
