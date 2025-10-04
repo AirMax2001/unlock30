@@ -1885,7 +1885,7 @@
       "id": 74,
       "title": "Un salmone parlante sospeso nell’aria suggerisce le strategie",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604924823-IMG-20251004-WA0011.jpg",
+      "image": "/uploads/1759604924823-IMG-20251004-WA0011.jpg",
       "video": "",
       "choices": [
         {
@@ -1904,7 +1904,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:08:48.904Z"
+      "lastModified": "2025-10-04T19:09:52.287Z",
+      "updatedAt": "2025-10-04T19:09:52.290Z"
     },
     {
       "id": 75,
@@ -3120,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:09:50.857Z",
+    "lastModified": "2025-10-04T19:09:52.290Z",
     "forceSaveBy": "admin"
   }
 }
