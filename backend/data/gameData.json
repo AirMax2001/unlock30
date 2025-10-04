@@ -1009,7 +1009,7 @@
       "id": 40,
       "title": "Amazon ti manda un buono sconto e  liberi anche il suo carrello",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585813046-Immagine WhatsApp 2025-10-02 ore 18.33.33_cdbfc267.jpg",
       "video": "",
       "choices": [
         {
@@ -1028,8 +1028,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:50:03.878Z",
-      "updatedAt": "2025-10-04T13:50:03.882Z"
+      "lastModified": "2025-10-04T13:50:14.447Z"
     },
     {
       "id": 41,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:50:03.882Z",
+    "lastModified": "2025-10-04T13:50:14.450Z",
     "forceSaveBy": "admin"
   }
 }
