@@ -277,7 +277,7 @@
     },
     {
       "id": 11,
-      "title": "Nuova Scena",
+      "title": "Tuo zio che ti scrive: “Auguri bomber, ricordati che io a 30  anni avevo già tre mutui e due mogli”",
       "description": "",
       "image": "",
       "video": "",
@@ -292,8 +292,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:04:30.526Z",
-      "updatedAt": "2025-10-04T09:04:30.527Z"
+      "lastModified": "2025-10-04T09:04:37.683Z",
+      "updatedAt": "2025-10-04T09:04:37.936Z"
     }
   ],
   "settings": {
@@ -304,7 +304,7 @@
   },
   "stats": {
     "totalScenes": 11,
-    "lastModified": "2025-10-04T09:04:30.527Z",
+    "lastModified": "2025-10-04T09:04:37.936Z",
     "forceSaveBy": "admin"
   }
 }
