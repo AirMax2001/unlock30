@@ -2020,7 +2020,7 @@
       "id": 79,
       "title": "Sotto di te senti tremare la terra a 250 bpm",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586847693-IMG-20251004-WA0014.jpg",
+      "image": "/uploads/1759605080380-IMG-20251004-WA0014.jpg",
       "video": "",
       "choices": [
         {
@@ -2039,8 +2039,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:11:14.821Z",
-      "updatedAt": "2025-10-04T19:11:15.079Z"
+      "lastModified": "2025-10-04T19:11:22.618Z"
     },
     {
       "id": 80,
@@ -3120,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:11:15.079Z",
+    "lastModified": "2025-10-04T19:11:22.621Z",
     "forceSaveBy": "admin"
   }
 }
