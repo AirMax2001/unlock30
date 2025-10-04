@@ -522,7 +522,7 @@
     },
     {
       "id": 21,
-      "title": "YOU D",
+      "title": "YOU DEFEAT",
       "description": "",
       "image": "",
       "video": "",
@@ -543,8 +543,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T11:59:06.798Z",
-      "updatedAt": "2025-10-04T11:59:06.802Z"
+      "lastModified": "2025-10-04T11:59:08.578Z",
+      "updatedAt": "2025-10-04T11:59:08.582Z"
     },
     {
       "id": 22,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T11:59:06.802Z",
+    "lastModified": "2025-10-04T11:59:08.582Z",
     "forceSaveBy": "admin"
   }
 }
