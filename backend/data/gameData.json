@@ -308,7 +308,7 @@
     },
     {
       "id": 76,
-      "title": ". Mangi il salmone",
+      "title": "Mangi il salmone",
       "description": "",
       "image": "",
       "video": "",
@@ -323,8 +323,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:34:35.667Z",
-      "updatedAt": "2025-10-04T09:34:35.916Z"
+      "lastModified": "2025-10-04T09:34:37.711Z",
+      "updatedAt": "2025-10-04T09:34:37.713Z"
     }
   ],
   "settings": {
@@ -335,7 +335,7 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-04T09:34:35.916Z",
+    "lastModified": "2025-10-04T09:34:37.713Z",
     "forceSaveBy": "admin"
   }
 }
