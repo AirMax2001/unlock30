@@ -2580,7 +2580,7 @@
       "id": 101,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759605447772-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605447772-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -2606,7 +2606,7 @@
       "id": 102,
       "title": "Rinunci alla possibilità di diventare un campione mondiale per passare del tempo con la tua famiglia e amici",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587749136-IMG-20251004-WA0035.jpg",
+      "image": "/uploads/1759605460850-IMG-20251004-WA0035.jpg",
       "video": "",
       "choices": [
         {
@@ -2625,8 +2625,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:17:30.538Z",
-      "updatedAt": "2025-10-04T19:17:30.542Z"
+      "lastModified": "2025-10-04T19:17:41.838Z",
+      "updatedAt": "2025-10-04T19:17:42.092Z"
     },
     {
       "id": 103,
@@ -3121,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:17:30.542Z",
+    "lastModified": "2025-10-04T19:17:42.092Z",
     "forceSaveBy": "admin"
   }
 }
