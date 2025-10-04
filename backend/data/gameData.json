@@ -132,7 +132,7 @@
     },
     {
       "id": 65,
-      "title": "Nuova Scena",
+      "title": "Ti ritrovi in un supermercato gigante ma noti che tutto quello che ti circonda è vivo:   le bottiglie di ketchup ti inseguono, i carrelli fanno parkour da soli",
       "description": "",
       "image": "",
       "video": "",
@@ -147,8 +147,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:30:23.554Z",
-      "updatedAt": "2025-10-04T09:30:23.804Z"
+      "lastModified": "2025-10-04T09:30:33.461Z",
+      "updatedAt": "2025-10-04T09:30:33.726Z"
     }
   ],
   "settings": {
@@ -159,7 +159,7 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-04T09:30:23.804Z",
+    "lastModified": "2025-10-04T09:30:33.726Z",
     "forceSaveBy": "admin"
   }
 }
