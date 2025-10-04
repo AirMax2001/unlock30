@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 19,
-      "title": "Nuova Scena",
+      "title": "Metti in funzione la stampante e alle 11 finalmente inizi con la calibrazione",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:08:15.477Z",
-      "updatedAt": "2025-10-04T09:08:15.479Z"
+      "lastModified": "2025-10-04T09:08:17.551Z",
+      "updatedAt": "2025-10-04T09:08:17.552Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:08:15.479Z"
+    "lastModified": "2025-10-04T09:08:17.552Z"
   }
 }
