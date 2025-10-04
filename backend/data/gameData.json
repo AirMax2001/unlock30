@@ -1313,7 +1313,7 @@
       "id": 51,
       "title": "La telecamera immaginaria inquadra il tuo sguardo deciso",
       "description": "",
-      "image": "/uploads/1759604429522-Immagine WhatsApp 2025-10-02 ore 19.11.31_1daae7de.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604429522-Immagine WhatsApp 2025-10-02 ore 19.11.31_1daae7de.jpg",
       "video": "",
       "choices": [
         {
@@ -1339,7 +1339,7 @@
       "id": 52,
       "title": "Finisci in una sfilata di compleanno di un asilo che blocca la strada",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586085337-Immagine WhatsApp 2025-10-02 ore 19.11.31_767e2932.jpg",
+      "image": "/uploads/1759604442622-Immagine WhatsApp 2025-10-02 ore 19.11.31_767e2932.jpg",
       "video": "",
       "choices": [
         {
@@ -1358,7 +1358,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:00:35.209Z"
+      "lastModified": "2025-10-04T19:00:43.879Z",
+      "updatedAt": "2025-10-04T19:00:44.167Z"
     },
     {
       "id": 53,
@@ -3133,7 +3134,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:00:35.213Z",
+    "lastModified": "2025-10-04T19:00:44.167Z",
     "forceSaveBy": "admin"
   }
 }
