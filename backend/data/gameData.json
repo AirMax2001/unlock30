@@ -1294,7 +1294,7 @@
       "id": 51,
       "title": "La telecamera immaginaria inquadra il tuo sguardo deciso",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586063438-Immagine WhatsApp 2025-10-02 ore 19.11.31_1daae7de.jpg",
       "video": "",
       "choices": [
         {
@@ -1313,8 +1313,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:54:13.150Z",
-      "updatedAt": "2025-10-04T13:54:13.427Z"
+      "lastModified": "2025-10-04T13:54:24.301Z",
+      "updatedAt": "2025-10-04T13:54:24.537Z"
     },
     {
       "id": 52,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:54:13.427Z",
+    "lastModified": "2025-10-04T13:54:24.537Z",
     "forceSaveBy": "admin"
   }
 }
