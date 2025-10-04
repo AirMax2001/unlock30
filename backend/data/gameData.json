@@ -110,7 +110,7 @@
     },
     {
       "id": 14,
-      "title": "Nuova Scena",
+      "title": "Lasci il lavoro e diventi un maestro di yoga con i leggins verdi",
       "description": "",
       "image": "",
       "video": "",
@@ -125,8 +125,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:06:01.865Z",
-      "updatedAt": "2025-10-04T09:06:01.866Z"
+      "lastModified": "2025-10-04T09:06:11.214Z",
+      "updatedAt": "2025-10-04T09:06:11.462Z"
     }
   ],
   "settings": {
@@ -137,6 +137,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-04T09:06:01.866Z"
+    "lastModified": "2025-10-04T09:06:11.462Z"
   }
 }
