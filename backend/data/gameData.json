@@ -2555,7 +2555,7 @@
       "id": 100,
       "title": "Perdete al primo girone",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587703581-IMG-20251004-WA0038.jpg",
+      "image": "/uploads/1759605435851-IMG-20251004-WA0036.jpg",
       "video": "",
       "choices": [
         {
@@ -2574,8 +2574,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:17:02.800Z",
-      "updatedAt": "2025-10-04T19:17:03.133Z"
+      "lastModified": "2025-10-04T19:17:17.062Z",
+      "updatedAt": "2025-10-04T19:17:17.371Z"
     },
     {
       "id": 101,
@@ -3120,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:17:03.133Z",
+    "lastModified": "2025-10-04T19:17:17.371Z",
     "forceSaveBy": "admin"
   }
 }
