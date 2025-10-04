@@ -2089,7 +2089,7 @@
       "id": 82,
       "title": "Mattarella è poco al di sotto che grida “3,2,1” continuamente",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586994179-IMG-20251004-WA0017.jpg",
       "video": "",
       "choices": [
         {
@@ -2108,8 +2108,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:09:47.075Z",
-      "updatedAt": "2025-10-04T14:09:47.079Z"
+      "lastModified": "2025-10-04T14:09:56.136Z"
     },
     {
       "id": 83,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:09:47.079Z",
+    "lastModified": "2025-10-04T14:09:56.139Z",
     "forceSaveBy": "admin"
   }
 }
