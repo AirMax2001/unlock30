@@ -1373,7 +1373,7 @@
       "id": 53,
       "title": "I bimbi pensano tu sia il clown arrivato in ritardo",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586102689-Immagine WhatsApp 2025-10-02 ore 19.11.32_ff2b90b3.jpg",
+      "image": "/uploads/1759588954988-Immagine WhatsApp 2025-10-04 ore 16.42.13_6c7e2b19.jpg",
       "video": "",
       "choices": [
         {
@@ -1392,8 +1392,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:38:46.467Z",
-      "updatedAt": "2025-10-04T14:38:46.719Z"
+      "lastModified": "2025-10-04T14:42:35.762Z",
+      "updatedAt": "2025-10-04T14:42:35.995Z"
     },
     {
       "id": 54,
@@ -3143,7 +3143,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:38:46.719Z",
+    "lastModified": "2025-10-04T14:42:35.995Z",
     "forceSaveBy": "admin"
   }
 }
