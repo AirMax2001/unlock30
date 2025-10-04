@@ -1731,7 +1731,7 @@
       "id": 68,
       "title": "Con una super mossa finale il supermercato esplode in coriandoli fluorescenti e tutti ballano la Macarena su pattini a rotelle ma le fiamme dell’esplosione vi inghiottono",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586632096-IMG-20251004-WA0005.jpg",
       "video": "",
       "choices": [
         {
@@ -1750,8 +1750,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:03:41.966Z",
-      "updatedAt": "2025-10-04T14:03:42.658Z"
+      "lastModified": "2025-10-04T14:03:52.864Z",
+      "updatedAt": "2025-10-04T14:03:53.068Z"
     },
     {
       "id": 69,
@@ -3116,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:03:42.658Z",
+    "lastModified": "2025-10-04T14:03:53.068Z",
     "forceSaveBy": "admin"
   }
 }
