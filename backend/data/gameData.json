@@ -1679,7 +1679,7 @@
       "id": 66,
       "title": "Mattarella ha il potere di congelare i pavimenti con lo sguardo serio, Gerry Scotti lancia banane esplosive che cantano canzoni degli anni ’80",
       "description": "",
-      "image": "/uploads/1759590487256-Gemini_Generated_Image_5jigfd5jigfd5jig.png",
+      "image": "https://unlock30.onrender.com/uploads/1759590487256-Gemini_Generated_Image_5jigfd5jigfd5jig.png",
       "video": "",
       "choices": [
         {
@@ -1705,7 +1705,7 @@
       "id": 67,
       "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
       "description": "",
-      "image": "/uploads/1759590455362-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
+      "image": "https://unlock30.onrender.com/uploads/1759590455362-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
       "video": "",
       "choices": [
         {
@@ -1776,7 +1776,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:04:14.116Z"
+      "lastModified": "2025-10-04T15:10:21.583Z",
+      "updatedAt": "2025-10-04T15:10:22.431Z"
     },
     {
       "id": 70,
@@ -3116,7 +3117,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:08:31.078Z",
+    "lastModified": "2025-10-04T15:10:22.431Z",
     "forceSaveBy": "admin"
   }
 }
