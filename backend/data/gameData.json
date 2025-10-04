@@ -214,7 +214,7 @@
     },
     {
       "id": 57,
-      "title": "Nuova Scena",
+      "title": ". Preso da improvvise manie di grandezza raggiungi il comune di Montesilvano e urli a gran voce di essere il nuovo re d’Italia",
       "description": "",
       "image": "",
       "video": "",
@@ -229,8 +229,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:26:29.681Z",
-      "updatedAt": "2025-10-04T09:26:29.682Z"
+      "lastModified": "2025-10-04T09:26:38.549Z",
+      "updatedAt": "2025-10-04T09:26:38.832Z"
     }
   ],
   "settings": {
@@ -241,6 +241,6 @@
   },
   "stats": {
     "totalScenes": 10,
-    "lastModified": "2025-10-04T09:26:29.682Z"
+    "lastModified": "2025-10-04T09:26:38.832Z"
   }
 }
