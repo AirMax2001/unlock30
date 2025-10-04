@@ -200,7 +200,7 @@
         {
           "id": 1759568596675,
           "text": "Vai al michetti",
-          "nextSceneId": null
+          "nextSceneId": 22
         },
         {
           "id": 1759568597897,
@@ -218,7 +218,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:09:12.850Z"
+      "lastModified": "2025-10-04T09:10:23.419Z",
+      "updatedAt": "2025-10-04T09:10:23.421Z"
     },
     {
       "id": 9,
@@ -544,6 +545,16 @@
         "typewriter": false
       },
       "lastModified": "2025-10-04T09:09:05.810Z"
+    },
+    {
+      "id": 22,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:10:23.119Z"
     }
   ],
   "settings": {
@@ -553,8 +564,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 21,
-    "lastModified": "2025-10-04T09:09:13.513Z",
+    "totalScenes": 22,
+    "lastModified": "2025-10-04T09:10:23.421Z",
     "forceSaveBy": "admin"
   }
 }
