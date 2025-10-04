@@ -15,7 +15,7 @@
         {
           "id": 1759568348584,
           "text": "Ti alzi e vai in bagno a lavarti i denti",
-          "nextSceneId": 6
+          "nextSceneId": null
         },
         {
           "id": 1759568351110,
@@ -33,12 +33,12 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:01:44.483Z",
-      "updatedAt": "2025-10-04T09:01:44.484Z"
+      "lastModified": "2025-10-04T08:59:30.128Z",
+      "updatedAt": "2025-10-04T08:59:30.130Z"
     },
     {
       "id": 2,
-      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
+      "title": "Nuova Scena",
       "description": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
       "image": "",
       "video": "",
@@ -59,7 +59,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:01:01.402Z"
+      "lastModified": "2025-10-04T09:00:02.505Z",
+      "updatedAt": "2025-10-04T09:00:02.506Z"
     },
     {
       "id": 3,
@@ -67,13 +68,7 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759568411192,
-          "text": "Avanti",
-          "nextSceneId": 4
-        }
-      ],
+      "choices": [],
       "isFinal": false,
       "createdAt": "2025-10-04T09:00:02.204Z",
       "titleStyle": "",
@@ -84,146 +79,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:00:05.718Z"
-    },
-    {
-      "id": 4,
-      "title": "Ti alzi incazzato",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568431524,
-          "text": "Avanti",
-          "nextSceneId": 5
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:00:16.170Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:01:14.344Z"
-    },
-    {
-      "id": 5,
-      "title": "YOU DEFEAT",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568447710,
-          "text": "Avanti",
-          "nextSceneId": 1
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:00:36.071Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:00:53.558Z"
-    },
-    {
-      "id": 6,
-      "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568521815,
-          "text": "Avanti",
-          "nextSceneId": 7
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:01:44.181Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:02:06.132Z",
-      "updatedAt": "2025-10-04T09:02:06.133Z"
-    },
-    {
-      "id": 7,
-      "title": "Non è un problema tanto i tucani non hanno i capelli",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568576407,
-          "text": "Avanti",
-          "nextSceneId": 8
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:02:05.831Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:03:00.936Z",
-      "updatedAt": "2025-10-04T09:03:00.937Z"
-    },
-    {
-      "id": 8,
-      "title": "La colazione",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568591943,
-          "text": "",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:03:00.634Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:03:12.244Z",
-      "updatedAt": "2025-10-04T09:03:12.245Z"
+      "lastModified": "2025-10-04T09:00:05.718Z",
+      "updatedAt": "2025-10-04T09:00:05.719Z"
     }
   ],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
-    "maxScenes": 30,
+    "maxScenes": 999,
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 8,
-    "lastModified": "2025-10-04T09:03:12.245Z",
-    "forceSaveBy": "admin"
+    "totalScenes": 3,
+    "lastModified": "2025-10-04T09:00:05.719Z"
   }
 }
