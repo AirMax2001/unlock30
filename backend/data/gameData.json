@@ -1109,7 +1109,7 @@
       "id": 44,
       "title": "Tempo stimato, 1 mese, se riesci a nuotare bene",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585898479-Immagine WhatsApp 2025-10-02 ore 18.40.17_7af02d63.jpg",
       "video": "",
       "choices": [
         {
@@ -1128,8 +1128,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:51:29.185Z",
-      "updatedAt": "2025-10-04T13:51:29.470Z"
+      "lastModified": "2025-10-04T13:51:39.333Z",
+      "updatedAt": "2025-10-04T13:51:39.574Z"
     },
     {
       "id": 45,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:51:29.471Z",
+    "lastModified": "2025-10-04T13:51:39.574Z",
     "forceSaveBy": "admin"
   }
 }
