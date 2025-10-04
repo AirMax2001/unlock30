@@ -1,5 +1,16 @@
 {
-  "scenes": [],
+  "scenes": [
+    {
+      "id": 115,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:53:53.388Z"
+    }
+  ],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
@@ -7,7 +18,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 0,
-    "lastModified": "2025-10-04T09:51:38.053Z"
+    "totalScenes": 1,
+    "lastModified": "2025-10-04T09:53:53.388Z"
   }
 }
