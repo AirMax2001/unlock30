@@ -207,7 +207,7 @@
         },
         {
           "id": 1759568597897,
-          "text": "",
+          "text": "Salti la colazione",
           "nextSceneId": null
         }
       ],
@@ -221,8 +221,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:03:28.215Z",
-      "updatedAt": "2025-10-04T09:03:28.585Z"
+      "lastModified": "2025-10-04T09:03:34.057Z",
+      "updatedAt": "2025-10-04T09:03:34.325Z"
     }
   ],
   "settings": {
@@ -233,7 +233,7 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-04T09:03:28.585Z",
+    "lastModified": "2025-10-04T09:03:34.325Z",
     "forceSaveBy": "admin"
   }
 }
