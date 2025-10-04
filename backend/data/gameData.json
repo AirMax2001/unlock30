@@ -3067,7 +3067,7 @@
       "id": 120,
       "title": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono?",
       "description": "",
-      "image": "/uploads/1759605880447-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
+      "image": "https://unlock30.onrender.com/uploads/1759605880447-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
       "video": "",
       "choices": [
         {
@@ -3111,7 +3111,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:44:06.856Z"
+      "lastModified": "2025-10-04T19:25:03.800Z",
+      "updatedAt": "2025-10-04T19:25:04.128Z"
     }
   ],
   "settings": {
@@ -3122,7 +3123,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:25:00.351Z",
+    "lastModified": "2025-10-04T19:25:04.129Z",
     "forceSaveBy": "admin"
   }
 }
