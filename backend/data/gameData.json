@@ -2024,7 +2024,7 @@
     },
     {
       "id": 80,
-      "title": "Nuova Scena",
+      "title": ". Ti trovi a saltare con 200 000 persone e non sai perché",
       "description": "",
       "image": "",
       "video": "",
@@ -2039,8 +2039,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:36:29.314Z",
-      "updatedAt": "2025-10-04T09:36:29.316Z"
+      "lastModified": "2025-10-04T09:36:36.986Z",
+      "updatedAt": "2025-10-04T09:36:37.250Z"
     }
   ],
   "settings": {
@@ -2051,7 +2051,7 @@
   },
   "stats": {
     "totalScenes": 80,
-    "lastModified": "2025-10-04T09:36:29.317Z",
+    "lastModified": "2025-10-04T09:36:37.250Z",
     "forceSaveBy": "admin"
   }
 }
