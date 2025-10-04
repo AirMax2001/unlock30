@@ -232,7 +232,7 @@
       "id": 9,
       "title": "Trovi 3 messaggi",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585111712-IMG-20251002-WA0013.jpg",
       "video": "",
       "choices": [
         {
@@ -251,8 +251,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:38:04.511Z",
-      "updatedAt": "2025-10-04T13:38:04.793Z"
+      "lastModified": "2025-10-04T13:38:32.398Z",
+      "updatedAt": "2025-10-04T13:38:32.635Z"
     },
     {
       "id": 10,
@@ -3122,7 +3122,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:38:04.793Z",
+    "lastModified": "2025-10-04T13:38:32.635Z",
     "forceSaveBy": "admin"
   }
 }
