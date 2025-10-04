@@ -61,7 +61,7 @@
       "choices": [
         {
           "id": 1759571692471,
-          "text": "VIN",
+          "text": "VINTO",
           "nextSceneId": null
         },
         {
@@ -80,8 +80,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:54:56.422Z",
-      "updatedAt": "2025-10-04T09:54:56.426Z"
+      "lastModified": "2025-10-04T09:54:57.518Z",
+      "updatedAt": "2025-10-04T09:54:57.521Z"
     }
   ],
   "settings": {
@@ -92,6 +92,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:54:56.426Z"
+    "lastModified": "2025-10-04T09:54:57.521Z"
   }
 }
