@@ -190,7 +190,7 @@
     },
     {
       "id": 8,
-      "title": "Nuova Scena",
+      "title": "La colazione",
       "description": "",
       "image": "",
       "video": "",
@@ -205,8 +205,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:03:03.323Z",
-      "updatedAt": "2025-10-04T09:03:03.324Z"
+      "lastModified": "2025-10-04T09:03:08.959Z",
+      "updatedAt": "2025-10-04T09:03:09.206Z"
     }
   ],
   "settings": {
@@ -217,7 +217,7 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-04T09:03:03.324Z",
+    "lastModified": "2025-10-04T09:03:09.206Z",
     "forceSaveBy": "admin"
   }
 }
