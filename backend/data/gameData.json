@@ -1059,7 +1059,7 @@
       "id": 42,
       "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585844134-Immagine WhatsApp 2025-10-02 ore 18.40.16_bcb60576.jpg",
       "video": "",
       "choices": [
         {
@@ -1078,8 +1078,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:50:31.180Z",
-      "updatedAt": "2025-10-04T13:50:31.185Z"
+      "lastModified": "2025-10-04T13:50:44.793Z",
+      "updatedAt": "2025-10-04T13:50:45.033Z"
     },
     {
       "id": 43,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:50:31.185Z",
+    "lastModified": "2025-10-04T13:50:45.033Z",
     "forceSaveBy": "admin"
   }
 }
