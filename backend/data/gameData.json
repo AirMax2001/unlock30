@@ -780,7 +780,7 @@
         {
           "id": 1759569394054,
           "text": "Vai in palestra",
-          "nextSceneId": null
+          "nextSceneId": 32
         },
         {
           "id": 1759569399093,
@@ -803,8 +803,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:16:58.726Z",
-      "updatedAt": "2025-10-04T09:16:58.978Z"
+      "lastModified": "2025-10-04T09:17:00.931Z",
+      "updatedAt": "2025-10-04T09:17:00.932Z"
+    },
+    {
+      "id": 32,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:17:00.629Z"
     }
   ],
   "settings": {
@@ -814,8 +824,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 31,
-    "lastModified": "2025-10-04T09:16:58.978Z",
+    "totalScenes": 32,
+    "lastModified": "2025-10-04T09:17:00.932Z",
     "forceSaveBy": "admin"
   }
 }
