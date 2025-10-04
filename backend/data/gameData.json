@@ -1516,7 +1516,7 @@
       "id": 59,
       "title": "Lotta contro Mattarella e Gerry scotti",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586455137-IMG-20251004-WA0002.jpg",
+      "image": "/uploads/1759604627610-IMG-20251004-WA0002.jpg",
       "video": "",
       "choices": [
         {
@@ -1545,8 +1545,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:03:39.264Z",
-      "updatedAt": "2025-10-04T19:03:39.542Z"
+      "lastModified": "2025-10-04T19:03:48.801Z",
+      "updatedAt": "2025-10-04T19:03:49.081Z"
     },
     {
       "id": 60,
@@ -3136,7 +3136,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:03:39.542Z",
+    "lastModified": "2025-10-04T19:03:49.081Z",
     "forceSaveBy": "admin"
   }
 }
