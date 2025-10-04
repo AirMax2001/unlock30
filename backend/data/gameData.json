@@ -385,7 +385,7 @@
       "id": 15,
       "title": "Cornetto e cappuccino",
       "description": "",
-      "image": "/uploads/1759585183676-Immagine WhatsApp 2025-10-02 ore 17.30.44_ab6e94f3.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585183676-Immagine WhatsApp 2025-10-02 ore 17.30.44_ab6e94f3.jpg",
       "video": "",
       "choices": [
         {
@@ -411,7 +411,7 @@
       "id": 16,
       "title": "Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585210448-Immagine WhatsApp 2025-10-02 ore 22.25.45_4d658433.jpg",
       "video": "",
       "choices": [
         {
@@ -430,7 +430,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:07:28.025Z"
+      "lastModified": "2025-10-04T13:40:11.149Z",
+      "updatedAt": "2025-10-04T13:40:11.396Z"
     },
     {
       "id": 17,
@@ -3125,7 +3126,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:39:44.810Z",
+    "lastModified": "2025-10-04T13:40:11.396Z",
     "forceSaveBy": "admin"
   }
 }
