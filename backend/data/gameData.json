@@ -4,1606 +4,3127 @@
       "id": 1,
       "title": "Scena 1: La sveglia",
       "description": "È il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521001001,
           "text": "Ti giri dall'altra parte e continui a russare",
           "nextSceneId": 2
         },
         {
-          "id": 2,
+          "id": 1759521001002,
           "text": "Ti alzi e vai in bagno a lavarti i denti",
           "nextSceneId": 6
         },
         {
-          "id": 3,
+          "id": 1759521001003,
           "text": "Apri il telefono prima ancora di scendere dal letto",
           "nextSceneId": 10
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 2,
-      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio.",
+      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio.\"",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000002,
           "text": "Avanti",
           "nextSceneId": 3
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 3,
       "title": "Dopo un'ora suona una sveglia che nessuno interrompe.",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000003,
           "text": "Avanti",
           "nextSceneId": 4
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 4,
       "title": "Ti alzi incazzato.",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000004,
           "text": "Avanti",
           "nextSceneId": 5
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 5,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000005,
           "text": "Avanti",
           "nextSceneId": 1
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 6,
       "title": "Guardi lo specchio e pensi: \"da oggi inizierò a perdere i capelli o da domani?\"",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000006,
           "text": "Avanti",
           "nextSceneId": 7
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 7,
       "title": "Non è un problema tanto i tucani non hanno i capelli.",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000007,
           "text": "Avanti",
           "nextSceneId": 8
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 8,
       "title": "La colazione",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000008,
           "text": "Avanti",
           "nextSceneId": 14
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 10,
       "title": "Apri il telefono e vedi 69 notifiche di auguri",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000010,
           "text": "Avanti",
           "nextSceneId": 11
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 11,
       "title": "Le ignori tutte perché sei asociale",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000011,
           "text": "Avanti",
           "nextSceneId": 12
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 12,
       "title": "Continui a scrollare fino alle 12",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000012,
           "text": "Avanti",
           "nextSceneId": 13
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 13,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000013,
           "text": "Avanti",
           "nextSceneId": 1
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 14,
       "title": "Scena 2: La colazione",
       "description": "Vai al bar per fare colazione. Il barista ti chiede cosa vuoi bere.",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521014001,
           "text": "Cappuccino",
           "nextSceneId": 15
         },
         {
-          "id": 2,
+          "id": 1759521014002,
           "text": "Caffè normale",
           "nextSceneId": 19
         },
         {
-          "id": 3,
+          "id": 1759521014003,
           "text": "Succo d'arancia",
           "nextSceneId": 23
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 15,
       "title": "Il barista ti prepara un cappuccino perfetto con la schiuma",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000015,
           "text": "Avanti",
           "nextSceneId": 16
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 16,
       "title": "Lo bevi mentre guardi fuori dalla finestra",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000016,
           "text": "Avanti",
           "nextSceneId": 17
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 17,
       "title": "Vedi delle macchine che corrono in strada",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000017,
           "text": "Avanti",
           "nextSceneId": 18
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 18,
       "title": "Decidi di uscire per vedere meglio",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000018,
           "text": "Avanti",
           "nextSceneId": 27
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 19,
       "title": "Il barista ti serve un caffè nero bollente",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000019,
           "text": "Avanti",
           "nextSceneId": 20
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 20,
       "title": "È così amaro che fai una smorfia disgustata",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000020,
           "text": "Avanti",
           "nextSceneId": 21
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 21,
       "title": "Il barista si offende e ti caccia dal locale",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000021,
           "text": "Avanti",
           "nextSceneId": 22
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 22,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000022,
           "text": "Avanti",
           "nextSceneId": 14
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 23,
       "title": "Ordini un succo d'arancia fresco",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000023,
           "text": "Avanti",
           "nextSceneId": 24
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 24,
       "title": "Il barista ti porta un succo fatto una settimana fa",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000024,
           "text": "Avanti",
           "nextSceneId": 25
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 25,
       "title": "Ha un sapore orribile e ti senti male",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000025,
           "text": "Avanti",
           "nextSceneId": 26
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 26,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000026,
           "text": "Avanti",
           "nextSceneId": 14
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 27,
       "title": "Scena 3: La gara clandestina",
       "description": "Fuori dal bar c'è una gara di macchine illegale. Un pilota ti chiede se vuoi partecipare.",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521027001,
           "text": "Sì, partecipo alla gara!",
           "nextSceneId": 28
         },
         {
-          "id": 2,
+          "id": 1759521027002,
           "text": "No, è troppo pericoloso",
           "nextSceneId": 32
         },
         {
-          "id": 3,
+          "id": 1759521027003,
           "text": "Chiamo la polizia",
           "nextSceneId": 36
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 28,
       "title": "Sali su una macchina sportiva rossa",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000028,
           "text": "Avanti",
           "nextSceneId": 29
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 29,
       "title": "La gara inizia e parti a tutta velocità",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000029,
           "text": "Avanti",
           "nextSceneId": 30
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 30,
       "title": "Dopo una gara mozzafiato arrivi secondo",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000030,
           "text": "Avanti",
           "nextSceneId": 31
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 31,
       "title": "Il vincitore ti regala una corona d'oro per il compleanno!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000031,
           "text": "Avanti",
           "nextSceneId": 40
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 32,
       "title": "Rifiuti di partecipare perché hai paura",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000032,
           "text": "Avanti",
           "nextSceneId": 33
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 33,
       "title": "I piloti ti prendono in giro chiamandoti codardo",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000033,
           "text": "Avanti",
           "nextSceneId": 34
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 34,
       "title": "Ti senti umiliato davanti a tutti",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000034,
           "text": "Avanti",
           "nextSceneId": 35
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 35,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000035,
           "text": "Avanti",
           "nextSceneId": 27
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 36,
       "title": "Decidi di chiamare la polizia per fermare la gara",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000036,
           "text": "Avanti",
           "nextSceneId": 37
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 37,
       "title": "I piloti ti sentono e si arrabbiano molto",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000037,
           "text": "Avanti",
           "nextSceneId": 38
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 38,
       "title": "Ti inseguono per picchiarti",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000038,
           "text": "Avanti",
           "nextSceneId": 39
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 39,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000039,
           "text": "Avanti",
           "nextSceneId": 27
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 40,
       "title": "Scena 4: Inseguimento polizia",
       "description": "Arriva la polizia e inizia un inseguimento! Come scappi?",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521040001,
           "text": "Scappi a piedi tra i vicoli",
           "nextSceneId": 41
         },
         {
-          "id": 2,
+          "id": 1759521040002,
           "text": "Usi i tuoi poteri anime per volare",
           "nextSceneId": 45
         },
         {
-          "id": 3,
+          "id": 1759521040003,
           "text": "Ti nascondi in un cassonetto",
           "nextSceneId": 49
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 41,
       "title": "Corri attraverso i vicoli stretti del centro",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000041,
           "text": "Avanti",
           "nextSceneId": 42
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 42,
       "title": "Salti sopra le macchine parcheggiate",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000042,
           "text": "Avanti",
           "nextSceneId": 43
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 43,
       "title": "Riesci a seminare la polizia",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000043,
           "text": "Avanti",
           "nextSceneId": 44
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 44,
       "title": "Ti ritrovi davanti a un grande palazzo: l'IKEA",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000044,
           "text": "Avanti",
           "nextSceneId": 53
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 45,
       "title": "Attivi i tuoi poteri anime segreti",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000045,
           "text": "Avanti",
           "nextSceneId": 46
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 46,
       "title": "Cominci a volare sopra la città come un supereroe",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000046,
           "text": "Avanti",
           "nextSceneId": 47
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 47,
       "title": "La polizia resta senza parole guardandoti volare",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000047,
           "text": "Avanti",
           "nextSceneId": 48
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 48,
       "title": "Atterri dall'altra parte della città, al sicuro",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000048,
           "text": "Avanti",
           "nextSceneId": 53
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 49,
       "title": "Ti tuffi in un cassonetto per nasconderti",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000049,
           "text": "Avanti",
           "nextSceneId": 50
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 50,
       "title": "Un poliziotto ti trova subito perché puzzi",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000050,
           "text": "Avanti",
           "nextSceneId": 51
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 51,
       "title": "Ti arrestano e ti portano in questura",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000051,
           "text": "Avanti",
           "nextSceneId": 52
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 52,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000052,
           "text": "Avanti",
           "nextSceneId": 40
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 53,
       "title": "Scena 5: Boss battle IKEA",
       "description": "Entri nell'IKEA e trovi Mattarella che ti aspetta per un duello epico tra i mobili!",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521053001,
           "text": "Attacchi con una poltrona POÄNG",
           "nextSceneId": 54
         },
         {
-          "id": 2,
+          "id": 1759521053002,
           "text": "Lanci delle polpette del ristorante",
           "nextSceneId": 58
         },
         {
-          "id": 3,
+          "id": 1759521053003,
           "text": "Cerchi di convincerlo diplomaticamente",
           "nextSceneId": 62
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 54,
       "title": "Afferri una poltrona POÄNG e la lanci contro Mattarella",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000054,
           "text": "Avanti",
           "nextSceneId": 55
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 55,
       "title": "Mattarella schiva agilmente e contrattacca con una libreria BILLY",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000055,
           "text": "Avanti",
           "nextSceneId": 56
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 56,
       "title": "Riesci a schivare la libreria per un pelo",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000056,
           "text": "Avanti",
           "nextSceneId": 57
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 57,
       "title": "Mattarella ammette la sconfitta e se ne va",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000057,
           "text": "Avanti",
           "nextSceneId": 66
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 58,
       "title": "Prendi le polpette dal ristorante IKEA",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000058,
           "text": "Avanti",
           "nextSceneId": 59
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 59,
       "title": "Le lanci come granate contro Mattarella",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000059,
           "text": "Avanti",
           "nextSceneId": 60
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 60,
       "title": "Mattarella scivola sulla salsa e cade",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000060,
           "text": "Avanti",
           "nextSceneId": 61
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 61,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000061,
           "text": "Avanti",
           "nextSceneId": 53
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 62,
       "title": "Cerchi di convincere Mattarella con le parole",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000062,
           "text": "Avanti",
           "nextSceneId": 63
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 63,
       "title": "Gli spieghi che è il tuo compleanno",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000063,
           "text": "Avanti",
           "nextSceneId": 64
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 64,
       "title": "Mattarella non ci crede e ti attacca",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000064,
           "text": "Avanti",
           "nextSceneId": 65
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 65,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000065,
           "text": "Avanti",
           "nextSceneId": 53
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 66,
       "title": "Scena 6: Boss battle Supermercato",
       "description": "Esci dall'IKEA e entri in un supermercato dove trovi Gerry Scotti pronto per un altro duello!",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521066001,
           "text": "Lanci carrelli della spesa",
           "nextSceneId": 67
         },
         {
-          "id": 2,
+          "id": 1759521066002,
           "text": "Usi le banane come boomerang",
           "nextSceneId": 71
         },
         {
-          "id": 3,
+          "id": 1759521066003,
           "text": "Lo sfidi a un quiz televisivo",
           "nextSceneId": 75
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 67,
       "title": "Afferri dei carrelli e li lanci contro Gerry",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000067,
           "text": "Avanti",
           "nextSceneId": 68
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 68,
       "title": "Gerry schiva ridendo e dice 'Sbagliato!'",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000068,
           "text": "Avanti",
           "nextSceneId": 69
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 69,
       "title": "Ti lancia contro delle lattine di pomodoro",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000069,
           "text": "Avanti",
           "nextSceneId": 70
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 70,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000070,
           "text": "Avanti",
           "nextSceneId": 66
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 71,
       "title": "Prendi un casco di banane e le lanci come boomerang",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000071,
           "text": "Avanti",
           "nextSceneId": 72
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 72,
       "title": "Le banane colpiscono Gerry che scivola comicamente",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000072,
           "text": "Avanti",
           "nextSceneId": 73
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 73,
       "title": "Gerry si rialza ridendo e ti fa i complimenti",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000073,
           "text": "Avanti",
           "nextSceneId": 74
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 74,
       "title": "Vinci il duello e Gerry se ne va",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000074,
           "text": "Avanti",
           "nextSceneId": 79
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 75,
       "title": "Lo sfidi: 'Gerry, facciamo un quiz!'",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000075,
           "text": "Avanti",
           "nextSceneId": 76
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 76,
       "title": "Gerry accetta sorridendo: 'Quanto fa 2+2?'",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000076,
           "text": "Avanti",
           "nextSceneId": 77
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 77,
       "title": "Rispondi '4' e Gerry ammette la sconfitta",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000077,
           "text": "Avanti",
           "nextSceneId": 78
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 78,
       "title": "Ti regala 1 milione di euro virtuali",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000078,
           "text": "Avanti",
           "nextSceneId": 79
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 79,
       "title": "Scena 7: Esports League of Legends",
       "description": "Trovi un internet café e decidi di giocare a League of Legends. Che champion scegli?",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521079001,
           "text": "Yasuo mid lane",
           "nextSceneId": 80
         },
         {
-          "id": 2,
+          "id": 1759521079002,
           "text": "Thresh support",
           "nextSceneId": 84
         },
         {
-          "id": 3,
+          "id": 1759521079003,
           "text": "Teemo jungle (per trollare)",
           "nextSceneId": 88
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 80,
       "title": "Prendi Yasuo e vai mid contro un Zed nemico",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000080,
           "text": "Avanti",
           "nextSceneId": 81
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 81,
       "title": "Fai una outplay incredibile con il Wind Wall",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000081,
           "text": "Avanti",
           "nextSceneId": 82
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 82,
       "title": "Il tuo team vince la partita e tu sei MVP!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000082,
           "text": "Avanti",
           "nextSceneId": 83
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 83,
       "title": "Vinci un torneo esports e ricevi un trofeo",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000083,
           "text": "Avanti",
           "nextSceneId": 92
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 84,
       "title": "Prendi Thresh e aiuti il tuo ADC in bot lane",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000084,
           "text": "Avanti",
           "nextSceneId": 85
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 85,
       "title": "Fai hook perfetti ma il tuo ADC è scarso",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000085,
           "text": "Avanti",
           "nextSceneId": 86
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 86,
       "title": "Perdete la partita per colpa sua",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000086,
           "text": "Avanti",
           "nextSceneId": 87
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 87,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000087,
           "text": "Avanti",
           "nextSceneId": 79
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 88,
       "title": "Decidi di trollare con Teemo jungle",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000088,
           "text": "Avanti",
           "nextSceneId": 89
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 89,
       "title": "Il tuo team si arrabbia e ti reporta",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000089,
           "text": "Avanti",
           "nextSceneId": 90
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 90,
       "title": "Vieni bannato permanentemente",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000090,
           "text": "Avanti",
           "nextSceneId": 91
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 91,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000091,
           "text": "Avanti",
           "nextSceneId": 79
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 92,
       "title": "Scena 8: Guerra cinema",
       "description": "Esci dall'internet café e trovi una guerra tra il cinema Universo e il Warner Montesilvano!",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521092001,
           "text": "Aiuti l'Universo con popcorn esplosivi",
           "nextSceneId": 93
         },
         {
-          "id": 2,
+          "id": 1759521092002,
           "text": "Difendi il Warner con nachos",
           "nextSceneId": 97
         },
         {
-          "id": 3,
+          "id": 1759521092003,
           "text": "Cerchi di fare pace tra i due",
           "nextSceneId": 101
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 93,
       "title": "Aiuti l'Universo lanciando popcorn esplosivi",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000093,
           "text": "Avanti",
           "nextSceneId": 94
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 94,
       "title": "I popcorn esplodono creando buchi nel Warner",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000094,
           "text": "Avanti",
           "nextSceneId": 95
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 95,
       "title": "L'Universo vince la guerra!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000095,
           "text": "Avanti",
           "nextSceneId": 96
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 96,
       "title": "Ti nominano generale dell'esercito cinema",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000096,
           "text": "Avanti",
           "nextSceneId": 105
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 97,
       "title": "Difendi il Warner costruendo muri di nachos",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000097,
           "text": "Avanti",
           "nextSceneId": 98
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 98,
       "title": "I nachos non resistono agli attacchi",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000098,
           "text": "Avanti",
           "nextSceneId": 99
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 99,
       "title": "Il Warner viene conquistato",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000099,
           "text": "Avanti",
           "nextSceneId": 100
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 100,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000100,
           "text": "Avanti",
           "nextSceneId": 92
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 101,
       "title": "Cerchi di mediare: 'Fermatevi! Fate pace!'",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000101,
           "text": "Avanti",
           "nextSceneId": 102
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 102,
       "title": "Entrambi i cinema ti attaccano",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000102,
           "text": "Avanti",
           "nextSceneId": 103
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 103,
       "title": "Ti chiamano traditore",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000103,
           "text": "Avanti",
           "nextSceneId": 104
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 104,
       "title": "You died",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000104,
           "text": "Avanti",
           "nextSceneId": 92
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 105,
       "title": "Scena 9: Challenge finale",
       "description": "Arrivi alle tre prove finali per vincere il regalo di compleanno perfetto! Quale affronti?",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521105001,
           "text": "Prova del canestro",
           "nextSceneId": 106
         },
         {
-          "id": 2,
+          "id": 1759521105002,
           "text": "Prova di forza",
           "nextSceneId": 110
         },
         {
-          "id": 3,
+          "id": 1759521105003,
           "text": "Indovinello finale",
           "nextSceneId": 114
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 106,
       "title": "Ti concentri per il tiro perfetto",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000106,
           "text": "Avanti",
           "nextSceneId": 107
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 107,
       "title": "La palla entra perfettamente nel canestro",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000107,
           "text": "Avanti",
           "nextSceneId": 108
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 108,
       "title": "Hai superato la prima prova!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000108,
           "text": "Avanti",
           "nextSceneId": 109
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 109,
       "title": "Passi alla prova di forza",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000109,
           "text": "Avanti",
           "nextSceneId": 110
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 110,
       "title": "Devi sollevare un peso di 100kg",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000110,
           "text": "Avanti",
           "nextSceneId": 111
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 111,
       "title": "Usi la tecnica perfetta e lo sollevi",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000111,
           "text": "Avanti",
           "nextSceneId": 112
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 112,
       "title": "Hai superato la seconda prova!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000112,
           "text": "Avanti",
           "nextSceneId": 113
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 113,
       "title": "Passi all'indovinello finale",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000113,
           "text": "Avanti",
           "nextSceneId": 114
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 114,
       "title": "L'indovinello è: 'Cosa diventa più leggero quanto più lo riempi?'",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000114,
           "text": "Avanti",
           "nextSceneId": 115
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 115,
       "title": "Rispondi: 'Un palloncino!'",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000115,
           "text": "Avanti",
           "nextSceneId": 116
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 116,
       "title": "Risposta corretta! Hai superato tutte le prove!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000116,
           "text": "Avanti",
           "nextSceneId": 117
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 117,
       "title": "Ricevi il regalo di compleanno perfetto!",
       "description": "",
+      "image": "",
+      "video": "",
       "choices": [
         {
-          "id": 1,
+          "id": 1759521000117,
           "text": "Avanti",
           "nextSceneId": 118
         }
       ],
-      "isFinal": false
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 118,
       "title": "VITTORIA FINALE!",
       "description": "Congratulazioni! Hai completato la tua incredibile avventura di compleanno! Hai vinto la gara, sconfitto Mattarella e Gerry Scotti, dominato a League of Legends, vinto la guerra dei cinema e superato tutte le prove finali. È stato il compleanno più epico di sempre!",
+      "image": "",
+      "video": "",
       "choices": [],
-      "isFinal": true
+      "isFinal": true,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
+      "titleColor": "#00ff00",
+      "backgroundTheme": "celebration",
+      "effects": {
+        "particles": true,
+        "glow": true,
+        "typewriter": true
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     }
   ]
 }
