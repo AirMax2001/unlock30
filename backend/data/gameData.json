@@ -33,7 +33,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:50:09.738Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
@@ -199,7 +199,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:48:56.798Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
@@ -3156,11 +3156,12 @@
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
-    "maxScenes": 999,
+    "maxScenes": 30,
     "theme": "unlock30"
   },
   "stats": {
     "totalScenes": 118,
-    "lastModified": "2025-10-04T08:51:15.548Z"
+    "lastModified": "2025-10-04T08:51:16.362Z",
+    "forceSaveBy": "admin"
   }
 }
