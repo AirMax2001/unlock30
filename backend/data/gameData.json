@@ -10,7 +10,7 @@
         {
           "id": 1759568347421,
           "text": "Ti giri dall’altra parte e continui a russare",
-          "nextSceneId": null
+          "nextSceneId": 2
         },
         {
           "id": 1759568348584,
@@ -33,8 +33,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:59:28.616Z",
-      "updatedAt": "2025-10-04T08:59:28.890Z"
+      "lastModified": "2025-10-04T08:59:30.128Z",
+      "updatedAt": "2025-10-04T08:59:30.130Z"
+    },
+    {
+      "id": 2,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T08:59:30.128Z"
     }
   ],
   "settings": {
@@ -44,7 +54,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 1,
-    "lastModified": "2025-10-04T08:59:28.890Z"
+    "totalScenes": 2,
+    "lastModified": "2025-10-04T08:59:30.130Z"
   }
 }
