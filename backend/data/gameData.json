@@ -774,7 +774,7 @@
       "id": 31,
       "title": "La mattina",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585628483-Immagine WhatsApp 2025-10-02 ore 22.36.28_633f81d2.jpg",
       "video": "",
       "choices": [
         {
@@ -803,8 +803,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:46:46.823Z",
-      "updatedAt": "2025-10-04T13:46:46.827Z"
+      "lastModified": "2025-10-04T13:47:09.312Z",
+      "updatedAt": "2025-10-04T13:47:09.535Z"
     },
     {
       "id": 32,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:46:46.827Z",
+    "lastModified": "2025-10-04T13:47:09.535Z",
     "forceSaveBy": "admin"
   }
 }
