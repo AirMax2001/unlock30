@@ -1,99 +1,5 @@
 {
-  "scenes": [
-    {
-      "id": 112,
-      "title": "Il regalo",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759571522904,
-          "text": "Affronta la sfida del canestro",
-          "nextSceneId": 113
-        },
-        {
-          "id": 1759571524796,
-          "text": "Dimostra la tua forza",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759571526230,
-          "text": "Risolvi un indovinello",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:51:43.678Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:52:28.335Z",
-      "updatedAt": "2025-10-04T09:52:28.339Z"
-    },
-    {
-      "id": 113,
-      "title": "Sei alla festa ma vuoi il regalo",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759571565095,
-          "text": "Avanti",
-          "nextSceneId": 114
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:52:28.030Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:52:48.551Z",
-      "updatedAt": "2025-10-04T09:52:48.554Z"
-    },
-    {
-      "id": 114,
-      "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759571588810,
-          "text": "VINTA",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759571591648,
-          "text": "PERSA",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:52:48.249Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:53:17.519Z",
-      "updatedAt": "2025-10-04T09:53:17.761Z"
-    }
-  ],
+  "scenes": [],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
@@ -101,7 +7,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 3,
-    "lastModified": "2025-10-04T09:53:17.761Z"
+    "totalScenes": 0,
+    "lastModified": "2025-10-04T09:51:38.053Z"
   }
 }
