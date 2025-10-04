@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 115,
-      "title": "Nuova Scena",
+      "title": "Dimostra la tua forza",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:53:56.913Z",
-      "updatedAt": "2025-10-04T09:53:57.202Z"
+      "lastModified": "2025-10-04T09:54:09.150Z",
+      "updatedAt": "2025-10-04T09:54:09.379Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:53:57.202Z"
+    "lastModified": "2025-10-04T09:54:09.379Z"
   }
 }
