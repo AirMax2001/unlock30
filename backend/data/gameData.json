@@ -1466,7 +1466,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:56:38.584Z"
+      "lastModified": "2025-10-04T14:42:59.045Z",
+      "updatedAt": "2025-10-04T14:42:59.048Z"
     },
     {
       "id": 58,
@@ -1491,7 +1492,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:56:53.470Z"
+      "lastModified": "2025-10-04T14:43:01.260Z",
+      "updatedAt": "2025-10-04T14:43:01.263Z"
     },
     {
       "id": 59,
@@ -3116,7 +3118,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:42:58.412Z",
+    "lastModified": "2025-10-04T14:43:01.263Z",
     "forceSaveBy": "admin"
   }
 }
