@@ -2929,7 +2929,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
       "video": "",
       "choices": [
         {
@@ -2948,8 +2948,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:21:32.570Z",
-      "updatedAt": "2025-10-04T15:21:32.822Z"
+      "lastModified": "2025-10-04T15:21:39.941Z",
+      "updatedAt": "2025-10-04T15:21:40.189Z"
     },
     {
       "id": 116,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:21:32.823Z",
+    "lastModified": "2025-10-04T15:21:40.189Z",
     "forceSaveBy": "admin"
   }
 }
