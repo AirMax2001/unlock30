@@ -2380,7 +2380,7 @@
       "id": 93,
       "title": "Metti le cuffie e ti addormenti",
       "description": "",
-      "image": "/uploads/1759605310865-IMG-20251004-WA0025.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605310865-IMG-20251004-WA0025.jpg",
       "video": "",
       "choices": [
         {
@@ -2405,7 +2405,7 @@
       "id": 94,
       "title": "Niente riesce a svegliarti",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587426531-IMG-20251004-WA0029.jpg",
+      "image": "/uploads/1759605332179-IMG-20251004-WA0029.jpg",
       "video": "",
       "choices": [
         {
@@ -2424,8 +2424,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:15:16.419Z",
-      "updatedAt": "2025-10-04T19:15:16.423Z"
+      "lastModified": "2025-10-04T19:15:34.639Z"
     },
     {
       "id": 95,
@@ -3120,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:15:16.423Z",
+    "lastModified": "2025-10-04T19:15:34.642Z",
     "forceSaveBy": "admin"
   }
 }
