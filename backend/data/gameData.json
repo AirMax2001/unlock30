@@ -1960,7 +1960,7 @@
       "id": 77,
       "title": "Preparazione alla festa",
       "description": "",
-      "image": "/uploads/1759605055294-IMG-20251004-WA0049.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605055294-IMG-20251004-WA0049.jpg",
       "video": "",
       "choices": [
         {
@@ -2014,7 +2014,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:13:21.486Z"
+      "lastModified": "2025-10-04T19:11:03.253Z",
+      "updatedAt": "2025-10-04T19:11:03.584Z"
     },
     {
       "id": 79,
@@ -3119,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:11:00.391Z",
+    "lastModified": "2025-10-04T19:11:03.584Z",
     "forceSaveBy": "admin"
   }
 }
