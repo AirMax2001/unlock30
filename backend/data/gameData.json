@@ -3065,7 +3065,7 @@
       "id": 116,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605772485-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
+      "image": "/uploads/1759605772485-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -3084,13 +3084,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:22:55.182Z"
+      "lastModified": "2025-10-04T19:27:06.552Z",
+      "updatedAt": "2025-10-04T19:27:06.557Z"
     },
     {
       "id": 117,
       "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605787375-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
+      "image": "/uploads/1759605787375-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -3114,7 +3115,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:23:15.314Z"
+      "lastModified": "2025-10-04T19:27:07.164Z",
+      "updatedAt": "2025-10-04T19:27:07.168Z"
     },
     {
       "id": 118,
@@ -3224,7 +3226,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:27:05.543Z",
+    "lastModified": "2025-10-04T19:27:07.168Z",
     "forceSaveBy": "admin"
   }
 }
