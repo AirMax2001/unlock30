@@ -2905,7 +2905,7 @@
         {
           "id": 1759571588810,
           "text": "VINTA",
-          "nextSceneId": null
+          "nextSceneId": 121
         },
         {
           "id": 1759571591648,
@@ -2923,7 +2923,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:53:18.409Z"
+      "lastModified": "2025-10-04T10:03:56.421Z"
     },
     {
       "id": 115,
@@ -2948,7 +2948,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:54:24.191Z"
+      "lastModified": "2025-10-04T10:03:46.598Z"
     },
     {
       "id": 116,
@@ -2985,7 +2985,7 @@
         {
           "id": 1759571692471,
           "text": "VINTO",
-          "nextSceneId": null
+          "nextSceneId": 121
         },
         {
           "id": 1759571693998,
@@ -3003,7 +3003,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:55:06.615Z"
+      "lastModified": "2025-10-04T10:04:09.294Z"
     },
     {
       "id": 118,
@@ -3083,7 +3083,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:56:46.355Z"
+      "lastModified": "2025-10-04T10:04:28.062Z"
     },
     {
       "id": 121,
@@ -3113,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T09:57:08.948Z",
+    "lastModified": "2025-10-04T10:04:28.778Z",
     "forceSaveBy": "admin"
   }
 }
