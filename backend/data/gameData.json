@@ -1419,7 +1419,7 @@
       "id": 56,
       "title": "Dopo tutte le ore passate a guardare anime e serie tv acquisisci il potere di evocare delle ombre, che si vedono poco perché è giorno, ma creano uno scudo invisibile che fa accartocciare le macchine della polizia su loro stesse",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586178519-Immagine WhatsApp 2025-10-02 ore 23.04.51_2bdc93f1.jpg",
       "video": "",
       "choices": [
         {
@@ -1438,8 +1438,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:55:56.209Z",
-      "updatedAt": "2025-10-04T13:55:56.484Z"
+      "lastModified": "2025-10-04T13:56:19.427Z",
+      "updatedAt": "2025-10-04T13:56:19.684Z"
     },
     {
       "id": 57,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:55:56.484Z",
+    "lastModified": "2025-10-04T13:56:19.684Z",
     "forceSaveBy": "admin"
   }
 }
