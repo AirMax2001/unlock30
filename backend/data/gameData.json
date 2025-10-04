@@ -2849,7 +2849,7 @@
       "id": 112,
       "title": "Il regalo",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587961850-IMG-20251004-WA0051.jpg",
       "video": "",
       "choices": [
         {
@@ -2868,8 +2868,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:25:52.105Z",
-      "updatedAt": "2025-10-04T14:25:52.337Z"
+      "lastModified": "2025-10-04T14:26:02.631Z",
+      "updatedAt": "2025-10-04T14:26:02.834Z"
     },
     {
       "id": 113,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:25:52.337Z",
+    "lastModified": "2025-10-04T14:26:02.834Z",
     "forceSaveBy": "admin"
   }
 }
