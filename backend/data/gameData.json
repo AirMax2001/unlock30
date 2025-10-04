@@ -28,7 +28,7 @@
     },
     {
       "id": 30,
-      "title": "Nuova Scena",
+      "title": "Ora va iniziata la mattinata!",
       "description": "",
       "image": "",
       "video": "",
@@ -43,8 +43,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:14:40.429Z",
-      "updatedAt": "2025-10-04T09:14:40.430Z"
+      "lastModified": "2025-10-04T09:14:46.913Z",
+      "updatedAt": "2025-10-04T09:14:47.186Z"
     }
   ],
   "settings": {
@@ -55,6 +55,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T09:14:40.430Z"
+    "lastModified": "2025-10-04T09:14:47.186Z"
   }
 }
