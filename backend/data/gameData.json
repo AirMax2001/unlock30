@@ -14,7 +14,7 @@
         },
         {
           "id": 1759571524796,
-          "text": "",
+          "text": "Dimostra la tua forza",
           "nextSceneId": null
         },
         {
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:52:13.545Z",
-      "updatedAt": "2025-10-04T09:52:13.813Z"
+      "lastModified": "2025-10-04T09:52:19.356Z",
+      "updatedAt": "2025-10-04T09:52:19.614Z"
     }
   ],
   "settings": {
@@ -45,6 +45,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:52:13.813Z"
+    "lastModified": "2025-10-04T09:52:19.614Z"
   }
 }
