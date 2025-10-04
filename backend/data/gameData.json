@@ -4,7 +4,7 @@
       "id": 1,
       "title": "La sveglia",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759569352002-Gemini_Generated_Image_2vkf3l2vkf3l2vkf.png",
+      "image": "/uploads/1759584912023-IMG-20251002-WA0012.jpg",
       "video": "",
       "choices": [
         {
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:34:50.202Z",
-      "updatedAt": "2025-10-04T13:34:50.461Z"
+      "lastModified": "2025-10-04T13:35:12.814Z",
+      "updatedAt": "2025-10-04T13:35:13.056Z"
     },
     {
       "id": 2,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:34:50.461Z",
+    "lastModified": "2025-10-04T13:35:13.056Z",
     "forceSaveBy": "admin"
   }
 }
