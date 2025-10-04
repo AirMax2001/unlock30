@@ -1209,7 +1209,7 @@
       "id": 48,
       "title": "Vinci e ti regalano una corona e decidi che la indosserai per tutta la serata della tua festa",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585977213-Immagine WhatsApp 2025-10-02 ore 18.53.33_83641858.jpg",
       "video": "",
       "choices": [
         {
@@ -1228,8 +1228,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:52:44.983Z",
-      "updatedAt": "2025-10-04T13:52:45.281Z"
+      "lastModified": "2025-10-04T13:52:58.066Z",
+      "updatedAt": "2025-10-04T13:52:58.269Z"
     },
     {
       "id": 49,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:52:45.281Z",
+    "lastModified": "2025-10-04T13:52:58.269Z",
     "forceSaveBy": "admin"
   }
 }
