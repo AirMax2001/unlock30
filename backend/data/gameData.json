@@ -2566,7 +2566,7 @@
       "id": 97,
       "title": "YOU DEFEAT",
       "description": "( dai sì realistico )!",
-      "image": "https://unlock30.onrender.com/uploads/1759605370150-IMG-20251004-WA0031.jpg",
+      "image": "/uploads/1759605370150-IMG-20251004-WA0031.jpg",
       "video": "",
       "choices": [
         {
@@ -2585,13 +2585,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:16:22.687Z"
+      "lastModified": "2025-10-04T19:26:52.024Z",
+      "updatedAt": "2025-10-04T19:26:52.028Z"
     },
     {
       "id": 98,
       "title": "Ti invitano a disputare il mondiale degli EA sports",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605399054-IMG-20251004-WA0032.jpg",
+      "image": "/uploads/1759605399054-IMG-20251004-WA0032.jpg",
       "video": "",
       "choices": [
         {
@@ -2610,7 +2611,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:16:41.684Z"
+      "lastModified": "2025-10-04T19:26:52.921Z",
+      "updatedAt": "2025-10-04T19:26:52.928Z"
     },
     {
       "id": 99,
@@ -3205,7 +3207,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:51.551Z",
+    "lastModified": "2025-10-04T19:26:52.928Z",
     "forceSaveBy": "admin"
   }
 }
