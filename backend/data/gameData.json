@@ -774,7 +774,7 @@
       "id": 31,
       "title": "La mattina",
       "description": "",
-      "image": "/uploads/1759585628483-Immagine WhatsApp 2025-10-02 ore 22.36.28_633f81d2.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585628483-Immagine WhatsApp 2025-10-02 ore 22.36.28_633f81d2.jpg",
       "video": "",
       "choices": [
         {
@@ -809,7 +809,7 @@
       "id": 32,
       "title": "Sei in strada ma da lontano vedi dei lavori in corso",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585680371-Immagine WhatsApp 2025-10-02 ore 18.08.02_d2f0ef4f.jpg",
       "video": "",
       "choices": [
         {
@@ -828,8 +828,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:47:17.802Z",
-      "updatedAt": "2025-10-04T13:47:17.805Z"
+      "lastModified": "2025-10-04T13:48:02.169Z"
     },
     {
       "id": 33,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:47:17.805Z",
+    "lastModified": "2025-10-04T13:48:02.172Z",
     "forceSaveBy": "admin"
   }
 }
