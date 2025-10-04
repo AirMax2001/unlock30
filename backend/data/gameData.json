@@ -3016,7 +3016,7 @@
       "id": 118,
       "title": "Risolvi un indovinello",
       "description": "",
-      "image": "/uploads/1759605830553-Gemini_Generated_Image_bqgt0pbqgt0pbqgt.png",
+      "image": "https://unlock30.onrender.com/uploads/1759605830553-Gemini_Generated_Image_bqgt0pbqgt0pbqgt.png",
       "video": "",
       "choices": [
         {
@@ -3060,7 +3060,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:44:09.386Z"
+      "lastModified": "2025-10-04T19:24:10.669Z",
+      "updatedAt": "2025-10-04T19:24:11.042Z"
     },
     {
       "id": 120,
@@ -3120,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:23:59.296Z",
+    "lastModified": "2025-10-04T19:24:11.042Z",
     "forceSaveBy": "admin"
   }
 }
