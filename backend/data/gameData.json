@@ -2050,11 +2050,17 @@
     },
     {
       "id": 81,
-      "title": "Nuova Scena",
+      "title": "Un fiore gigantesco si apre davanti a te e rivela gerry scotti nudo che sorride minaccioso",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759570619123,
+          "text": "Avanti",
+          "nextSceneId": 82
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-04T09:36:44.737Z",
       "titleStyle": "",
@@ -2065,8 +2071,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:36:47.433Z",
-      "updatedAt": "2025-10-04T09:36:47.435Z"
+      "lastModified": "2025-10-04T09:37:03.651Z",
+      "updatedAt": "2025-10-04T09:37:03.654Z"
+    },
+    {
+      "id": 82,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:37:03.350Z"
     }
   ],
   "settings": {
@@ -2076,8 +2092,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 81,
-    "lastModified": "2025-10-04T09:36:47.435Z",
+    "totalScenes": 82,
+    "lastModified": "2025-10-04T09:37:03.654Z",
     "forceSaveBy": "admin"
   }
 }
