@@ -1369,7 +1369,7 @@
       "id": 54,
       "title": "Gli agenti si fermano per non rovinare la festa: scusa perfetta — ti offrono una fetta di torta e ti chiedono il permesso di sfilare insieme alla carrozza",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586126847-Immagine WhatsApp 2025-10-02 ore 22.44.02_cfb4769a.jpg",
       "video": "",
       "choices": [
         {
@@ -1388,8 +1388,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:55:09.257Z",
-      "updatedAt": "2025-10-04T13:55:09.535Z"
+      "lastModified": "2025-10-04T13:55:27.740Z",
+      "updatedAt": "2025-10-04T13:55:27.984Z"
     },
     {
       "id": 55,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:55:09.535Z",
+    "lastModified": "2025-10-04T13:55:27.985Z",
     "forceSaveBy": "admin"
   }
 }
