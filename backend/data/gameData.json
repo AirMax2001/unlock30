@@ -511,7 +511,7 @@
       "id": 20,
       "title": "La macchina emette uno sbuffo, si anima e si ribella a te che sei suo padre",
       "description": "",
-      "image": "/uploads/1759603905785-Gemini_Generated_Image_2vkf3l2vkf3l2vkf.png",
+      "image": "https://unlock30.onrender.com/uploads/1759603905785-Gemini_Generated_Image_2vkf3l2vkf3l2vkf.png",
       "video": "",
       "choices": [
         {
@@ -555,7 +555,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:30:14.179Z"
+      "lastModified": "2025-10-04T18:51:52.702Z",
+      "updatedAt": "2025-10-04T18:51:53.271Z"
     },
     {
       "id": 22,
@@ -3125,7 +3126,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:51:49.659Z",
+    "lastModified": "2025-10-04T18:51:53.271Z",
     "forceSaveBy": "admin"
   }
 }
