@@ -116,7 +116,7 @@
     },
     {
       "id": 44,
-      "title": ". Tempo stimato, 1 mese, se riesci a nuotare bene",
+      "title": "Tempo stimato, 1 mese, se riesci a nuotare bene",
       "description": "",
       "image": "",
       "video": "",
@@ -131,8 +131,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:21:11.484Z",
-      "updatedAt": "2025-10-04T09:21:11.730Z"
+      "lastModified": "2025-10-04T09:21:13.792Z",
+      "updatedAt": "2025-10-04T09:21:13.794Z"
     }
   ],
   "settings": {
@@ -143,6 +143,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-04T09:21:11.730Z"
+    "lastModified": "2025-10-04T09:21:13.794Z"
   }
 }
