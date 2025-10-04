@@ -282,7 +282,7 @@
     },
     {
       "id": 75,
-      "title": "Nuova Scena",
+      "title": "Vinci e torni a casa sacrificando le tue ombre",
       "description": "",
       "image": "",
       "video": "",
@@ -297,8 +297,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:34:09.434Z",
-      "updatedAt": "2025-10-04T09:34:09.435Z"
+      "lastModified": "2025-10-04T09:34:17.396Z",
+      "updatedAt": "2025-10-04T09:34:17.674Z"
     }
   ],
   "settings": {
@@ -309,7 +309,7 @@
   },
   "stats": {
     "totalScenes": 12,
-    "lastModified": "2025-10-04T09:34:09.435Z",
+    "lastModified": "2025-10-04T09:34:17.674Z",
     "forceSaveBy": "admin"
   }
 }
