@@ -1134,7 +1134,7 @@
       "id": 45,
       "title": "Decidi che sia arrivato il momento di iscriverti ad una gara clandestina di mattina",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585927846-Immagine WhatsApp 2025-10-02 ore 18.51.50_987f1494.jpg",
       "video": "",
       "choices": [
         {
@@ -1153,8 +1153,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:51:46.115Z",
-      "updatedAt": "2025-10-04T13:51:46.400Z"
+      "lastModified": "2025-10-04T13:52:08.853Z"
     },
     {
       "id": 46,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:51:46.400Z",
+    "lastModified": "2025-10-04T13:52:09.165Z",
     "forceSaveBy": "admin"
   }
 }
