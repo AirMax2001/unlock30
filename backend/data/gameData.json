@@ -396,7 +396,7 @@
     },
     {
       "id": 92,
-      "title": "Nuova Scena",
+      "title": "Ti stendi stremato sul letto",
       "description": "",
       "image": "",
       "video": "",
@@ -411,8 +411,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:42:39.353Z",
-      "updatedAt": "2025-10-04T09:42:39.602Z"
+      "lastModified": "2025-10-04T09:42:53.971Z",
+      "updatedAt": "2025-10-04T09:42:54.236Z"
     }
   ],
   "settings": {
@@ -423,7 +423,7 @@
   },
   "stats": {
     "totalScenes": 16,
-    "lastModified": "2025-10-04T09:42:39.602Z",
+    "lastModified": "2025-10-04T09:42:54.236Z",
     "forceSaveBy": "admin"
   }
 }
