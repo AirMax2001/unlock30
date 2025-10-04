@@ -12,7 +12,7 @@
     },
     {
       "id": 40,
-      "title": "Nuova Scena",
+      "title": "Amazon ti manda un buono sconto e  liberi anche il suo carrello",
       "description": "",
       "image": "",
       "video": "",
@@ -27,8 +27,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:19:50.791Z",
-      "updatedAt": "2025-10-04T09:19:50.792Z"
+      "lastModified": "2025-10-04T09:19:59.146Z",
+      "updatedAt": "2025-10-04T09:19:59.396Z"
     }
   ],
   "settings": {
@@ -39,6 +39,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T09:19:50.793Z"
+    "lastModified": "2025-10-04T09:19:59.396Z"
   }
 }
