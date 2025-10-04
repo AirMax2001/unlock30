@@ -1579,7 +1579,7 @@
       "id": 62,
       "title": "Li come GTA insegna ti lanci dall’auto e finisci nel fiume",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586384200-Immagine WhatsApp 2025-10-02 ore 22.51.59_96c19cba.jpg",
       "video": "",
       "choices": [
         {
@@ -1598,8 +1598,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:59:26.178Z",
-      "updatedAt": "2025-10-04T13:59:26.181Z"
+      "lastModified": "2025-10-04T13:59:46.027Z"
     },
     {
       "id": 63,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:59:26.181Z",
+    "lastModified": "2025-10-04T13:59:46.276Z",
     "forceSaveBy": "admin"
   }
 }
