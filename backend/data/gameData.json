@@ -2599,7 +2599,7 @@
       "id": 102,
       "title": "Rinunci alla possibilità di diventare un campione mondiale per passare del tempo con la tua famiglia e amici",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587749136-IMG-20251004-WA0035.jpg",
       "video": "",
       "choices": [
         {
@@ -2618,8 +2618,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:22:22.210Z",
-      "updatedAt": "2025-10-04T14:22:22.459Z"
+      "lastModified": "2025-10-04T14:22:30.072Z",
+      "updatedAt": "2025-10-04T14:22:30.329Z"
     },
     {
       "id": 103,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:22:22.459Z",
+    "lastModified": "2025-10-04T14:22:30.329Z",
     "forceSaveBy": "admin"
   }
 }
