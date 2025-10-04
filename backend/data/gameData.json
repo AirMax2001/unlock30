@@ -196,7 +196,7 @@
       "id": 8,
       "title": "La colazione",
       "description": "",
-      "image": "/uploads/1759585079269-IMG-20251002-WA0019.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585079269-IMG-20251002-WA0019.jpg",
       "video": "",
       "choices": [
         {
@@ -251,7 +251,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:04:07.925Z"
+      "lastModified": "2025-10-04T13:38:04.511Z",
+      "updatedAt": "2025-10-04T13:38:04.793Z"
     },
     {
       "id": 10,
@@ -3121,7 +3122,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:38:00.183Z",
+    "lastModified": "2025-10-04T13:38:04.793Z",
     "forceSaveBy": "admin"
   }
 }
