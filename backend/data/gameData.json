@@ -2014,7 +2014,7 @@
       "id": 79,
       "title": "Sotto di te senti tremare la terra a 250 bpm",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586847693-IMG-20251004-WA0014.jpg",
       "video": "",
       "choices": [
         {
@@ -2033,8 +2033,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:07:19.110Z",
-      "updatedAt": "2025-10-04T14:07:19.402Z"
+      "lastModified": "2025-10-04T14:07:28.622Z",
+      "updatedAt": "2025-10-04T14:07:28.854Z"
     },
     {
       "id": 80,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:07:19.402Z",
+    "lastModified": "2025-10-04T14:07:28.854Z",
     "forceSaveBy": "admin"
   }
 }
