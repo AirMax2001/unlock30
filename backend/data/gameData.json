@@ -178,7 +178,7 @@
     },
     {
       "id": 49,
-      "title": "Nuova Scena",
+      "title": ":  La fuga dagli sbirri",
       "description": "",
       "image": "",
       "video": "",
@@ -193,8 +193,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:23:14.533Z",
-      "updatedAt": "2025-10-04T09:23:14.535Z"
+      "lastModified": "2025-10-04T09:23:22.035Z",
+      "updatedAt": "2025-10-04T09:23:22.293Z"
     }
   ],
   "settings": {
@@ -205,6 +205,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-04T09:23:14.535Z"
+    "lastModified": "2025-10-04T09:23:22.293Z"
   }
 }
