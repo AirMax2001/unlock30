@@ -1551,7 +1551,7 @@
       "id": 60,
       "title": "Sgommi per le strade di Montesilvano con il filobus che ti insegue ingaggiato dalla polizia",
       "description": "",
-      "image": "/uploads/1759604642217-Immagine WhatsApp 2025-10-02 ore 22.47.21_758f8898.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604642217-Immagine WhatsApp 2025-10-02 ore 22.47.21_758f8898.jpg",
       "video": "",
       "choices": [
         {
@@ -1576,7 +1576,7 @@
       "id": 61,
       "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586361132-Immagine WhatsApp 2025-10-02 ore 22.48.17_0f903374.jpg",
+      "image": "/uploads/1759604653482-Immagine WhatsApp 2025-10-02 ore 22.48.17_0f903374.jpg",
       "video": "",
       "choices": [
         {
@@ -1595,8 +1595,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:04:06.148Z",
-      "updatedAt": "2025-10-04T19:04:06.153Z"
+      "lastModified": "2025-10-04T19:04:16.075Z",
+      "updatedAt": "2025-10-04T19:04:16.356Z"
     },
     {
       "id": 62,
@@ -3136,7 +3136,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:04:06.153Z",
+    "lastModified": "2025-10-04T19:04:16.356Z",
     "forceSaveBy": "admin"
   }
 }
