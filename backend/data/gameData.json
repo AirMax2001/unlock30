@@ -355,7 +355,7 @@
         {
           "id": 1759568775939,
           "text": "Avanti",
-          "nextSceneId": 6
+          "nextSceneId": 5
         }
       ],
       "isFinal": false,
@@ -3113,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T11:58:47.190Z",
+    "lastModified": "2025-10-04T12:02:22.581Z",
     "forceSaveBy": "admin"
   }
 }
