@@ -2799,7 +2799,7 @@
       "id": 110,
       "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587923025-IMG-20251004-WA0044.jpg",
       "video": "",
       "choices": [
         {
@@ -2818,8 +2818,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:25:13.389Z",
-      "updatedAt": "2025-10-04T14:25:13.591Z"
+      "lastModified": "2025-10-04T14:25:23.887Z",
+      "updatedAt": "2025-10-04T14:25:24.119Z"
     },
     {
       "id": 111,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:25:13.591Z",
+    "lastModified": "2025-10-04T14:25:24.119Z",
     "forceSaveBy": "admin"
   }
 }
