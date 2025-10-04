@@ -592,7 +592,7 @@
       "id": 23,
       "title": "Guardi l’ora sono le 9",
       "description": "",
-      "image": "/uploads/1759585463807-Immagine WhatsApp 2025-10-02 ore 17.43.45_63e3b152.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585463807-Immagine WhatsApp 2025-10-02 ore 17.43.45_63e3b152.jpg",
       "video": "",
       "choices": [
         {
@@ -617,7 +617,7 @@
       "id": 24,
       "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585481986-Immagine WhatsApp 2025-10-02 ore 17.43.45_c82e1ae8.jpg",
       "video": "",
       "choices": [
         {
@@ -636,8 +636,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:44:27.558Z",
-      "updatedAt": "2025-10-04T13:44:27.561Z"
+      "lastModified": "2025-10-04T13:44:43.346Z"
     },
     {
       "id": 25,
@@ -3132,7 +3131,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:44:27.561Z",
+    "lastModified": "2025-10-04T13:44:43.349Z",
     "forceSaveBy": "admin"
   }
 }
