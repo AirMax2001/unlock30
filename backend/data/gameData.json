@@ -509,8 +509,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:49:12.143Z",
-      "updatedAt": "2025-10-04T09:49:12.146Z"
+      "lastModified": "2025-10-04T09:49:29.055Z",
+      "updatedAt": "2025-10-04T09:49:29.308Z"
     }
   ],
   "settings": {
@@ -521,7 +521,7 @@
   },
   "stats": {
     "totalScenes": 20,
-    "lastModified": "2025-10-04T09:49:12.146Z",
+    "lastModified": "2025-10-04T09:49:29.308Z",
     "forceSaveBy": "admin"
   }
 }
