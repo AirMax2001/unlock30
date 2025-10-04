@@ -2349,7 +2349,7 @@
       "id": 92,
       "title": "Ti stendi stremato sul letto",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587364723-IMG-20251004-WA0026.jpg",
       "video": "",
       "choices": [
         {
@@ -2368,8 +2368,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:15:35.256Z",
-      "updatedAt": "2025-10-04T14:15:36.361Z"
+      "lastModified": "2025-10-04T14:16:06.036Z"
     },
     {
       "id": 93,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:15:36.361Z",
+    "lastModified": "2025-10-04T14:16:06.041Z",
     "forceSaveBy": "admin"
   }
 }
