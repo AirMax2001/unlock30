@@ -411,7 +411,7 @@
       "id": 16,
       "title": "Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
       "description": "",
-      "image": "/uploads/1759585210448-Immagine WhatsApp 2025-10-02 ore 22.25.45_4d658433.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585210448-Immagine WhatsApp 2025-10-02 ore 22.25.45_4d658433.jpg",
       "video": "",
       "choices": [
         {
@@ -437,7 +437,7 @@
       "id": 17,
       "title": "La cucina ora puzza di bruciato",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585221638-Immagine WhatsApp 2025-10-02 ore 22.26.38_b7e6f5ab.jpg",
       "video": "",
       "choices": [
         {
@@ -456,8 +456,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:40:12.565Z",
-      "updatedAt": "2025-10-04T13:40:12.572Z"
+      "lastModified": "2025-10-04T13:40:22.553Z",
+      "updatedAt": "2025-10-04T13:40:22.784Z"
     },
     {
       "id": 18,
@@ -3127,7 +3127,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:40:12.572Z",
+    "lastModified": "2025-10-04T13:40:22.784Z",
     "forceSaveBy": "admin"
   }
 }
