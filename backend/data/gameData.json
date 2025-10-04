@@ -2929,7 +2929,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
+      "image": "/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
       "video": "",
       "choices": [
         {
@@ -2979,7 +2979,7 @@
       "id": 117,
       "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
+      "image": "/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -3028,8 +3028,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:21:49.292Z",
-      "updatedAt": "2025-10-04T15:21:50.022Z"
+      "lastModified": "2025-10-04T15:21:49.292Z"
     },
     {
       "id": 119,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:22:54.877Z",
+    "lastModified": "2025-10-04T15:22:55.817Z",
     "forceSaveBy": "admin"
   }
 }
