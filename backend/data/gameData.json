@@ -2374,7 +2374,7 @@
       "id": 93,
       "title": "Metti le cuffie e ti addormenti",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587395420-IMG-20251004-WA0025.jpg",
       "video": "",
       "choices": [
         {
@@ -2393,8 +2393,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:16:11.329Z",
-      "updatedAt": "2025-10-04T14:16:11.614Z"
+      "lastModified": "2025-10-04T14:16:36.108Z",
+      "updatedAt": "2025-10-04T14:16:36.343Z"
     },
     {
       "id": 94,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:16:11.614Z",
+    "lastModified": "2025-10-04T14:16:36.344Z",
     "forceSaveBy": "admin"
   }
 }
