@@ -144,7 +144,7 @@
       "id": 6,
       "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
       "description": "",
-      "image": "/uploads/1759585037081-IMG-20251002-WA0024.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585037081-IMG-20251002-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -170,7 +170,7 @@
       "id": 7,
       "title": "Non è un problema tanto i tucani non hanno i capelli",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585068422-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
       "video": "",
       "choices": [
         {
@@ -189,8 +189,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:37:19.258Z",
-      "updatedAt": "2025-10-04T13:37:19.261Z"
+      "lastModified": "2025-10-04T13:37:49.304Z",
+      "updatedAt": "2025-10-04T13:37:49.531Z"
     },
     {
       "id": 8,
@@ -3120,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:37:19.261Z",
+    "lastModified": "2025-10-04T13:37:49.531Z",
     "forceSaveBy": "admin"
   }
 }
