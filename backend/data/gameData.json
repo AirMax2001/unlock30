@@ -1288,7 +1288,7 @@
       "id": 50,
       "title": "tiri una marcia e la macchina si lancia, inquadratura rallenty, capelli al vento",
       "description": "",
-      "image": "/uploads/1759604414441-Immagine WhatsApp 2025-10-02 ore 22.39.49_d4c1d903.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604414441-Immagine WhatsApp 2025-10-02 ore 22.39.49_d4c1d903.jpg",
       "video": "",
       "choices": [
         {
@@ -1313,7 +1313,7 @@
       "id": 51,
       "title": "La telecamera immaginaria inquadra il tuo sguardo deciso",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586063438-Immagine WhatsApp 2025-10-02 ore 19.11.31_1daae7de.jpg",
+      "image": "/uploads/1759604429522-Immagine WhatsApp 2025-10-02 ore 19.11.31_1daae7de.jpg",
       "video": "",
       "choices": [
         {
@@ -1332,8 +1332,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:00:19.466Z",
-      "updatedAt": "2025-10-04T19:00:19.470Z"
+      "lastModified": "2025-10-04T19:00:30.851Z",
+      "updatedAt": "2025-10-04T19:00:31.207Z"
     },
     {
       "id": 52,
@@ -3133,7 +3133,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:00:19.470Z",
+    "lastModified": "2025-10-04T19:00:31.207Z",
     "forceSaveBy": "admin"
   }
 }
