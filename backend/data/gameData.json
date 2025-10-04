@@ -2540,7 +2540,7 @@
       "id": 96,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605356401-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "/uploads/1759605356401-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -2559,7 +2559,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:15:59.209Z"
+      "lastModified": "2025-10-04T19:26:51.548Z",
+      "updatedAt": "2025-10-04T19:26:51.551Z"
     },
     {
       "id": 97,
@@ -3204,7 +3205,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:50.424Z",
+    "lastModified": "2025-10-04T19:26:51.551Z",
     "forceSaveBy": "admin"
   }
 }
