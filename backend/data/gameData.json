@@ -61,7 +61,7 @@
       "choices": [
         {
           "id": 1759571692471,
-          "text": "",
+          "text": "VIN",
           "nextSceneId": null
         },
         {
@@ -80,8 +80,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:54:54.299Z",
-      "updatedAt": "2025-10-04T09:54:54.302Z"
+      "lastModified": "2025-10-04T09:54:56.422Z",
+      "updatedAt": "2025-10-04T09:54:56.426Z"
     }
   ],
   "settings": {
@@ -92,6 +92,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:54:54.302Z"
+    "lastModified": "2025-10-04T09:54:56.426Z"
   }
 }
