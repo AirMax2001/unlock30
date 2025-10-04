@@ -64,13 +64,23 @@
     },
     {
       "id": 3,
-      "title": "Nuova Scena",
+      "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:00:02.204Z"
+      "createdAt": "2025-10-04T09:00:02.204Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:00:05.718Z",
+      "updatedAt": "2025-10-04T09:00:05.719Z"
     }
   ],
   "settings": {
@@ -81,6 +91,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:00:02.506Z"
+    "lastModified": "2025-10-04T09:00:05.719Z"
   }
 }
