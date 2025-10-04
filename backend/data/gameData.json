@@ -699,7 +699,7 @@
       "id": 28,
       "title": "Pensi “ ho appena evitato uno scontro mortale con la stampante 3d e di fare la fila alle poste”",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585573010-Immagine WhatsApp 2025-10-02 ore 18.02.28_56efe8b4.jpg",
       "video": "",
       "choices": [
         {
@@ -718,8 +718,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:45:53.733Z",
-      "updatedAt": "2025-10-04T13:45:53.737Z"
+      "lastModified": "2025-10-04T13:46:13.696Z",
+      "updatedAt": "2025-10-04T13:46:13.974Z"
     },
     {
       "id": 29,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:45:53.737Z",
+    "lastModified": "2025-10-04T13:46:13.974Z",
     "forceSaveBy": "admin"
   }
 }
