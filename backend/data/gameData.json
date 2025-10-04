@@ -2722,7 +2722,7 @@
       "id": 103,
       "title": "Alla fine che te ne fai dei milioni",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605480656-IMG-20251004-WA0039.jpg",
+      "image": "/uploads/1759605480656-IMG-20251004-WA0039.jpg",
       "video": "",
       "choices": [
         {
@@ -2741,13 +2741,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:18:03.833Z"
+      "lastModified": "2025-10-04T19:26:57.318Z",
+      "updatedAt": "2025-10-04T19:26:57.323Z"
     },
     {
       "id": 104,
       "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605497312-IMG-20251004-WA0040.jpg",
+      "image": "/uploads/1759605497312-IMG-20251004-WA0040.jpg",
       "video": "",
       "choices": [
         {
@@ -2766,7 +2767,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:18:39.430Z"
+      "lastModified": "2025-10-04T19:26:57.776Z",
+      "updatedAt": "2025-10-04T19:26:57.780Z"
     },
     {
       "id": 105,
@@ -3211,7 +3213,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:55.997Z",
+    "lastModified": "2025-10-04T19:26:57.780Z",
     "forceSaveBy": "admin"
   }
 }
