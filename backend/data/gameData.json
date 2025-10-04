@@ -2120,7 +2120,7 @@
       "id": 83,
       "title": "Afferri dei piatti commestibili e li usi come frisbee per annientarli",
       "description": "",
-      "image": "/uploads/1759605137934-IMG-20251004-WA0019.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605137934-IMG-20251004-WA0019.jpg",
       "video": "",
       "choices": [
         {
@@ -2145,7 +2145,7 @@
       "id": 84,
       "title": "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587038393-IMG-20251004-WA0018.jpg",
+      "image": "/uploads/1759605150145-IMG-20251004-WA0018.jpg",
       "video": "",
       "choices": [
         {
@@ -2164,8 +2164,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:12:23.331Z",
-      "updatedAt": "2025-10-04T19:12:23.335Z"
+      "lastModified": "2025-10-04T19:12:31.367Z",
+      "updatedAt": "2025-10-04T19:12:31.693Z"
     },
     {
       "id": 85,
@@ -3120,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:12:23.335Z",
+    "lastModified": "2025-10-04T19:12:31.693Z",
     "forceSaveBy": "admin"
   }
 }
