@@ -536,7 +536,7 @@
       "id": 21,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759603919009-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759603919009-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -561,7 +561,7 @@
       "id": 22,
       "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585447428-IMG-20251002-WA0015.jpg",
+      "image": "/uploads/1759603931470-IMG-20251002-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -580,8 +580,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:52:03.708Z",
-      "updatedAt": "2025-10-04T18:52:03.712Z"
+      "lastModified": "2025-10-04T18:52:12.599Z",
+      "updatedAt": "2025-10-04T18:52:12.908Z"
     },
     {
       "id": 23,
@@ -3126,7 +3126,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:52:03.712Z",
+    "lastModified": "2025-10-04T18:52:12.908Z",
     "forceSaveBy": "admin"
   }
 }
