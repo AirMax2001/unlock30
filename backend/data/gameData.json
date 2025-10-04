@@ -126,7 +126,7 @@
     },
     {
       "id": 121,
-      "title": "BUON",
+      "title": "BUON COMPLEANN",
       "description": "",
       "image": "",
       "video": "",
@@ -141,8 +141,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:56:52.937Z",
-      "updatedAt": "2025-10-04T09:56:52.939Z"
+      "lastModified": "2025-10-04T09:56:55.219Z",
+      "updatedAt": "2025-10-04T09:56:55.222Z"
     }
   ],
   "settings": {
@@ -153,6 +153,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-04T09:56:52.939Z"
+    "lastModified": "2025-10-04T09:56:55.222Z"
   }
 }
