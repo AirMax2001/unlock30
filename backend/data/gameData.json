@@ -1234,7 +1234,7 @@
       "id": 49,
       "title": "La fuga dagli sbirri",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586014982-Immagine WhatsApp 2025-10-02 ore 22.39.48_6c2dc178.jpg",
       "video": "",
       "choices": [
         {
@@ -1263,8 +1263,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:53:06.052Z",
-      "updatedAt": "2025-10-04T13:53:06.332Z"
+      "lastModified": "2025-10-04T13:53:36.643Z"
     },
     {
       "id": 50,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:53:06.332Z",
+    "lastModified": "2025-10-04T13:53:36.648Z",
     "forceSaveBy": "admin"
   }
 }
