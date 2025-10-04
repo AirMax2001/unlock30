@@ -1510,7 +1510,7 @@
         {
           "id": 1759570198328,
           "text": "Col codino",
-          "nextSceneId": null
+          "nextSceneId": 78
         }
       ],
       "isFinal": false,
@@ -1523,8 +1523,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:35:43.897Z",
-      "updatedAt": "2025-10-04T09:35:44.250Z"
+      "lastModified": "2025-10-04T09:35:50.000Z",
+      "updatedAt": "2025-10-04T09:35:50.004Z"
     },
     {
       "id": 60,
@@ -1969,6 +1969,16 @@
         "typewriter": false
       },
       "lastModified": "2025-10-04T09:34:56.002Z"
+    },
+    {
+      "id": 78,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:35:49.698Z"
     }
   ],
   "settings": {
@@ -1978,8 +1988,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 77,
-    "lastModified": "2025-10-04T09:35:44.250Z",
+    "totalScenes": 78,
+    "lastModified": "2025-10-04T09:35:50.004Z",
     "forceSaveBy": "admin"
   }
 }
