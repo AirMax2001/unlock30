@@ -2264,7 +2264,7 @@
       "id": 89,
       "title": "Pensi che sia un ottimo modo per allenarsi e accetti",
       "description": "",
-      "image": "/uploads/1759587203431-IMG-20251004-WA0027.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759587203431-IMG-20251004-WA0027.jpg",
       "video": "",
       "choices": [
         {
@@ -2290,7 +2290,7 @@
       "id": 90,
       "title": "Purtroppo il mondiale si disputa nello stesso momento della festa",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587307372-IMG-20251004-WA0028.jpg",
       "video": "",
       "choices": [
         {
@@ -2309,8 +2309,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:14:59.863Z",
-      "updatedAt": "2025-10-04T14:14:59.868Z"
+      "lastModified": "2025-10-04T14:15:08.160Z",
+      "updatedAt": "2025-10-04T14:15:08.397Z"
     },
     {
       "id": 91,
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:14:59.868Z",
+    "lastModified": "2025-10-04T14:15:08.397Z",
     "forceSaveBy": "admin"
   }
 }
