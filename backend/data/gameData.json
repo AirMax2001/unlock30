@@ -58,7 +58,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:29:21.382Z"
+      "lastModified": "2025-10-04T15:26:58.421Z"
     },
     {
       "id": 3,
@@ -2868,8 +2868,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:17.896Z",
-      "updatedAt": "2025-10-04T15:27:17.899Z"
+      "lastModified": "2025-10-04T15:27:17.896Z"
     },
     {
       "id": 113,
@@ -2894,8 +2893,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:16.445Z",
-      "updatedAt": "2025-10-04T15:27:16.447Z"
+      "lastModified": "2025-10-04T15:27:16.445Z"
     },
     {
       "id": 114,
@@ -2925,8 +2923,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:15.175Z",
-      "updatedAt": "2025-10-04T15:27:15.418Z"
+      "lastModified": "2025-10-04T15:27:15.175Z"
     },
     {
       "id": 115,
@@ -2951,8 +2948,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:11.598Z",
-      "updatedAt": "2025-10-04T15:27:11.601Z"
+      "lastModified": "2025-10-04T15:27:11.598Z"
     },
     {
       "id": 116,
@@ -2977,8 +2973,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:10.099Z",
-      "updatedAt": "2025-10-04T15:27:10.102Z"
+      "lastModified": "2025-10-04T15:27:10.099Z"
     },
     {
       "id": 117,
@@ -3008,8 +3003,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:08.351Z",
-      "updatedAt": "2025-10-04T15:27:08.355Z"
+      "lastModified": "2025-10-04T15:27:08.351Z"
     },
     {
       "id": 118,
@@ -3034,8 +3028,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:06.584Z",
-      "updatedAt": "2025-10-04T15:27:06.587Z"
+      "lastModified": "2025-10-04T15:27:06.584Z"
     },
     {
       "id": 119,
@@ -3060,8 +3053,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:05.507Z",
-      "updatedAt": "2025-10-04T15:27:05.510Z"
+      "lastModified": "2025-10-04T15:27:05.507Z"
     },
     {
       "id": 120,
@@ -3091,8 +3083,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:04.326Z",
-      "updatedAt": "2025-10-04T15:27:04.331Z"
+      "lastModified": "2025-10-04T15:27:04.326Z"
     },
     {
       "id": 121,
@@ -3111,8 +3102,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:27:03.311Z",
-      "updatedAt": "2025-10-04T15:27:03.550Z"
+      "lastModified": "2025-10-04T15:27:03.311Z"
     }
   ],
   "settings": {
@@ -3123,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:27:24.152Z",
+    "lastModified": "2025-10-04T15:27:25.075Z",
     "forceSaveBy": "admin"
   }
 }
