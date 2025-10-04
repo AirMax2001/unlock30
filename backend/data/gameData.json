@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 29,
-      "title": "Nuova Scena",
+      "title": "Non capisci perché te lo stai chiedendo ma non è importante",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:14:21.938Z",
-      "updatedAt": "2025-10-04T09:14:21.939Z"
+      "lastModified": "2025-10-04T09:14:30.189Z",
+      "updatedAt": "2025-10-04T09:14:30.455Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:14:21.939Z"
+    "lastModified": "2025-10-04T09:14:30.455Z"
   }
 }
