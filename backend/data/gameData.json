@@ -1780,7 +1780,7 @@
       "id": 69,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759604792447-Gemini_Generated_Image_zxkvqzxkvqzxkvqz.png",
+      "image": "/uploads/1759604796786-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -1799,8 +1799,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:06:34.144Z",
-      "updatedAt": "2025-10-04T19:06:34.152Z"
+      "lastModified": "2025-10-04T19:06:47.888Z",
+      "updatedAt": "2025-10-04T19:06:48.161Z"
     },
     {
       "id": 70,
@@ -3140,7 +3140,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:06:34.152Z",
+    "lastModified": "2025-10-04T19:06:48.161Z",
     "forceSaveBy": "admin"
   }
 }
