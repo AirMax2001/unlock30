@@ -1885,7 +1885,7 @@
       "id": 74,
       "title": "Un salmone parlante sospeso nell’aria suggerisce le strategie",
       "description": "",
-      "image": "/uploads/1759604998824-IMG-20251004-WA0010.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604998824-IMG-20251004-WA0010.jpg",
       "video": "",
       "choices": [
         {
@@ -1910,7 +1910,7 @@
       "id": 75,
       "title": "Vinci e torni a casa sacrificando le tue ombre",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586768537-IMG-20251004-WA0011.jpg",
+      "image": "/uploads/1759605008570-IMG-20251004-WA0011.jpg",
       "video": "",
       "choices": [
         {
@@ -1929,8 +1929,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:10:03.141Z",
-      "updatedAt": "2025-10-04T19:10:03.144Z"
+      "lastModified": "2025-10-04T19:10:09.748Z",
+      "updatedAt": "2025-10-04T19:10:10.036Z"
     },
     {
       "id": 76,
@@ -3120,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:10:03.144Z",
+    "lastModified": "2025-10-04T19:10:10.036Z",
     "forceSaveBy": "admin"
   }
 }
