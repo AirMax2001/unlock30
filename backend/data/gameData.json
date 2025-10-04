@@ -346,7 +346,7 @@
         },
         {
           "id": 1759570755598,
-          "text": "",
+          "text": "Dormi",
           "nextSceneId": null
         },
         {
@@ -365,8 +365,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:39:18.176Z",
-      "updatedAt": "2025-10-04T09:39:18.179Z"
+      "lastModified": "2025-10-04T09:39:23.285Z",
+      "updatedAt": "2025-10-04T09:39:23.552Z"
     }
   ],
   "settings": {
@@ -377,7 +377,7 @@
   },
   "stats": {
     "totalScenes": 14,
-    "lastModified": "2025-10-04T09:39:18.179Z",
+    "lastModified": "2025-10-04T09:39:23.552Z",
     "forceSaveBy": "admin"
   }
 }
