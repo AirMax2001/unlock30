@@ -2062,7 +2062,7 @@
       "id": 78,
       "title": "Ti trovi su una collina",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605067848-IMG-20251004-WA0013.jpg",
+      "image": "/uploads/1759605067848-IMG-20251004-WA0013.jpg",
       "video": "",
       "choices": [
         {
@@ -2081,13 +2081,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:11:11.899Z"
+      "lastModified": "2025-10-04T19:26:35.629Z",
+      "updatedAt": "2025-10-04T19:26:35.632Z"
     },
     {
       "id": 79,
       "title": "Sotto di te senti tremare la terra a 250 bpm",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605080380-IMG-20251004-WA0014.jpg",
+      "image": "/uploads/1759605080380-IMG-20251004-WA0014.jpg",
       "video": "",
       "choices": [
         {
@@ -2106,7 +2107,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:11:22.618Z"
+      "lastModified": "2025-10-04T19:26:36.236Z",
+      "updatedAt": "2025-10-04T19:26:36.240Z"
     },
     {
       "id": 80,
@@ -3186,7 +3188,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:35.014Z",
+    "lastModified": "2025-10-04T19:26:36.240Z",
     "forceSaveBy": "admin"
   }
 }
