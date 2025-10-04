@@ -111,13 +111,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:47:21.469Z"
+      "lastModified": "2025-10-04T19:25:40.475Z",
+      "updatedAt": "2025-10-04T19:25:40.479Z"
     },
     {
       "id": 5,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759603652339-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "/uploads/1759603652339-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -136,8 +137,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:47:33.468Z",
-      "updatedAt": "2025-10-04T18:45:23.476Z"
+      "lastModified": "2025-10-04T19:25:41.516Z",
+      "updatedAt": "2025-10-04T19:25:41.520Z"
     },
     {
       "id": 6,
@@ -3119,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:25:39.709Z",
+    "lastModified": "2025-10-04T19:25:41.520Z",
     "forceSaveBy": "admin"
   }
 }
