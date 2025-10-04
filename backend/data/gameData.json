@@ -859,7 +859,7 @@
       "id": 34,
       "title": "La polizia ti fa svoltare a sinistra e torni su via vestina",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585716061-Immagine WhatsApp 2025-10-02 ore 18.15.17_928518a5.jpg",
       "video": "",
       "choices": [
         {
@@ -878,8 +878,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:48:25.693Z",
-      "updatedAt": "2025-10-04T13:48:25.697Z"
+      "lastModified": "2025-10-04T13:48:36.766Z",
+      "updatedAt": "2025-10-04T13:48:37.006Z"
     },
     {
       "id": 35,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:48:25.697Z",
+    "lastModified": "2025-10-04T13:48:37.006Z",
     "forceSaveBy": "admin"
   }
 }
