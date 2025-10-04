@@ -1896,7 +1896,7 @@
       "id": 72,
       "title": "Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per “disattivare” i boss",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604896666-IMG-20251004-WA0008.jpg",
+      "image": "/uploads/1759604896666-IMG-20251004-WA0008.jpg",
       "video": "",
       "choices": [
         {
@@ -1915,13 +1915,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:09:38.258Z"
+      "lastModified": "2025-10-04T19:26:31.581Z",
+      "updatedAt": "2025-10-04T19:26:31.587Z"
     },
     {
       "id": 73,
       "title": "Come arma principale, lancia polpette volanti contro i due",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604988841-IMG-20251004-WA0009.jpg",
+      "image": "/uploads/1759604988841-IMG-20251004-WA0009.jpg",
       "video": "",
       "choices": [
         {
@@ -1940,13 +1941,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:09:50.853Z"
+      "lastModified": "2025-10-04T19:26:32.588Z",
+      "updatedAt": "2025-10-04T19:26:32.593Z"
     },
     {
       "id": 74,
       "title": "Un salmone parlante sospeso nell’aria suggerisce le strategie",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604998824-IMG-20251004-WA0010.jpg",
+      "image": "/uploads/1759604998824-IMG-20251004-WA0010.jpg",
       "video": "",
       "choices": [
         {
@@ -1965,7 +1967,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:10:01.023Z"
+      "lastModified": "2025-10-04T19:26:33.040Z",
+      "updatedAt": "2025-10-04T19:26:33.045Z"
     },
     {
       "id": 75,
@@ -3180,7 +3183,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:31.050Z",
+    "lastModified": "2025-10-04T19:26:33.045Z",
     "forceSaveBy": "admin"
   }
 }
