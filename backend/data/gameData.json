@@ -763,7 +763,7 @@
       "id": 30,
       "title": "Ora va iniziata la mattinata!",
       "description": "",
-      "image": "/uploads/1759604106840-Immagine WhatsApp 2025-10-02 ore 18.02.28_73f423f4.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604106840-Immagine WhatsApp 2025-10-02 ore 18.02.28_73f423f4.jpg",
       "video": "",
       "choices": [
         {
@@ -789,7 +789,7 @@
       "id": 31,
       "title": "La mattina",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585628483-Immagine WhatsApp 2025-10-02 ore 22.36.28_633f81d2.jpg",
+      "image": "/uploads/1759604128031-Immagine WhatsApp 2025-10-02 ore 22.36.28_633f81d2.jpg",
       "video": "",
       "choices": [
         {
@@ -818,8 +818,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:55:11.590Z",
-      "updatedAt": "2025-10-04T18:55:11.598Z"
+      "lastModified": "2025-10-04T18:55:29.707Z"
     },
     {
       "id": 32,
@@ -3129,7 +3128,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:55:11.598Z",
+    "lastModified": "2025-10-04T18:55:30.140Z",
     "forceSaveBy": "admin"
   }
 }
