@@ -1576,7 +1576,7 @@
       "id": 61,
       "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
       "description": "",
-      "image": "/uploads/1759604653482-Immagine WhatsApp 2025-10-02 ore 22.48.17_0f903374.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604653482-Immagine WhatsApp 2025-10-02 ore 22.48.17_0f903374.jpg",
       "video": "",
       "choices": [
         {
@@ -1602,7 +1602,7 @@
       "id": 62,
       "title": "Li come GTA insegna ti lanci dall’auto e finisci nel fiume",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586384200-Immagine WhatsApp 2025-10-02 ore 22.51.59_96c19cba.jpg",
+      "image": "/uploads/1759604666090-Immagine WhatsApp 2025-10-02 ore 22.51.59_96c19cba.jpg",
       "video": "",
       "choices": [
         {
@@ -1621,8 +1621,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:04:17.684Z",
-      "updatedAt": "2025-10-04T19:04:17.689Z"
+      "lastModified": "2025-10-04T19:04:27.743Z"
     },
     {
       "id": 63,
@@ -3137,7 +3136,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:04:17.689Z",
+    "lastModified": "2025-10-04T19:04:28.308Z",
     "forceSaveBy": "admin"
   }
 }
