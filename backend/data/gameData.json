@@ -542,7 +542,7 @@
     },
     {
       "id": 21,
-      "title": "YOU DIED",
+      "title": "YOU DEFEA",
       "description": "",
       "image": "https://unlock30.onrender.com/uploads/1759585359743-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
@@ -563,8 +563,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:30:04.167Z",
-      "updatedAt": "2025-10-04T14:30:04.378Z"
+      "lastModified": "2025-10-04T14:30:13.568Z",
+      "updatedAt": "2025-10-04T14:30:13.570Z"
     },
     {
       "id": 22,
@@ -3135,7 +3135,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:30:04.378Z",
+    "lastModified": "2025-10-04T14:30:13.571Z",
     "forceSaveBy": "admin"
   }
 }
