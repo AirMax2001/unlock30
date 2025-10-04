@@ -64,7 +64,7 @@
     },
     {
       "id": 114,
-      "title": "Nuova Scena",
+      "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
       "description": "",
       "image": "",
       "video": "",
@@ -79,8 +79,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:52:50.959Z",
-      "updatedAt": "2025-10-04T09:52:50.961Z"
+      "lastModified": "2025-10-04T09:53:03.647Z",
+      "updatedAt": "2025-10-04T09:53:03.927Z"
     }
   ],
   "settings": {
@@ -91,6 +91,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:52:50.961Z"
+    "lastModified": "2025-10-04T09:53:03.927Z"
   }
 }
