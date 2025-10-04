@@ -126,7 +126,7 @@
     },
     {
       "id": 47,
-      "title": "Nuova Scena",
+      "title": ". Pensi “ finalmente qualcuno che organizza queste gare di giorno così è più facile partecipare anche se si è astigmatici” ",
       "description": "",
       "image": "",
       "video": "",
@@ -141,8 +141,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:22:37.525Z",
-      "updatedAt": "2025-10-04T09:22:37.526Z"
+      "lastModified": "2025-10-04T09:22:45.586Z",
+      "updatedAt": "2025-10-04T09:22:45.838Z"
     }
   ],
   "settings": {
@@ -153,6 +153,6 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-04T09:22:37.526Z"
+    "lastModified": "2025-10-04T09:22:45.838Z"
   }
 }
