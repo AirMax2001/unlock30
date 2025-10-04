@@ -1731,7 +1731,7 @@
       "id": 68,
       "title": "Con una super mossa finale il supermercato esplode in coriandoli fluorescenti e tutti ballano la Macarena su pattini a rotelle ma le fiamme dell’esplosione vi inghiottono",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586632096-IMG-20251004-WA0005.jpg",
+      "image": "/uploads/1759590732553-Gemini_Generated_Image_zxkvqzxkvqzxkvqz.png",
       "video": "",
       "choices": [
         {
@@ -1750,8 +1750,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:08:31.075Z",
-      "updatedAt": "2025-10-04T15:08:31.078Z"
+      "lastModified": "2025-10-04T15:12:13.577Z",
+      "updatedAt": "2025-10-04T15:12:13.826Z"
     },
     {
       "id": 69,
@@ -3119,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:11:57.967Z",
+    "lastModified": "2025-10-04T15:12:13.826Z",
     "forceSaveBy": "admin"
   }
 }
