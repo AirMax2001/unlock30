@@ -1078,7 +1078,7 @@
       "id": 42,
       "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
       "description": "",
-      "image": "/uploads/1759604291535-Immagine WhatsApp 2025-10-02 ore 18.40.16_bcb60576.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604291535-Immagine WhatsApp 2025-10-02 ore 18.40.16_bcb60576.jpg",
       "video": "",
       "choices": [
         {
@@ -1103,7 +1103,7 @@
       "id": 43,
       "title": "Non hai i soldi però quindi inizi a camminare",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585883300-Immagine WhatsApp 2025-10-02 ore 18.40.17_bf15ea60.jpg",
+      "image": "/uploads/1759604307590-Immagine WhatsApp 2025-10-02 ore 18.40.17_bf15ea60.jpg",
       "video": "",
       "choices": [
         {
@@ -1122,8 +1122,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:58:16.217Z",
-      "updatedAt": "2025-10-04T18:58:16.222Z"
+      "lastModified": "2025-10-04T18:58:28.602Z",
+      "updatedAt": "2025-10-04T18:58:28.896Z"
     },
     {
       "id": 44,
@@ -3133,7 +3133,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:58:16.223Z",
+    "lastModified": "2025-10-04T18:58:28.896Z",
     "forceSaveBy": "admin"
   }
 }
