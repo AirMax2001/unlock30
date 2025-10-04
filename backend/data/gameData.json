@@ -1,30 +1,30 @@
 {
   "scenes": [
     {
-      "id": 34,
+      "id": 28,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:17:40.484Z"
+      "createdAt": "2025-10-04T09:12:55.867Z"
     },
     {
-      "id": 40,
-      "title": "Amazon ti manda un buono sconto e  liberi anche il suo carrello",
+      "id": 35,
+      "title": "La percorri cercando di svoltare a destra ma un buco multidimensionale ha reso tutte le stradine a senso unico",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759569602905,
+          "id": 1759569498610,
           "text": "Avanti",
-          "nextSceneId": 41
+          "nextSceneId": 36
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:19:45.295Z",
+      "createdAt": "2025-10-04T09:18:00.229Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -33,102 +33,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:20:06.489Z",
-      "updatedAt": "2025-10-04T09:20:06.491Z"
+      "lastModified": "2025-10-04T09:18:20.812Z",
+      "updatedAt": "2025-10-04T09:18:20.813Z"
     },
     {
-      "id": 41,
-      "title": "LG ti chiama direttamente e accetti qualsiasi offerta ti propongano",
+      "id": 36,
+      "title": "Giri in tondo per sempre",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759569622597,
-          "text": "Avanti",
-          "nextSceneId": 42
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:20:06.189Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:20:25.021Z",
-      "updatedAt": "2025-10-04T09:20:25.023Z"
-    },
-    {
-      "id": 42,
-      "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569642492,
-          "text": "Avanti",
-          "nextSceneId": 43
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:20:24.717Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:20:44.810Z",
-      "updatedAt": "2025-10-04T09:20:44.812Z"
-    },
-    {
-      "id": 43,
-      "title": "Non hai i soldi però quindi inizi a camminare",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569658640,
-          "text": "Avanti",
-          "nextSceneId": 44
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:20:44.508Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:21:02.338Z",
-      "updatedAt": "2025-10-04T09:21:02.341Z"
-    },
-    {
-      "id": 44,
-      "title": "Tempo stimato, 1 mese, se riesci a nuotare bene",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569678286,
+          "id": 1759569513966,
           "text": "Avanti",
           "nextSceneId": 37
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:21:02.037Z",
+      "createdAt": "2025-10-04T09:18:20.511Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -137,28 +59,44 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:21:39.500Z",
-      "updatedAt": "2025-10-04T09:21:39.749Z"
+      "lastModified": "2025-10-04T09:18:42.511Z",
+      "updatedAt": "2025-10-04T09:18:42.512Z"
     },
     {
-      "id": 45,
+      "id": 37,
+      "title": "YOU DEFEAT",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569534378,
+          "text": "Avanti",
+          "nextSceneId": null
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:18:42.210Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:18:54.681Z",
+      "updatedAt": "2025-10-04T09:18:54.933Z"
+    },
+    {
+      "id": 38,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:21:22.064Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:21:56.001Z",
-      "updatedAt": "2025-10-04T09:21:56.260Z"
+      "createdAt": "2025-10-04T09:19:13.696Z"
     }
   ],
   "settings": {
@@ -168,7 +106,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 7,
-    "lastModified": "2025-10-04T09:21:56.260Z"
+    "totalScenes": 5,
+    "lastModified": "2025-10-04T09:19:13.696Z"
   }
 }
