@@ -170,7 +170,7 @@
       "id": 7,
       "title": "Non è un problema tanto i tucani non hanno i capelli",
       "description": "",
-      "image": "/uploads/1759585068422-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585068422-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
       "video": "",
       "choices": [
         {
@@ -196,7 +196,7 @@
       "id": 8,
       "title": "La colazione",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585079269-IMG-20251002-WA0019.jpg",
       "video": "",
       "choices": [
         {
@@ -225,8 +225,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:37:50.746Z",
-      "updatedAt": "2025-10-04T13:37:50.751Z"
+      "lastModified": "2025-10-04T13:37:59.917Z",
+      "updatedAt": "2025-10-04T13:38:00.183Z"
     },
     {
       "id": 9,
@@ -3121,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:37:50.751Z",
+    "lastModified": "2025-10-04T13:38:00.183Z",
     "forceSaveBy": "admin"
   }
 }
