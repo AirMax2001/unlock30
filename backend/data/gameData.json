@@ -103,7 +103,7 @@
         {
           "id": 1759571759312,
           "text": "VINTA",
-          "nextSceneId": null
+          "nextSceneId": 121
         },
         {
           "id": 1759571785037,
@@ -121,8 +121,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:56:43.600Z",
-      "updatedAt": "2025-10-04T09:56:43.860Z"
+      "lastModified": "2025-10-04T09:56:46.355Z",
+      "updatedAt": "2025-10-04T09:56:46.359Z"
+    },
+    {
+      "id": 121,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:56:46.054Z"
     }
   ],
   "settings": {
@@ -132,7 +142,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 4,
-    "lastModified": "2025-10-04T09:56:43.860Z"
+    "totalScenes": 5,
+    "lastModified": "2025-10-04T09:56:46.359Z"
   }
 }
