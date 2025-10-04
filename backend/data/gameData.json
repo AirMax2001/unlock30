@@ -359,7 +359,7 @@
       "id": 14,
       "title": "Lasci il lavoro e diventi un maestro di yoga con i leggins verdi",
       "description": "",
-      "image": "/uploads/1759585170806-Immagine WhatsApp 2025-10-02 ore 17.30.44_0aec104e.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585170806-Immagine WhatsApp 2025-10-02 ore 17.30.44_0aec104e.jpg",
       "video": "",
       "choices": [
         {
@@ -385,7 +385,7 @@
       "id": 15,
       "title": "Cornetto e cappuccino",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585183676-Immagine WhatsApp 2025-10-02 ore 17.30.44_ab6e94f3.jpg",
       "video": "",
       "choices": [
         {
@@ -404,8 +404,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:39:33.073Z",
-      "updatedAt": "2025-10-04T13:39:33.079Z"
+      "lastModified": "2025-10-04T13:39:44.534Z",
+      "updatedAt": "2025-10-04T13:39:44.810Z"
     },
     {
       "id": 16,
@@ -3125,7 +3125,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:39:33.079Z",
+    "lastModified": "2025-10-04T13:39:44.810Z",
     "forceSaveBy": "admin"
   }
 }
