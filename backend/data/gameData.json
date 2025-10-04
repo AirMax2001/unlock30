@@ -1034,7 +1034,7 @@
       "id": 41,
       "title": "LG ti chiama direttamente e accetti qualsiasi offerta ti propongano",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585826737-Immagine WhatsApp 2025-10-02 ore 18.33.34_63c96299.jpg",
+      "image": "/uploads/1759585826737-Immagine WhatsApp 2025-10-02 ore 18.33.34_63c96299.jpg",
       "video": "",
       "choices": [
         {
@@ -1053,7 +1053,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:50:28.235Z"
+      "lastModified": "2025-10-04T13:51:03.968Z",
+      "updatedAt": "2025-10-04T13:51:03.972Z"
     },
     {
       "id": 42,
@@ -1078,8 +1079,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:51:03.063Z",
-      "updatedAt": "2025-10-04T13:51:03.344Z"
+      "lastModified": "2025-10-04T13:51:05.137Z",
+      "updatedAt": "2025-10-04T13:51:05.142Z"
     },
     {
       "id": 43,
@@ -3114,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:51:03.344Z",
+    "lastModified": "2025-10-04T13:51:05.142Z",
     "forceSaveBy": "admin"
   }
 }
