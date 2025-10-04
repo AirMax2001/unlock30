@@ -1,30 +1,30 @@
 {
   "scenes": [
     {
-      "id": 28,
+      "id": 34,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:12:55.867Z"
+      "createdAt": "2025-10-04T09:17:40.484Z"
     },
     {
-      "id": 35,
-      "title": "La percorri cercando di svoltare a destra ma un buco multidimensionale ha reso tutte le stradine a senso unico",
+      "id": 40,
+      "title": "Amazon ti manda un buono sconto e  liberi anche il suo carrello",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759569498610,
+          "id": 1759569602905,
           "text": "Avanti",
-          "nextSceneId": 36
+          "nextSceneId": 41
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:18:00.229Z",
+      "createdAt": "2025-10-04T09:19:45.295Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -33,24 +33,102 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:18:20.812Z",
-      "updatedAt": "2025-10-04T09:18:20.813Z"
+      "lastModified": "2025-10-04T09:20:06.489Z",
+      "updatedAt": "2025-10-04T09:20:06.491Z"
     },
     {
-      "id": 36,
-      "title": "Giri in tondo per sempre",
+      "id": 41,
+      "title": "LG ti chiama direttamente e accetti qualsiasi offerta ti propongano",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759569513966,
+          "id": 1759569622597,
+          "text": "Avanti",
+          "nextSceneId": 42
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:20:06.189Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:20:25.021Z",
+      "updatedAt": "2025-10-04T09:20:25.023Z"
+    },
+    {
+      "id": 42,
+      "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569642492,
+          "text": "Avanti",
+          "nextSceneId": 43
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:20:24.717Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:20:44.810Z",
+      "updatedAt": "2025-10-04T09:20:44.812Z"
+    },
+    {
+      "id": 43,
+      "title": "Non hai i soldi però quindi inizi a camminare",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569658640,
+          "text": "Avanti",
+          "nextSceneId": 44
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:20:44.508Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:21:02.338Z",
+      "updatedAt": "2025-10-04T09:21:02.341Z"
+    },
+    {
+      "id": 44,
+      "title": "Tempo stimato, 1 mese, se riesci a nuotare bene",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569678286,
           "text": "Avanti",
           "nextSceneId": 37
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:18:20.511Z",
+      "createdAt": "2025-10-04T09:21:02.037Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -59,60 +137,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:18:42.511Z",
-      "updatedAt": "2025-10-04T09:18:42.512Z"
+      "lastModified": "2025-10-04T09:21:39.500Z",
+      "updatedAt": "2025-10-04T09:21:39.749Z"
     },
     {
-      "id": 37,
-      "title": "YOU DEFEAT",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569534378,
-          "text": "Avanti",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:18:42.210Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:18:54.681Z",
-      "updatedAt": "2025-10-04T09:18:54.933Z"
-    },
-    {
-      "id": 38,
+      "id": 45,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:19:13.696Z"
-    },
-    {
-      "id": 46,
-      "title": "Metti la canotta a costine e una collana con una croce e senti già una canzone hip-hop che ti accompagna ad accendere il tuo bolide",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569752409,
-          "text": "Avanti",
-          "nextSceneId": 47
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:22:12.295Z",
+      "createdAt": "2025-10-04T09:21:22.064Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -121,220 +157,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:22:35.182Z",
-      "updatedAt": "2025-10-04T09:22:35.184Z"
-    },
-    {
-      "id": 47,
-      "title": "Pensi “ finalmente qualcuno che organizza queste gare di giorno così è più facile partecipare anche se si è astigmatici” ",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569771630,
-          "text": "Avanti",
-          "nextSceneId": 48
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:22:34.880Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:22:54.063Z",
-      "updatedAt": "2025-10-04T09:22:54.065Z"
-    },
-    {
-      "id": 48,
-      "title": "Vinci e ti regalano una corona e decidi che la indosserai per tutta la serata della tua festa",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569788278,
-          "text": "Avanti",
-          "nextSceneId": 49
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:22:53.762Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:23:12.391Z",
-      "updatedAt": "2025-10-04T09:23:12.392Z"
-    },
-    {
-      "id": 49,
-      "title": "La fuga dagli sbirri",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569812546,
-          "text": "Parti come in un videoclip",
-          "nextSceneId": 50
-        },
-        {
-          "id": 1759569813545,
-          "text": "Evocazione degli spiriti",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759569814546,
-          "text": "Lancio dal ponte",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:23:12.090Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:23:58.226Z",
-      "updatedAt": "2025-10-04T09:23:58.228Z"
-    },
-    {
-      "id": 50,
-      "title": "tiri una marcia e la macchina si lancia, inquadratura rallenty, capelli al vento",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569853560,
-          "text": "Avanti",
-          "nextSceneId": 51
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:23:57.923Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:24:16.021Z",
-      "updatedAt": "2025-10-04T09:24:16.023Z"
-    },
-    {
-      "id": 51,
-      "title": "La telecamera immaginaria inquadra il tuo sguardo deciso",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569868840,
-          "text": "Avanti",
-          "nextSceneId": 52
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:24:15.720Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:24:32.529Z",
-      "updatedAt": "2025-10-04T09:24:32.531Z"
-    },
-    {
-      "id": 52,
-      "title": "Finisci in una sfilata di compleanno di un asilo che blocca la strada",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569884601,
-          "text": "Avanti",
-          "nextSceneId": 53
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:24:32.228Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:24:48.846Z",
-      "updatedAt": "2025-10-04T09:24:48.849Z"
-    },
-    {
-      "id": 53,
-      "title": "I bimbi pensano tu sia il clown arrivato in ritardo",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759569903332,
-          "text": "Avanti",
-          "nextSceneId": 54
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:24:48.545Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:25:06.710Z",
-      "updatedAt": "2025-10-04T09:25:06.711Z"
-    },
-    {
-      "id": 54,
-      "title": "Nuova Scena",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:25:06.408Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:25:08.948Z",
-      "updatedAt": "2025-10-04T09:25:08.950Z"
+      "lastModified": "2025-10-04T09:21:56.001Z",
+      "updatedAt": "2025-10-04T09:21:56.260Z"
     }
   ],
   "settings": {
@@ -344,7 +168,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 14,
-    "lastModified": "2025-10-04T09:25:08.950Z"
+    "totalScenes": 7,
+    "lastModified": "2025-10-04T09:21:56.260Z"
   }
 }
