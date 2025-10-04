@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 112,
-      "title": "Nuova Scena",
+      "title": "Il regalo",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:51:52.503Z",
-      "updatedAt": "2025-10-04T09:51:52.753Z"
+      "lastModified": "2025-10-04T09:51:57.371Z",
+      "updatedAt": "2025-10-04T09:51:57.627Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:51:52.754Z"
+    "lastModified": "2025-10-04T09:51:57.627Z"
   }
 }
