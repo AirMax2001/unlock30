@@ -251,7 +251,7 @@
     },
     {
       "id": 10,
-      "title": "Nuova Scena",
+      "title": "L’INPS ti manda un messaggio: “Buon compleanno! Da oggi sei ufficialmente più vicino alla pensione (forse nel 2089)”.",
       "description": "",
       "image": "",
       "video": "",
@@ -266,8 +266,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:04:13.346Z",
-      "updatedAt": "2025-10-04T09:04:13.592Z"
+      "lastModified": "2025-10-04T09:04:20.215Z",
+      "updatedAt": "2025-10-04T09:04:20.469Z"
     }
   ],
   "settings": {
@@ -278,7 +278,7 @@
   },
   "stats": {
     "totalScenes": 10,
-    "lastModified": "2025-10-04T09:04:13.592Z",
+    "lastModified": "2025-10-04T09:04:20.469Z",
     "forceSaveBy": "admin"
   }
 }
