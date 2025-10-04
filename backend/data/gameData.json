@@ -2399,7 +2399,7 @@
       "id": 94,
       "title": "Niente riesce a svegliarti",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587426531-IMG-20251004-WA0029.jpg",
       "video": "",
       "choices": [
         {
@@ -2418,8 +2418,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:16:42.655Z",
-      "updatedAt": "2025-10-04T14:16:42.963Z"
+      "lastModified": "2025-10-04T14:17:07.435Z",
+      "updatedAt": "2025-10-04T14:17:07.668Z"
     },
     {
       "id": 95,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:16:42.964Z",
+    "lastModified": "2025-10-04T14:17:07.668Z",
     "forceSaveBy": "admin"
   }
 }
