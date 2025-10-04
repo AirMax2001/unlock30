@@ -614,7 +614,7 @@
     },
     {
       "id": 101,
-      "title": "Nuova Scena",
+      "title": "YOU ",
       "description": "",
       "image": "",
       "video": "",
@@ -629,8 +629,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:47:29.558Z",
-      "updatedAt": "2025-10-04T09:47:29.818Z"
+      "lastModified": "2025-10-04T09:47:32.071Z",
+      "updatedAt": "2025-10-04T09:47:32.073Z"
     }
   ],
   "settings": {
@@ -641,7 +641,7 @@
   },
   "stats": {
     "totalScenes": 25,
-    "lastModified": "2025-10-04T09:47:29.818Z",
+    "lastModified": "2025-10-04T09:47:32.073Z",
     "forceSaveBy": "admin"
   }
 }
