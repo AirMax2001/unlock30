@@ -1001,7 +1001,7 @@
       "id": 39,
       "title": "Compri tutto",
       "description": "",
-      "image": "/uploads/1759604251076-Immagine WhatsApp 2025-10-02 ore 18.33.32_33c71e72.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604251076-Immagine WhatsApp 2025-10-02 ore 18.33.32_33c71e72.jpg",
       "video": "",
       "choices": [
         {
@@ -1026,7 +1026,7 @@
       "id": 40,
       "title": "Amazon ti manda un buono sconto e  liberi anche il suo carrello",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585813046-Immagine WhatsApp 2025-10-02 ore 18.33.33_cdbfc267.jpg",
+      "image": "/uploads/1759604263428-Immagine WhatsApp 2025-10-02 ore 18.33.33_cdbfc267.jpg",
       "video": "",
       "choices": [
         {
@@ -1045,8 +1045,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:57:34.175Z",
-      "updatedAt": "2025-10-04T18:57:34.180Z"
+      "lastModified": "2025-10-04T18:57:45.257Z"
     },
     {
       "id": 41,
@@ -3131,7 +3130,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:57:34.180Z",
+    "lastModified": "2025-10-04T18:57:45.674Z",
     "forceSaveBy": "admin"
   }
 }
