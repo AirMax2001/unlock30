@@ -2214,7 +2214,7 @@
       "id": 87,
       "title": "Sei incredibilmente abile e nella tua squadra un ex membro dei T1 ti nota e ti scrive in privato",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587099235-IMG-20251004-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -2233,8 +2233,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:11:29.610Z",
-      "updatedAt": "2025-10-04T14:11:29.897Z"
+      "lastModified": "2025-10-04T14:11:40.169Z",
+      "updatedAt": "2025-10-04T14:11:40.418Z"
     },
     {
       "id": 88,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:11:29.897Z",
+    "lastModified": "2025-10-04T14:11:40.418Z",
     "forceSaveBy": "admin"
   }
 }
