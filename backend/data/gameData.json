@@ -33,7 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:43:40.961Z"
+      "lastModified": "2025-10-04T15:43:53.814Z",
+      "updatedAt": "2025-10-04T15:43:54.101Z"
     },
     {
       "id": 2,
@@ -3113,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:43:42.760Z",
+    "lastModified": "2025-10-04T15:43:54.101Z",
     "forceSaveBy": "admin"
   }
 }
