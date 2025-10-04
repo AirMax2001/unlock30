@@ -1159,7 +1159,7 @@
       "id": 46,
       "title": "Metti la canotta a costine e una collana con una croce e senti già una canzone hip-hop che ti accompagna ad accendere il tuo bolide",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585942736-Immagine WhatsApp 2025-10-02 ore 18.51.50_39b76233.jpg",
       "video": "",
       "choices": [
         {
@@ -1178,8 +1178,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:52:12.497Z",
-      "updatedAt": "2025-10-04T13:52:12.500Z"
+      "lastModified": "2025-10-04T13:52:23.387Z",
+      "updatedAt": "2025-10-04T13:52:23.657Z"
     },
     {
       "id": 47,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:52:12.501Z",
+    "lastModified": "2025-10-04T13:52:23.657Z",
     "forceSaveBy": "admin"
   }
 }
