@@ -2849,7 +2849,7 @@
       "id": 112,
       "title": "Il regalo",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587961850-IMG-20251004-WA0051.jpg",
+      "image": "/uploads/1759587961850-IMG-20251004-WA0051.jpg",
       "video": "",
       "choices": [
         {
@@ -2868,7 +2868,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:26:04.036Z"
+      "lastModified": "2025-10-04T14:26:38.626Z",
+      "updatedAt": "2025-10-04T14:26:38.857Z"
     },
     {
       "id": 113,
@@ -3114,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:26:16.587Z",
+    "lastModified": "2025-10-04T14:26:38.857Z",
     "forceSaveBy": "admin"
   }
 }
