@@ -622,7 +622,7 @@
         {
           "id": 1759571262362,
           "text": "",
-          "nextSceneId": null
+          "nextSceneId": 91
         }
       ],
       "isFinal": false,
@@ -635,8 +635,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:47:42.662Z",
-      "updatedAt": "2025-10-04T09:47:42.952Z"
+      "lastModified": "2025-10-04T09:47:45.248Z",
+      "updatedAt": "2025-10-04T09:47:45.252Z"
     }
   ],
   "settings": {
@@ -647,7 +647,7 @@
   },
   "stats": {
     "totalScenes": 25,
-    "lastModified": "2025-10-04T09:47:42.952Z",
+    "lastModified": "2025-10-04T09:47:45.252Z",
     "forceSaveBy": "admin"
   }
 }
