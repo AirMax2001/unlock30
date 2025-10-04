@@ -834,7 +834,7 @@
       "id": 33,
       "title": "Svolti a sinistra verso il mc donald sperando di aggirarli",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585701179-Immagine WhatsApp 2025-10-02 ore 18.08.02_3e852acf.jpg",
       "video": "",
       "choices": [
         {
@@ -853,8 +853,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:48:06.795Z",
-      "updatedAt": "2025-10-04T13:48:06.798Z"
+      "lastModified": "2025-10-04T13:48:22.496Z"
     },
     {
       "id": 34,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:48:06.799Z",
+    "lastModified": "2025-10-04T13:48:22.499Z",
     "forceSaveBy": "admin"
   }
 }
