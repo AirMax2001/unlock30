@@ -1493,7 +1493,7 @@
     },
     {
       "id": 59,
-      "title": ": Lotta contro Mattarella e Gerry scotti",
+      "title": "Lotta contro Mattarella e Gerry scotti",
       "description": "",
       "image": "",
       "video": "",
@@ -1508,8 +1508,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:27:33.247Z",
-      "updatedAt": "2025-10-04T09:27:33.487Z"
+      "lastModified": "2025-10-04T09:27:35.111Z",
+      "updatedAt": "2025-10-04T09:27:35.112Z"
     }
   ],
   "settings": {
@@ -1520,7 +1520,7 @@
   },
   "stats": {
     "totalScenes": 59,
-    "lastModified": "2025-10-04T09:27:33.487Z",
+    "lastModified": "2025-10-04T09:27:35.112Z",
     "forceSaveBy": "admin"
   }
 }
