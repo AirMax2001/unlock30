@@ -2164,7 +2164,7 @@
       "id": 85,
       "title": "Vinci ma non torni per tua scelta",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587056585-IMG-20251004-WA0023.jpg",
       "video": "",
       "choices": [
         {
@@ -2183,8 +2183,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:10:45.466Z",
-      "updatedAt": "2025-10-04T14:10:45.749Z"
+      "lastModified": "2025-10-04T14:10:57.645Z",
+      "updatedAt": "2025-10-04T14:10:57.882Z"
     },
     {
       "id": 86,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:10:45.749Z",
+    "lastModified": "2025-10-04T14:10:57.882Z",
     "forceSaveBy": "admin"
   }
 }
