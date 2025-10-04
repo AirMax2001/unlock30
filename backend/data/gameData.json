@@ -2296,7 +2296,7 @@
       "id": 87,
       "title": "Sei incredibilmente abile e nella tua squadra un ex membro dei T1 ti nota e ti scrive in privato",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605197418-IMG-20251004-WA0024.jpg",
+      "image": "/uploads/1759605197418-IMG-20251004-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -2315,13 +2315,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:13:19.111Z"
+      "lastModified": "2025-10-04T19:26:43.547Z",
+      "updatedAt": "2025-10-04T19:26:43.551Z"
     },
     {
       "id": 88,
       "title": "Iniziate a conversare e salta fuori che la nuova squadra abbia bisogno di un jungler",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605207481-IMG-20251004-WA0022.jpg",
+      "image": "/uploads/1759605207481-IMG-20251004-WA0022.jpg",
       "video": "",
       "choices": [
         {
@@ -2340,13 +2341,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:13:29.620Z"
+      "lastModified": "2025-10-04T19:26:44.477Z",
+      "updatedAt": "2025-10-04T19:26:44.481Z"
     },
     {
       "id": 89,
       "title": "Pensi che sia un ottimo modo per allenarsi e accetti",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605222235-IMG-20251004-WA0027.jpg",
+      "image": "/uploads/1759605222235-IMG-20251004-WA0027.jpg",
       "video": "",
       "choices": [
         {
@@ -2365,13 +2367,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:13:45.688Z"
+      "lastModified": "2025-10-04T19:26:44.910Z",
+      "updatedAt": "2025-10-04T19:26:44.915Z"
     },
     {
       "id": 90,
       "title": "Purtroppo il mondiale si disputa nello stesso momento della festa",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605234229-IMG-20251004-WA0028.jpg",
+      "image": "/uploads/1759605234229-IMG-20251004-WA0028.jpg",
       "video": "",
       "choices": [
         {
@@ -2390,7 +2393,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:13:56.469Z"
+      "lastModified": "2025-10-04T19:26:45.419Z",
+      "updatedAt": "2025-10-04T19:26:45.423Z"
     },
     {
       "id": 91,
@@ -3195,7 +3199,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:42.624Z",
+    "lastModified": "2025-10-04T19:26:45.423Z",
     "forceSaveBy": "admin"
   }
 }
