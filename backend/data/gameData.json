@@ -20,7 +20,7 @@
         {
           "id": 1759568351110,
           "text": "Apri il telefono prima ancora di scendere dal letto",
-          "nextSceneId": null
+          "nextSceneId": 9
         }
       ],
       "isFinal": false,
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:03:41.916Z",
-      "updatedAt": "2025-10-04T09:03:42.195Z"
+      "lastModified": "2025-10-04T09:03:46.569Z",
+      "updatedAt": "2025-10-04T09:03:46.570Z"
     },
     {
       "id": 2,
@@ -222,6 +222,16 @@
         "typewriter": false
       },
       "lastModified": "2025-10-04T09:03:38.086Z"
+    },
+    {
+      "id": 9,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:03:46.268Z"
     }
   ],
   "settings": {
@@ -231,8 +241,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 8,
-    "lastModified": "2025-10-04T09:03:42.195Z",
+    "totalScenes": 9,
+    "lastModified": "2025-10-04T09:03:46.570Z",
     "forceSaveBy": "admin"
   }
 }
