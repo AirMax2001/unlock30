@@ -3059,7 +3059,7 @@
       "id": 120,
       "title": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono?",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591560301-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
       "video": "",
       "choices": [
         {
@@ -3083,8 +3083,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:25:54.460Z",
-      "updatedAt": "2025-10-04T15:25:54.757Z"
+      "lastModified": "2025-10-04T15:26:02.142Z",
+      "updatedAt": "2025-10-04T15:26:02.391Z"
     },
     {
       "id": 121,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:25:54.757Z",
+    "lastModified": "2025-10-04T15:26:02.391Z",
     "forceSaveBy": "admin"
   }
 }
