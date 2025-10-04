@@ -9,7 +9,7 @@
       "choices": [
         {
           "id": 1759568347421,
-          "text": "",
+          "text": "Ti giri dall’altra parte e continui a russare",
           "nextSceneId": null
         },
         {
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:59:11.412Z",
-      "updatedAt": "2025-10-04T08:59:11.414Z"
+      "lastModified": "2025-10-04T08:59:17.301Z",
+      "updatedAt": "2025-10-04T08:59:17.557Z"
     }
   ],
   "settings": {
@@ -45,6 +45,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T08:59:11.414Z"
+    "lastModified": "2025-10-04T08:59:17.557Z"
   }
 }
