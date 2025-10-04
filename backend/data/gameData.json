@@ -984,7 +984,7 @@
       "id": 39,
       "title": "Compri tutto",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585798942-Immagine WhatsApp 2025-10-02 ore 18.33.32_33c71e72.jpg",
       "video": "",
       "choices": [
         {
@@ -1003,8 +1003,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:49:49.893Z",
-      "updatedAt": "2025-10-04T13:49:50.172Z"
+      "lastModified": "2025-10-04T13:50:00.065Z"
     },
     {
       "id": 40,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:49:50.173Z",
+    "lastModified": "2025-10-04T13:50:00.068Z",
     "forceSaveBy": "admin"
   }
 }
