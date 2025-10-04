@@ -1729,7 +1729,7 @@
       "id": 67,
       "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
       "description": "",
-      "image": "/uploads/1759604763008-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
+      "image": "https://unlock30.onrender.com/uploads/1759604763008-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
       "video": "",
       "choices": [
         {
@@ -1755,7 +1755,7 @@
       "id": 68,
       "title": "Con una super mossa finale il supermercato esplode in coriandoli fluorescenti e tutti ballano la Macarena su pattini a rotelle ma le fiamme dell’esplosione vi inghiottono",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759604837431-Gemini_Generated_Image_zxkvqzxkvqzxkvqz.png",
       "video": "",
       "choices": [
         {
@@ -1774,8 +1774,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:07:00.106Z",
-      "updatedAt": "2025-10-04T19:07:00.111Z"
+      "lastModified": "2025-10-04T19:07:19.049Z",
+      "updatedAt": "2025-10-04T19:07:19.867Z"
     },
     {
       "id": 69,
@@ -3140,7 +3140,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:07:00.111Z",
+    "lastModified": "2025-10-04T19:07:19.868Z",
     "forceSaveBy": "admin"
   }
 }
