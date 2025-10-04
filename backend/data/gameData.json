@@ -19,7 +19,7 @@
         },
         {
           "id": 1759571526230,
-          "text": "",
+          "text": "Risolvi un indovinello",
           "nextSceneId": null
         }
       ],
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:52:19.356Z",
-      "updatedAt": "2025-10-04T09:52:19.614Z"
+      "lastModified": "2025-10-04T09:52:25.577Z",
+      "updatedAt": "2025-10-04T09:52:25.857Z"
     }
   ],
   "settings": {
@@ -45,6 +45,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:52:19.614Z"
+    "lastModified": "2025-10-04T09:52:25.857Z"
   }
 }
