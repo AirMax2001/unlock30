@@ -54,7 +54,7 @@
     },
     {
       "id": 31,
-      "title": "Nuova Scena",
+      "title": ": La mattina",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:14:56.312Z",
-      "updatedAt": "2025-10-04T09:14:56.313Z"
+      "lastModified": "2025-10-04T09:15:04.400Z",
+      "updatedAt": "2025-10-04T09:15:04.669Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:14:56.313Z"
+    "lastModified": "2025-10-04T09:15:04.669Z"
   }
 }
