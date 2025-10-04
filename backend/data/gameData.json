@@ -2139,7 +2139,7 @@
       "id": 84,
       "title": "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587038393-IMG-20251004-WA0018.jpg",
       "video": "",
       "choices": [
         {
@@ -2158,8 +2158,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:10:31.326Z",
-      "updatedAt": "2025-10-04T14:10:31.611Z"
+      "lastModified": "2025-10-04T14:10:40.424Z"
     },
     {
       "id": 85,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:10:31.611Z",
+    "lastModified": "2025-10-04T14:10:40.428Z",
     "forceSaveBy": "admin"
   }
 }
