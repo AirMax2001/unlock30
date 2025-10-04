@@ -54,7 +54,7 @@
     },
     {
       "id": 31,
-      "title": ": La mattina",
+      "title": "La mattina",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:15:04.400Z",
-      "updatedAt": "2025-10-04T09:15:04.669Z"
+      "lastModified": "2025-10-04T09:15:06.859Z",
+      "updatedAt": "2025-10-04T09:15:06.861Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:15:04.669Z"
+    "lastModified": "2025-10-04T09:15:06.861Z"
   }
 }
