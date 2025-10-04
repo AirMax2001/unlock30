@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 5,
-      "title": "Nuova Scena",
+      "title": "YOU DEF",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:00:38.069Z",
-      "updatedAt": "2025-10-04T09:00:38.070Z"
+      "lastModified": "2025-10-04T09:00:42.161Z",
+      "updatedAt": "2025-10-04T09:00:42.162Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:00:38.070Z"
+    "lastModified": "2025-10-04T09:00:42.162Z"
   }
 }
