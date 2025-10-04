@@ -2929,7 +2929,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591096704-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -2948,13 +2948,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:27:44.285Z"
+      "lastModified": "2025-10-04T15:18:17.770Z",
+      "updatedAt": "2025-10-04T15:18:17.999Z"
     },
     {
       "id": 116,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
-      "image": "/uploads/1759591088203-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759591088203-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -3114,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:18:09.286Z",
+    "lastModified": "2025-10-04T15:18:17.999Z",
     "forceSaveBy": "admin"
   }
 }
