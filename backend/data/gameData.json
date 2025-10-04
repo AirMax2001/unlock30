@@ -1339,7 +1339,7 @@
       "id": 52,
       "title": "Finisci in una sfilata di compleanno di un asilo che blocca la strada",
       "description": "",
-      "image": "/uploads/1759604442622-Immagine WhatsApp 2025-10-02 ore 19.11.31_767e2932.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604442622-Immagine WhatsApp 2025-10-02 ore 19.11.31_767e2932.jpg",
       "video": "",
       "choices": [
         {
@@ -1364,7 +1364,7 @@
       "id": 53,
       "title": "I bimbi pensano tu sia il clown arrivato in ritardo",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759588954988-Immagine WhatsApp 2025-10-04 ore 16.42.13_6c7e2b19.jpg",
+      "image": "/uploads/1759604455780-Immagine WhatsApp 2025-10-04 ore 16.42.13_6c7e2b19.jpg",
       "video": "",
       "choices": [
         {
@@ -1383,8 +1383,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:00:47.363Z",
-      "updatedAt": "2025-10-04T19:00:47.366Z"
+      "lastModified": "2025-10-04T19:00:57.498Z"
     },
     {
       "id": 54,
@@ -3134,7 +3133,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:00:47.366Z",
+    "lastModified": "2025-10-04T19:00:57.503Z",
     "forceSaveBy": "admin"
   }
 }
