@@ -33,7 +33,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:29:16.353Z"
+      "lastModified": "2025-10-04T15:26:57.540Z"
     },
     {
       "id": 2,
@@ -2929,7 +2929,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
       "video": "",
       "choices": [
         {
@@ -2979,7 +2979,7 @@
       "id": 117,
       "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
       "description": "",
-      "image": "/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -3009,7 +3009,7 @@
       "id": 118,
       "title": "Risolvi un indovinello",
       "description": "",
-      "image": "/uploads/1759591574536-Gemini_Generated_Image_bqgt0pbqgt0pbqgt.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591574536-Gemini_Generated_Image_bqgt0pbqgt0pbqgt.png",
       "video": "",
       "choices": [
         {
@@ -3034,7 +3034,7 @@
       "id": 119,
       "title": "Sei alla festa ma vuoi il regalo. Risolvi questo indovinello",
       "description": "",
-      "image": "/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -3059,7 +3059,7 @@
       "id": 120,
       "title": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono?",
       "description": "",
-      "image": "/uploads/1759591560301-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591560301-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
       "video": "",
       "choices": [
         {
@@ -3089,7 +3089,7 @@
       "id": 121,
       "title": "TANTI AUGURI!!!",
       "description": "",
-      "image": "/uploads/1759591603208-Gemini_Generated_Image_bbeyl4bbeyl4bbey.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591603208-Gemini_Generated_Image_bbeyl4bbeyl4bbey.png",
       "video": "",
       "choices": [],
       "isFinal": true,
@@ -3113,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:26:46.142Z",
+    "lastModified": "2025-10-04T15:26:57.548Z",
     "forceSaveBy": "admin"
   }
 }
