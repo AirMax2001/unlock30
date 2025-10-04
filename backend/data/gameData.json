@@ -1570,8 +1570,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:04:03.460Z",
-      "updatedAt": "2025-10-04T19:04:03.734Z"
+      "lastModified": "2025-10-04T19:04:03.718Z"
     },
     {
       "id": 61,
@@ -1596,7 +1595,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:52:07.684Z"
+      "lastModified": "2025-10-04T19:04:06.148Z",
+      "updatedAt": "2025-10-04T19:04:06.153Z"
     },
     {
       "id": 62,
@@ -3136,7 +3136,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:04:03.734Z",
+    "lastModified": "2025-10-04T19:04:06.153Z",
     "forceSaveBy": "admin"
   }
 }
