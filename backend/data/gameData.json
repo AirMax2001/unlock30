@@ -2904,7 +2904,7 @@
       "id": 110,
       "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605642326-IMG-20251004-WA0044.jpg",
+      "image": "/uploads/1759605642326-IMG-20251004-WA0044.jpg",
       "video": "",
       "choices": [
         {
@@ -2923,13 +2923,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:20:44.876Z"
+      "lastModified": "2025-10-04T19:27:02.040Z",
+      "updatedAt": "2025-10-04T19:27:02.048Z"
     },
     {
       "id": 111,
       "title": "Rimangono sbalorditi, tutto torna normale e tu torni in tempo per la festa",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605667323-IMG-20251004-WA0045.jpg",
+      "image": "/uploads/1759605667323-IMG-20251004-WA0045.jpg",
       "video": "",
       "choices": [
         {
@@ -2948,7 +2949,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:21:09.896Z"
+      "lastModified": "2025-10-04T19:27:02.505Z",
+      "updatedAt": "2025-10-04T19:27:02.509Z"
     },
     {
       "id": 112,
@@ -3218,7 +3220,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:27:01.129Z",
+    "lastModified": "2025-10-04T19:27:02.509Z",
     "forceSaveBy": "admin"
   }
 }
