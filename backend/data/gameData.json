@@ -2424,7 +2424,7 @@
       "id": 95,
       "title": "Ti buttano giù dal letto, ti suonano uno strumento vicino le orecchie, ingaggiano una scimmia urlatrice ma non ti muovi",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587451736-IMG-20251004-WA0030.jpg",
       "video": "",
       "choices": [
         {
@@ -2443,8 +2443,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:17:13.687Z",
-      "updatedAt": "2025-10-04T14:17:13.972Z"
+      "lastModified": "2025-10-04T14:17:33.267Z"
     },
     {
       "id": 96,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:17:13.972Z",
+    "lastModified": "2025-10-04T14:17:33.271Z",
     "forceSaveBy": "admin"
   }
 }
