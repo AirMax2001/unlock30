@@ -909,7 +909,7 @@
       "id": 36,
       "title": "Giri in tondo per sempre",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585748739-Immagine WhatsApp 2025-10-02 ore 18.15.17_4764a020.jpg",
       "video": "",
       "choices": [
         {
@@ -928,8 +928,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:48:59.443Z",
-      "updatedAt": "2025-10-04T13:48:59.447Z"
+      "lastModified": "2025-10-04T13:49:10.593Z"
     },
     {
       "id": 37,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:48:59.447Z",
+    "lastModified": "2025-10-04T13:49:10.597Z",
     "forceSaveBy": "admin"
   }
 }
