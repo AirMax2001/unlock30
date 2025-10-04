@@ -195,7 +195,7 @@
         },
         {
           "id": 1759569814546,
-          "text": "",
+          "text": "Lancio dal ponte",
           "nextSceneId": null
         }
       ],
@@ -209,8 +209,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:23:50.206Z",
-      "updatedAt": "2025-10-04T09:23:50.476Z"
+      "lastModified": "2025-10-04T09:23:56.170Z",
+      "updatedAt": "2025-10-04T09:23:56.525Z"
     }
   ],
   "settings": {
@@ -221,6 +221,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-04T09:23:50.476Z"
+    "lastModified": "2025-10-04T09:23:56.526Z"
   }
 }
