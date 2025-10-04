@@ -90,7 +90,7 @@
     },
     {
       "id": 4,
-      "title": "Discutete",
+      "title": "Ti alzi incazzato",
       "description": "",
       "image": "",
       "video": "",
@@ -111,8 +111,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:52:21.986Z",
-      "updatedAt": "2025-10-04T08:52:22.236Z"
+      "lastModified": "2025-10-04T08:52:29.895Z",
+      "updatedAt": "2025-10-04T08:52:30.143Z"
     },
     {
       "id": 5,
@@ -3161,7 +3161,7 @@
   },
   "stats": {
     "totalScenes": 118,
-    "lastModified": "2025-10-04T08:52:22.236Z",
+    "lastModified": "2025-10-04T08:52:30.144Z",
     "forceSaveBy": "admin"
   }
 }
