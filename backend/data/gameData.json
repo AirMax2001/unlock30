@@ -2876,7 +2876,7 @@
       "id": 113,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759588039476-IMG-20251004-WA0052.jpg",
       "video": "",
       "choices": [
         {
@@ -2895,8 +2895,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:27:00.889Z",
-      "updatedAt": "2025-10-04T14:27:01.139Z"
+      "lastModified": "2025-10-04T14:27:20.263Z",
+      "updatedAt": "2025-10-04T14:27:20.495Z"
     },
     {
       "id": 114,
@@ -3116,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:27:01.139Z",
+    "lastModified": "2025-10-04T14:27:20.495Z",
     "forceSaveBy": "admin"
   }
 }
