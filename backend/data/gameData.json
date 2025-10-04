@@ -12,7 +12,7 @@
     },
     {
       "id": 108,
-      "title": "Nuova Scena",
+      "title": ". “ io ho il cinema migliore!” grida",
       "description": "",
       "image": "",
       "video": "",
@@ -27,8 +27,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:50:30.947Z",
-      "updatedAt": "2025-10-04T09:50:30.949Z"
+      "lastModified": "2025-10-04T09:50:39.562Z",
+      "updatedAt": "2025-10-04T09:50:39.842Z"
     }
   ],
   "settings": {
@@ -39,6 +39,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T09:50:30.949Z"
+    "lastModified": "2025-10-04T09:50:39.842Z"
   }
 }
