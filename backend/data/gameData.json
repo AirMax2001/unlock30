@@ -2986,7 +2986,7 @@
       "id": 117,
       "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
       "description": "",
-      "image": "/uploads/1759605787375-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
+      "image": "https://unlock30.onrender.com/uploads/1759605787375-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -3035,7 +3035,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:44:11.368Z"
+      "lastModified": "2025-10-04T19:23:18.990Z",
+      "updatedAt": "2025-10-04T19:23:19.278Z"
     },
     {
       "id": 119,
@@ -3120,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:23:15.321Z",
+    "lastModified": "2025-10-04T19:23:19.278Z",
     "forceSaveBy": "admin"
   }
 }
