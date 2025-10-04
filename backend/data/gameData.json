@@ -674,7 +674,7 @@
       "id": 27,
       "title": "Sai già che mangerai come un facocero per tutto il giorno e ti limiti nella colazione",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585549068-Immagine WhatsApp 2025-10-02 ore 17.54.01_2f7aee3e.jpg",
       "video": "",
       "choices": [
         {
@@ -693,8 +693,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:45:21.059Z",
-      "updatedAt": "2025-10-04T13:45:21.351Z"
+      "lastModified": "2025-10-04T13:45:50.461Z"
     },
     {
       "id": 28,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:45:21.351Z",
+    "lastModified": "2025-10-04T13:45:50.464Z",
     "forceSaveBy": "admin"
   }
 }
