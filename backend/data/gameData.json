@@ -2549,7 +2549,7 @@
       "id": 100,
       "title": "Perdete al primo girone",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587703581-IMG-20251004-WA0038.jpg",
       "video": "",
       "choices": [
         {
@@ -2568,8 +2568,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:21:30.083Z",
-      "updatedAt": "2025-10-04T14:21:30.312Z"
+      "lastModified": "2025-10-04T14:21:45.025Z",
+      "updatedAt": "2025-10-04T14:21:45.276Z"
     },
     {
       "id": 101,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:21:30.312Z",
+    "lastModified": "2025-10-04T14:21:45.277Z",
     "forceSaveBy": "admin"
   }
 }
