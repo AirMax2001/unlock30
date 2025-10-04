@@ -32,7 +32,13 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759570112980,
+          "text": "Avanti",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-04T09:28:11.543Z",
       "titleStyle": "",
@@ -43,8 +49,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:28:24.457Z",
-      "updatedAt": "2025-10-04T09:28:24.716Z"
+      "lastModified": "2025-10-04T09:28:33.281Z",
+      "updatedAt": "2025-10-04T09:28:33.522Z"
     }
   ],
   "settings": {
@@ -55,7 +61,7 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T09:28:24.716Z",
+    "lastModified": "2025-10-04T09:28:33.522Z",
     "forceSaveBy": "admin"
   }
 }
