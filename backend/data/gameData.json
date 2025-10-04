@@ -567,7 +567,7 @@
       "id": 22,
       "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
-      "image": "/uploads/1759585447428-IMG-20251002-WA0015.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585447428-IMG-20251002-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -592,7 +592,7 @@
       "id": 23,
       "title": "Guardi l’ora sono le 9",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585463807-Immagine WhatsApp 2025-10-02 ore 17.43.45_63e3b152.jpg",
       "video": "",
       "choices": [
         {
@@ -611,8 +611,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:44:11.128Z",
-      "updatedAt": "2025-10-04T13:44:11.132Z"
+      "lastModified": "2025-10-04T13:44:25.038Z"
     },
     {
       "id": 24,
@@ -3132,7 +3131,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:44:11.370Z",
+    "lastModified": "2025-10-04T13:44:25.044Z",
     "forceSaveBy": "admin"
   }
 }
