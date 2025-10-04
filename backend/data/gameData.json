@@ -437,7 +437,7 @@
       "id": 17,
       "title": "La cucina ora puzza di bruciato",
       "description": "",
-      "image": "/uploads/1759585221638-Immagine WhatsApp 2025-10-02 ore 22.26.38_b7e6f5ab.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585221638-Immagine WhatsApp 2025-10-02 ore 22.26.38_b7e6f5ab.jpg",
       "video": "",
       "choices": [
         {
@@ -463,7 +463,7 @@
       "id": 18,
       "title": "Pensi “ con una macchinetta decente sarebbe stato perfetto! E pensi a come migliorare quella che hai con la stampante”",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585240415-Immagine WhatsApp 2025-10-02 ore 17.38.24_ac344671.jpg",
       "video": "",
       "choices": [
         {
@@ -482,8 +482,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:40:24.178Z",
-      "updatedAt": "2025-10-04T13:40:24.184Z"
+      "lastModified": "2025-10-04T13:40:41.077Z",
+      "updatedAt": "2025-10-04T13:40:41.338Z"
     },
     {
       "id": 19,
@@ -3128,7 +3128,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:40:24.184Z",
+    "lastModified": "2025-10-04T13:40:41.338Z",
     "forceSaveBy": "admin"
   }
 }
