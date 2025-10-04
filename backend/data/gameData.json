@@ -3098,7 +3098,7 @@
       "id": 121,
       "title": "TANTI AUGURI!!!",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759591603208-Gemini_Generated_Image_bbeyl4bbeyl4bbey.png",
+      "image": "/uploads/1759605915580-Gemini_Generated_Image_bbeyl4bbeyl4bbey.png",
       "video": "",
       "choices": [],
       "isFinal": true,
@@ -3111,8 +3111,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:25:03.800Z",
-      "updatedAt": "2025-10-04T19:25:04.128Z"
+      "lastModified": "2025-10-04T19:25:17.141Z",
+      "updatedAt": "2025-10-04T19:25:25.684Z"
     }
   ],
   "settings": {
@@ -3123,7 +3123,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:25:04.129Z",
+    "lastModified": "2025-10-04T19:25:25.684Z",
     "forceSaveBy": "admin"
   }
 }
