@@ -2929,7 +2929,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
       "video": "",
       "choices": [
         {
@@ -2979,7 +2979,7 @@
       "id": 117,
       "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
       "description": "",
-      "image": "/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -3034,7 +3034,7 @@
       "id": 119,
       "title": "Sei alla festa ma vuoi il regalo. Risolvi questo indovinello",
       "description": "",
-      "image": "/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -3083,7 +3083,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T10:04:28.062Z"
+      "lastModified": "2025-10-04T15:25:54.460Z",
+      "updatedAt": "2025-10-04T15:25:54.757Z"
     },
     {
       "id": 121,
@@ -3113,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:22:55.817Z",
+    "lastModified": "2025-10-04T15:25:54.757Z",
     "forceSaveBy": "admin"
   }
 }
