@@ -1,88 +1,5 @@
 {
-  "scenes": [
-    {
-      "id": 1,
-      "title": "La sveglia",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568347421,
-          "text": "Ti giri dall’altra parte e continui a russare",
-          "nextSceneId": 2
-        },
-        {
-          "id": 1759568348584,
-          "text": "Ti alzi e vai in bagno a lavarti i denti",
-          "nextSceneId": null
-        },
-        {
-          "id": 1759568351110,
-          "text": "Apri il telefono prima ancora di scendere dal letto",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T08:58:55.126Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T08:59:30.128Z",
-      "updatedAt": "2025-10-04T08:59:30.130Z"
-    },
-    {
-      "id": 2,
-      "title": "Nuova Scena",
-      "description": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568396088,
-          "text": "Avanti",
-          "nextSceneId": 3
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T08:59:30.128Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:00:02.505Z",
-      "updatedAt": "2025-10-04T09:00:02.506Z"
-    },
-    {
-      "id": 3,
-      "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:00:02.204Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:00:05.718Z",
-      "updatedAt": "2025-10-04T09:00:05.719Z"
-    }
-  ],
+  "scenes": [],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
@@ -90,7 +7,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 3,
-    "lastModified": "2025-10-04T09:00:05.719Z"
+    "totalScenes": 0,
+    "lastModified": "2025-10-04T08:56:27.389Z"
   }
 }
