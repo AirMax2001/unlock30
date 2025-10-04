@@ -163,14 +163,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:47:37.270Z",
-      "updatedAt": "2025-10-04T18:46:03.601Z"
+      "lastModified": "2025-10-04T19:25:42.372Z",
+      "updatedAt": "2025-10-04T19:25:42.376Z"
     },
     {
       "id": 7,
       "title": "Non è un problema tanto i tucani non hanno i capelli",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759603668048-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
+      "image": "/uploads/1759603668048-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
       "video": "",
       "choices": [
         {
@@ -189,7 +189,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:47:49.533Z"
+      "lastModified": "2025-10-04T19:25:43.163Z",
+      "updatedAt": "2025-10-04T19:25:43.167Z"
     },
     {
       "id": 8,
@@ -3120,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:25:41.520Z",
+    "lastModified": "2025-10-04T19:25:43.167Z",
     "forceSaveBy": "admin"
   }
 }
