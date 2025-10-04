@@ -2170,7 +2170,7 @@
       "id": 85,
       "title": "Vinci ma non torni per tua scelta",
       "description": "",
-      "image": "/uploads/1759605168312-IMG-20251004-WA0023.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605168312-IMG-20251004-WA0023.jpg",
       "video": "",
       "choices": [
         {
@@ -2195,7 +2195,7 @@
       "id": 86,
       "title": "Ti siedi al pc e sotto le minacce della famiglia inizi una partita",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587080961-IMG-20251004-WA0021.jpg",
+      "image": "/uploads/1759605181979-IMG-20251004-WA0021.jpg",
       "video": "",
       "choices": [
         {
@@ -2214,8 +2214,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:12:52.322Z",
-      "updatedAt": "2025-10-04T19:12:52.327Z"
+      "lastModified": "2025-10-04T19:13:03.631Z"
     },
     {
       "id": 87,
@@ -3120,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:12:52.327Z",
+    "lastModified": "2025-10-04T19:13:03.635Z",
     "forceSaveBy": "admin"
   }
 }
