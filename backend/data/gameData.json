@@ -2936,7 +2936,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
+      "image": "/uploads/1759605752667-Gemini_Generated_Image_omkar7omkar7omka.png",
       "video": "",
       "choices": [
         {
@@ -2955,8 +2955,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:22:10.427Z",
-      "updatedAt": "2025-10-04T19:22:10.743Z"
+      "lastModified": "2025-10-04T19:22:34.278Z",
+      "updatedAt": "2025-10-04T19:22:34.619Z"
     },
     {
       "id": 116,
@@ -3121,7 +3121,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:22:10.744Z",
+    "lastModified": "2025-10-04T19:22:34.619Z",
     "forceSaveBy": "admin"
   }
 }
