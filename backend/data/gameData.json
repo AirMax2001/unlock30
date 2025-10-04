@@ -1465,7 +1465,7 @@
       "id": 57,
       "title": "Preso da improvvise manie di grandezza raggiungi il comune di Montesilvano e urli a gran voce di essere il nuovo re d’Italia",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759604547628-Gemini_Generated_Image_uxtouruxtouruxto.png",
       "video": "",
       "choices": [
         {
@@ -1484,7 +1484,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:02:23.896Z"
+      "lastModified": "2025-10-04T19:02:29.092Z",
+      "updatedAt": "2025-10-04T19:02:37.417Z"
     },
     {
       "id": 58,
@@ -3134,7 +3135,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:02:24.777Z",
+    "lastModified": "2025-10-04T19:02:37.417Z",
     "forceSaveBy": "admin"
   }
 }
