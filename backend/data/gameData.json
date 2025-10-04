@@ -1319,7 +1319,7 @@
       "id": 52,
       "title": "Finisci in una sfilata di compleanno di un asilo che blocca la strada",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586085337-Immagine WhatsApp 2025-10-02 ore 19.11.31_767e2932.jpg",
       "video": "",
       "choices": [
         {
@@ -1338,8 +1338,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:54:29.740Z",
-      "updatedAt": "2025-10-04T13:54:30.018Z"
+      "lastModified": "2025-10-04T13:54:46.023Z",
+      "updatedAt": "2025-10-04T13:54:46.260Z"
     },
     {
       "id": 53,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:54:30.018Z",
+    "lastModified": "2025-10-04T13:54:46.260Z",
     "forceSaveBy": "admin"
   }
 }
