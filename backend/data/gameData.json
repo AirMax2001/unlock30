@@ -779,7 +779,7 @@
       "choices": [
         {
           "id": 1759569394054,
-          "text": "",
+          "text": "Vai in palestra",
           "nextSceneId": null
         },
         {
@@ -803,8 +803,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:16:41.306Z",
-      "updatedAt": "2025-10-04T09:16:41.308Z"
+      "lastModified": "2025-10-04T09:16:47.420Z",
+      "updatedAt": "2025-10-04T09:16:47.711Z"
     }
   ],
   "settings": {
@@ -815,7 +815,7 @@
   },
   "stats": {
     "totalScenes": 31,
-    "lastModified": "2025-10-04T09:16:41.309Z",
+    "lastModified": "2025-10-04T09:16:47.711Z",
     "forceSaveBy": "admin"
   }
 }
