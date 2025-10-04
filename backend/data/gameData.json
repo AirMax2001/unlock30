@@ -65,7 +65,7 @@
       "id": 3,
       "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759584990912-Immagine WhatsApp 2025-10-02 ore 22.20.26_16e3de59.jpg",
+      "image": "/uploads/1759603520726-Immagine WhatsApp 2025-10-02 ore 22.20.26_16e3de59.jpg",
       "video": "",
       "choices": [
         {
@@ -84,14 +84,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:44:52.470Z",
-      "updatedAt": "2025-10-04T18:44:52.473Z"
+      "lastModified": "2025-10-04T18:45:22.008Z",
+      "updatedAt": "2025-10-04T18:45:22.289Z"
     },
     {
       "id": 4,
       "title": "Ti alzi incazzato",
       "description": "",
-      "image": "/uploads/1759603486866-IMG-20251002-WA0020.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759603486866-IMG-20251002-WA0020.jpg",
       "video": "",
       "choices": [
         {
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:44:52.473Z",
+    "lastModified": "2025-10-04T18:45:22.289Z",
     "forceSaveBy": "admin"
   }
 }
