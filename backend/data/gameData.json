@@ -1834,7 +1834,7 @@
       "id": 72,
       "title": "Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per “disattivare” i boss",
       "description": "",
-      "image": "/uploads/1759604896666-IMG-20251004-WA0008.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604896666-IMG-20251004-WA0008.jpg",
       "video": "",
       "choices": [
         {
@@ -1860,7 +1860,7 @@
       "id": 73,
       "title": "Come arma principale, lancia polpette volanti contro i due",
       "description": "",
-      "image": "/uploads/1759604914036-IMG-20251004-WA0010.jpg",
+      "image": "/uploads/1759604988841-IMG-20251004-WA0009.jpg",
       "video": "",
       "choices": [
         {
@@ -1879,8 +1879,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:09:39.856Z",
-      "updatedAt": "2025-10-04T19:09:39.859Z"
+      "lastModified": "2025-10-04T19:09:50.853Z"
     },
     {
       "id": 74,
@@ -3121,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:09:39.859Z",
+    "lastModified": "2025-10-04T19:09:50.857Z",
     "forceSaveBy": "admin"
   }
 }
