@@ -1052,7 +1052,7 @@
       "id": 41,
       "title": "LG ti chiama direttamente e accetti qualsiasi offerta ti propongano",
       "description": "",
-      "image": "/uploads/1759604276021-Immagine WhatsApp 2025-10-02 ore 18.33.34_63c96299.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604276021-Immagine WhatsApp 2025-10-02 ore 18.33.34_63c96299.jpg",
       "video": "",
       "choices": [
         {
@@ -1078,7 +1078,7 @@
       "id": 42,
       "title": "Rimani con il conto in negativo e decidi di trasferirti in messico",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585844134-Immagine WhatsApp 2025-10-02 ore 18.40.16_bcb60576.jpg",
+      "image": "/uploads/1759604291535-Immagine WhatsApp 2025-10-02 ore 18.40.16_bcb60576.jpg",
       "video": "",
       "choices": [
         {
@@ -1097,8 +1097,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:58:00.501Z",
-      "updatedAt": "2025-10-04T18:58:00.507Z"
+      "lastModified": "2025-10-04T18:58:13.681Z"
     },
     {
       "id": 43,
@@ -3133,7 +3132,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:58:00.507Z",
+    "lastModified": "2025-10-04T18:58:13.684Z",
     "forceSaveBy": "admin"
   }
 }
