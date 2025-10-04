@@ -256,7 +256,7 @@
     },
     {
       "id": 74,
-      "title": ". Un salmone parlante sospeso nell’aria suggerisce le strategie",
+      "title": "Un salmone parlante sospeso nell’aria suggerisce le strategie",
       "description": "",
       "image": "",
       "video": "",
@@ -271,8 +271,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:33:57.730Z",
-      "updatedAt": "2025-10-04T09:33:57.988Z"
+      "lastModified": "2025-10-04T09:34:00.614Z",
+      "updatedAt": "2025-10-04T09:34:00.616Z"
     }
   ],
   "settings": {
@@ -283,7 +283,7 @@
   },
   "stats": {
     "totalScenes": 11,
-    "lastModified": "2025-10-04T09:33:57.988Z",
+    "lastModified": "2025-10-04T09:34:00.616Z",
     "forceSaveBy": "admin"
   }
 }
