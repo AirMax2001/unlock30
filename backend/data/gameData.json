@@ -33,12 +33,12 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:50:09.738Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 2,
-      "title": "Tua mamma grida dal piano di sotto",
+      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
       "description": "",
       "image": "",
       "video": "",
@@ -59,12 +59,12 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:51:15.545Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 3,
-      "title": "Ti arrabbi con lei",
+      "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
       "description": "",
       "image": "",
       "video": "",
@@ -85,12 +85,12 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:52:01.993Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 4,
-      "title": "Discutete",
+      "title": "Ti alzi incazzato",
       "description": "",
       "image": "",
       "video": "",
@@ -111,7 +111,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:52:29.895Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "id": 6,
-      "title": "Scena 2: In bagno",
+      "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
       "description": "Ti alzi e vai in bagno. Cosa fai?",
       "image": "",
       "video": "",
@@ -173,7 +173,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T20:00:00.000Z",
+      "lastModified": "2025-10-04T08:52:50.119Z",
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
@@ -200,7 +200,7 @@
         "typewriter": false
       },
       "lastModified": "2025-10-04T08:53:13.966Z",
-      "updatedAt": "2025-10-04T08:53:14.240Z"
+      "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
       "id": 9,
@@ -3130,11 +3130,12 @@
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
-    "maxScenes": 999,
+    "maxScenes": 30,
     "theme": "unlock30"
   },
   "stats": {
     "totalScenes": 117,
-    "lastModified": "2025-10-04T08:54:00.344Z"
+    "lastModified": "2025-10-04T08:54:22.442Z",
+    "forceSaveBy": "admin"
   }
 }
