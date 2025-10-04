@@ -934,7 +934,7 @@
       "id": 37,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585766284-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -953,8 +953,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:49:13.436Z",
-      "updatedAt": "2025-10-04T13:49:13.440Z"
+      "lastModified": "2025-10-04T13:49:27.197Z",
+      "updatedAt": "2025-10-04T13:49:27.442Z"
     },
     {
       "id": 38,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:49:13.440Z",
+    "lastModified": "2025-10-04T13:49:27.442Z",
     "forceSaveBy": "admin"
   }
 }
