@@ -1705,7 +1705,7 @@
       "id": 67,
       "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586611537-IMG-20251004-WA0004.jpg",
+      "image": "/uploads/1759590455362-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
       "video": "",
       "choices": [
         {
@@ -1724,8 +1724,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:07:23.772Z",
-      "updatedAt": "2025-10-04T15:07:24.577Z"
+      "lastModified": "2025-10-04T15:07:37.149Z",
+      "updatedAt": "2025-10-04T15:07:37.382Z"
     },
     {
       "id": 68,
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:07:24.577Z",
+    "lastModified": "2025-10-04T15:07:37.382Z",
     "forceSaveBy": "admin"
   }
 }
