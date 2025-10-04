@@ -1602,7 +1602,7 @@
       "id": 62,
       "title": "Li come GTA insegna ti lanci dall’auto e finisci nel fiume",
       "description": "",
-      "image": "/uploads/1759604666090-Immagine WhatsApp 2025-10-02 ore 22.51.59_96c19cba.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604666090-Immagine WhatsApp 2025-10-02 ore 22.51.59_96c19cba.jpg",
       "video": "",
       "choices": [
         {
@@ -1628,7 +1628,7 @@
       "id": 63,
       "title": "La polizia si ferma e, non vedendoti più, interrompe l’inseguimento e torna tutto normale",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586406065-Immagine WhatsApp 2025-10-02 ore 22.59.35_95986ae8.jpg",
+      "image": "/uploads/1759604675956-Immagine WhatsApp 2025-10-02 ore 22.59.35_95986ae8.jpg",
       "video": "",
       "choices": [
         {
@@ -1647,8 +1647,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:04:29.240Z",
-      "updatedAt": "2025-10-04T19:04:29.245Z"
+      "lastModified": "2025-10-04T19:04:37.697Z"
     },
     {
       "id": 64,
@@ -3138,7 +3137,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:04:29.246Z",
+    "lastModified": "2025-10-04T19:04:37.700Z",
     "forceSaveBy": "admin"
   }
 }
