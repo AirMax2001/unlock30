@@ -1439,7 +1439,7 @@
       "id": 56,
       "title": "Dopo tutte le ore passate a guardare anime e serie tv acquisisci il potere di evocare delle ombre, che si vedono poco perché è giorno, ma creano uno scudo invisibile che fa accartocciare le macchine della polizia su loro stesse",
       "description": "",
-      "image": "/uploads/1759604515911-Immagine WhatsApp 2025-10-02 ore 23.04.51_2bdc93f1.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604515911-Immagine WhatsApp 2025-10-02 ore 23.04.51_2bdc93f1.jpg",
       "video": "",
       "choices": [
         {
@@ -1465,7 +1465,7 @@
       "id": 57,
       "title": "Preso da improvvise manie di grandezza raggiungi il comune di Montesilvano e urli a gran voce di essere il nuovo re d’Italia",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586195024-Gemini_Generated_Image_uxtouruxtouruxto.png",
+      "image": "",
       "video": "",
       "choices": [
         {
@@ -1484,8 +1484,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:01:59.231Z",
-      "updatedAt": "2025-10-04T19:01:59.236Z"
+      "lastModified": "2025-10-04T19:02:23.896Z"
     },
     {
       "id": 58,
@@ -3135,7 +3134,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:01:59.236Z",
+    "lastModified": "2025-10-04T19:02:24.777Z",
     "forceSaveBy": "admin"
   }
 }
