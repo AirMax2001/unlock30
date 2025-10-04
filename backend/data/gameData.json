@@ -164,7 +164,7 @@
     },
     {
       "id": 7,
-      "title": "Nuova Scena",
+      "title": "Non è un problema tanto i tucani non hanno i capelli",
       "description": "",
       "image": "",
       "video": "",
@@ -179,8 +179,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:02:08.501Z",
-      "updatedAt": "2025-10-04T09:02:08.502Z"
+      "lastModified": "2025-10-04T09:02:54.525Z",
+      "updatedAt": "2025-10-04T09:02:54.877Z"
     }
   ],
   "settings": {
@@ -191,7 +191,7 @@
   },
   "stats": {
     "totalScenes": 7,
-    "lastModified": "2025-10-04T09:02:08.502Z",
+    "lastModified": "2025-10-04T09:02:54.877Z",
     "forceSaveBy": "admin"
   }
 }
