@@ -1781,7 +1781,7 @@
       "id": 69,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759604796786-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604796786-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -1807,7 +1807,7 @@
       "id": 70,
       "title": "Ti trovi in un campo di battaglia che altro non è che un Ikea gigantesco e mutante, dove i corridoi si spostano da soli e i mobili camminano minacciosamente",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586667031-IMG-20251004-WA0006.jpg",
+      "image": "/uploads/1759604858800-IMG-20251004-WA0006.jpg",
       "video": "",
       "choices": [
         {
@@ -1826,7 +1826,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:13:08.013Z"
+      "lastModified": "2025-10-04T19:07:39.876Z",
+      "updatedAt": "2025-10-04T19:07:40.169Z"
     },
     {
       "id": 71,
@@ -3141,7 +3142,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:07:23.353Z",
+    "lastModified": "2025-10-04T19:07:40.169Z",
     "forceSaveBy": "admin"
   }
 }
