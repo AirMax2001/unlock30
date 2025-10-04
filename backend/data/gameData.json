@@ -197,7 +197,7 @@
       "choices": [
         {
           "id": 1759568591943,
-          "text": "",
+          "text": "Rimani a casa",
           "nextSceneId": null
         },
         {
@@ -221,8 +221,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:03:18.199Z",
-      "updatedAt": "2025-10-04T09:03:18.200Z"
+      "lastModified": "2025-10-04T09:03:22.663Z",
+      "updatedAt": "2025-10-04T09:03:22.907Z"
     }
   ],
   "settings": {
@@ -233,7 +233,7 @@
   },
   "stats": {
     "totalScenes": 8,
-    "lastModified": "2025-10-04T09:03:18.200Z",
+    "lastModified": "2025-10-04T09:03:22.907Z",
     "forceSaveBy": "admin"
   }
 }
