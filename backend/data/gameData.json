@@ -186,7 +186,7 @@
         {
           "id": 1759569812546,
           "text": "Parti come in un videoclip",
-          "nextSceneId": null
+          "nextSceneId": 50
         },
         {
           "id": 1759569813545,
@@ -209,8 +209,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:23:56.170Z",
-      "updatedAt": "2025-10-04T09:23:56.525Z"
+      "lastModified": "2025-10-04T09:23:58.226Z",
+      "updatedAt": "2025-10-04T09:23:58.228Z"
+    },
+    {
+      "id": 50,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:23:57.923Z"
     }
   ],
   "settings": {
@@ -220,7 +230,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 9,
-    "lastModified": "2025-10-04T09:23:56.526Z"
+    "totalScenes": 10,
+    "lastModified": "2025-10-04T09:23:58.228Z"
   }
 }
