@@ -67,7 +67,7 @@
         {
           "id": 1759571693998,
           "text": "PERSO",
-          "nextSceneId": null
+          "nextSceneId": 118
         }
       ],
       "isFinal": false,
@@ -80,8 +80,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:55:02.916Z",
-      "updatedAt": "2025-10-04T09:55:03.156Z"
+      "lastModified": "2025-10-04T09:55:06.615Z",
+      "updatedAt": "2025-10-04T09:55:06.619Z"
+    },
+    {
+      "id": 118,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:55:06.312Z"
     }
   ],
   "settings": {
@@ -91,7 +101,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 3,
-    "lastModified": "2025-10-04T09:55:03.156Z"
+    "totalScenes": 4,
+    "lastModified": "2025-10-04T09:55:06.619Z"
   }
 }
