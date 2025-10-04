@@ -422,7 +422,7 @@
     },
     {
       "id": 93,
-      "title": "Nuova Scena",
+      "title": "Metti le cuffie e ti addormenti",
       "description": "",
       "image": "",
       "video": "",
@@ -437,8 +437,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:43:06.258Z",
-      "updatedAt": "2025-10-04T09:43:06.260Z"
+      "lastModified": "2025-10-04T09:43:12.722Z",
+      "updatedAt": "2025-10-04T09:43:12.989Z"
     }
   ],
   "settings": {
@@ -449,7 +449,7 @@
   },
   "stats": {
     "totalScenes": 17,
-    "lastModified": "2025-10-04T09:43:06.260Z",
+    "lastModified": "2025-10-04T09:43:12.989Z",
     "forceSaveBy": "admin"
   }
 }
