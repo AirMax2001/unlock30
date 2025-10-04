@@ -1,6 +1,726 @@
 {
   "scenes": [
     {
+      "id": 1,
+      "title": "La sveglia",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568347421,
+          "text": "Ti giri dall’altra parte e continui a russare",
+          "nextSceneId": 2
+        },
+        {
+          "id": 1759568348584,
+          "text": "Ti alzi e vai in bagno a lavarti i denti",
+          "nextSceneId": 6
+        },
+        {
+          "id": 1759568351110,
+          "text": "Apri il telefono prima ancora di scendere dal letto",
+          "nextSceneId": 9
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T08:58:55.126Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:03:46.569Z"
+    },
+    {
+      "id": 2,
+      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
+      "description": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568396088,
+          "text": "Avanti",
+          "nextSceneId": 3
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T08:59:30.128Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:01:01.402Z"
+    },
+    {
+      "id": 3,
+      "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568411192,
+          "text": "Avanti",
+          "nextSceneId": 4
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:00:02.204Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:00:05.718Z"
+    },
+    {
+      "id": 4,
+      "title": "Ti alzi incazzato",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568431524,
+          "text": "Avanti",
+          "nextSceneId": 5
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:00:16.170Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:01:18.912Z"
+    },
+    {
+      "id": 5,
+      "title": "YOU DEFEAT",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568447710,
+          "text": "Avanti",
+          "nextSceneId": 1
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:00:36.071Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:00:53.558Z"
+    },
+    {
+      "id": 6,
+      "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568521815,
+          "text": "Avanti",
+          "nextSceneId": 7
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:01:44.181Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:02:06.132Z"
+    },
+    {
+      "id": 7,
+      "title": "Non è un problema tanto i tucani non hanno i capelli",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568576407,
+          "text": "Avanti",
+          "nextSceneId": 8
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:02:05.831Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:03:00.936Z"
+    },
+    {
+      "id": 8,
+      "title": "La colazione",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568591943,
+          "text": "Rimani a casa",
+          "nextSceneId": 15
+        },
+        {
+          "id": 1759568596675,
+          "text": "Vai al michetti",
+          "nextSceneId": 22
+        },
+        {
+          "id": 1759568597897,
+          "text": "Salti la colazione",
+          "nextSceneId": 27
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:03:00.634Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:10:23.419Z"
+    },
+    {
+      "id": 9,
+      "title": "Trovi 3 messaggi",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568642318,
+          "text": "Avanti",
+          "nextSceneId": 10
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:03:46.268Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:04:07.925Z"
+    },
+    {
+      "id": 10,
+      "title": "L’INPS ti manda un messaggio: “Buon compleanno! Da oggi sei ufficialmente più vicino alla pensione (forse nel 2089)”.",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568666378,
+          "text": "Avanti",
+          "nextSceneId": 11
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:04:07.622Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:04:28.779Z"
+    },
+    {
+      "id": 11,
+      "title": "Tuo zio che ti scrive: “Auguri bomber, ricordati che io a 30  anni avevo già tre mutui e due mogli”",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568711520,
+          "text": "Avanti",
+          "nextSceneId": 12
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:04:28.476Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:05:17.255Z"
+    },
+    {
+      "id": 12,
+      "title": "Una pubblicità random: “Offerta speciale! Diventa maestro di yoga in 3 giorni con il nostro corso online – AUGURI!!!” ",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568736214,
+          "text": "Avanti",
+          "nextSceneId": 13
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:05:16.954Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:05:30.194Z"
+    },
+    {
+      "id": 13,
+      "title": "Pensi alle tue qualità da ballerino ma tenti comunque la sorte",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568757314,
+          "text": "Avanti",
+          "nextSceneId": 14
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:05:47.090Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:05:59.884Z"
+    },
+    {
+      "id": 14,
+      "title": "Lasci il lavoro e diventi un maestro di yoga con i leggins verdi",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568775939,
+          "text": "Avanti",
+          "nextSceneId": 6
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:05:59.581Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:06:38.308Z"
+    },
+    {
+      "id": 15,
+      "title": "Cornetto e cappuccino",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568826009,
+          "text": "Avanti",
+          "nextSceneId": 16
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:06:18.696Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:07:08.655Z"
+    },
+    {
+      "id": 16,
+      "title": "Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568845581,
+          "text": "Avanti",
+          "nextSceneId": 17
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:07:08.355Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:07:28.025Z"
+    },
+    {
+      "id": 17,
+      "title": "La cucina ora puzza di bruciato",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568860942,
+          "text": "Avanti",
+          "nextSceneId": 18
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:07:27.724Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:07:44.491Z"
+    },
+    {
+      "id": 18,
+      "title": "Pensi “ con una macchinetta decente sarebbe stato perfetto! E pensi a come migliorare quella che hai con la stampante”",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568882853,
+          "text": "Avanti",
+          "nextSceneId": 19
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:07:44.188Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:08:04.002Z"
+    },
+    {
+      "id": 19,
+      "title": "Metti in funzione la stampante e alle 11 finalmente inizi con la calibrazione",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568901474,
+          "text": "Avanti",
+          "nextSceneId": 20
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:08:12.424Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:08:26.462Z"
+    },
+    {
+      "id": 20,
+      "title": "La macchina emette uno sbuffo, si anima e si ribella a te che sei suo padre",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568921065,
+          "text": "Avanti",
+          "nextSceneId": 21
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:08:26.161Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:08:43.764Z"
+    },
+    {
+      "id": 21,
+      "title": "YOU DIED",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759568932603,
+          "text": "Avanti",
+          "nextSceneId": 8
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:08:43.463Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:09:05.810Z"
+    },
+    {
+      "id": 22,
+      "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569045911,
+          "text": "Avanti",
+          "nextSceneId": 23
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:10:23.119Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:10:48.555Z"
+    },
+    {
+      "id": 23,
+      "title": "Guardi l’ora sono le 9",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569065889,
+          "text": "Avanti",
+          "nextSceneId": 24
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:10:48.253Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:11:12.923Z"
+    },
+    {
+      "id": 24,
+      "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569091448,
+          "text": "Avanti",
+          "nextSceneId": 25
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:11:08.676Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:11:26.998Z"
+    },
+    {
+      "id": 25,
+      "title": "Non capisci se i vecchi stiano facendo la fila per la pensione o per il caffè",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569116476,
+          "text": "Avanti",
+          "nextSceneId": 26
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:11:36.166Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:12:02.125Z"
+    },
+    {
+      "id": 26,
+      "title": "Sbagli fila, e fai colazione in piedi alle 11 bestemmiando al suono delle tazzine sbattute",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569136297,
+          "text": "Avanti",
+          "nextSceneId": 21
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:11:59.048Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:12:22.287Z"
+    },
+    {
+      "id": 27,
+      "title": "Sai già che mangerai come un facocero per tutto il giorno e ti limiti nella colazione",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569215847,
+          "text": "Avanti",
+          "nextSceneId": 28
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:12:18.741Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:14:10.813Z"
+    },
+    {
+      "id": 28,
+      "title": "Pensi “ ho appena evitato uno scontro mortale con la stampante 3d e di fare la fila alle poste”",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759569257538,
+          "text": "Avanti",
+          "nextSceneId": 29
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:12:55.867Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:14:01.438Z"
+    },
+    {
       "id": 29,
       "title": "Non capisci perché te lo stai chiedendo ma non è importante",
       "description": "",
@@ -23,8 +743,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:14:38.634Z",
-      "updatedAt": "2025-10-04T09:14:38.635Z"
+      "lastModified": "2025-10-04T09:14:38.634Z"
     },
     {
       "id": 30,
@@ -49,8 +768,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:14:53.864Z",
-      "updatedAt": "2025-10-04T09:14:53.865Z"
+      "lastModified": "2025-10-04T09:14:53.864Z"
     },
     {
       "id": 31,
@@ -75,11 +793,12 @@
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
-    "maxScenes": 999,
+    "maxScenes": 30,
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 3,
-    "lastModified": "2025-10-04T09:15:08.150Z"
+    "totalScenes": 31,
+    "lastModified": "2025-10-04T09:15:08.541Z",
+    "forceSaveBy": "admin"
   }
 }
