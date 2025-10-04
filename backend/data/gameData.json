@@ -489,7 +489,7 @@
       "id": 19,
       "title": "Metti in funzione la stampante e alle 11 finalmente inizi con la calibrazione",
       "description": "",
-      "image": "/uploads/1759585250389-Immagine WhatsApp 2025-10-02 ore 17.38.24_0b573eeb.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585250389-Immagine WhatsApp 2025-10-02 ore 17.38.24_0b573eeb.jpg",
       "video": "",
       "choices": [
         {
@@ -515,7 +515,7 @@
       "id": 20,
       "title": "La macchina emette uno sbuffo, si anima e si ribella a te che sei suo padre",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585340631-Gemini_Generated_Image_2vkf3l2vkf3l2vkf.png",
       "video": "",
       "choices": [
         {
@@ -534,8 +534,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:40:52.974Z",
-      "updatedAt": "2025-10-04T13:40:52.977Z"
+      "lastModified": "2025-10-04T13:42:21.881Z",
+      "updatedAt": "2025-10-04T13:42:22.120Z"
     },
     {
       "id": 21,
@@ -3130,7 +3130,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:40:52.977Z",
+    "lastModified": "2025-10-04T13:42:22.120Z",
     "forceSaveBy": "admin"
   }
 }
