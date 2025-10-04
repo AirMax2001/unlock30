@@ -292,7 +292,7 @@
     },
     {
       "id": 53,
-      "title": "Nuova Scena",
+      "title": ". I bimbi pensano tu sia il clown arrivato in ritardo",
       "description": "",
       "image": "",
       "video": "",
@@ -307,8 +307,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:24:50.899Z",
-      "updatedAt": "2025-10-04T09:24:50.900Z"
+      "lastModified": "2025-10-04T09:24:57.802Z",
+      "updatedAt": "2025-10-04T09:24:58.048Z"
     }
   ],
   "settings": {
@@ -319,6 +319,6 @@
   },
   "stats": {
     "totalScenes": 13,
-    "lastModified": "2025-10-04T09:24:50.900Z"
+    "lastModified": "2025-10-04T09:24:58.048Z"
   }
 }
