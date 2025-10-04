@@ -1779,7 +1779,7 @@
       "id": 70,
       "title": "Ti trovi in un campo di battaglia che altro non è che un Ikea gigantesco e mutante, dove i corridoi si spostano da soli e i mobili camminano minacciosamente",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586667031-IMG-20251004-WA0006.jpg",
       "video": "",
       "choices": [
         {
@@ -1798,8 +1798,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:04:18.186Z",
-      "updatedAt": "2025-10-04T14:04:18.438Z"
+      "lastModified": "2025-10-04T14:04:28.997Z"
     },
     {
       "id": 71,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:04:18.438Z",
+    "lastModified": "2025-10-04T14:04:29.001Z",
     "forceSaveBy": "admin"
   }
 }
