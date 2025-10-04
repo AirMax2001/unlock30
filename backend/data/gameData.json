@@ -178,7 +178,7 @@
     },
     {
       "id": 7,
-      "title": "Vai in cucina e fai colazione con tua mamma",
+      "title": "“. Non è un problema tanto i tucani non hanno i capelli",
       "description": "",
       "image": "",
       "video": "",
@@ -199,8 +199,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:52:58.030Z",
-      "updatedAt": "2025-10-04T08:52:58.286Z"
+      "lastModified": "2025-10-04T08:53:09.970Z",
+      "updatedAt": "2025-10-04T08:53:10.217Z"
     },
     {
       "id": 8,
@@ -3161,6 +3161,6 @@
   },
   "stats": {
     "totalScenes": 118,
-    "lastModified": "2025-10-04T08:52:58.286Z"
+    "lastModified": "2025-10-04T08:53:10.217Z"
   }
 }
