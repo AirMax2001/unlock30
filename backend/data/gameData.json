@@ -3009,7 +3009,7 @@
       "id": 118,
       "title": "Risolvi un indovinello",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591574536-Gemini_Generated_Image_bqgt0pbqgt0pbqgt.png",
       "video": "",
       "choices": [
         {
@@ -3028,14 +3028,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:26:08.410Z",
-      "updatedAt": "2025-10-04T15:26:08.413Z"
+      "lastModified": "2025-10-04T15:26:16.240Z",
+      "updatedAt": "2025-10-04T15:26:16.535Z"
     },
     {
       "id": 119,
       "title": "Sei alla festa ma vuoi il regalo. Risolvi questo indovinello",
       "description": "",
-      "image": "/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759591353467-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:26:08.413Z",
+    "lastModified": "2025-10-04T15:26:16.535Z",
     "forceSaveBy": "admin"
   }
 }
