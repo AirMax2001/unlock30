@@ -617,7 +617,7 @@
       "id": 24,
       "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
       "description": "",
-      "image": "/uploads/1759585481986-Immagine WhatsApp 2025-10-02 ore 17.43.45_c82e1ae8.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585481986-Immagine WhatsApp 2025-10-02 ore 17.43.45_c82e1ae8.jpg",
       "video": "",
       "choices": [
         {
@@ -642,7 +642,7 @@
       "id": 25,
       "title": "Non capisci se i vecchi stiano facendo la fila per la pensione o per il caffè",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585493777-Immagine WhatsApp 2025-10-02 ore 17.43.45_7506856c.jpg",
       "video": "",
       "choices": [
         {
@@ -661,8 +661,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:44:45.433Z",
-      "updatedAt": "2025-10-04T13:44:45.436Z"
+      "lastModified": "2025-10-04T13:44:55.158Z"
     },
     {
       "id": 26,
@@ -3132,7 +3131,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:44:45.436Z",
+    "lastModified": "2025-10-04T13:44:55.163Z",
     "forceSaveBy": "admin"
   }
 }
