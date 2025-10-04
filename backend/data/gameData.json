@@ -2674,7 +2674,7 @@
       "id": 105,
       "title": "L’aria freme",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587825236-IMG-20251004-WA0042.jpg",
       "video": "",
       "choices": [
         {
@@ -2693,8 +2693,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:23:37.792Z",
-      "updatedAt": "2025-10-04T14:23:38.021Z"
+      "lastModified": "2025-10-04T14:23:46.991Z"
     },
     {
       "id": 106,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:23:38.021Z",
+    "lastModified": "2025-10-04T14:23:46.994Z",
     "forceSaveBy": "admin"
   }
 }
