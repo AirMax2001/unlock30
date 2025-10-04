@@ -2929,7 +2929,7 @@
       "id": 115,
       "title": "Dimostra la tua forza",
       "description": "",
-      "image": "/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591298875-Gemini_Generated_Image_omkar7omkar7omka.png",
       "video": "",
       "choices": [
         {
@@ -2979,7 +2979,7 @@
       "id": 117,
       "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
       "description": "",
-      "image": "/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591265534-Gemini_Generated_Image_jnyc83jnyc83jnyc.png",
       "video": "",
       "choices": [
         {
@@ -3053,13 +3053,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:22:54.637Z"
+      "lastModified": "2025-10-04T15:26:06.473Z",
+      "updatedAt": "2025-10-04T15:26:06.476Z"
     },
     {
       "id": 120,
       "title": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono?",
       "description": "",
-      "image": "/uploads/1759591560301-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
+      "image": "https://unlock30.onrender.com/uploads/1759591560301-Gemini_Generated_Image_9lik1i9lik1i9lik.png",
       "video": "",
       "choices": [
         {
@@ -3113,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:26:04.077Z",
+    "lastModified": "2025-10-04T15:26:06.476Z",
     "forceSaveBy": "admin"
   }
 }
