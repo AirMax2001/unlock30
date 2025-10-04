@@ -474,7 +474,7 @@
     },
     {
       "id": 95,
-      "title": "Nuova Scena",
+      "title": "Ti buttano giù dal letto, ti suonano uno strumento vicino le orecchie, ingaggiano una scimmia urlatrice ma non ti muovi",
       "description": "",
       "image": "",
       "video": "",
@@ -489,8 +489,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:43:36.796Z",
-      "updatedAt": "2025-10-04T09:43:36.798Z"
+      "lastModified": "2025-10-04T09:43:46.588Z",
+      "updatedAt": "2025-10-04T09:43:46.836Z"
     }
   ],
   "settings": {
@@ -501,7 +501,7 @@
   },
   "stats": {
     "totalScenes": 19,
-    "lastModified": "2025-10-04T09:43:36.798Z",
+    "lastModified": "2025-10-04T09:43:46.836Z",
     "forceSaveBy": "admin"
   }
 }
