@@ -2731,7 +2731,7 @@
       "id": 107,
       "title": "Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587869381-Immagine WhatsApp 2025-10-04 ore 14.01.50_42da3c37.jpg",
+      "image": "/uploads/1759605584575-Immagine WhatsApp 2025-10-04 ore 14.01.50_42da3c37.jpg",
       "video": "",
       "choices": [
         {
@@ -2750,8 +2750,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:19:12.599Z",
-      "updatedAt": "2025-10-04T19:19:12.905Z"
+      "lastModified": "2025-10-04T19:19:46.494Z"
     },
     {
       "id": 108,
@@ -3121,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:19:12.905Z",
+    "lastModified": "2025-10-04T19:19:46.498Z",
     "forceSaveBy": "admin"
   }
 }
