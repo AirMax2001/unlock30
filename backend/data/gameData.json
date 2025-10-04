@@ -1529,7 +1529,7 @@
       "id": 60,
       "title": "Sgommi per le strade di Montesilvano con il filobus che ti insegue ingaggiato dalla polizia",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586333286-Immagine WhatsApp 2025-10-02 ore 22.47.21_758f8898.jpg",
       "video": "",
       "choices": [
         {
@@ -1548,8 +1548,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:58:07.347Z",
-      "updatedAt": "2025-10-04T13:58:07.604Z"
+      "lastModified": "2025-10-04T13:58:54.173Z",
+      "updatedAt": "2025-10-04T13:58:54.409Z"
     },
     {
       "id": 61,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:58:07.604Z",
+    "lastModified": "2025-10-04T13:58:54.409Z",
     "forceSaveBy": "admin"
   }
 }
