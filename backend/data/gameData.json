@@ -1998,7 +1998,7 @@
     },
     {
       "id": 79,
-      "title": "Nuova Scena",
+      "title": "Sotto di te senti tremare la terra a 250 bpm",
       "description": "",
       "image": "",
       "video": "",
@@ -2013,8 +2013,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:36:14.248Z",
-      "updatedAt": "2025-10-04T09:36:14.250Z"
+      "lastModified": "2025-10-04T09:36:21.520Z",
+      "updatedAt": "2025-10-04T09:36:21.776Z"
     }
   ],
   "settings": {
@@ -2025,7 +2025,7 @@
   },
   "stats": {
     "totalScenes": 79,
-    "lastModified": "2025-10-04T09:36:14.251Z",
+    "lastModified": "2025-10-04T09:36:21.776Z",
     "forceSaveBy": "admin"
   }
 }
