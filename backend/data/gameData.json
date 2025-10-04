@@ -372,107 +372,13 @@
     },
     {
       "id": 15,
-      "title": "Cornetto e cappuccino",
+      "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [
-        {
-          "id": 1759568826009,
-          "text": "Avanti",
-          "nextSceneId": 16
-        }
-      ],
+      "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:06:18.696Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:07:08.655Z",
-      "updatedAt": "2025-10-04T09:07:08.657Z"
-    },
-    {
-      "id": 16,
-      "title": "Il cappuccino lo fai tu, ma la schiuma sembra sputo di lontra",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568845581,
-          "text": "Avanti",
-          "nextSceneId": 17
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:07:08.355Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:07:28.025Z",
-      "updatedAt": "2025-10-04T09:07:28.026Z"
-    },
-    {
-      "id": 17,
-      "title": "La cucina ora puzza di bruciato",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568860942,
-          "text": "Avanti",
-          "nextSceneId": 18
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:07:27.724Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:07:44.491Z",
-      "updatedAt": "2025-10-04T09:07:44.492Z"
-    },
-    {
-      "id": 18,
-      "title": "Pensi “ con una macchinetta decente sarebbe stato perfetto! E pensi a come migliorare quella che hai con la stampante”",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759568882853,
-          "text": "Avanti",
-          "nextSceneId": null
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:07:44.188Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:08:04.002Z",
-      "updatedAt": "2025-10-04T09:08:04.003Z"
+      "createdAt": "2025-10-04T09:06:18.696Z"
     }
   ],
   "settings": {
@@ -482,8 +388,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 18,
-    "lastModified": "2025-10-04T09:08:04.004Z",
+    "totalScenes": 15,
+    "lastModified": "2025-10-04T09:06:38.768Z",
     "forceSaveBy": "admin"
   }
 }
