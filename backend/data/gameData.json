@@ -102,7 +102,7 @@
       "choices": [
         {
           "id": 1759571759312,
-          "text": "Avanti",
+          "text": "Vinta",
           "nextSceneId": null
         }
       ],
@@ -116,8 +116,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:56:12.637Z",
-      "updatedAt": "2025-10-04T09:56:12.883Z"
+      "lastModified": "2025-10-04T09:56:19.679Z",
+      "updatedAt": "2025-10-04T09:56:19.947Z"
     }
   ],
   "settings": {
@@ -128,6 +128,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-04T09:56:12.883Z"
+    "lastModified": "2025-10-04T09:56:19.948Z"
   }
 }
