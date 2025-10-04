@@ -2114,7 +2114,7 @@
       "id": 83,
       "title": "Afferri dei piatti commestibili e li usi come frisbee per annientarli",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587010481-IMG-20251004-WA0018.jpg",
       "video": "",
       "choices": [
         {
@@ -2133,7 +2133,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:10:02.164Z"
+      "lastModified": "2025-10-04T14:10:11.346Z",
+      "updatedAt": "2025-10-04T14:10:11.731Z"
     },
     {
       "id": 84,
@@ -3113,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:10:02.167Z",
+    "lastModified": "2025-10-04T14:10:11.731Z",
     "forceSaveBy": "admin"
   }
 }
