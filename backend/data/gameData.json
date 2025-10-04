@@ -347,7 +347,7 @@
         {
           "id": 1759570755598,
           "text": "Dormi",
-          "nextSceneId": null
+          "nextSceneId": 92
         },
         {
           "id": 1759570757875,
@@ -365,8 +365,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:42:28.045Z",
-      "updatedAt": "2025-10-04T09:42:28.325Z"
+      "lastModified": "2025-10-04T09:42:34.465Z",
+      "updatedAt": "2025-10-04T09:42:34.468Z"
     },
     {
       "id": 86,
@@ -393,6 +393,16 @@
       },
       "lastModified": "2025-10-04T09:39:49.745Z",
       "updatedAt": "2025-10-04T09:39:49.747Z"
+    },
+    {
+      "id": 92,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:42:34.161Z"
     }
   ],
   "settings": {
@@ -402,8 +412,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 15,
-    "lastModified": "2025-10-04T09:42:28.325Z",
+    "totalScenes": 16,
+    "lastModified": "2025-10-04T09:42:34.468Z",
     "forceSaveBy": "admin"
   }
 }
