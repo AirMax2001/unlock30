@@ -203,32 +203,6 @@
       "updatedAt": "2025-10-04T08:53:14.240Z"
     },
     {
-      "id": 8,
-      "title": "Ti fai la doccia e ti senti rinfresco",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521008001,
-          "text": "Avanti",
-          "nextSceneId": 20
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
       "id": 9,
       "title": "You died",
       "description": "",
@@ -3160,7 +3134,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 118,
-    "lastModified": "2025-10-04T08:53:14.240Z"
+    "totalScenes": 117,
+    "lastModified": "2025-10-04T08:54:00.344Z"
   }
 }
