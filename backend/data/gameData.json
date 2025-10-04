@@ -600,7 +600,7 @@
       "id": 24,
       "title": "Prendi la macchina, parcheggi, alzi lo sguardo e la fila arriva alle poste",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585481986-Immagine WhatsApp 2025-10-02 ore 17.43.45_c82e1ae8.jpg",
+      "image": "/uploads/1759588527175-Immagine WhatsApp 2025-10-04 ore 16.34.18_0f0fa49e.jpg",
       "video": "",
       "choices": [
         {
@@ -619,8 +619,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:35:07.287Z",
-      "updatedAt": "2025-10-04T14:35:08.060Z"
+      "lastModified": "2025-10-04T14:35:27.875Z",
+      "updatedAt": "2025-10-04T14:35:28.121Z"
     },
     {
       "id": 25,
@@ -3116,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:35:08.060Z",
+    "lastModified": "2025-10-04T14:35:28.121Z",
     "forceSaveBy": "admin"
   }
 }
