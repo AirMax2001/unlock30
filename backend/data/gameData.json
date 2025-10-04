@@ -2649,7 +2649,7 @@
       "id": 104,
       "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587809374-IMG-20251004-WA0040.jpg",
       "video": "",
       "choices": [
         {
@@ -2668,8 +2668,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:23:21.140Z",
-      "updatedAt": "2025-10-04T14:23:21.378Z"
+      "lastModified": "2025-10-04T14:23:30.485Z",
+      "updatedAt": "2025-10-04T14:23:30.689Z"
     },
     {
       "id": 105,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:23:21.378Z",
+    "lastModified": "2025-10-04T14:23:30.689Z",
     "forceSaveBy": "admin"
   }
 }
