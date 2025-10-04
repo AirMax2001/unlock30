@@ -448,7 +448,7 @@
     },
     {
       "id": 94,
-      "title": "Nuova Scena",
+      "title": "Niente riesce a svegliarti",
       "description": "",
       "image": "",
       "video": "",
@@ -463,8 +463,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:43:21.124Z",
-      "updatedAt": "2025-10-04T09:43:21.126Z"
+      "lastModified": "2025-10-04T09:43:26.639Z",
+      "updatedAt": "2025-10-04T09:43:26.910Z"
     }
   ],
   "settings": {
@@ -475,7 +475,7 @@
   },
   "stats": {
     "totalScenes": 18,
-    "lastModified": "2025-10-04T09:43:21.126Z",
+    "lastModified": "2025-10-04T09:43:26.910Z",
     "forceSaveBy": "admin"
   }
 }
