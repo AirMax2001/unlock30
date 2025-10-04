@@ -2905,7 +2905,7 @@
         {
           "id": 1759571588810,
           "text": "VINTA",
-          "nextSceneId": null
+          "nextSceneId": 121
         },
         {
           "id": 1759571591648,
@@ -2923,8 +2923,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T10:03:52.436Z",
-      "updatedAt": "2025-10-04T10:03:52.690Z"
+      "lastModified": "2025-10-04T10:03:56.421Z",
+      "updatedAt": "2025-10-04T10:03:56.704Z"
     },
     {
       "id": 115,
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T10:03:52.690Z",
+    "lastModified": "2025-10-04T10:03:56.704Z",
     "forceSaveBy": "admin"
   }
 }
