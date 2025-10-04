@@ -45,7 +45,7 @@
       "choices": [
         {
           "id": 1759568396088,
-          "text": "",
+          "text": "Dopo un’ora suona una sveglia che nessuno interrompe",
           "nextSceneId": null
         }
       ],
@@ -59,8 +59,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:59:56.388Z",
-      "updatedAt": "2025-10-04T08:59:56.658Z"
+      "lastModified": "2025-10-04T08:59:58.180Z",
+      "updatedAt": "2025-10-04T08:59:58.181Z"
     }
   ],
   "settings": {
@@ -71,6 +71,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T08:59:56.659Z"
+    "lastModified": "2025-10-04T08:59:58.181Z"
   }
 }
