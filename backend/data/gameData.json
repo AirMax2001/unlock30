@@ -2499,7 +2499,7 @@
       "id": 98,
       "title": "Ti invitano a disputare il mondiale degli EA sports",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587661121-IMG-20251004-WA0032.jpg",
       "video": "",
       "choices": [
         {
@@ -2518,8 +2518,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:20:50.959Z",
-      "updatedAt": "2025-10-04T14:20:51.395Z"
+      "lastModified": "2025-10-04T14:21:01.882Z",
+      "updatedAt": "2025-10-04T14:21:02.126Z"
     },
     {
       "id": 99,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:20:51.395Z",
+    "lastModified": "2025-10-04T14:21:02.126Z",
     "forceSaveBy": "admin"
   }
 }
