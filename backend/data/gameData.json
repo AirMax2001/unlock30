@@ -84,7 +84,7 @@
     },
     {
       "id": 13,
-      "title": "Nuova Scena",
+      "title": "Pensi alle tue qualità da ballerino ma tenti comunque la sorte",
       "description": "",
       "image": "",
       "video": "",
@@ -99,8 +99,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:05:49.516Z",
-      "updatedAt": "2025-10-04T09:05:49.517Z"
+      "lastModified": "2025-10-04T09:05:51.070Z",
+      "updatedAt": "2025-10-04T09:05:51.071Z"
     }
   ],
   "settings": {
@@ -111,6 +111,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-04T09:05:49.517Z"
+    "lastModified": "2025-10-04T09:05:51.071Z"
   }
 }
