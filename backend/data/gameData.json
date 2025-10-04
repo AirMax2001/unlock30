@@ -95,7 +95,7 @@
     },
     {
       "id": 120,
-      "title": "Nuova Scena",
+      "title": "Mio padre fa il cantante, mia madre è balbuziente. Il mio vestito è bianco e il mio cuore d’oro. Chi sono?",
       "description": "",
       "image": "",
       "video": "",
@@ -110,8 +110,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:55:47.935Z",
-      "updatedAt": "2025-10-04T09:55:48.189Z"
+      "lastModified": "2025-10-04T09:55:55.250Z",
+      "updatedAt": "2025-10-04T09:55:55.545Z"
     }
   ],
   "settings": {
@@ -122,6 +122,6 @@
   },
   "stats": {
     "totalScenes": 4,
-    "lastModified": "2025-10-04T09:55:48.189Z"
+    "lastModified": "2025-10-04T09:55:55.545Z"
   }
 }
