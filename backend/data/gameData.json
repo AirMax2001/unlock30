@@ -1,20 +1,30 @@
 {
   "scenes": [
     {
-      "id": 115,
-      "title": "Dimostra la tua forza",
+      "id": 112,
+      "title": "Il regalo",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759571661835,
-          "text": "Avanti",
-          "nextSceneId": 116
+          "id": 1759571522904,
+          "text": "Affronta la sfida del canestro",
+          "nextSceneId": 113
+        },
+        {
+          "id": 1759571524796,
+          "text": "Dimostra la tua forza",
+          "nextSceneId": null
+        },
+        {
+          "id": 1759571526230,
+          "text": "Risolvi un indovinello",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:53:53.388Z",
+      "createdAt": "2025-10-04T09:51:43.678Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -23,24 +33,24 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:54:24.191Z",
-      "updatedAt": "2025-10-04T09:54:24.194Z"
+      "lastModified": "2025-10-04T09:52:28.335Z",
+      "updatedAt": "2025-10-04T09:52:28.339Z"
     },
     {
-      "id": 116,
+      "id": 113,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759571672426,
+          "id": 1759571565095,
           "text": "Avanti",
-          "nextSceneId": 117
+          "nextSceneId": 114
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:54:23.889Z",
+      "createdAt": "2025-10-04T09:52:28.030Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -49,29 +59,29 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:54:35.128Z",
-      "updatedAt": "2025-10-04T09:54:35.134Z"
+      "lastModified": "2025-10-04T09:52:48.551Z",
+      "updatedAt": "2025-10-04T09:52:48.554Z"
     },
     {
-      "id": 117,
-      "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario. Se non riesci affronta un’altra sfida. ",
+      "id": 114,
+      "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759571692471,
-          "text": "VINTO",
+          "id": 1759571588810,
+          "text": "VINTA",
           "nextSceneId": null
         },
         {
-          "id": 1759571693998,
-          "text": "PERSO",
-          "nextSceneId": 118
+          "id": 1759571591648,
+          "text": "PERSA",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:54:34.827Z",
+      "createdAt": "2025-10-04T09:52:48.249Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
@@ -80,28 +90,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:55:06.615Z",
-      "updatedAt": "2025-10-04T09:55:06.619Z"
-    },
-    {
-      "id": 118,
-      "title": "Risolvi un indovinello",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:55:06.312Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:55:17.585Z",
-      "updatedAt": "2025-10-04T09:55:17.879Z"
+      "lastModified": "2025-10-04T09:53:17.519Z",
+      "updatedAt": "2025-10-04T09:53:17.761Z"
     }
   ],
   "settings": {
@@ -111,7 +101,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 4,
-    "lastModified": "2025-10-04T09:55:17.879Z"
+    "totalScenes": 3,
+    "lastModified": "2025-10-04T09:53:17.761Z"
   }
 }
