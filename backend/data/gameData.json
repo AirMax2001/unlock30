@@ -2265,7 +2265,7 @@
       "id": 89,
       "title": "Pensi che sia un ottimo modo per allenarsi e accetti",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587203431-IMG-20251004-WA0027.jpg",
       "video": "",
       "choices": [
         {
@@ -2284,8 +2284,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:12:51.578Z",
-      "updatedAt": "2025-10-04T14:12:52.493Z"
+      "lastModified": "2025-10-04T14:13:24.740Z",
+      "updatedAt": "2025-10-04T14:13:24.972Z"
     },
     {
       "id": 90,
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:12:52.493Z",
+    "lastModified": "2025-10-04T14:13:24.972Z",
     "forceSaveBy": "admin"
   }
 }
