@@ -100,7 +100,7 @@
     },
     {
       "id": 46,
-      "title": ". Metti la canotta a costine e una collana con una croce e senti già una canzone hip-hop che ti accompagna ad accendere il tuo bolide",
+      "title": "Metti la canotta a costine e una collana con una croce e senti già una canzone hip-hop che ti accompagna ad accendere il tuo bolide",
       "description": "",
       "image": "",
       "video": "",
@@ -115,8 +115,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:22:26.381Z",
-      "updatedAt": "2025-10-04T09:22:26.651Z"
+      "lastModified": "2025-10-04T09:22:28.590Z",
+      "updatedAt": "2025-10-04T09:22:28.591Z"
     }
   ],
   "settings": {
@@ -127,6 +127,6 @@
   },
   "stats": {
     "totalScenes": 6,
-    "lastModified": "2025-10-04T09:22:26.651Z"
+    "lastModified": "2025-10-04T09:22:28.591Z"
   }
 }
