@@ -567,7 +567,7 @@
       "id": 22,
       "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759603931470-IMG-20251002-WA0015.jpg",
+      "image": "/uploads/1759603931470-IMG-20251002-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -586,7 +586,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:52:14.612Z"
+      "lastModified": "2025-10-04T19:25:55.656Z",
+      "updatedAt": "2025-10-04T19:25:55.659Z"
     },
     {
       "id": 23,
@@ -3131,7 +3132,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:25:54.697Z",
+    "lastModified": "2025-10-04T19:25:55.659Z",
     "forceSaveBy": "admin"
   }
 }
