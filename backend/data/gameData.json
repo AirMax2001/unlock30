@@ -38,13 +38,13 @@
     },
     {
       "id": 2,
-      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio.\"",
+      "title": "Tua mamma grida dal piano di sotto",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000002,
+          "id": 1759521002001,
           "text": "Avanti",
           "nextSceneId": 3
         }
@@ -64,13 +64,13 @@
     },
     {
       "id": 3,
-      "title": "Dopo un'ora suona una sveglia che nessuno interrompe.",
+      "title": "Ti arrabbi con lei",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000003,
+          "id": 1759521003001,
           "text": "Avanti",
           "nextSceneId": 4
         }
@@ -90,13 +90,13 @@
     },
     {
       "id": 4,
-      "title": "Ti alzi incazzato.",
+      "title": "Discutete",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000004,
+          "id": 1759521004001,
           "text": "Avanti",
           "nextSceneId": 5
         }
@@ -122,14 +122,14 @@
       "video": "",
       "choices": [
         {
-          "id": 1759521000005,
-          "text": "Avanti",
+          "id": 1759521005001,
+          "text": "Riprova",
           "nextSceneId": 1
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
       "titleColor": "#ff0000",
       "backgroundTheme": "",
       "effects": {
@@ -142,20 +142,30 @@
     },
     {
       "id": 6,
-      "title": "Guardi lo specchio e pensi: \"da oggi inizierò a perdere i capelli o da domani?\"",
-      "description": "",
+      "title": "Scena 2: In bagno",
+      "description": "Ti alzi e vai in bagno. Cosa fai?",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000006,
-          "text": "Avanti",
-          "nextSceneId": 7
+          "id": 1759521006001,
+          "text": "Vai in cucina per la colazione",
+          "nextSceneId": 20
+        },
+        {
+          "id": 1759521006002,
+          "text": "Ti fai la doccia",
+          "nextSceneId": 8
+        },
+        {
+          "id": 1759521006003,
+          "text": "Ti guardi allo specchio e ti fai i selfie",
+          "nextSceneId": 9
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -168,15 +178,15 @@
     },
     {
       "id": 7,
-      "title": "Non è un problema tanto i tucani non hanno i capelli.",
+      "title": "Vai in cucina e fai colazione con tua mamma",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000007,
+          "id": 1759521007001,
           "text": "Avanti",
-          "nextSceneId": 8
+          "nextSceneId": 20
         }
       ],
       "isFinal": false,
@@ -194,15 +204,15 @@
     },
     {
       "id": 8,
-      "title": "La colazione",
+      "title": "Ti fai la doccia e ti senti rinfresco",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000008,
+          "id": 1759521008001,
           "text": "Avanti",
-          "nextSceneId": 14
+          "nextSceneId": 20
         }
       ],
       "isFinal": false,
@@ -219,21 +229,57 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 10,
-      "title": "Apri il telefono e vedi 69 notifiche di auguri",
+      "id": 9,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000010,
-          "text": "Avanti",
-          "nextSceneId": 11
+          "id": 1759521009001,
+          "text": "Riprova",
+          "nextSceneId": 6
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "title": "Scena 3: Telefono",
+      "description": "Prendi il telefono. Cosa fai?",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521010001,
+          "text": "Vai su TikTok",
+          "nextSceneId": 11
+        },
+        {
+          "id": 1759521010002,
+          "text": "Controlli WhatsApp",
+          "nextSceneId": 14
+        },
+        {
+          "id": 1759521010003,
+          "text": "Apri Instagram",
+          "nextSceneId": 17
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -246,13 +292,13 @@
     },
     {
       "id": 11,
-      "title": "Le ignori tutte perché sei asociale",
+      "title": "Apri TikTok e vedi un video divertente",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000011,
+          "id": 1759521011001,
           "text": "Avanti",
           "nextSceneId": 12
         }
@@ -272,13 +318,13 @@
     },
     {
       "id": 12,
-      "title": "Continui a scrollare fino alle 12",
+      "title": "Continui a scrollare per un'ora",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000012,
+          "id": 1759521012001,
           "text": "Avanti",
           "nextSceneId": 13
         }
@@ -304,14 +350,14 @@
       "video": "",
       "choices": [
         {
-          "id": 1759521000013,
-          "text": "Avanti",
-          "nextSceneId": 1
+          "id": 1759521013001,
+          "text": "Riprova",
+          "nextSceneId": 10
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
       "titleColor": "#ff0000",
       "backgroundTheme": "",
       "effects": {
@@ -324,30 +370,20 @@
     },
     {
       "id": 14,
-      "title": "Scena 2: La colazione",
-      "description": "Vai al bar per fare colazione. Il barista ti chiede cosa vuoi bere.",
+      "title": "Controlli WhatsApp e vedi i messaggi degli amici",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521014001,
-          "text": "Cappuccino",
+          "text": "Avanti",
           "nextSceneId": 15
-        },
-        {
-          "id": 1759521014002,
-          "text": "Caffè normale",
-          "nextSceneId": 19
-        },
-        {
-          "id": 1759521014003,
-          "text": "Succo d'arancia",
-          "nextSceneId": 23
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -360,13 +396,13 @@
     },
     {
       "id": 15,
-      "title": "Il barista ti prepara un cappuccino perfetto con la schiuma",
+      "title": "Rispondi a tutti i messaggi",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000015,
+          "id": 1759521015001,
           "text": "Avanti",
           "nextSceneId": 16
         }
@@ -386,15 +422,15 @@
     },
     {
       "id": 16,
-      "title": "Lo bevi mentre guardi fuori dalla finestra",
+      "title": "Ti senti connesso con gli amici",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000016,
+          "id": 1759521016001,
           "text": "Avanti",
-          "nextSceneId": 17
+          "nextSceneId": 20
         }
       ],
       "isFinal": false,
@@ -412,13 +448,13 @@
     },
     {
       "id": 17,
-      "title": "Vedi delle macchine che corrono in strada",
+      "title": "Apri Instagram e vedi le storie",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000017,
+          "id": 1759521017001,
           "text": "Avanti",
           "nextSceneId": 18
         }
@@ -438,39 +474,13 @@
     },
     {
       "id": 18,
-      "title": "Decidi di uscire per vedere meglio",
+      "title": "Fai una storia per il tuo compleanno",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000018,
-          "text": "Avanti",
-          "nextSceneId": 27
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
-      "id": 19,
-      "title": "Il barista ti serve un caffè nero bollente",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521000019,
+          "id": 1759521018001,
           "text": "Avanti",
           "nextSceneId": 20
         }
@@ -489,21 +499,57 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 20,
-      "title": "È così amaro che fai una smorfia disgustata",
+      "id": 19,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000020,
-          "text": "Avanti",
-          "nextSceneId": 21
+          "id": 1759521019001,
+          "text": "Riprova",
+          "nextSceneId": 10
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "title": "Scena 4: A scuola",
+      "description": "Arrivi a scuola. È il tuo compleanno! Cosa fai?",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521020001,
+          "text": "Vai dai tuoi amici e gli dici che è il tuo compleanno",
+          "nextSceneId": 21
+        },
+        {
+          "id": 1759521020002,
+          "text": "Non dici niente a nessuno",
+          "nextSceneId": 25
+        },
+        {
+          "id": 1759521020003,
+          "text": "Organizzi una piccola festa in classe",
+          "nextSceneId": 29
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -516,13 +562,13 @@
     },
     {
       "id": 21,
-      "title": "Il barista si offende e ti caccia dal locale",
+      "title": "I tuoi amici sono felici per te",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000021,
+          "id": 1759521021001,
           "text": "Avanti",
           "nextSceneId": 22
         }
@@ -542,25 +588,25 @@
     },
     {
       "id": 22,
-      "title": "You died",
+      "title": "Ti cantano tanti auguri",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000022,
+          "id": 1759521022001,
           "text": "Avanti",
-          "nextSceneId": 14
+          "nextSceneId": 23
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -568,13 +614,13 @@
     },
     {
       "id": 23,
-      "title": "Ordini un succo d'arancia fresco",
+      "title": "Ti senti amato e apprezzato",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000023,
+          "id": 1759521023001,
           "text": "Avanti",
           "nextSceneId": 24
         }
@@ -594,15 +640,15 @@
     },
     {
       "id": 24,
-      "title": "Il barista ti porta un succo fatto una settimana fa",
+      "title": "La giornata a scuola passa velocemente",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000024,
+          "id": 1759521024001,
           "text": "Avanti",
-          "nextSceneId": 25
+          "nextSceneId": 33
         }
       ],
       "isFinal": false,
@@ -620,13 +666,13 @@
     },
     {
       "id": 25,
-      "title": "Ha un sapore orribile e ti senti male",
+      "title": "Nessuno sa che è il tuo compleanno",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000025,
+          "id": 1759521025001,
           "text": "Avanti",
           "nextSceneId": 26
         }
@@ -646,25 +692,25 @@
     },
     {
       "id": 26,
-      "title": "You died",
+      "title": "Ti senti un po' triste",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000026,
+          "id": 1759521026001,
           "text": "Avanti",
-          "nextSceneId": 14
+          "nextSceneId": 27
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -672,30 +718,20 @@
     },
     {
       "id": 27,
-      "title": "Scena 3: La gara clandestina",
-      "description": "Fuori dal bar c'è una gara di macchine illegale. Un pilota ti chiede se vuoi partecipare.",
+      "title": "La giornata sembra più lunga",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521027001,
-          "text": "Sì, partecipo alla gara!",
-          "nextSceneId": 28
-        },
-        {
-          "id": 1759521027002,
-          "text": "No, è troppo pericoloso",
-          "nextSceneId": 32
-        },
-        {
-          "id": 1759521027003,
-          "text": "Chiamo la polizia",
-          "nextSceneId": 36
+          "text": "Avanti",
+          "nextSceneId": 33
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -708,25 +744,25 @@
     },
     {
       "id": 28,
-      "title": "Sali su una macchina sportiva rossa",
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000028,
-          "text": "Avanti",
-          "nextSceneId": 29
+          "id": 1759521028001,
+          "text": "Riprova",
+          "nextSceneId": 20
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": false,
+        "glow": true,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -734,13 +770,13 @@
     },
     {
       "id": 29,
-      "title": "La gara inizia e parti a tutta velocità",
+      "title": "Organizzi una piccola festa in classe",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000029,
+          "id": 1759521029001,
           "text": "Avanti",
           "nextSceneId": 30
         }
@@ -760,13 +796,13 @@
     },
     {
       "id": 30,
-      "title": "Dopo una gara mozzafiato arrivi secondo",
+      "title": "Tutti sono felici di partecipare",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000030,
+          "id": 1759521030001,
           "text": "Avanti",
           "nextSceneId": 31
         }
@@ -786,15 +822,15 @@
     },
     {
       "id": 31,
-      "title": "Il vincitore ti regala una corona d'oro per il compleanno!",
+      "title": "È una giornata memorabile",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000031,
+          "id": 1759521031001,
           "text": "Avanti",
-          "nextSceneId": 40
+          "nextSceneId": 32
         }
       ],
       "isFinal": false,
@@ -812,13 +848,13 @@
     },
     {
       "id": 32,
-      "title": "Rifiuti di partecipare perché hai paura",
+      "title": "Ti senti il protagonista",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000032,
+          "id": 1759521032001,
           "text": "Avanti",
           "nextSceneId": 33
         }
@@ -838,20 +874,30 @@
     },
     {
       "id": 33,
-      "title": "I piloti ti prendono in giro chiamandoti codardo",
-      "description": "",
+      "title": "Scena 5: Dopo scuola",
+      "description": "La scuola è finita. Cosa fai?",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000033,
-          "text": "Avanti",
+          "id": 1759521033001,
+          "text": "Torni a casa subito",
           "nextSceneId": 34
+        },
+        {
+          "id": 1759521033002,
+          "text": "Vai al parco con gli amici",
+          "nextSceneId": 38
+        },
+        {
+          "id": 1759521033003,
+          "text": "Vai al centro commerciale",
+          "nextSceneId": 42
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -864,13 +910,13 @@
     },
     {
       "id": 34,
-      "title": "Ti senti umiliato davanti a tutti",
+      "title": "Torni a casa e trovi una sorpresa",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000034,
+          "id": 1759521034001,
           "text": "Avanti",
           "nextSceneId": 35
         }
@@ -890,25 +936,25 @@
     },
     {
       "id": 35,
-      "title": "You died",
+      "title": "I tuoi genitori hanno preparato una torta",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000035,
+          "id": 1759521035001,
           "text": "Avanti",
-          "nextSceneId": 27
+          "nextSceneId": 36
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -916,13 +962,13 @@
     },
     {
       "id": 36,
-      "title": "Decidi di chiamare la polizia per fermare la gara",
+      "title": "Festeggi in famiglia",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000036,
+          "id": 1759521036001,
           "text": "Avanti",
           "nextSceneId": 37
         }
@@ -942,15 +988,15 @@
     },
     {
       "id": 37,
-      "title": "I piloti ti sentono e si arrabbiano molto",
+      "title": "È un momento dolce e intimo",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000037,
+          "id": 1759521037001,
           "text": "Avanti",
-          "nextSceneId": 38
+          "nextSceneId": 46
         }
       ],
       "isFinal": false,
@@ -968,13 +1014,13 @@
     },
     {
       "id": 38,
-      "title": "Ti inseguono per picchiarti",
+      "title": "Vai al parco con i tuoi amici",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000038,
+          "id": 1759521038001,
           "text": "Avanti",
           "nextSceneId": 39
         }
@@ -994,25 +1040,25 @@
     },
     {
       "id": 39,
-      "title": "You died",
+      "title": "Giocate insieme e vi divertite",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000039,
+          "id": 1759521039001,
           "text": "Avanti",
-          "nextSceneId": 27
+          "nextSceneId": 40
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -1020,30 +1066,20 @@
     },
     {
       "id": 40,
-      "title": "Scena 4: Inseguimento polizia",
-      "description": "Arriva la polizia e inizia un inseguimento! Come scappi?",
+      "title": "È un pomeriggio spensierato",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521040001,
-          "text": "Scappi a piedi tra i vicoli",
+          "text": "Avanti",
           "nextSceneId": 41
-        },
-        {
-          "id": 1759521040002,
-          "text": "Usi i tuoi poteri anime per volare",
-          "nextSceneId": 45
-        },
-        {
-          "id": 1759521040003,
-          "text": "Ti nascondi in un cassonetto",
-          "nextSceneId": 49
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -1056,15 +1092,15 @@
     },
     {
       "id": 41,
-      "title": "Corri attraverso i vicoli stretti del centro",
+      "title": "I tuoi amici ti fanno un regalo",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000041,
+          "id": 1759521041001,
           "text": "Avanti",
-          "nextSceneId": 42
+          "nextSceneId": 46
         }
       ],
       "isFinal": false,
@@ -1082,13 +1118,13 @@
     },
     {
       "id": 42,
-      "title": "Salti sopra le macchine parcheggiate",
+      "title": "Vai al centro commerciale",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000042,
+          "id": 1759521042001,
           "text": "Avanti",
           "nextSceneId": 43
         }
@@ -1108,13 +1144,13 @@
     },
     {
       "id": 43,
-      "title": "Riesci a seminare la polizia",
+      "title": "Giri per i negozi",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000043,
+          "id": 1759521043001,
           "text": "Avanti",
           "nextSceneId": 44
         }
@@ -1134,39 +1170,13 @@
     },
     {
       "id": 44,
-      "title": "Ti ritrovi davanti a un grande palazzo: l'IKEA",
+      "title": "Ti compri qualcosa di bello",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000044,
-          "text": "Avanti",
-          "nextSceneId": 53
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
-      "id": 45,
-      "title": "Attivi i tuoi poteri anime segreti",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521000045,
+          "id": 1759521044001,
           "text": "Avanti",
           "nextSceneId": 46
         }
@@ -1185,21 +1195,57 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 46,
-      "title": "Cominci a volare sopra la città come un supereroe",
+      "id": 45,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000046,
-          "text": "Avanti",
-          "nextSceneId": 47
+          "id": 1759521045001,
+          "text": "Riprova",
+          "nextSceneId": 33
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 46,
+      "title": "Scena 6: Sera",
+      "description": "È sera e stai preparando la festa di compleanno. Cosa fai?",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521046001,
+          "text": "Inviti pochi amici intimi",
+          "nextSceneId": 47
+        },
+        {
+          "id": 1759521046002,
+          "text": "Organizzi una grande festa",
+          "nextSceneId": 51
+        },
+        {
+          "id": 1759521046003,
+          "text": "Decidi di passare la serata da solo",
+          "nextSceneId": 55
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -1212,13 +1258,13 @@
     },
     {
       "id": 47,
-      "title": "La polizia resta senza parole guardandoti volare",
+      "title": "Inviti i tuoi amici più cari",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000047,
+          "id": 1759521047001,
           "text": "Avanti",
           "nextSceneId": 48
         }
@@ -1238,15 +1284,15 @@
     },
     {
       "id": 48,
-      "title": "Atterri dall'altra parte della città, al sicuro",
+      "title": "Passate una serata tranquilla e divertente",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000048,
+          "id": 1759521048001,
           "text": "Avanti",
-          "nextSceneId": 53
+          "nextSceneId": 49
         }
       ],
       "isFinal": false,
@@ -1264,13 +1310,13 @@
     },
     {
       "id": 49,
-      "title": "Ti tuffi in un cassonetto per nasconderti",
+      "title": "Parlate e ridete insieme",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000049,
+          "id": 1759521049001,
           "text": "Avanti",
           "nextSceneId": 50
         }
@@ -1290,15 +1336,15 @@
     },
     {
       "id": 50,
-      "title": "Un poliziotto ti trova subito perché puzzi",
+      "title": "È una festa perfetta per te",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000050,
+          "id": 1759521050001,
           "text": "Avanti",
-          "nextSceneId": 51
+          "nextSceneId": 59
         }
       ],
       "isFinal": false,
@@ -1316,13 +1362,13 @@
     },
     {
       "id": 51,
-      "title": "Ti arrestano e ti portano in questura",
+      "title": "Organizzi una grande festa",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000051,
+          "id": 1759521051001,
           "text": "Avanti",
           "nextSceneId": 52
         }
@@ -1342,25 +1388,25 @@
     },
     {
       "id": 52,
-      "title": "You died",
+      "title": "Arrivano tantissime persone",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000052,
+          "id": 1759521052001,
           "text": "Avanti",
-          "nextSceneId": 40
+          "nextSceneId": 53
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -1368,30 +1414,20 @@
     },
     {
       "id": 53,
-      "title": "Scena 5: Boss battle IKEA",
-      "description": "Entri nell'IKEA e trovi Mattarella che ti aspetta per un duello epico tra i mobili!",
+      "title": "La festa è un successo",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521053001,
-          "text": "Attacchi con una poltrona POÄNG",
-          "nextSceneId": 54
-        },
-        {
-          "id": 1759521053002,
-          "text": "Lanci delle polpette del ristorante",
-          "nextSceneId": 58
-        },
-        {
-          "id": 1759521053003,
-          "text": "Cerchi di convincerlo diplomaticamente",
-          "nextSceneId": 62
+          "text": "Avanti",
+          "nextSceneId": 59
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -1404,25 +1440,25 @@
     },
     {
       "id": 54,
-      "title": "Afferri una poltrona POÄNG e la lanci contro Mattarella",
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000054,
-          "text": "Avanti",
-          "nextSceneId": 55
+          "id": 1759521054001,
+          "text": "Riprova",
+          "nextSceneId": 46
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": false,
+        "glow": true,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -1430,13 +1466,13 @@
     },
     {
       "id": 55,
-      "title": "Mattarella schiva agilmente e contrattacca con una libreria BILLY",
+      "title": "Decidi di passare la serata da solo",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000055,
+          "id": 1759521055001,
           "text": "Avanti",
           "nextSceneId": 56
         }
@@ -1456,13 +1492,13 @@
     },
     {
       "id": 56,
-      "title": "Riesci a schivare la libreria per un pelo",
+      "title": "Ti rilassi e rifletti sull'anno passato",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000056,
+          "id": 1759521056001,
           "text": "Avanti",
           "nextSceneId": 57
         }
@@ -1482,39 +1518,13 @@
     },
     {
       "id": 57,
-      "title": "Mattarella ammette la sconfitta e se ne va",
+      "title": "È un momento di pace interiore",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000057,
-          "text": "Avanti",
-          "nextSceneId": 66
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
-      "id": 58,
-      "title": "Prendi le polpette dal ristorante IKEA",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521000058,
+          "id": 1759521057001,
           "text": "Avanti",
           "nextSceneId": 59
         }
@@ -1533,21 +1543,57 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 59,
-      "title": "Le lanci come granate contro Mattarella",
+      "id": 58,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000059,
-          "text": "Avanti",
-          "nextSceneId": 60
+          "id": 1759521058001,
+          "text": "Riprova",
+          "nextSceneId": 46
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 59,
+      "title": "Scena 7: Mezzanotte",
+      "description": "È mezzanotte e il tuo compleanno sta finendo. Cosa fai?",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521059001,
+          "text": "Esprimi un desiderio",
+          "nextSceneId": 60
+        },
+        {
+          "id": 1759521059002,
+          "text": "Vai a dormire soddisfatto",
+          "nextSceneId": 64
+        },
+        {
+          "id": 1759521059003,
+          "text": "Continui a festeggiare",
+          "nextSceneId": 68
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -1560,13 +1606,13 @@
     },
     {
       "id": 60,
-      "title": "Mattarella scivola sulla salsa e cade",
+      "title": "Chiudi gli occhi ed esprimi un desiderio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000060,
+          "id": 1759521060001,
           "text": "Avanti",
           "nextSceneId": 61
         }
@@ -1586,25 +1632,25 @@
     },
     {
       "id": 61,
-      "title": "You died",
+      "title": "Speri che si avveri nel prossimo anno",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000061,
+          "id": 1759521061001,
           "text": "Avanti",
-          "nextSceneId": 53
+          "nextSceneId": 62
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -1612,13 +1658,13 @@
     },
     {
       "id": 62,
-      "title": "Cerchi di convincere Mattarella con le parole",
+      "title": "Senti che è stato un compleanno speciale",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000062,
+          "id": 1759521062001,
           "text": "Avanti",
           "nextSceneId": 63
         }
@@ -1638,15 +1684,15 @@
     },
     {
       "id": 63,
-      "title": "Gli spieghi che è il tuo compleanno",
+      "title": "Ti senti grato per tutto quello che hai",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000063,
+          "id": 1759521063001,
           "text": "Avanti",
-          "nextSceneId": 64
+          "nextSceneId": 72
         }
       ],
       "isFinal": false,
@@ -1664,13 +1710,13 @@
     },
     {
       "id": 64,
-      "title": "Mattarella non ci crede e ti attacca",
+      "title": "Vai a dormire soddisfatto della giornata",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000064,
+          "id": 1759521064001,
           "text": "Avanti",
           "nextSceneId": 65
         }
@@ -1690,25 +1736,25 @@
     },
     {
       "id": 65,
-      "title": "You died",
+      "title": "Ripensi a tutti i momenti belli",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000065,
+          "id": 1759521065001,
           "text": "Avanti",
-          "nextSceneId": 53
+          "nextSceneId": 66
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -1716,30 +1762,20 @@
     },
     {
       "id": 66,
-      "title": "Scena 6: Boss battle Supermercato",
-      "description": "Esci dall'IKEA e entri in un supermercato dove trovi Gerry Scotti pronto per un altro duello!",
+      "title": "Ti addormenti con il sorriso",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521066001,
-          "text": "Lanci carrelli della spesa",
+          "text": "Avanti",
           "nextSceneId": 67
-        },
-        {
-          "id": 1759521066002,
-          "text": "Usi le banane come boomerang",
-          "nextSceneId": 71
-        },
-        {
-          "id": 1759521066003,
-          "text": "Lo sfidi a un quiz televisivo",
-          "nextSceneId": 75
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -1752,15 +1788,15 @@
     },
     {
       "id": 67,
-      "title": "Afferri dei carrelli e li lanci contro Gerry",
+      "title": "Sogni il tuo prossimo compleanno",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000067,
+          "id": 1759521067001,
           "text": "Avanti",
-          "nextSceneId": 68
+          "nextSceneId": 72
         }
       ],
       "isFinal": false,
@@ -1778,13 +1814,13 @@
     },
     {
       "id": 68,
-      "title": "Gerry schiva ridendo e dice 'Sbagliato!'",
+      "title": "Continui a festeggiare oltre mezzanotte",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000068,
+          "id": 1759521068001,
           "text": "Avanti",
           "nextSceneId": 69
         }
@@ -1804,13 +1840,13 @@
     },
     {
       "id": 69,
-      "title": "Ti lancia contro delle lattine di pomodoro",
+      "title": "La festa diventa ancora più divertente",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000069,
+          "id": 1759521069001,
           "text": "Avanti",
           "nextSceneId": 70
         }
@@ -1830,39 +1866,13 @@
     },
     {
       "id": 70,
-      "title": "You died",
+      "title": "Ballate e cantate fino all'alba",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000070,
-          "text": "Avanti",
-          "nextSceneId": 66
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ff0000",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": true,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
-      "id": 71,
-      "title": "Prendi un casco di banane e le lanci come boomerang",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521000071,
+          "id": 1759521070001,
           "text": "Avanti",
           "nextSceneId": 72
         }
@@ -1881,21 +1891,57 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 72,
-      "title": "Le banane colpiscono Gerry che scivola comicamente",
+      "id": 71,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000072,
-          "text": "Avanti",
-          "nextSceneId": 73
+          "id": 1759521071001,
+          "text": "Riprova",
+          "nextSceneId": 59
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 72,
+      "title": "Scena 8: Il giorno dopo",
+      "description": "È il giorno dopo il tuo compleanno. Come ti senti?",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521072001,
+          "text": "Ti senti felice e soddisfatto",
+          "nextSceneId": 73
+        },
+        {
+          "id": 1759521072002,
+          "text": "Sei un po' nostalgico",
+          "nextSceneId": 77
+        },
+        {
+          "id": 1759521072003,
+          "text": "Pensi già al prossimo anno",
+          "nextSceneId": 81
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -1908,13 +1954,13 @@
     },
     {
       "id": 73,
-      "title": "Gerry si rialza ridendo e ti fa i complimenti",
+      "title": "Ti senti felice per come è andato tutto",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000073,
+          "id": 1759521073001,
           "text": "Avanti",
           "nextSceneId": 74
         }
@@ -1934,15 +1980,15 @@
     },
     {
       "id": 74,
-      "title": "Vinci il duello e Gerry se ne va",
+      "title": "Ripensando alla giornata sorridi",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000074,
+          "id": 1759521074001,
           "text": "Avanti",
-          "nextSceneId": 79
+          "nextSceneId": 75
         }
       ],
       "isFinal": false,
@@ -1960,13 +2006,13 @@
     },
     {
       "id": 75,
-      "title": "Lo sfidi: 'Gerry, facciamo un quiz!'",
+      "title": "È stato davvero un compleanno perfetto",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000075,
+          "id": 1759521075001,
           "text": "Avanti",
           "nextSceneId": 76
         }
@@ -1986,15 +2032,15 @@
     },
     {
       "id": 76,
-      "title": "Gerry accetta sorridendo: 'Quanto fa 2+2?'",
+      "title": "Ti senti più maturo e consapevole",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000076,
+          "id": 1759521076001,
           "text": "Avanti",
-          "nextSceneId": 77
+          "nextSceneId": 85
         }
       ],
       "isFinal": false,
@@ -2012,13 +2058,13 @@
     },
     {
       "id": 77,
-      "title": "Rispondi '4' e Gerry ammette la sconfitta",
+      "title": "Sei un po' nostalgico che sia già finito",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000077,
+          "id": 1759521077001,
           "text": "Avanti",
           "nextSceneId": 78
         }
@@ -2038,13 +2084,13 @@
     },
     {
       "id": 78,
-      "title": "Ti regala 1 milione di euro virtuali",
+      "title": "Vorresti che durasse ancora",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000078,
+          "id": 1759521078001,
           "text": "Avanti",
           "nextSceneId": 79
         }
@@ -2064,51 +2110,15 @@
     },
     {
       "id": 79,
-      "title": "Scena 7: Esports League of Legends",
-      "description": "Trovi un internet café e decidi di giocare a League of Legends. Che champion scegli?",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521079001,
-          "text": "Yasuo mid lane",
-          "nextSceneId": 80
-        },
-        {
-          "id": 1759521079002,
-          "text": "Thresh support",
-          "nextSceneId": 84
-        },
-        {
-          "id": 1759521079003,
-          "text": "Teemo jungle (per trollare)",
-          "nextSceneId": 88
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
-      "id": 80,
-      "title": "Prendi Yasuo e vai mid contro un Zed nemico",
+      "title": "Ma capisci che i momenti belli sono preziosi proprio perché finiscono",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000080,
+          "id": 1759521079001,
           "text": "Avanti",
-          "nextSceneId": 81
+          "nextSceneId": 85
         }
       ],
       "isFinal": false,
@@ -2125,14 +2135,40 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 81,
-      "title": "Fai una outplay incredibile con il Wind Wall",
+      "id": 80,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000081,
+          "id": 1759521080001,
+          "text": "Riprova",
+          "nextSceneId": 72
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 81,
+      "title": "Pensi già a cosa farai il prossimo anno",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521081001,
           "text": "Avanti",
           "nextSceneId": 82
         }
@@ -2152,13 +2188,13 @@
     },
     {
       "id": 82,
-      "title": "Il tuo team vince la partita e tu sei MVP!",
+      "title": "Immagini come sarai cresciuto",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000082,
+          "id": 1759521082001,
           "text": "Avanti",
           "nextSceneId": 83
         }
@@ -2178,15 +2214,15 @@
     },
     {
       "id": 83,
-      "title": "Vinci un torneo esports e ricevi un trofeo",
+      "title": "È eccitante pensare al futuro",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000083,
+          "id": 1759521083001,
           "text": "Avanti",
-          "nextSceneId": 92
+          "nextSceneId": 84
         }
       ],
       "isFinal": false,
@@ -2204,13 +2240,13 @@
     },
     {
       "id": 84,
-      "title": "Prendi Thresh e aiuti il tuo ADC in bot lane",
+      "title": "Ogni compleanno è un nuovo inizio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000084,
+          "id": 1759521084001,
           "text": "Avanti",
           "nextSceneId": 85
         }
@@ -2230,20 +2266,30 @@
     },
     {
       "id": 85,
-      "title": "Fai hook perfetti ma il tuo ADC è scarso",
-      "description": "",
+      "title": "Scena 9: Riflessioni",
+      "description": "Rifletti su questo compleanno. Quale è stata la parte più importante?",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000085,
-          "text": "Avanti",
+          "id": 1759521085001,
+          "text": "Il tempo trascorso con la famiglia",
           "nextSceneId": 86
+        },
+        {
+          "id": 1759521085002,
+          "text": "Il divertimento con gli amici",
+          "nextSceneId": 90
+        },
+        {
+          "id": 1759521085003,
+          "text": "I momenti di riflessione personale",
+          "nextSceneId": 94
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
+      "titleStyle": "font-weight: bold;",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -2256,13 +2302,13 @@
     },
     {
       "id": 86,
-      "title": "Perdete la partita per colpa sua",
+      "title": "La famiglia è la cosa più importante",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000086,
+          "id": 1759521086001,
           "text": "Avanti",
           "nextSceneId": 87
         }
@@ -2282,25 +2328,25 @@
     },
     {
       "id": 87,
-      "title": "You died",
+      "title": "Sono le persone che ti amano di più",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000087,
+          "id": 1759521087001,
           "text": "Avanti",
-          "nextSceneId": 79
+          "nextSceneId": 88
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -2308,13 +2354,13 @@
     },
     {
       "id": 88,
-      "title": "Decidi di trollare con Teemo jungle",
+      "title": "Ti hanno sempre sostenuto",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000088,
+          "id": 1759521088001,
           "text": "Avanti",
           "nextSceneId": 89
         }
@@ -2334,15 +2380,15 @@
     },
     {
       "id": 89,
-      "title": "Il tuo team si arrabbia e ti reporta",
+      "title": "Sei grato di averli nella tua vita",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000089,
+          "id": 1759521089001,
           "text": "Avanti",
-          "nextSceneId": 90
+          "nextSceneId": 98
         }
       ],
       "isFinal": false,
@@ -2360,13 +2406,13 @@
     },
     {
       "id": 90,
-      "title": "Vieni bannato permanentemente",
+      "title": "Gli amici rendono tutto più divertente",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000090,
+          "id": 1759521090001,
           "text": "Avanti",
           "nextSceneId": 91
         }
@@ -2386,25 +2432,25 @@
     },
     {
       "id": 91,
-      "title": "You died",
+      "title": "Con loro puoi essere te stesso",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000091,
+          "id": 1759521091001,
           "text": "Avanti",
-          "nextSceneId": 79
+          "nextSceneId": 92
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -2412,30 +2458,20 @@
     },
     {
       "id": 92,
-      "title": "Scena 8: Guerra cinema",
-      "description": "Esci dall'internet café e trovi una guerra tra il cinema Universo e il Warner Montesilvano!",
+      "title": "Condividete momenti indimenticabili",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521092001,
-          "text": "Aiuti l'Universo con popcorn esplosivi",
+          "text": "Avanti",
           "nextSceneId": 93
-        },
-        {
-          "id": 1759521092002,
-          "text": "Difendi il Warner con nachos",
-          "nextSceneId": 97
-        },
-        {
-          "id": 1759521092003,
-          "text": "Cerchi di fare pace tra i due",
-          "nextSceneId": 101
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -2448,15 +2484,15 @@
     },
     {
       "id": 93,
-      "title": "Aiuti l'Universo lanciando popcorn esplosivi",
+      "title": "L'amicizia è un tesoro prezioso",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000093,
+          "id": 1759521093001,
           "text": "Avanti",
-          "nextSceneId": 94
+          "nextSceneId": 98
         }
       ],
       "isFinal": false,
@@ -2474,13 +2510,13 @@
     },
     {
       "id": 94,
-      "title": "I popcorn esplodono creando buchi nel Warner",
+      "title": "I momenti di solitudine ti hanno fatto crescere",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000094,
+          "id": 1759521094001,
           "text": "Avanti",
           "nextSceneId": 95
         }
@@ -2500,13 +2536,13 @@
     },
     {
       "id": 95,
-      "title": "L'Universo vince la guerra!",
+      "title": "Hai imparato a conoscerti meglio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000095,
+          "id": 1759521095001,
           "text": "Avanti",
           "nextSceneId": 96
         }
@@ -2526,39 +2562,13 @@
     },
     {
       "id": 96,
-      "title": "Ti nominano generale dell'esercito cinema",
+      "title": "La riflessione è importante quanto il divertimento",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000096,
-          "text": "Avanti",
-          "nextSceneId": 105
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T20:00:00.000Z",
-      "updatedAt": "2025-10-04T20:00:00.000Z"
-    },
-    {
-      "id": 97,
-      "title": "Difendi il Warner costruendo muri di nachos",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521000097,
+          "id": 1759521096001,
           "text": "Avanti",
           "nextSceneId": 98
         }
@@ -2577,14 +2587,40 @@
       "updatedAt": "2025-10-04T20:00:00.000Z"
     },
     {
-      "id": 98,
-      "title": "I nachos non resistono agli attacchi",
+      "id": 97,
+      "title": "You died",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000098,
+          "id": 1759521097001,
+          "text": "Riprova",
+          "nextSceneId": 85
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T20:00:00.000Z",
+      "titleStyle": "font-weight: bold; color: #ff0000;",
+      "titleColor": "#ff0000",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": true,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T20:00:00.000Z",
+      "updatedAt": "2025-10-04T20:00:00.000Z"
+    },
+    {
+      "id": 98,
+      "title": "Questo compleanno ti ha insegnato molto",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521098001,
           "text": "Avanti",
           "nextSceneId": 99
         }
@@ -2604,13 +2640,13 @@
     },
     {
       "id": 99,
-      "title": "Il Warner viene conquistato",
+      "title": "Hai capito cosa è davvero importante nella vita",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000099,
+          "id": 1759521099001,
           "text": "Avanti",
           "nextSceneId": 100
         }
@@ -2630,25 +2666,25 @@
     },
     {
       "id": 100,
-      "title": "You died",
+      "title": "Sei cresciuto come persona",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000100,
+          "id": 1759521100001,
           "text": "Avanti",
-          "nextSceneId": 92
+          "nextSceneId": 101
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -2656,13 +2692,13 @@
     },
     {
       "id": 101,
-      "title": "Cerchi di mediare: 'Fermatevi! Fate pace!'",
+      "title": "Ora sei pronto per affrontare il futuro",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000101,
+          "id": 1759521101001,
           "text": "Avanti",
           "nextSceneId": 102
         }
@@ -2682,13 +2718,13 @@
     },
     {
       "id": 102,
-      "title": "Entrambi i cinema ti attaccano",
+      "title": "Con la consapevolezza di chi sei",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000102,
+          "id": 1759521102001,
           "text": "Avanti",
           "nextSceneId": 103
         }
@@ -2708,13 +2744,13 @@
     },
     {
       "id": 103,
-      "title": "Ti chiamano traditore",
+      "title": "E di cosa vuoi dalla vita",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000103,
+          "id": 1759521103001,
           "text": "Avanti",
           "nextSceneId": 104
         }
@@ -2734,25 +2770,25 @@
     },
     {
       "id": 104,
-      "title": "You died",
+      "title": "I compleanni non sono solo feste",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000104,
+          "id": 1759521104001,
           "text": "Avanti",
-          "nextSceneId": 92
+          "nextSceneId": 105
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
       "titleStyle": "",
-      "titleColor": "#ff0000",
+      "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
         "particles": false,
-        "glow": true,
+        "glow": false,
         "typewriter": false
       },
       "lastModified": "2025-10-04T20:00:00.000Z",
@@ -2760,30 +2796,20 @@
     },
     {
       "id": 105,
-      "title": "Scena 9: Challenge finale",
-      "description": "Arrivi alle tre prove finali per vincere il regalo di compleanno perfetto! Quale affronti?",
+      "title": "Sono momenti di crescita e riflessione",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521105001,
-          "text": "Prova del canestro",
+          "text": "Avanti",
           "nextSceneId": 106
-        },
-        {
-          "id": 1759521105002,
-          "text": "Prova di forza",
-          "nextSceneId": 110
-        },
-        {
-          "id": 1759521105003,
-          "text": "Indovinello finale",
-          "nextSceneId": 114
         }
       ],
       "isFinal": false,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "",
       "titleColor": "#ffffff",
       "backgroundTheme": "",
       "effects": {
@@ -2796,13 +2822,13 @@
     },
     {
       "id": 106,
-      "title": "Ti concentri per il tiro perfetto",
+      "title": "Ogni anno che passa ti rende più saggio",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000106,
+          "id": 1759521106001,
           "text": "Avanti",
           "nextSceneId": 107
         }
@@ -2822,13 +2848,13 @@
     },
     {
       "id": 107,
-      "title": "La palla entra perfettamente nel canestro",
+      "title": "E questo compleanno rimarrà sempre nel tuo cuore",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000107,
+          "id": 1759521107001,
           "text": "Avanti",
           "nextSceneId": 108
         }
@@ -2848,13 +2874,13 @@
     },
     {
       "id": 108,
-      "title": "Hai superato la prima prova!",
+      "title": "Come un momento speciale",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000108,
+          "id": 1759521108001,
           "text": "Avanti",
           "nextSceneId": 109
         }
@@ -2874,13 +2900,13 @@
     },
     {
       "id": 109,
-      "title": "Passi alla prova di forza",
+      "title": "Che ti ha fatto diventare chi sei oggi",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000109,
+          "id": 1759521109001,
           "text": "Avanti",
           "nextSceneId": 110
         }
@@ -2900,13 +2926,13 @@
     },
     {
       "id": 110,
-      "title": "Devi sollevare un peso di 100kg",
+      "title": "Grazie per aver condiviso questa giornata",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000110,
+          "id": 1759521110001,
           "text": "Avanti",
           "nextSceneId": 111
         }
@@ -2926,13 +2952,13 @@
     },
     {
       "id": 111,
-      "title": "Usi la tecnica perfetta e lo sollevi",
+      "title": "È stato un viaggio incredibile",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000111,
+          "id": 1759521111001,
           "text": "Avanti",
           "nextSceneId": 112
         }
@@ -2952,13 +2978,13 @@
     },
     {
       "id": 112,
-      "title": "Hai superato la seconda prova!",
+      "title": "Pieno di scelte e scoperte",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000112,
+          "id": 1759521112001,
           "text": "Avanti",
           "nextSceneId": 113
         }
@@ -2978,13 +3004,13 @@
     },
     {
       "id": 113,
-      "title": "Passi all'indovinello finale",
+      "title": "Di gioie e riflessioni",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000113,
+          "id": 1759521113001,
           "text": "Avanti",
           "nextSceneId": 114
         }
@@ -3004,13 +3030,13 @@
     },
     {
       "id": 114,
-      "title": "L'indovinello è: 'Cosa diventa più leggero quanto più lo riempi?'",
+      "title": "Di amici e famiglia",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000114,
+          "id": 1759521114001,
           "text": "Avanti",
           "nextSceneId": 115
         }
@@ -3030,13 +3056,13 @@
     },
     {
       "id": 115,
-      "title": "Rispondi: 'Un palloncino!'",
+      "title": "Di crescita e consapevolezza",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000115,
+          "id": 1759521115001,
           "text": "Avanti",
           "nextSceneId": 116
         }
@@ -3056,13 +3082,13 @@
     },
     {
       "id": 116,
-      "title": "Risposta corretta! Hai superato tutte le prove!",
+      "title": "Buon compleanno!",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000116,
+          "id": 1759521116001,
           "text": "Avanti",
           "nextSceneId": 117
         }
@@ -3082,13 +3108,13 @@
     },
     {
       "id": 117,
-      "title": "Ricevi il regalo di compleanno perfetto!",
+      "title": "Che sia l'inizio di un anno meraviglioso",
       "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521000117,
+          "id": 1759521117001,
           "text": "Avanti",
           "nextSceneId": 118
         }
@@ -3108,16 +3134,16 @@
     },
     {
       "id": 118,
-      "title": "VITTORIA FINALE!",
-      "description": "Congratulazioni! Hai completato la tua incredibile avventura di compleanno! Hai vinto la gara, sconfitto Mattarella e Gerry Scotti, dominato a League of Legends, vinto la guerra dei cinema e superato tutte le prove finali. È stato il compleanno più epico di sempre!",
+      "title": "🎉 Buon Compleanno! 🎂",
+      "description": "Hai completato la tua giornata di compleanno! Ogni scelta che hai fatto ti ha portato qui, in questo momento perfetto. Hai imparato, cresciuto, amato e sei stato amato. Questo è il vero significato dei compleanni: celebrare non solo il passare del tempo, ma la persona meravigliosa che stai diventando. Auguri di cuore! 🎈✨",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": true,
       "createdAt": "2025-10-04T20:00:00.000Z",
-      "titleStyle": "font-weight: bold;",
+      "titleStyle": "font-weight: bold; font-size: 1.5em; text-align: center;",
       "titleColor": "#00ff00",
-      "backgroundTheme": "celebration",
+      "backgroundTheme": "",
       "effects": {
         "particles": true,
         "glow": true,
