@@ -28,7 +28,7 @@
     },
     {
       "id": 61,
-      "title": "Nuova Scena",
+      "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
       "description": "",
       "image": "",
       "video": "",
@@ -43,8 +43,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:28:14.911Z",
-      "updatedAt": "2025-10-04T09:28:15.153Z"
+      "lastModified": "2025-10-04T09:28:24.457Z",
+      "updatedAt": "2025-10-04T09:28:24.716Z"
     }
   ],
   "settings": {
@@ -55,7 +55,7 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T09:28:15.153Z",
+    "lastModified": "2025-10-04T09:28:24.716Z",
     "forceSaveBy": "admin"
   }
 }
