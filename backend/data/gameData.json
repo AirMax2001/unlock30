@@ -1610,7 +1610,7 @@
       "id": 61,
       "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604653482-Immagine WhatsApp 2025-10-02 ore 22.48.17_0f903374.jpg",
+      "image": "/uploads/1759604653482-Immagine WhatsApp 2025-10-02 ore 22.48.17_0f903374.jpg",
       "video": "",
       "choices": [
         {
@@ -1629,7 +1629,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:04:16.216Z"
+      "lastModified": "2025-10-04T19:26:22.364Z",
+      "updatedAt": "2025-10-04T19:26:22.367Z"
     },
     {
       "id": 62,
@@ -3169,7 +3170,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:21.757Z",
+    "lastModified": "2025-10-04T19:26:22.367Z",
     "forceSaveBy": "admin"
   }
 }
