@@ -2020,7 +2020,7 @@
       "id": 79,
       "title": "Sotto di te senti tremare la terra a 250 bpm",
       "description": "",
-      "image": "/uploads/1759605080380-IMG-20251004-WA0014.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605080380-IMG-20251004-WA0014.jpg",
       "video": "",
       "choices": [
         {
@@ -2045,7 +2045,7 @@
       "id": 80,
       "title": "Ti trovi a saltare con 200 000 persone e non sai perché",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759586860357-IMG-20251004-WA0015.jpg",
+      "image": "/uploads/1759605088663-IMG-20251004-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -2064,8 +2064,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:11:24.246Z",
-      "updatedAt": "2025-10-04T19:11:24.250Z"
+      "lastModified": "2025-10-04T19:11:30.728Z"
     },
     {
       "id": 81,
@@ -3120,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:11:24.250Z",
+    "lastModified": "2025-10-04T19:11:30.731Z",
     "forceSaveBy": "admin"
   }
 }
