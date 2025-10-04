@@ -2954,7 +2954,7 @@
       "id": 116,
       "title": "Sei alla festa ma vuoi il regalo",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591088203-Immagine WhatsApp 2025-10-04 ore 16.33.08_b6aed148.jpg",
       "video": "",
       "choices": [
         {
@@ -2973,8 +2973,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:18:01.041Z",
-      "updatedAt": "2025-10-04T15:18:01.270Z"
+      "lastModified": "2025-10-04T15:18:09.048Z",
+      "updatedAt": "2025-10-04T15:18:09.286Z"
     },
     {
       "id": 117,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:18:01.270Z",
+    "lastModified": "2025-10-04T15:18:09.286Z",
     "forceSaveBy": "admin"
   }
 }
