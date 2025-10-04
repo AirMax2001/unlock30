@@ -552,7 +552,13 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759569045911,
+          "text": "Avanti",
+          "nextSceneId": 23
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-04T09:10:23.119Z",
       "titleStyle": "",
@@ -563,8 +569,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:10:39.648Z",
-      "updatedAt": "2025-10-04T09:10:39.910Z"
+      "lastModified": "2025-10-04T09:10:48.555Z",
+      "updatedAt": "2025-10-04T09:10:48.557Z"
+    },
+    {
+      "id": 23,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:10:48.253Z"
     }
   ],
   "settings": {
@@ -574,8 +590,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 22,
-    "lastModified": "2025-10-04T09:10:39.910Z",
+    "totalScenes": 23,
+    "lastModified": "2025-10-04T09:10:48.557Z",
     "forceSaveBy": "admin"
   }
 }
