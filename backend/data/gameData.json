@@ -489,7 +489,7 @@
       "id": 19,
       "title": "Metti in funzione la stampante e alle 11 finalmente inizi con la calibrazione",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585250389-Immagine WhatsApp 2025-10-02 ore 17.38.24_0b573eeb.jpg",
+      "image": "/uploads/1759585250389-Immagine WhatsApp 2025-10-02 ore 17.38.24_0b573eeb.jpg",
       "video": "",
       "choices": [
         {
@@ -508,8 +508,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:40:51.042Z",
-      "updatedAt": "2025-10-04T13:40:51.295Z"
+      "lastModified": "2025-10-04T13:42:27.913Z",
+      "updatedAt": "2025-10-04T13:42:27.917Z"
     },
     {
       "id": 20,
@@ -3129,7 +3129,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:42:26.112Z",
+    "lastModified": "2025-10-04T13:42:27.917Z",
     "forceSaveBy": "admin"
   }
 }
