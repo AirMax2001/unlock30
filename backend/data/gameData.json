@@ -90,7 +90,7 @@
     },
     {
       "id": 43,
-      "title": "Nuova Scena",
+      "title": ". Non hai i soldi però quindi inizi a camminare",
       "description": "",
       "image": "",
       "video": "",
@@ -105,8 +105,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:20:46.709Z",
-      "updatedAt": "2025-10-04T09:20:46.710Z"
+      "lastModified": "2025-10-04T09:20:54.439Z",
+      "updatedAt": "2025-10-04T09:20:54.686Z"
     }
   ],
   "settings": {
@@ -117,6 +117,6 @@
   },
   "stats": {
     "totalScenes": 5,
-    "lastModified": "2025-10-04T09:20:46.710Z"
+    "lastModified": "2025-10-04T09:20:54.686Z"
   }
 }
