@@ -116,7 +116,7 @@
       "id": 5,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759603652339-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759603652339-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -168,7 +168,7 @@
       "id": 7,
       "title": "Non è un problema tanto i tucani non hanno i capelli",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759603668048-Immagine WhatsApp 2025-10-02 ore 17.19.53_418e9579.jpg",
       "video": "",
       "choices": [
         {
@@ -187,8 +187,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:47:39.970Z",
-      "updatedAt": "2025-10-04T18:47:39.974Z"
+      "lastModified": "2025-10-04T18:47:49.533Z"
     },
     {
       "id": 8,
@@ -3119,7 +3118,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:47:39.974Z",
+    "lastModified": "2025-10-04T18:47:49.833Z",
     "forceSaveBy": "admin"
   }
 }
