@@ -341,7 +341,7 @@
       "choices": [
         {
           "id": 1759570745001,
-          "text": "",
+          "text": "Inizi una partita di league of legends",
           "nextSceneId": null
         }
       ],
@@ -355,8 +355,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:39:05.301Z",
-      "updatedAt": "2025-10-04T09:39:05.304Z"
+      "lastModified": "2025-10-04T09:39:12.799Z",
+      "updatedAt": "2025-10-04T09:39:13.117Z"
     }
   ],
   "settings": {
@@ -367,7 +367,7 @@
   },
   "stats": {
     "totalScenes": 14,
-    "lastModified": "2025-10-04T09:39:05.304Z",
+    "lastModified": "2025-10-04T09:39:13.117Z",
     "forceSaveBy": "admin"
   }
 }
