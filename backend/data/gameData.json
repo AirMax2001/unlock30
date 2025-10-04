@@ -1,34 +1,14 @@
 {
   "scenes": [
     {
-      "id": 24,
+      "id": 27,
       "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:11:08.676Z"
-    },
-    {
-      "id": 26,
-      "title": "Nuova Scena",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:11:59.048Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:12:05.725Z",
-      "updatedAt": "2025-10-04T09:12:05.980Z"
+      "createdAt": "2025-10-04T09:12:18.741Z"
     }
   ],
   "settings": {
@@ -38,7 +18,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 2,
-    "lastModified": "2025-10-04T09:12:05.980Z"
+    "totalScenes": 1,
+    "lastModified": "2025-10-04T09:12:18.999Z"
   }
 }
