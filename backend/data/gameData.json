@@ -190,7 +190,7 @@
         },
         {
           "id": 1759569813545,
-          "text": "",
+          "text": "Evocazione degli spiriti",
           "nextSceneId": null
         },
         {
@@ -209,8 +209,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:23:41.601Z",
-      "updatedAt": "2025-10-04T09:23:41.841Z"
+      "lastModified": "2025-10-04T09:23:50.206Z",
+      "updatedAt": "2025-10-04T09:23:50.476Z"
     }
   ],
   "settings": {
@@ -221,6 +221,6 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-04T09:23:41.841Z"
+    "lastModified": "2025-10-04T09:23:50.476Z"
   }
 }
