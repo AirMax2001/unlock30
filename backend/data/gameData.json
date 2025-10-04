@@ -2,7 +2,7 @@
   "scenes": [
     {
       "id": 1,
-      "title": "Nuova Scena",
+      "title": "La sveglia",
       "description": "",
       "image": "",
       "video": "",
@@ -17,8 +17,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:58:55.427Z",
-      "updatedAt": "2025-10-04T08:58:55.428Z"
+      "lastModified": "2025-10-04T08:59:04.211Z",
+      "updatedAt": "2025-10-04T08:59:04.467Z"
     }
   ],
   "settings": {
@@ -29,6 +29,6 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T08:58:55.428Z"
+    "lastModified": "2025-10-04T08:59:04.467Z"
   }
 }
