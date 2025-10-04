@@ -1904,7 +1904,7 @@
       "id": 75,
       "title": "Vinci e torni a casa sacrificando le tue ombre",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586768537-IMG-20251004-WA0011.jpg",
       "video": "",
       "choices": [
         {
@@ -1923,8 +1923,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:06:01.063Z",
-      "updatedAt": "2025-10-04T14:06:01.311Z"
+      "lastModified": "2025-10-04T14:06:09.353Z",
+      "updatedAt": "2025-10-04T14:06:09.591Z"
     },
     {
       "id": 76,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:06:01.311Z",
+    "lastModified": "2025-10-04T14:06:09.591Z",
     "forceSaveBy": "admin"
   }
 }
