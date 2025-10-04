@@ -1682,7 +1682,7 @@
       "id": 66,
       "title": "Mattarella ha il potere di congelare i pavimenti con lo sguardo serio, Gerry Scotti lancia banane esplosive che cantano canzoni degli anni ’80",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586496843-IMG-20251004-WA0004.jpg",
       "video": "",
       "choices": [
         {
@@ -1701,8 +1701,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:01:14.116Z",
-      "updatedAt": "2025-10-04T14:01:14.395Z"
+      "lastModified": "2025-10-04T14:01:38.402Z"
     },
     {
       "id": 67,
@@ -3117,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:01:14.395Z",
+    "lastModified": "2025-10-04T14:01:38.406Z",
     "forceSaveBy": "admin"
   }
 }
