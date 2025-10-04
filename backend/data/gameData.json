@@ -2218,7 +2218,7 @@
       "id": 84,
       "title": "Le tue ombre sono distratte dalle farfalle meccaniche che scendono dal soffitto",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605150145-IMG-20251004-WA0018.jpg",
+      "image": "/uploads/1759605150145-IMG-20251004-WA0018.jpg",
       "video": "",
       "choices": [
         {
@@ -2237,13 +2237,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:12:33.806Z"
+      "lastModified": "2025-10-04T19:26:40.275Z",
+      "updatedAt": "2025-10-04T19:26:40.278Z"
     },
     {
       "id": 85,
       "title": "Vinci ma non torni per tua scelta",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605168312-IMG-20251004-WA0023.jpg",
+      "image": "/uploads/1759605168312-IMG-20251004-WA0023.jpg",
       "video": "",
       "choices": [
         {
@@ -2262,7 +2263,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:12:49.920Z"
+      "lastModified": "2025-10-04T19:26:41.496Z",
+      "updatedAt": "2025-10-04T19:26:41.499Z"
     },
     {
       "id": 86,
@@ -3192,7 +3194,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:39.303Z",
+    "lastModified": "2025-10-04T19:26:41.499Z",
     "forceSaveBy": "admin"
   }
 }
