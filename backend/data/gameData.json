@@ -1604,7 +1604,7 @@
       "id": 63,
       "title": "La polizia si ferma e, non vedendoti più, interrompe l’inseguimento e torna tutto normale",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586406065-Immagine WhatsApp 2025-10-02 ore 22.59.35_95986ae8.jpg",
       "video": "",
       "choices": [
         {
@@ -1623,8 +1623,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:59:50.563Z",
-      "updatedAt": "2025-10-04T13:59:50.790Z"
+      "lastModified": "2025-10-04T14:00:07.553Z"
     },
     {
       "id": 64,
@@ -3114,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:59:50.790Z",
+    "lastModified": "2025-10-04T14:00:07.556Z",
     "forceSaveBy": "admin"
   }
 }
