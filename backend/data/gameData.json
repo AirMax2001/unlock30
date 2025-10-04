@@ -976,7 +976,7 @@
       "id": 38,
       "title": "Apri ali express e controlli il carrello",
       "description": "",
-      "image": "/uploads/1759604241600-Immagine WhatsApp 2025-10-02 ore 18.26.19_376a5dcf.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604241600-Immagine WhatsApp 2025-10-02 ore 18.26.19_376a5dcf.jpg",
       "video": "",
       "choices": [
         {
@@ -1001,7 +1001,7 @@
       "id": 39,
       "title": "Compri tutto",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585798942-Immagine WhatsApp 2025-10-02 ore 18.33.32_33c71e72.jpg",
+      "image": "/uploads/1759604251076-Immagine WhatsApp 2025-10-02 ore 18.33.32_33c71e72.jpg",
       "video": "",
       "choices": [
         {
@@ -1020,7 +1020,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:38:11.926Z"
+      "lastModified": "2025-10-04T18:57:32.998Z"
     },
     {
       "id": 40,
@@ -3130,7 +3130,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:57:23.441Z",
+    "lastModified": "2025-10-04T18:57:33.000Z",
     "forceSaveBy": "admin"
   }
 }
