@@ -3,13 +3,13 @@
     {
       "id": 1,
       "title": "La sveglia",
-      "description": "Buongiorno Massimo! È il 27 settembre, ovvero il tuo compleanno! La sveglia suona alle 6:30 del mattino e tu sei nel letto che dormi beatamente.",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521001133,
-          "text": "Ti giri dall'altra parte e continui a russare",
+          "text": "Ti giri dall altra parte e continui a russare",
           "nextSceneId": 2
         },
         {
@@ -33,30 +33,28 @@
         "glow": false,
         "typewriter": false
       },
-<<<<<<< HEAD
-      "lastModified": "2025-10-03T20:00:00.000Z",
-=======
-      "lastModified": "2025-10-04T07:27:29.741Z",
->>>>>>> 3d59b8456fbbb517e2a8b1831925e3e9473902d0
-      "updatedAt": "2025-10-03T20:00:00.000Z"
+      "lastModified": "2025-10-04T07:14:13.232Z",
+      "updatedAt": "2025-10-04T07:14:13.516Z"
     },
     {
       "id": 2,
       "title": "Il russare",
-      "description": "Ti giri dall'altra parte e continui a dormire, ma tua madre ti sveglia urlando \"MASSIMO ALZATI CHE È TARDI!\"",
+      "description": "Questa è la scena 2. Il russare",
       "image": "",
       "video": "",
       "choices": [
         {
           "id": 1759521005001,
           "text": "Protesti violentemente",
-          "nextSceneId": 1
+          "nextSceneId": 5
+        },
+        {
+          "id": 1759521005002,
+          "text": "Ti alzi di malavoglia",
+          "nextSceneId": 3
         }
       ],
       "isFinal": false,
-<<<<<<< HEAD
-      "youDied": true
-=======
       "createdAt": "2025-10-03T20:00:00.000Z",
       "titleStyle": "",
       "titleColor": "#ffffff",
@@ -66,132 +64,203 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T07:31:23.573Z",
-      "updatedAt": "2025-10-04T07:31:23.889Z"
->>>>>>> 3d59b8456fbbb517e2a8b1831925e3e9473902d0
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
       "id": 3,
-      "title": "Bagno e denti",
-      "description": "Ti alzi, vai in bagno e ti lavi i denti. Mentre ti guardi allo specchio pensi: \"Oggi è il mio compleanno, chissà che regalo mi faranno!\"",
+      "title": "In bagno",
+      "description": "Questa è la scena 3. In bagno",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521006001,
-          "text": "Vai a fare colazione",
-          "nextSceneId": 5
+          "id": 1759521005003,
+          "text": "Vai in cucina per la colazione",
+          "nextSceneId": 6
         },
         {
-          "id": 1759521006002,
-          "text": "Torni a letto perché sei ancora stanco",
-          "nextSceneId": 1
+          "id": 1759521005004,
+          "text": "Controlli il telefono per i messaggi",
+          "nextSceneId": 4
         }
       ],
       "isFinal": false,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
       "id": 4,
-      "title": "Telefono a letto",
-      "description": "Apri il telefono e vedi centinaia di notifiche di auguri! Tutti i tuoi amici si sono ricordati del tuo compleanno.",
+      "title": "Il telefono",
+      "description": "Questa è la scena 4. Il telefono",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521007001,
-          "text": "Rispondi a tutti gli auguri",
-          "nextSceneId": 5
-        },
-        {
-          "id": 1759521007002,
-          "text": "Continui a scrollare social fino a mezzogiorno",
-          "nextSceneId": 1
-        }
-      ],
-      "isFinal": false,
-      "youDied": false
-    },
-    {
-      "id": 5,
-      "title": "Colazione al bar",
-      "description": "Scendi a fare colazione al bar sotto casa. Il barista ti dice: \"Buongiorno Massimo! Un cappuccino come al solito?\"",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521008001,
-          "text": "\"Sì, ma oggi è il mio compleanno, quindi fallo extra buono!\"",
+          "id": 1759521005009,
+          "text": "Rispondi subito a tutti",
           "nextSceneId": 7
         },
         {
-          "id": 1759521008002,
-          "text": "\"Oggi provo qualcosa di diverso\"",
-          "nextSceneId": 1
+          "id": 1759521005010,
+          "text": "Vai prima a fare colazione",
+          "nextSceneId": 6
         }
       ],
       "isFinal": false,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
-      "id": 7,
-      "title": "Cappuccino di compleanno",
-      "description": "Il barista ti prepara un cappuccino speciale con un cuoricino nella schiuma! Mentre lo bevi, senti delle macchine che sgommano fuori dal bar.",
+      "id": 5,
+      "title": "La protesta",
+      "description": "Questa è la scena 5. La protesta",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521009001,
-          "text": "Esci a vedere cosa succede",
+          "id": 1759528220158,
+          "text": "Continua",
+          "nextSceneId": 6
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T21:58:38.592Z",
+      "updatedAt": "2025-10-03T21:58:38.862Z"
+    },
+    {
+      "id": 6,
+      "title": "La colazione",
+      "description": "Questa è la scena 6. La colazione",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521005007,
+          "text": "Sorridi e li ringrazi",
           "nextSceneId": 8
         },
         {
-          "id": 1759521009002,
-          "text": "Ignori i rumori e continui a bere tranquillamente",
-          "nextSceneId": 1
+          "id": 1759521005008,
+          "text": "Sei ancora assonnato e non reagisci molto",
+          "nextSceneId": 9
         }
       ],
       "isFinal": false,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "I messaggi",
+      "description": "Questa è la scena 7. I messaggi",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759521005015,
+          "text": "Vai a scusarti",
+          "nextSceneId": 10
+        },
+        {
+          "id": 1759521005016,
+          "text": "Fai finta di niente e continui col telefono",
+          "nextSceneId": 88
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
       "id": 8,
-      "title": "La gara clandestina",
-      "description": "Fuori dal bar c'è una gara di macchine clandestina! Il vincitore riceverà una corona d'oro come premio. Un pilota ti vede e ti grida: \"Ehi tu! Vuoi partecipare?\"",
+      "title": "La gioia",
+      "description": "Questa è la scena 8. La gioia",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521010001,
-          "text": "\"Sì! Oggi è il mio compleanno, devo vincere quella corona!\"",
-          "nextSceneId": 9
+          "id": 1759521005011,
+          "text": "Lo apri subito entusiasta",
+          "nextSceneId": 100
         },
         {
-          "id": 1759521010002,
-          "text": "\"No grazie, sono troppo pericolose\"",
-          "nextSceneId": 1
+          "id": 1759521005012,
+          "text": "Lo metti da parte per aprirlo dopo",
+          "nextSceneId": 110
         }
       ],
       "isFinal": false,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
       "id": 9,
-      "title": "La sfida finale",
-      "description": "Per vincere la corona d'oro, devi superare tre prove: canestro, prova di forza e indovinello. Quale scegli per prima?",
+      "title": "Il muso",
+      "description": "Questa è la scena 9. Il muso",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521011001,
-          "text": "Prova del canestro",
-          "nextSceneId": 91
+          "id": 1759521005013,
+          "text": "Dici che sei solo stanco",
+          "nextSceneId": 94
         },
         {
-<<<<<<< HEAD
-          "id": 1759521011002,
-          "text": "Prova di forza",
-=======
           "id": 1759521005014,
           "text": "Ti scusi e cerchi di essere più allegro",
           "nextSceneId": 8
@@ -207,7 +276,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T07:13:39.683Z",
+      "lastModified": "2025-10-03T20:00:00.000Z",
       "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
@@ -2125,8 +2194,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:00:00.000Z",
-      "updatedAt": "2025-10-03T20:00:00.000Z"
+      "lastModified": "2025-10-04T07:38:33.154Z",
+      "updatedAt": "2025-10-04T07:38:33.440Z"
     },
     {
       "id": 88,
@@ -2216,110 +2285,547 @@
         {
           "id": 1759528220244,
           "text": "Continua",
->>>>>>> 3d59b8456fbbb517e2a8b1831925e3e9473902d0
           "nextSceneId": 92
-        },
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 92,
+      "title": "Perdete al primo girone",
+      "description": "Questa è la scena 92. Perdete al primo girone",
+      "image": "",
+      "video": "",
+      "choices": [
         {
-          "id": 1759521011003,
-          "text": "Indovinello",
+          "id": 1759528220245,
+          "text": "Continua",
           "nextSceneId": 93
         }
       ],
       "isFinal": false,
-      "youDied": false
-    },
-    {
-      "id": 91,
-      "title": "Prova del canestro",
-      "description": "Devi fare 3 canestri su 5 tiri. Prendi la palla e ti concentri...",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521012001,
-          "text": "Tiri con precisione",
-          "nextSceneId": 10
-        },
-        {
-          "id": 1759521012002,
-          "text": "Tiri a caso sperando nella fortuna",
-          "nextSceneId": 1
-        }
-      ],
-      "isFinal": false,
-      "youDied": false
-    },
-    {
-      "id": 92,
-      "title": "Prova di forza",
-      "description": "Devi sollevare un peso di 100kg. Ti avvicini al bilanciere...",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759521013001,
-          "text": "Usi la tecnica corretta che hai imparato in palestra",
-          "nextSceneId": 10
-        },
-        {
-          "id": 1759521013002,
-          "text": "Provi a sollevarlo di forza bruta",
-          "nextSceneId": 1
-        }
-      ],
-      "isFinal": false,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
       "id": 93,
-      "title": "L'indovinello",
-      "description": "L'indovinello è: \"Cosa diventa più leggero quanto più lo riempi?\" Hai 30 secondi per rispondere.",
+      "title": "Nuova Scena",
+      "description": "Questa è la scena 93. Nuova Scena",
       "image": "",
       "video": "",
       "choices": [
         {
-          "id": 1759521014001,
-          "text": "\"Un palloncino!\"",
-          "nextSceneId": 10
-        },
-        {
-          "id": 1759521014002,
-          "text": "\"Una borsa!\"",
-          "nextSceneId": 1
-        },
-        {
-          "id": 1759521014003,
-          "text": "\"Un secchio!\"",
-          "nextSceneId": 1
+          "id": 1759528220246,
+          "text": "Continua",
+          "nextSceneId": 94
         }
       ],
       "isFinal": false,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
-      "id": 10,
-      "title": "LA VITTORIA!",
-      "description": "COMPLIMENTI! Hai superato tutte le prove e vinto la corona d'oro! È il regalo di compleanno perfetto! Tutti ti applaudono e cantano \"Tanti auguri a te!\". Hai completato con successo la tua avventura di compleanno!",
+      "id": 94,
+      "title": "Alla fine che te ne fai dei milioni",
+      "description": "Questa è la scena 94. Alla fine che te ne fai dei milioni",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220247,
+          "text": "Continua",
+          "nextSceneId": 95
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 95,
+      "title": "I tuoi cari apprendono la notizia e ti riempiono di botte",
+      "description": "Questa è la scena 95. I tuoi cari apprendono la notizia e ti riempiono di botte",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220248,
+          "text": "Continua",
+          "nextSceneId": 96
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 96,
+      "title": "L aria freme",
+      "description": "Questa è la scena 96. L aria freme",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220249,
+          "text": "Continua",
+          "nextSceneId": 97
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 97,
+      "title": "Il cielo si fa grigio",
+      "description": "Questa è la scena 97. Il cielo si fa grigio",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220250,
+          "text": "Continua",
+          "nextSceneId": 98
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 98,
+      "title": "Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
+      "description": "Questa è la scena 98. Il proprietario del centro commerciale universo dichiara guerra alla Warner di Montesilvano",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220251,
+          "text": "Continua",
+          "nextSceneId": 99
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 99,
+      "title": "Nuova Scena",
+      "description": "Questa è la scena 99. Nuova Scena",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220252,
+          "text": "Continua",
+          "nextSceneId": 100
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 100,
+      "title": "Non puoi non intervenire",
+      "description": "Questa è la scena 100. Non puoi non intervenire",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220253,
+          "text": "Continua",
+          "nextSceneId": 101
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 101,
+      "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
+      "description": "Questa è la scena 101. Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220254,
+          "text": "Continua",
+          "nextSceneId": 102
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 102,
+      "title": "Rimangono sbalorditi, tutto torna normale e tu torni in tempo per la festa",
+      "description": "Questa è la scena 102. Rimangono sbalorditi, tutto torna normale e tu torni in tempo per la festa",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220255,
+          "text": "Continua",
+          "nextSceneId": 103
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 103,
+      "title": "Il regalo",
+      "description": "Questa è la scena 103. Il regalo",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220256,
+          "text": "Continua",
+          "nextSceneId": 104
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 104,
+      "title": "Sei alla festa ma vuoi il regalo",
+      "description": "Questa è la scena 104. Sei alla festa ma vuoi il regalo",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220257,
+          "text": "Continua",
+          "nextSceneId": 105
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 105,
+      "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
+      "description": "Questa è la scena 105. Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220258,
+          "text": "Continua",
+          "nextSceneId": 106
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 106,
+      "title": "Sei alla festa ma vuoi il regalo",
+      "description": "Questa è la scena 106. Sei alla festa ma vuoi il regalo",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220259,
+          "text": "Continua",
+          "nextSceneId": 107
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 107,
+      "title": "Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario o se, non riesci, affronta un altra sfida",
+      "description": "Questa è la scena 107. Devi fare 10 flessioni e 7 giri di campo senza campo prima del tuo avversario o se, non riesci, affronta un altra sfida",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220260,
+          "text": "Continua",
+          "nextSceneId": 108
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 108,
+      "title": "Sei alla festa ma vuoi il regalo",
+      "description": "Questa è la scena 108. Sei alla festa ma vuoi il regalo",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220261,
+          "text": "Continua",
+          "nextSceneId": 109
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 109,
+      "title": "Risolvi questo indovinello",
+      "description": "Questa è la scena 109. Risolvi questo indovinello",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220262,
+          "text": "Continua",
+          "nextSceneId": 110
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 110,
+      "title": "TANTI AUGURI",
+      "description": "Questa è la scena 110. TANTI AUGURI",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": true,
-      "youDied": false
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
+    },
+    {
+      "id": 111,
+      "title": "Nuova Scena",
+      "description": "Questa è la scena 111. Nuova Scena",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759528220264,
+          "text": "Continua",
+          "nextSceneId": null
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-03T20:00:00.000Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-03T20:00:00.000Z",
+      "updatedAt": "2025-10-03T20:00:00.000Z"
     }
-<<<<<<< HEAD
-  ]
-=======
   ],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
-    "maxScenes": 30,
+    "maxScenes": 999,
     "theme": "unlock30"
   },
   "stats": {
     "totalScenes": 107,
-    "lastModified": "2025-10-04T07:31:23.889Z",
-    "forceSaveBy": "admin"
+    "lastModified": "2025-10-04T07:38:33.440Z",
+    "recoveredFromCommits": true,
+    "recoveryVersion": "ALL_107_SCENES_COMPLETE"
   }
->>>>>>> 3d59b8456fbbb517e2a8b1831925e3e9473902d0
 }
