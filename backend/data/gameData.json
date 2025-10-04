@@ -522,7 +522,7 @@
     },
     {
       "id": 21,
-      "title": "YOU DEFEAT",
+      "title": "YOU DIED",
       "description": "",
       "image": "",
       "video": "",
@@ -543,7 +543,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T11:59:11.350Z"
+      "lastModified": "2025-10-04T09:09:05.810Z"
     },
     {
       "id": 22,
@@ -3113,7 +3113,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T11:59:12.314Z",
+    "lastModified": "2025-10-04T11:58:47.190Z",
     "forceSaveBy": "admin"
   }
 }
