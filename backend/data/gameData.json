@@ -4,7 +4,7 @@
       "id": 1,
       "title": "La sveglia",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759569352002-Gemini_Generated_Image_2vkf3l2vkf3l2vkf.png",
       "video": "",
       "choices": [
         {
@@ -33,8 +33,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:15:45.821Z",
-      "updatedAt": "2025-10-04T09:15:46.232Z"
+      "lastModified": "2025-10-04T09:15:51.697Z",
+      "updatedAt": "2025-10-04T09:15:51.960Z"
     },
     {
       "id": 2,
@@ -799,7 +799,7 @@
   },
   "stats": {
     "totalScenes": 31,
-    "lastModified": "2025-10-04T09:15:46.232Z",
+    "lastModified": "2025-10-04T09:15:51.960Z",
     "forceSaveBy": "admin"
   }
 }
