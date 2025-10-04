@@ -934,7 +934,7 @@
       "id": 37,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759585766284-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759585766284-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -960,7 +960,7 @@
       "id": 38,
       "title": "Apri ali express e controlli il carrello",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585784263-Immagine WhatsApp 2025-10-02 ore 18.26.19_376a5dcf.jpg",
       "video": "",
       "choices": [
         {
@@ -979,8 +979,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:49:29.382Z",
-      "updatedAt": "2025-10-04T13:49:29.386Z"
+      "lastModified": "2025-10-04T13:49:45.139Z",
+      "updatedAt": "2025-10-04T13:49:45.379Z"
     },
     {
       "id": 39,
@@ -3115,7 +3115,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:49:29.386Z",
+    "lastModified": "2025-10-04T13:49:45.379Z",
     "forceSaveBy": "admin"
   }
 }
