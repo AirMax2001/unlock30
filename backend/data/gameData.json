@@ -1,114 +1,5 @@
 {
-  "scenes": [
-    {
-      "id": 102,
-      "title": "Nuova Scena",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:47:59.815Z"
-    },
-    {
-      "id": 108,
-      "title": "“ io ho il cinema migliore!” grida",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759571446723,
-          "text": "Avanti",
-          "nextSceneId": 109
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:50:28.534Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:50:51.973Z",
-      "updatedAt": "2025-10-04T09:50:51.976Z"
-    },
-    {
-      "id": 109,
-      "title": "Non puoi non intervenire",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759571464259,
-          "text": "Avanti",
-          "nextSceneId": 110
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:50:51.672Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:51:08.681Z",
-      "updatedAt": "2025-10-04T09:51:08.684Z"
-    },
-    {
-      "id": 110,
-      "title": "Sfoggi tutte le tue conoscenze sugli impianti e gli mostri come esempio un pandino nero",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759571482719,
-          "text": "Avanti",
-          "nextSceneId": 111
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:51:08.379Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:51:25.950Z",
-      "updatedAt": "2025-10-04T09:51:25.953Z"
-    },
-    {
-      "id": 111,
-      "title": "Nuova Scena",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:51:25.650Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:51:28.459Z",
-      "updatedAt": "2025-10-04T09:51:28.461Z"
-    }
-  ],
+  "scenes": [],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
@@ -116,7 +7,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 5,
-    "lastModified": "2025-10-04T09:51:28.462Z"
+    "totalScenes": 0,
+    "lastModified": "2025-10-04T09:51:38.053Z"
   }
 }
