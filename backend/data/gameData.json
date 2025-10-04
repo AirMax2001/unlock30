@@ -9,8 +9,8 @@
       "choices": [
         {
           "id": 1759570088311,
-          "text": "Avanti",
-          "nextSceneId": 61
+          "text": "",
+          "nextSceneId": null
         }
       ],
       "isFinal": false,
@@ -23,184 +23,18 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:28:11.845Z",
-      "updatedAt": "2025-10-04T09:28:11.847Z"
+      "lastModified": "2025-10-04T09:28:08.612Z",
+      "updatedAt": "2025-10-04T09:28:08.867Z"
     },
     {
-      "id": 61,
-      "title": "Raggiungi il parcheggio di porto allegro e lo completi tutto con il freno a mano tirato finché non raggiungi il ponte",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570112980,
-          "text": "Avanti",
-          "nextSceneId": 62
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:28:11.543Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:28:35.118Z",
-      "updatedAt": "2025-10-04T09:28:35.120Z"
-    },
-    {
-      "id": 62,
-      "title": "Li come GTA insegna ti lanci dall’auto e finisci nel fiume",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570128317,
-          "text": "Avanti",
-          "nextSceneId": 63
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:28:35.118Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:28:52.770Z",
-      "updatedAt": "2025-10-04T09:28:52.772Z"
-    },
-    {
-      "id": 63,
-      "title": "La polizia si ferma e, non vedendoti più, interrompe l’inseguimento e torna tutto normale",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570152279,
-          "text": "Avanti",
-          "nextSceneId": 64
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:28:52.468Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:29:14.586Z",
-      "updatedAt": "2025-10-04T09:29:14.588Z"
-    },
-    {
-      "id": 64,
-      "title": "Tiri un sospiro di sollievo ma inali diversi agenti chimici che ti innescano diverse modificazioni genetiche",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570173102,
-          "text": "Avanti",
-          "nextSceneId": 55
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:29:14.281Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:29:37.080Z",
-      "updatedAt": "2025-10-04T09:29:37.326Z"
-    },
-    {
-      "id": 65,
-      "title": "Ti ritrovi in un supermercato gigante ma noti che tutto quello che ti circonda è vivo:   le bottiglie di ketchup ti inseguono, i carrelli fanno parkour da soli",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570238195,
-          "text": "Avanti",
-          "nextSceneId": 66
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:30:18.974Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:30:42.255Z",
-      "updatedAt": "2025-10-04T09:30:42.258Z"
-    },
-    {
-      "id": 66,
-      "title": "Mattarella ha il potere di congelare i pavimenti con lo sguardo serio, Gerry Scotti lancia banane esplosive che cantano canzoni degli anni ’80",
-      "description": "",
-      "image": "",
-      "video": "",
-      "choices": [
-        {
-          "id": 1759570262088,
-          "text": "Avanti",
-          "nextSceneId": 67
-        }
-      ],
-      "isFinal": false,
-      "createdAt": "2025-10-04T09:30:41.954Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:31:05.362Z",
-      "updatedAt": "2025-10-04T09:31:05.364Z"
-    },
-    {
-      "id": 67,
-      "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
+      "id": 68,
+      "title": "Nuova Scena",
       "description": "",
       "image": "",
       "video": "",
       "choices": [],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:31:05.061Z",
-      "titleStyle": "",
-      "titleColor": "#ffffff",
-      "backgroundTheme": "",
-      "effects": {
-        "particles": false,
-        "glow": false,
-        "typewriter": false
-      },
-      "lastModified": "2025-10-04T09:31:18.070Z",
-      "updatedAt": "2025-10-04T09:31:18.313Z"
+      "createdAt": "2025-10-04T09:31:25.500Z"
     }
   ],
   "settings": {
@@ -210,8 +44,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 8,
-    "lastModified": "2025-10-04T09:31:18.313Z",
+    "totalScenes": 2,
+    "lastModified": "2025-10-04T09:31:25.501Z",
     "forceSaveBy": "admin"
   }
 }
