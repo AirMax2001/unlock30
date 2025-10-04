@@ -42,7 +42,13 @@
       "description": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759568396088,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-04T08:59:30.128Z",
       "titleStyle": "",
@@ -53,8 +59,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T08:59:42.264Z",
-      "updatedAt": "2025-10-04T08:59:42.265Z"
+      "lastModified": "2025-10-04T08:59:56.388Z",
+      "updatedAt": "2025-10-04T08:59:56.658Z"
     }
   ],
   "settings": {
@@ -65,6 +71,6 @@
   },
   "stats": {
     "totalScenes": 2,
-    "lastModified": "2025-10-04T08:59:42.265Z"
+    "lastModified": "2025-10-04T08:59:56.659Z"
   }
 }
