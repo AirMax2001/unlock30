@@ -2195,7 +2195,7 @@
       "id": 86,
       "title": "Ti siedi al pc e sotto le minacce della famiglia inizi una partita",
       "description": "",
-      "image": "/uploads/1759605181979-IMG-20251004-WA0021.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605181979-IMG-20251004-WA0021.jpg",
       "video": "",
       "choices": [
         {
@@ -2220,7 +2220,7 @@
       "id": 87,
       "title": "Sei incredibilmente abile e nella tua squadra un ex membro dei T1 ti nota e ti scrive in privato",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587099235-IMG-20251004-WA0024.jpg",
+      "image": "/uploads/1759605197418-IMG-20251004-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -2239,8 +2239,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:13:05.377Z",
-      "updatedAt": "2025-10-04T19:13:05.381Z"
+      "lastModified": "2025-10-04T19:13:19.111Z"
     },
     {
       "id": 88,
@@ -3120,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:13:05.381Z",
+    "lastModified": "2025-10-04T19:13:19.114Z",
     "forceSaveBy": "admin"
   }
 }
