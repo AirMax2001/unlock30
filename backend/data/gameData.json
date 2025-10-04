@@ -2,13 +2,29 @@
   "scenes": [
     {
       "id": 60,
-      "title": "Nuova Scena",
+      "title": "Sgommi per le strade di Montesilvano con il filobus che ti insegue ingaggiato dalla polizia",
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759570088311,
+          "text": "",
+          "nextSceneId": null
+        }
+      ],
       "isFinal": false,
-      "createdAt": "2025-10-04T09:27:49.596Z"
+      "createdAt": "2025-10-04T09:27:49.596Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:28:08.612Z",
+      "updatedAt": "2025-10-04T09:28:08.867Z"
     }
   ],
   "settings": {
@@ -19,7 +35,7 @@
   },
   "stats": {
     "totalScenes": 1,
-    "lastModified": "2025-10-04T09:27:49.855Z",
+    "lastModified": "2025-10-04T09:28:08.867Z",
     "forceSaveBy": "admin"
   }
 }
