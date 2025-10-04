@@ -144,7 +144,7 @@
       "id": 6,
       "title": "Guardi lo specchio e pensi: “ da oggi inizierò a perdere i capelli o da domani? “",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585037081-IMG-20251002-WA0024.jpg",
       "video": "",
       "choices": [
         {
@@ -163,8 +163,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:37:07.439Z",
-      "updatedAt": "2025-10-04T13:37:07.706Z"
+      "lastModified": "2025-10-04T13:37:17.730Z",
+      "updatedAt": "2025-10-04T13:37:17.967Z"
     },
     {
       "id": 7,
@@ -3119,7 +3119,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:37:07.706Z",
+    "lastModified": "2025-10-04T13:37:17.967Z",
     "forceSaveBy": "admin"
   }
 }
