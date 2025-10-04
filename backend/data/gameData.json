@@ -784,7 +784,7 @@
         },
         {
           "id": 1759569399093,
-          "text": "",
+          "text": "Fai shopping on-line compulsivo",
           "nextSceneId": null
         },
         {
@@ -803,8 +803,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:16:47.420Z",
-      "updatedAt": "2025-10-04T09:16:47.711Z"
+      "lastModified": "2025-10-04T09:16:53.029Z",
+      "updatedAt": "2025-10-04T09:16:53.281Z"
     }
   ],
   "settings": {
@@ -815,7 +815,7 @@
   },
   "stats": {
     "totalScenes": 31,
-    "lastModified": "2025-10-04T09:16:47.711Z",
+    "lastModified": "2025-10-04T09:16:53.281Z",
     "forceSaveBy": "admin"
   }
 }
