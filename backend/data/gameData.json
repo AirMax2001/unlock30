@@ -1974,7 +1974,7 @@
       "id": 75,
       "title": "Vinci e torni a casa sacrificando le tue ombre",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605008570-IMG-20251004-WA0011.jpg",
+      "image": "/uploads/1759605008570-IMG-20251004-WA0011.jpg",
       "video": "",
       "choices": [
         {
@@ -1993,13 +1993,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:10:12.486Z"
+      "lastModified": "2025-10-04T19:26:33.559Z",
+      "updatedAt": "2025-10-04T19:26:33.564Z"
     },
     {
       "id": 76,
       "title": "Mangi il salmone",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605019407-IMG-20251004-WA0012.jpg",
+      "image": "/uploads/1759605019407-IMG-20251004-WA0012.jpg",
       "video": "",
       "choices": [
         {
@@ -2018,13 +2019,14 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:10:22.763Z"
+      "lastModified": "2025-10-04T19:26:33.963Z",
+      "updatedAt": "2025-10-04T19:26:33.967Z"
     },
     {
       "id": 77,
       "title": "Preparazione alla festa",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759605055294-IMG-20251004-WA0049.jpg",
+      "image": "/uploads/1759605055294-IMG-20251004-WA0049.jpg",
       "video": "",
       "choices": [
         {
@@ -2053,7 +2055,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:11:00.386Z"
+      "lastModified": "2025-10-04T19:26:35.008Z",
+      "updatedAt": "2025-10-04T19:26:35.014Z"
     },
     {
       "id": 78,
@@ -3183,7 +3186,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:26:33.045Z",
+    "lastModified": "2025-10-04T19:26:35.014Z",
     "forceSaveBy": "admin"
   }
 }
