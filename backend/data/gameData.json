@@ -40,7 +40,7 @@
       "id": 2,
       "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio",
       "description": "",
-      "image": "/uploads/1759584942330-Immagine WhatsApp 2025-10-02 ore 15.35.28_afabe1a1.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759584942330-Immagine WhatsApp 2025-10-02 ore 15.35.28_afabe1a1.jpg",
       "video": "",
       "choices": [
         {
@@ -66,7 +66,7 @@
       "id": 3,
       "title": "Dopo un’ora suona una sveglia che nessuno interrompe",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759584990912-Immagine WhatsApp 2025-10-02 ore 22.20.26_16e3de59.jpg",
       "video": "",
       "choices": [
         {
@@ -85,8 +85,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:35:45.675Z",
-      "updatedAt": "2025-10-04T13:35:45.678Z"
+      "lastModified": "2025-10-04T13:36:31.771Z",
+      "updatedAt": "2025-10-04T13:36:32.004Z"
     },
     {
       "id": 4,
@@ -3116,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:35:45.679Z",
+    "lastModified": "2025-10-04T13:36:32.004Z",
     "forceSaveBy": "admin"
   }
 }
