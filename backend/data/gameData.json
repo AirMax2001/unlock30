@@ -204,7 +204,7 @@
     },
     {
       "id": 72,
-      "title": ". Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per “disattivare” i boss",
+      "title": "Tu hai un compito: trovare la combinazione segreta di codici e misure nascosta tra scaffali, letti e lampade per “disattivare” i boss",
       "description": "",
       "image": "",
       "video": "",
@@ -219,8 +219,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:33:10.059Z",
-      "updatedAt": "2025-10-04T09:33:10.350Z"
+      "lastModified": "2025-10-04T09:33:12.512Z",
+      "updatedAt": "2025-10-04T09:33:12.514Z"
     }
   ],
   "settings": {
@@ -231,7 +231,7 @@
   },
   "stats": {
     "totalScenes": 9,
-    "lastModified": "2025-10-04T09:33:10.350Z",
+    "lastModified": "2025-10-04T09:33:12.514Z",
     "forceSaveBy": "admin"
   }
 }
