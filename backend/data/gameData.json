@@ -875,7 +875,7 @@
       "id": 34,
       "title": "La polizia ti fa svoltare a sinistra e torni su via vestina",
       "description": "",
-      "image": "/uploads/1759604188147-Immagine WhatsApp 2025-10-02 ore 18.15.17_928518a5.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604188147-Immagine WhatsApp 2025-10-02 ore 18.15.17_928518a5.jpg",
       "video": "",
       "choices": [
         {
@@ -900,7 +900,7 @@
       "id": 35,
       "title": "La percorri cercando di svoltare a destra ma un buco multidimensionale ha reso tutte le stradine a senso unico",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759585734213-Immagine WhatsApp 2025-10-02 ore 18.15.17_122fc05c.jpg",
+      "image": "/uploads/1759604201121-Immagine WhatsApp 2025-10-02 ore 18.15.17_122fc05c.jpg",
       "video": "",
       "choices": [
         {
@@ -919,8 +919,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T18:56:32.514Z",
-      "updatedAt": "2025-10-04T18:56:32.517Z"
+      "lastModified": "2025-10-04T18:56:42.891Z"
     },
     {
       "id": 36,
@@ -3130,7 +3129,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T18:56:32.517Z",
+    "lastModified": "2025-10-04T18:56:43.216Z",
     "forceSaveBy": "admin"
   }
 }
