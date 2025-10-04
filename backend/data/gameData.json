@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "La sveglia",
-      "description": "Questa è la scena 1. La sveglia",
+      "description": "",
       "image": "",
       "video": "",
       "choices": [
@@ -33,7 +33,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-03T20:00:00.000Z",
+      "lastModified": "2025-10-04T07:27:29.741Z",
       "updatedAt": "2025-10-03T20:00:00.000Z"
     },
     {
@@ -2824,7 +2824,7 @@
   },
   "stats": {
     "totalScenes": 107,
-    "lastModified": "2025-10-04T07:13:40.025Z",
+    "lastModified": "2025-10-04T07:27:30.396Z",
     "recoveredFromCommits": true,
     "recoveryVersion": "ALL_107_SCENES_COMPLETE"
   }
