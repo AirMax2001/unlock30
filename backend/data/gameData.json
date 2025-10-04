@@ -1729,7 +1729,7 @@
       "id": 67,
       "title": "Raccogli delle armi: scivoli di gelato, latte acido radioattivo, zucchine volanti",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759604763008-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
+      "image": "/uploads/1759604763008-Gemini_Generated_Image_5p1c0d5p1c0d5p1c.png",
       "video": "",
       "choices": [
         {
@@ -1748,8 +1748,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:06:04.279Z",
-      "updatedAt": "2025-10-04T19:06:10.159Z"
+      "lastModified": "2025-10-04T19:06:55.855Z",
+      "updatedAt": "2025-10-04T19:06:56.231Z"
     },
     {
       "id": 68,
@@ -1781,7 +1781,7 @@
       "id": 69,
       "title": "YOU DEFEAT",
       "description": "",
-      "image": "/uploads/1759604796786-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759604796786-Immagine WhatsApp 2025-10-02 ore 22.22.08_38746602.jpg",
       "video": "",
       "choices": [
         {
@@ -3140,7 +3140,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:06:51.420Z",
+    "lastModified": "2025-10-04T19:06:56.231Z",
     "forceSaveBy": "admin"
   }
 }
