@@ -2624,7 +2624,7 @@
       "id": 103,
       "title": "Alla fine che te ne fai dei milioni",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759587793338-IMG-20251004-WA0039.jpg",
       "video": "",
       "choices": [
         {
@@ -2643,8 +2643,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:22:37.257Z",
-      "updatedAt": "2025-10-04T14:22:37.489Z"
+      "lastModified": "2025-10-04T14:23:14.005Z",
+      "updatedAt": "2025-10-04T14:23:14.266Z"
     },
     {
       "id": 104,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:22:37.489Z",
+    "lastModified": "2025-10-04T14:23:14.266Z",
     "forceSaveBy": "admin"
   }
 }
