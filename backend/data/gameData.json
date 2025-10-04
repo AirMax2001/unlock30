@@ -1,5 +1,35 @@
 {
-  "scenes": [],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T08:56:24.010Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T08:56:24.312Z"
+    },
+    {
+      "id": 1,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T08:56:24.010Z"
+    }
+  ],
   "settings": {
     "gameName": "Il Gioco dei Trenta",
     "welcomeMessage": "Benvenuto nel gioco!",
@@ -7,7 +37,7 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 0,
-    "lastModified": "2025-10-04T08:52:50.400Z"
+    "totalScenes": 2,
+    "lastModified": "2025-10-04T08:56:24.313Z"
   }
 }
