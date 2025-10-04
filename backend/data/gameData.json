@@ -567,7 +567,7 @@
       "id": 22,
       "title": "Pregusti il tuo cornetto con chantilly e pistacchio",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759585447428-IMG-20251002-WA0015.jpg",
       "video": "",
       "choices": [
         {
@@ -586,8 +586,7 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T13:42:44.836Z",
-      "updatedAt": "2025-10-04T13:42:45.119Z"
+      "lastModified": "2025-10-04T13:44:08.742Z"
     },
     {
       "id": 23,
@@ -3132,7 +3131,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T13:42:45.119Z",
+    "lastModified": "2025-10-04T13:44:08.746Z",
     "forceSaveBy": "admin"
   }
 }
