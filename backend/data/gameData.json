@@ -494,7 +494,7 @@
     },
     {
       "id": 105,
-      "title": "Nuova Scena",
+      "title": "L’aria freme",
       "description": "",
       "image": "",
       "video": "",
@@ -509,8 +509,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:49:29.055Z",
-      "updatedAt": "2025-10-04T09:49:29.308Z"
+      "lastModified": "2025-10-04T09:49:35.385Z",
+      "updatedAt": "2025-10-04T09:49:35.668Z"
     }
   ],
   "settings": {
@@ -521,7 +521,7 @@
   },
   "stats": {
     "totalScenes": 20,
-    "lastModified": "2025-10-04T09:49:29.308Z",
+    "lastModified": "2025-10-04T09:49:35.668Z",
     "forceSaveBy": "admin"
   }
 }
