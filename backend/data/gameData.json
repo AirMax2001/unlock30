@@ -54,7 +54,7 @@
     },
     {
       "id": 21,
-      "title": "Nuova Scena",
+      "title": "YOU DIED",
       "description": "",
       "image": "",
       "video": "",
@@ -69,8 +69,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:08:45.962Z",
-      "updatedAt": "2025-10-04T09:08:45.964Z"
+      "lastModified": "2025-10-04T09:08:48.865Z",
+      "updatedAt": "2025-10-04T09:08:49.112Z"
     }
   ],
   "settings": {
@@ -81,6 +81,6 @@
   },
   "stats": {
     "totalScenes": 3,
-    "lastModified": "2025-10-04T09:08:45.964Z"
+    "lastModified": "2025-10-04T09:08:49.112Z"
   }
 }
