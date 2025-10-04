@@ -1929,7 +1929,7 @@
       "id": 76,
       "title": "Mangi il salmone",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586784010-IMG-20251004-WA0012.jpg",
       "video": "",
       "choices": [
         {
@@ -1948,8 +1948,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:06:16.068Z",
-      "updatedAt": "2025-10-04T14:06:16.355Z"
+      "lastModified": "2025-10-04T14:06:24.887Z",
+      "updatedAt": "2025-10-04T14:06:25.115Z"
     },
     {
       "id": 77,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:06:16.355Z",
+    "lastModified": "2025-10-04T14:06:25.115Z",
     "forceSaveBy": "admin"
   }
 }
