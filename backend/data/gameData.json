@@ -2095,7 +2095,7 @@
       "id": 82,
       "title": "Mattarella è poco al di sotto che grida “3,2,1” continuamente",
       "description": "",
-      "image": "/uploads/1759605120375-IMG-20251004-WA0017.jpg",
+      "image": "https://unlock30.onrender.com/uploads/1759605120375-IMG-20251004-WA0017.jpg",
       "video": "",
       "choices": [
         {
@@ -2120,7 +2120,7 @@
       "id": 83,
       "title": "Afferri dei piatti commestibili e li usi come frisbee per annientarli",
       "description": "",
-      "image": "https://unlock30.onrender.com/uploads/1759587025317-IMG-20251004-WA0019.jpg",
+      "image": "/uploads/1759605137934-IMG-20251004-WA0019.jpg",
       "video": "",
       "choices": [
         {
@@ -2139,8 +2139,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T19:12:05.988Z",
-      "updatedAt": "2025-10-04T19:12:05.993Z"
+      "lastModified": "2025-10-04T19:12:19.409Z",
+      "updatedAt": "2025-10-04T19:12:19.674Z"
     },
     {
       "id": 84,
@@ -3120,7 +3120,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T19:12:05.993Z",
+    "lastModified": "2025-10-04T19:12:19.674Z",
     "forceSaveBy": "admin"
   }
 }
