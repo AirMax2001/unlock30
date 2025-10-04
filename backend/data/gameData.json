@@ -2987,7 +2987,7 @@
         {
           "id": 1759571692471,
           "text": "VINTO",
-          "nextSceneId": null
+          "nextSceneId": 121
         },
         {
           "id": 1759571693998,
@@ -3005,8 +3005,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T10:04:03.897Z",
-      "updatedAt": "2025-10-04T10:04:04.158Z"
+      "lastModified": "2025-10-04T10:04:09.294Z",
+      "updatedAt": "2025-10-04T10:04:09.546Z"
     },
     {
       "id": 118,
@@ -3116,7 +3116,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T10:04:04.158Z",
+    "lastModified": "2025-10-04T10:04:09.546Z",
     "forceSaveBy": "admin"
   }
 }
