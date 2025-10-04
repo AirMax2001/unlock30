@@ -1989,7 +1989,7 @@
       "id": 78,
       "title": "Ti trovi su una collina",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759586832336-IMG-20251004-WA0013.jpg",
       "video": "",
       "choices": [
         {
@@ -2008,8 +2008,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T14:07:06.290Z",
-      "updatedAt": "2025-10-04T14:07:06.540Z"
+      "lastModified": "2025-10-04T14:07:13.718Z",
+      "updatedAt": "2025-10-04T14:07:14.096Z"
     },
     {
       "id": 79,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T14:07:06.540Z",
+    "lastModified": "2025-10-04T14:07:14.096Z",
     "forceSaveBy": "admin"
   }
 }
