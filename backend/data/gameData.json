@@ -352,7 +352,7 @@
         {
           "id": 1759570757875,
           "text": "Risolvi la fame nel mondo",
-          "nextSceneId": null
+          "nextSceneId": 97
         }
       ],
       "isFinal": false,
@@ -365,8 +365,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:42:34.465Z",
-      "updatedAt": "2025-10-04T09:42:34.468Z"
+      "lastModified": "2025-10-04T09:44:40.907Z",
+      "updatedAt": "2025-10-04T09:44:40.910Z"
     },
     {
       "id": 86,
@@ -426,7 +426,13 @@
       "description": "",
       "image": "",
       "video": "",
-      "choices": [],
+      "choices": [
+        {
+          "id": 1759570994662,
+          "text": "Avanti",
+          "nextSceneId": 94
+        }
+      ],
       "isFinal": false,
       "createdAt": "2025-10-04T09:43:03.223Z",
       "titleStyle": "",
@@ -437,8 +443,96 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T09:43:12.722Z",
-      "updatedAt": "2025-10-04T09:43:12.989Z"
+      "lastModified": "2025-10-04T09:43:18.702Z",
+      "updatedAt": "2025-10-04T09:43:18.705Z"
+    },
+    {
+      "id": 94,
+      "title": "Niente riesce a svegliarti",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759571011771,
+          "text": "Avanti",
+          "nextSceneId": 95
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:43:18.399Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:43:34.427Z",
+      "updatedAt": "2025-10-04T09:43:34.429Z"
+    },
+    {
+      "id": 95,
+      "title": "Ti buttano giù dal letto, ti suonano uno strumento vicino le orecchie, ingaggiano una scimmia urlatrice ma non ti muovi",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759571031437,
+          "text": "Avanti",
+          "nextSceneId": 96
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:43:34.124Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:43:54.930Z",
+      "updatedAt": "2025-10-04T09:43:54.933Z"
+    },
+    {
+      "id": 96,
+      "title": "YOU DEFEAT",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [
+        {
+          "id": 1759571059532,
+          "text": "Avanti",
+          "nextSceneId": 77
+        }
+      ],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:43:54.626Z",
+      "titleStyle": "",
+      "titleColor": "#ffffff",
+      "backgroundTheme": "",
+      "effects": {
+        "particles": false,
+        "glow": false,
+        "typewriter": false
+      },
+      "lastModified": "2025-10-04T09:44:24.120Z",
+      "updatedAt": "2025-10-04T09:44:24.124Z"
+    },
+    {
+      "id": 97,
+      "title": "Nuova Scena",
+      "description": "",
+      "image": "",
+      "video": "",
+      "choices": [],
+      "isFinal": false,
+      "createdAt": "2025-10-04T09:44:40.604Z"
     }
   ],
   "settings": {
@@ -448,8 +542,8 @@
     "theme": "unlock30"
   },
   "stats": {
-    "totalScenes": 17,
-    "lastModified": "2025-10-04T09:45:27.006Z",
+    "totalScenes": 21,
+    "lastModified": "2025-10-04T09:44:40.910Z",
     "forceSaveBy": "admin"
   }
 }
