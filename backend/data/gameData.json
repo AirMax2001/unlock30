@@ -2,30 +2,30 @@
   "scenes": [
     {
       "id": 1,
-      "title": "La sveglia",
-      "description": "",
+      "title": "Scena 1: La sveglia",
+      "description": "È il tuo compleanno. Suona la sveglia alle 7. Cosa fai?",
       "choices": [
         {
           "id": 1,
-          "text": "Ti giri dall altra parte e continui a russare",
+          "text": "Ti giri dall'altra parte e continui a russare",
           "nextSceneId": 2
         },
         {
           "id": 2,
           "text": "Ti alzi e vai in bagno a lavarti i denti",
-          "nextSceneId": 5
+          "nextSceneId": 6
         },
         {
           "id": 3,
           "text": "Apri il telefono prima ancora di scendere dal letto",
-          "nextSceneId": 8
+          "nextSceneId": 10
         }
       ],
       "isFinal": false
     },
     {
       "id": 2,
-      "title": "Ti giri dall altra parte e continui a russare",
+      "title": "pensando \"Oh, oggi comando io, chi mi sveglia lo denuncio.",
       "description": "",
       "choices": [
         {
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "title": "Ti giri dall'altra parte e continui a dormire, ma tua madre ti sveglia urlando \"MASSIMO ALZATI CHE È TARDI!\"",
+      "title": "Dopo un'ora suona una sveglia che nessuno interrompe.",
       "description": "",
       "choices": [
         {
@@ -51,6 +51,19 @@
     },
     {
       "id": 4,
+      "title": "Ti alzi incazzato.",
+      "description": "",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Avanti",
+          "nextSceneId": 5
+        }
+      ],
+      "isFinal": false
+    },
+    {
+      "id": 5,
       "title": "You died",
       "description": "",
       "choices": [
@@ -63,21 +76,8 @@
       "isFinal": false
     },
     {
-      "id": 5,
-      "title": "Ti alzi e vai in bagno a lavarti i denti",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 6
-        }
-      ],
-      "isFinal": false
-    },
-    {
       "id": 6,
-      "title": "Mentre ti guardi allo specchio pensi: \"Oggi è il mio compleanno, chissà che regalo mi faranno!\"",
+      "title": "Guardi lo specchio e pensi: \"da oggi inizierò a perdere i capelli o da domani?\"",
       "description": "",
       "choices": [
         {
@@ -90,7 +90,33 @@
     },
     {
       "id": 7,
-      "title": "Vai a fare colazione",
+      "title": "Non è un problema tanto i tucani non hanno i capelli.",
+      "description": "",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Avanti",
+          "nextSceneId": 8
+        }
+      ],
+      "isFinal": false
+    },
+    {
+      "id": 8,
+      "title": "La colazione",
+      "description": "",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Avanti",
+          "nextSceneId": 14
+        }
+      ],
+      "isFinal": false
+    },
+    {
+      "id": 10,
+      "title": "Apri il telefono e vedi 69 notifiche di auguri",
       "description": "",
       "choices": [
         {
@@ -102,70 +128,21 @@
       "isFinal": false
     },
     {
-      "id": 8,
-      "title": "Apri il telefono prima ancora di scendere dal letto",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 9
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 9,
-      "title": "Vedi centinaia di notifiche di auguri! Tutti i tuoi amici si sono ricordati del tuo compleanno",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 10
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 10,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 1
-        }
-      ],
-      "isFinal": false
-    },
-    {
       "id": 11,
-      "title": "Colazione al bar",
+      "title": "Le ignori tutte perché sei asociale",
       "description": "",
       "choices": [
         {
           "id": 1,
-          "text": "Sì, ma oggi è il mio compleanno, quindi fallo extra buono!",
+          "text": "Avanti",
           "nextSceneId": 12
-        },
-        {
-          "id": 2,
-          "text": "Oggi provo qualcosa di diverso",
-          "nextSceneId": 15
-        },
-        {
-          "id": 3,
-          "text": "Non ho tempo, devo scappare",
-          "nextSceneId": 18
         }
       ],
       "isFinal": false
     },
     {
       "id": 12,
-      "title": "Il barista ti prepara un cappuccino speciale con un cuoricino nella schiuma!",
+      "title": "Continui a scrollare fino alle 12",
       "description": "",
       "choices": [
         {
@@ -178,33 +155,43 @@
     },
     {
       "id": 13,
-      "title": "Mentre lo bevi, senti delle macchine che sgommano fuori dal bar",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 14
+          "nextSceneId": 1
         }
       ],
       "isFinal": false
     },
     {
       "id": 14,
-      "title": "Esci a vedere cosa succede",
-      "description": "",
+      "title": "Scena 2: La colazione",
+      "description": "Scendi a fare colazione. Il barista ti chiede cosa vuoi.",
       "choices": [
         {
           "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 21
+          "text": "Cappuccino",
+          "nextSceneId": 15
+        },
+        {
+          "id": 2,
+          "text": "Caffè",
+          "nextSceneId": 19
+        },
+        {
+          "id": 3,
+          "text": "Cornetto",
+          "nextSceneId": 23
         }
       ],
       "isFinal": false
     },
     {
       "id": 15,
-      "title": "Oggi provo qualcosa di diverso",
+      "title": "Il barista ti prepara un cappuccino perfetto",
       "description": "",
       "choices": [
         {
@@ -217,7 +204,7 @@
     },
     {
       "id": 16,
-      "title": "Il barista ti dà un caffè amaro che sa di bruciato",
+      "title": "Lo bevi con gusto mentre leggi il giornale",
       "description": "",
       "choices": [
         {
@@ -230,33 +217,20 @@
     },
     {
       "id": 17,
-      "title": "You died",
+      "title": "Ti senti pronto per affrontare la giornata",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 11
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 18,
-      "title": "Non ho tempo, devo scappare",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 19
+          "nextSceneId": 27
         }
       ],
       "isFinal": false
     },
     {
       "id": 19,
-      "title": "Corri fuori ma inciampi e cadi malamente",
+      "title": "Il barista ti serve un caffè amaro",
       "description": "",
       "choices": [
         {
@@ -269,56 +243,46 @@
     },
     {
       "id": 20,
-      "title": "You died",
+      "title": "È così amaro che fai una smorfia",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 11
+          "nextSceneId": 21
         }
       ],
       "isFinal": false
     },
     {
       "id": 21,
-      "title": "La gara clandestina",
+      "title": "Il barista ride di te",
       "description": "",
       "choices": [
         {
           "id": 1,
-          "text": "Sì! Oggi è il mio compleanno, devo vincere quella corona!",
+          "text": "Avanti",
           "nextSceneId": 22
-        },
-        {
-          "id": 2,
-          "text": "No grazie, sono troppo pericolose",
-          "nextSceneId": 25
-        },
-        {
-          "id": 3,
-          "text": "Chiamo la polizia",
-          "nextSceneId": 28
         }
       ],
       "isFinal": false
     },
     {
       "id": 22,
-      "title": "Sali su una macchina sportiva e parti a tutta velocità",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 23
+          "nextSceneId": 14
         }
       ],
       "isFinal": false
     },
     {
       "id": 23,
-      "title": "Dopo una gara mozzafiato attraverso le strade della città",
+      "title": "Prendi un cornetto alla crema",
       "description": "",
       "choices": [
         {
@@ -331,20 +295,20 @@
     },
     {
       "id": 24,
-      "title": "Arrivi secondo, ma il vincitore ti regala la corona perché è il tuo compleanno!",
+      "title": "È stantio e sa di cartone",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 31
+          "nextSceneId": 25
         }
       ],
       "isFinal": false
     },
     {
       "id": 25,
-      "title": "No grazie, sono troppo pericolose",
+      "title": "Ti viene il mal di pancia",
       "description": "",
       "choices": [
         {
@@ -357,33 +321,43 @@
     },
     {
       "id": 26,
-      "title": "I piloti ti deridono chiamandoti codardo",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 27
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 27,
       "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 21
+          "nextSceneId": 14
+        }
+      ],
+      "isFinal": false
+    },
+    {
+      "id": 27,
+      "title": "Scena 3: La strada",
+      "description": "Esci dal bar e vedi una situazione strana in strada.",
+      "choices": [
+        {
+          "id": 1,
+          "text": "Vai a vedere cosa succede",
+          "nextSceneId": 28
+        },
+        {
+          "id": 2,
+          "text": "Ignori e continui per la tua strada",
+          "nextSceneId": 32
+        },
+        {
+          "id": 3,
+          "text": "Torni nel bar",
+          "nextSceneId": 36
         }
       ],
       "isFinal": false
     },
     {
       "id": 28,
-      "title": "Chiami la polizia per fermare la gara illegale",
+      "title": "Ti avvicini e vedi una gara di macchine clandestina",
       "description": "",
       "choices": [
         {
@@ -396,7 +370,7 @@
     },
     {
       "id": 29,
-      "title": "La polizia arriva ma tu vieni arrestato come complice",
+      "title": "Un pilota ti chiede se vuoi partecipare",
       "description": "",
       "choices": [
         {
@@ -409,43 +383,20 @@
     },
     {
       "id": 30,
-      "title": "You died",
+      "title": "Accetti la sfida",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 21
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 31,
-      "title": "Inseguimento polizia",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Scappi a piedi tra i vicoli",
-          "nextSceneId": 32
-        },
-        {
-          "id": 2,
-          "text": "Ti costituisci alla polizia",
-          "nextSceneId": 35
-        },
-        {
-          "id": 3,
-          "text": "Usi i tuoi poteri anime per volare via",
-          "nextSceneId": 38
+          "nextSceneId": 40
         }
       ],
       "isFinal": false
     },
     {
       "id": 32,
-      "title": "Scappi a piedi attraverso i vicoli stretti del centro",
+      "title": "Continui a camminare ignorando tutto",
       "description": "",
       "choices": [
         {
@@ -458,7 +409,7 @@
     },
     {
       "id": 33,
-      "title": "Riesci a seminare la polizia nascondendoti in un cassonetto",
+      "title": "Non ti accorgi di un tombino aperto",
       "description": "",
       "choices": [
         {
@@ -471,33 +422,33 @@
     },
     {
       "id": 34,
-      "title": "Esci dal cassonetto puzzolente ma libero",
+      "title": "Ci cadi dentro",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 41
+          "nextSceneId": 35
         }
       ],
       "isFinal": false
     },
     {
       "id": 35,
-      "title": "Ti costituisci alla polizia spiegando che era il tuo compleanno",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 36
+          "nextSceneId": 27
         }
       ],
       "isFinal": false
     },
     {
       "id": 36,
-      "title": "I poliziotti ti arrestano comunque perché non credono alla tua storia",
+      "title": "Torni nel bar per sicurezza",
       "description": "",
       "choices": [
         {
@@ -510,20 +461,20 @@
     },
     {
       "id": 37,
-      "title": "You died",
+      "title": "Il barista ti dice che sei un codardo",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 31
+          "nextSceneId": 38
         }
       ],
       "isFinal": false
     },
     {
       "id": 38,
-      "title": "Attivi i tuoi poteri anime e cominci a volare sopra la città",
+      "title": "Ti senti demoralizzato",
       "description": "",
       "choices": [
         {
@@ -536,56 +487,56 @@
     },
     {
       "id": 39,
-      "title": "La polizia resta senza parole vedendoti volare via come un supereroe",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 40
+          "nextSceneId": 27
         }
       ],
       "isFinal": false
     },
     {
       "id": 40,
-      "title": "Atterri dall'altra parte della città, al sicuro",
-      "description": "",
+      "title": "Scena 4: La gara",
+      "description": "Sei alla partenza della gara. Come affronti la prima curva?",
       "choices": [
         {
           "id": 1,
-          "text": "Avanti",
+          "text": "Freni e vai piano",
           "nextSceneId": 41
+        },
+        {
+          "id": 2,
+          "text": "Acceleri al massimo",
+          "nextSceneId": 45
+        },
+        {
+          "id": 3,
+          "text": "Vai a velocità media",
+          "nextSceneId": 49
         }
       ],
       "isFinal": false
     },
     {
       "id": 41,
-      "title": "Boss battle IKEA",
+      "title": "Freni troppo e tutti ti superano",
       "description": "",
       "choices": [
         {
           "id": 1,
-          "text": "Attacchi Mattarella con una poltrona POÄNG",
+          "text": "Avanti",
           "nextSceneId": 42
-        },
-        {
-          "id": 2,
-          "text": "Cerchi di convincerlo diplomaticamente",
-          "nextSceneId": 45
-        },
-        {
-          "id": 3,
-          "text": "Scappi verso l'uscita di emergenza",
-          "nextSceneId": 48
         }
       ],
       "isFinal": false
     },
     {
       "id": 42,
-      "title": "Afferri una poltrona POÄNG e la lanci contro Mattarella",
+      "title": "Arrivi ultimo alla gara",
       "description": "",
       "choices": [
         {
@@ -598,7 +549,7 @@
     },
     {
       "id": 43,
-      "title": "Mattarella schiva agilmente e contrattacca con una libreria BILLY",
+      "title": "Tutti ti prendono in giro",
       "description": "",
       "choices": [
         {
@@ -611,20 +562,20 @@
     },
     {
       "id": 44,
-      "title": "La libreria ti colpisce in pieno",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 51
+          "nextSceneId": 40
         }
       ],
       "isFinal": false
     },
     {
       "id": 45,
-      "title": "Cerchi di convincere Mattarella con le tue doti diplomatiche",
+      "title": "Acceleri troppo e perdi il controllo",
       "description": "",
       "choices": [
         {
@@ -637,7 +588,7 @@
     },
     {
       "id": 46,
-      "title": "Mattarella ti ascolta attentamente mentre gli spieghi che è il tuo compleanno",
+      "title": "La macchina si schianta contro il muro",
       "description": "",
       "choices": [
         {
@@ -650,33 +601,33 @@
     },
     {
       "id": 47,
-      "title": "You died",
+      "title": "Esci illeso per miracolo",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 41
+          "nextSceneId": 48
         }
       ],
       "isFinal": false
     },
     {
       "id": 48,
-      "title": "Corri verso l'uscita di emergenza schivando mobili volanti",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 49
+          "nextSceneId": 40
         }
       ],
       "isFinal": false
     },
     {
       "id": 49,
-      "title": "Mattarella ti lancia dietro un intero set da cucina METOD",
+      "title": "Mantieni una velocità equilibrata",
       "description": "",
       "choices": [
         {
@@ -689,43 +640,20 @@
     },
     {
       "id": 50,
-      "title": "You died",
+      "title": "Riesci a tenere il passo con gli altri",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 41
+          "nextSceneId": 51
         }
       ],
       "isFinal": false
     },
     {
       "id": 51,
-      "title": "Boss battle Supermercato",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Lanci carrelli della spesa contro Gerry Scotti",
-          "nextSceneId": 52
-        },
-        {
-          "id": 2,
-          "text": "Usi le banane come boomerang",
-          "nextSceneId": 55
-        },
-        {
-          "id": 3,
-          "text": "Sfidi Gerry a un quiz televisivo",
-          "nextSceneId": 58
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 52,
-      "title": "Prendi i carrelli e li lanci con forza contro Gerry Scotti",
+      "title": "Arrivi secondo e vinci una corona!",
       "description": "",
       "choices": [
         {
@@ -738,33 +666,43 @@
     },
     {
       "id": 53,
-      "title": "Gerry schiva ridendo e dice: 'Sbagliato!' mentre lancia conserve",
-      "description": "",
+      "title": "Scena 5: Polizia",
+      "description": "Arriva la polizia! Come reagisci?",
       "choices": [
         {
           "id": 1,
-          "text": "Avanti",
+          "text": "Scappi di corsa",
           "nextSceneId": 54
+        },
+        {
+          "id": 2,
+          "text": "Ti nascondi",
+          "nextSceneId": 58
+        },
+        {
+          "id": 3,
+          "text": "Ti costituisci",
+          "nextSceneId": 62
         }
       ],
       "isFinal": false
     },
     {
       "id": 54,
-      "title": "You died",
+      "title": "Corri più veloce che puoi",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 51
+          "nextSceneId": 55
         }
       ],
       "isFinal": false
     },
     {
       "id": 55,
-      "title": "Afferri un casco di banane e le lanci come boomerang",
+      "title": "Salti sopra le macchine come nei film",
       "description": "",
       "choices": [
         {
@@ -777,33 +715,20 @@
     },
     {
       "id": 56,
-      "title": "Le banane colpiscono Gerry che scivola comicamente a terra",
+      "title": "Riesci a scappare!",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 57
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 57,
-      "title": "Gerry si rialza arrabbiato e ti insegue con una mazza da baseball",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 61
+          "nextSceneId": 66
         }
       ],
       "isFinal": false
     },
     {
       "id": 58,
-      "title": "Lo sfidi: 'Gerry, facciamo un quiz! Se vinco io, mi dai il regalo!'",
+      "title": "Ti nascondi dietro un cassonetto",
       "description": "",
       "choices": [
         {
@@ -816,7 +741,7 @@
     },
     {
       "id": 59,
-      "title": "Gerry accetta sorridendo: 'Quanto fa 2+2?' chiede con malignità",
+      "title": "Un poliziotto ti trova subito",
       "description": "",
       "choices": [
         {
@@ -829,7 +754,7 @@
     },
     {
       "id": 60,
-      "title": "Rispondi '4' e Gerry ammette la sconfitta",
+      "title": "Ti arrestano",
       "description": "",
       "choices": [
         {
@@ -842,30 +767,20 @@
     },
     {
       "id": 61,
-      "title": "Esports League of Legends",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
-          "text": "Scegli Yasuo e vai mid lane",
-          "nextSceneId": 62
-        },
-        {
-          "id": 2,
-          "text": "Scegli un support e aiuti il team",
-          "nextSceneId": 65
-        },
-        {
-          "id": 3,
-          "text": "Trolliggi e rovini la partita",
-          "nextSceneId": 68
+          "text": "Avanti",
+          "nextSceneId": 53
         }
       ],
       "isFinal": false
     },
     {
       "id": 62,
-      "title": "Prendi Yasuo e vai mid contro un Zed nemico",
+      "title": "Ti avvicini ai poliziotti con le mani alzate",
       "description": "",
       "choices": [
         {
@@ -878,7 +793,7 @@
     },
     {
       "id": 63,
-      "title": "Fai una outplay incredibile con il tuo Wind Wall",
+      "title": "Spieghi che era il tuo compleanno",
       "description": "",
       "choices": [
         {
@@ -891,659 +806,34 @@
     },
     {
       "id": 64,
-      "title": "Il tuo team vince la partita e tu sei il MVP!",
+      "title": "I poliziotti non ci credono",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 71
+          "nextSceneId": 65
         }
       ],
       "isFinal": false
     },
     {
       "id": 65,
-      "title": "Prendi Thresh e aiuti il tuo ADC in bot lane",
+      "title": "You died",
       "description": "",
       "choices": [
         {
           "id": 1,
           "text": "Avanti",
-          "nextSceneId": 66
+          "nextSceneId": 53
         }
       ],
       "isFinal": false
     },
     {
       "id": 66,
-      "title": "Fai hook perfetti ma il tuo ADC è scarso",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 67
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 67,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 61
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 68,
-      "title": "Decidi di trollare e prendi Teemo jungle",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 69
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 69,
-      "title": "Il tuo team ti reporta e vieni bannato permanentemente",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 70
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 70,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 61
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 71,
-      "title": "Guerra cinema",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Attacchi il Warner con popcorn esplosivi",
-          "nextSceneId": 72
-        },
-        {
-          "id": 2,
-          "text": "Difendi l'Universo con scudi di nachos",
-          "nextSceneId": 75
-        },
-        {
-          "id": 3,
-          "text": "Cerchi di mediare tra i due cinema",
-          "nextSceneId": 78
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 72,
-      "title": "Lanci popcorn esplosivi contro le mura del Warner",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 73
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 73,
-      "title": "I popcorn esplodono creando una breccia nelle difese",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 74
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 74,
-      "title": "Le truppe dell'Universo avanzano vittoriose!",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 81
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 75,
-      "title": "Costruisci barricate di nachos per difendere l'Universo",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 76
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 76,
-      "title": "I nachos resistono valorosamente agli attacchi nemici",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 77
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 77,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 71
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 78,
-      "title": "Cerchi di mediare: 'Fermatevi! Possiamo coesistere in pace!'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 79
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 79,
-      "title": "Entrambi i cinema ti attaccano chiamandoti traditore",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 80
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 80,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 71
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 81,
-      "title": "Challenge finale canestro",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Tiri con precisione da tre punti",
-          "nextSceneId": 82
-        },
-        {
-          "id": 2,
-          "text": "Fai una schiacciata spettacolare",
-          "nextSceneId": 85
-        },
-        {
-          "id": 3,
-          "text": "Tiri a caso sperando nella fortuna",
-          "nextSceneId": 88
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 82,
-      "title": "Ti concentri e tiri con precisione millimetrica",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 83
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 83,
-      "title": "La palla entra perfettamente nel canestro con un suono soddisfacente",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 84
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 84,
-      "title": "Hai completato la prima delle tre prove!",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 91
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 85,
-      "title": "Prendi la rincorsa per una schiacciata spettacolare",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 86
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 86,
-      "title": "Salti altissimo ma sbagli il timing",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 87
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 87,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 81
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 88,
-      "title": "Chiudi gli occhi e tiri a caso",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 89
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 89,
-      "title": "La palla rimbalza sul ferro e finisce fuori",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 90
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 90,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 81
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 91,
-      "title": "Challenge forza",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Usi la tecnica corretta di sollevamento",
-          "nextSceneId": 92
-        },
-        {
-          "id": 2,
-          "text": "Provi a sollevarlo di forza bruta",
-          "nextSceneId": 95
-        },
-        {
-          "id": 3,
-          "text": "Chiedi aiuto a un amico",
-          "nextSceneId": 98
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 92,
-      "title": "Applichi la tecnica perfetta che hai imparato in palestra",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 93
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 93,
-      "title": "Sollevi il peso senza sforzo grazie alla tecnica impeccabile",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 94
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 94,
-      "title": "Hai completato la seconda delle tre prove!",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 101
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 95,
-      "title": "Provi a sollevarlo usando solo la forza bruta",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 96
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 96,
-      "title": "Ti strappi la schiena per lo sforzo eccessivo",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 97
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 97,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 91
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 98,
-      "title": "Chiedi aiuto a un amico per sollevare il peso insieme",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 99
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 99,
-      "title": "Il giudice dice che è barare e ti squalifica",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 100
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 100,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 91
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 101,
-      "title": "Challenge indovinello",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Un palloncino!",
-          "nextSceneId": 102
-        },
-        {
-          "id": 2,
-          "text": "Una borsa!",
-          "nextSceneId": 105
-        },
-        {
-          "id": 3,
-          "text": "Un secchio!",
-          "nextSceneId": 108
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 102,
-      "title": "Rispondi con sicurezza: 'Un palloncino!'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 103
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 103,
-      "title": "Il giudice sorride: 'Corretto! Più aria metti, più leggero diventa!'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 104
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 104,
-      "title": "Hai completato tutte e tre le prove!",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 111
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 105,
-      "title": "Rispondi incerto: 'Una borsa?'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 106
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 106,
-      "title": "Il giudice scuote la testa: 'Sbagliato! Più cose ci metti, più pesante diventa'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 107
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 107,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 101
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 108,
-      "title": "Rispondi pensieroso: 'Un secchio!'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 109
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 109,
-      "title": "Il giudice ride: 'Sbagliato! Un secchio pieno è più pesante di uno vuoto!'",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 110
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 110,
-      "title": "You died",
-      "description": "",
-      "choices": [
-        {
-          "id": 1,
-          "text": "Avanti",
-          "nextSceneId": 101
-        }
-      ],
-      "isFinal": false
-    },
-    {
-      "id": 111,
-      "title": "VITTORIA FINALE!",
-      "description": "",
+      "title": "VITTORIA!",
+      "description": "Hai completato la tua avventura di compleanno! Hai la corona e sei riuscito a scappare dalla polizia. È stato il compleanno più emozionante di sempre!",
       "choices": [],
       "isFinal": true
     }
