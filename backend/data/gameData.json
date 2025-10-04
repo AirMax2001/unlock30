@@ -2899,7 +2899,7 @@
       "id": 114,
       "title": "Devi affrontare la sfida del canestro e riuscire a fare centro 3 volte prima del tuo avversario o dovrai affrontare anche la prova successiva",
       "description": "",
-      "image": "",
+      "image": "/uploads/1759591053493-Gemini_Generated_Image_g6jrc7g6jrc7g6jr.png",
       "video": "",
       "choices": [
         {
@@ -2923,8 +2923,8 @@
         "glow": false,
         "typewriter": false
       },
-      "lastModified": "2025-10-04T15:15:44.041Z",
-      "updatedAt": "2025-10-04T15:15:44.325Z"
+      "lastModified": "2025-10-04T15:17:34.587Z",
+      "updatedAt": "2025-10-04T15:17:34.820Z"
     },
     {
       "id": 115,
@@ -3114,7 +3114,7 @@
   },
   "stats": {
     "totalScenes": 121,
-    "lastModified": "2025-10-04T15:15:44.325Z",
+    "lastModified": "2025-10-04T15:17:34.820Z",
     "forceSaveBy": "admin"
   }
 }
